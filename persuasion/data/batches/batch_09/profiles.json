@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Tomas",
+    "backstory": "42-year-old data analyst from Prague who immigrated to the US 15 years ago. Logical, evidence-driven, and deeply skeptical of emotional appeals. Values independence and makes decisions based on research rather than social influence.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      }
+    },
+    "user_id": "user_19"
+  },
+  {
+    "name": "Zara",
+    "backstory": "28-year-old freelance graphic designer with Pakistani heritage, living in a vibrant urban community. Creative, emotionally expressive, and driven by experiences and personal connections. Impulsive but passionate about causes she believes in.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "unity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_20"
+  }
+]

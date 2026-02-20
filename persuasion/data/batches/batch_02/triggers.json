@@ -1,0 +1,770 @@
+[
+  {
+    "trigger_id": "user_05_trig_001",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been looking at our mortgage payments, and I'm wondering if we should refinance now or wait. My sister just refinanced hers last month and saved so much, but I'm not sure if it makes sense for our situation.",
+    "scenario_brief": "Yuki is considering mortgage refinancing. Her sister recently refinanced successfully, creating both social proof and information pressure. She's uncertain whether timing and rates favor her household's circumstances.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_001",
+      "user_05_cue_002",
+      "user_05_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_002",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: With my new healthcare plan at work, I have the option to open an HSA instead of the regular PPO. I keep hearing people talk about how great HSAs are for retirement, but honestly, I don't understand if it's the right choice for me or if I should stick with what I know.",
+    "scenario_brief": "Yuki faces an annual workplace benefits election with multiple options. She's heard positive word-of-mouth about HSAs' long-term advantages but feels uncertain and the enrollment deadline is approaching.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_001",
+      "user_05_cue_002",
+      "user_05_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_003",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My parents are talking about what to do with their house now that they're both getting older and may need assisted living eventually. Nobody in my family has really dealt with this before, and I'm trying to figure out what we should be planning for financially and how to help them.",
+    "scenario_brief": "Yuki faces a family financial planning challenge around aging parent care and property decisions. Her family lacks experience, leaving multiple viable paths open (downsizing, reverse mortgage, long-term care insurance, asset planning).",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_001",
+      "user_05_cue_002",
+      "user_05_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_004",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I've been having a harder time sleeping through the night lately, and with work stress I'm not sure whether I should talk to my doctor about medication or try something else. My daughter keeps saying I need to relax more, but I don't know where to start.",
+    "scenario_brief": "Yuki struggles with sleep disruption and work-related stress, uncertain whether to pursue medical intervention versus non-pharmaceutical approaches, while family expresses concern.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_004",
+      "user_05_cue_005",
+      "user_05_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_005",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My doctor's office sent a reminder that I'm due for some preventive screening based on my age. I keep putting it off because I've heard mixed things about whether it's really necessary at my age, and I'm worried about the time commitment.",
+    "scenario_brief": "Yuki faces a doctor-recommended preventive health screening but hesitates despite medical authority, uncertain about its actual necessity and practical burdens.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_004",
+      "user_05_cue_005",
+      "user_05_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_006",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My grandson wants me to join him on hikes this spring, and I'd love to do that, but I'm honestly not sure my knees are up for it anymore. I don't even know where I'd start to get back into shape for something like that.",
+    "scenario_brief": "Yuki is motivated by family bonding opportunity but uncertain about her physical capacity and how to safely increase her fitness level to participate.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_004",
+      "user_05_cue_005",
+      "user_05_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_007",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: My manager wants me to take on a director-level role that oversees three departments, but it would mean I'm traveling every other week. I don't know if I can balance that with my family responsibilities.",
+    "scenario_brief": "Offered a significant promotion with high travel demands; torn between career advancement and family time obligations",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_007",
+      "user_05_cue_008",
+      "user_05_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_008",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I've been asked to mentor our new cohort of administrators and help create a professional development curriculum. I'm flattered, but I wonder if I should focus on my own advancement first.",
+    "scenario_brief": "Invited to invest in developing junior staff while questioning whether personal growth should take priority",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_007",
+      "user_05_cue_008",
+      "user_05_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_009",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: There's an opening at a nonprofit focused on healthcare equity in underserved communities. It really appeals to me, but the salary is lower and it's not a traditional step up the ladder. Should I even consider it?",
+    "scenario_brief": "Considering a mission-aligned career move that sacrifices conventional advancement and compensation",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_05_cue_007",
+      "user_05_cue_008",
+      "user_05_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_010",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I've been building a portfolio of index funds over the years, and now I'm sitting on some decent gains. I'm worried about the tax hit when I eventually sell them, but I don't know if there's a smarter way to handle this.",
+    "scenario_brief": "Yuki seeks guidance on managing investment capital gains and tax-efficient strategies for her stock portfolio.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_010",
+      "user_05_cue_011",
+      "user_05_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_011",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I've been donating regularly to our local community organizations and church, and it's important to me. But with the new tax laws, I'm not even sure if itemizing is worth it anymore for someone like me. Should I still be giving as much?",
+    "scenario_brief": "Yuki questions whether her charitable giving strategy still provides tax benefits, balancing her community values with financial optimization.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_010",
+      "user_05_cue_011",
+      "user_05_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_012",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: A few colleagues have mentioned I should consider doing some consulting on the side with my healthcare background. It sounds interesting, but I'm concerned about getting the tax situation right from the start. What would I need to know?",
+    "scenario_brief": "Yuki contemplates starting a side consulting business and wants to understand tax and regulatory requirements before proceeding.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_010",
+      "user_05_cue_011",
+      "user_05_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_013",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Our team keeps asking about switching to this new electronic documentation system. I know it would save time, but I'm worried about our patient data security and whether our older staff members will actually be able to learn it.",
+    "scenario_brief": "Yuki's healthcare department is considering adopting a new electronic documentation system. She sees efficiency benefits but has concerns about data security and staff capabilities.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_013",
+      "user_05_cue_014",
+      "user_05_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_014",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My mother wants me to set up one of those video calling platforms so we can talk face-to-face more easily. She's never used anything like this before, and I'm not sure if it's worth the effort to teach her.",
+    "scenario_brief": "Yuki's elderly mother is asking to use video calling technology to communicate more frequently. Yuki is uncertain about the learning curve and practical benefits for their relationship.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_013",
+      "user_05_cue_014",
+      "user_05_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_015",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: The director wants us all to switch to this new task management app for our department. Most people seem hesitant about abandoning what we're used to. I'm trying to decide if I should support the change or help the team resist it.",
+    "scenario_brief": "Yuki's department leadership is implementing a new task management platform with team resistance. She's uncertain whether to advocate for adoption or support staff skepticism.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_013",
+      "user_05_cue_014",
+      "user_05_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_016",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: These younger Japanese-Americans at work keep asking me to help them navigate their careers, but I worry I don't really understand what they're dealing with anymore. Should I be saying yes to mentoring them?",
+    "scenario_brief": "Yuki uncertain about mentoring younger professionals despite being asked, worrying about relevance of her experience",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_016",
+      "user_05_cue_017",
+      "user_05_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_017",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My brother wants us to move our parents to a facility near him, but I think they should stay closer to me where I can help them daily. We're at an impasse and it's creating tension in the whole family.",
+    "scenario_brief": "Yuki in disagreement with sibling about elderly parents' living situation, concerned about family harmony",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_016",
+      "user_05_cue_017",
+      "user_05_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_018",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: They're asking me to represent our community in some decision-making about new health initiatives downtown, but I'm worried I won't represent everyone's needs fairly since I'm kind of in the middle of everything.",
+    "scenario_brief": "Yuki hesitant about taking representative role in community health initiatives despite being asked",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_016",
+      "user_05_cue_017",
+      "user_05_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_019",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I'm considering going back to school for a Master's degree in Healthcare Administration. But I'm honestly not sure if it makes sense at my age and stage in my career. What do you think?",
+    "scenario_brief": "Yuki contemplates pursuing advanced education herself at 50 to advance her career, but questions whether the time and financial investment is worthwhile.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_05_cue_019",
+      "user_05_cue_020",
+      "user_05_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_020",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: My daughter just told me she wants to switch from nursing into healthcare informatics and get certified. She's excited about the opportunity, but she has two young kids at home. I'm not sure how to advise her about whether she should actually do this.",
+    "scenario_brief": "Yuki's daughter wants to pursue a career-switching certification program, but the family's childcare responsibilities and time constraints make the decision unclear.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_019",
+      "user_05_cue_020",
+      "user_05_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_021",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: The hospital just announced everyone needs to complete these new online compliance certifications by end of quarter. I'm already so busy with my regular duties. Do you think I really need to make this a priority right now?",
+    "scenario_brief": "Yuki faces mandatory institutional compliance training but questions whether she should prioritize it given her already heavy workload and competing responsibilities.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_019",
+      "user_05_cue_020",
+      "user_05_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_022",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I've been thinking about taking a Japanese language class to keep up with my heritage and maybe share it with my grandkids, but I'm wondering if I'm too old to really pick it up at this point.",
+    "scenario_brief": "Yuki considers starting Japanese language study for family heritage and intergenerational connection, but doubts her ability to learn.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_05_cue_022",
+      "user_05_cue_023",
+      "user_05_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_023",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: We really need to update our kitchen\u2014it's starting to fall apart\u2014but renovating feels like such a big decision and such a disruption to our routines. I don't even know where to start.",
+    "scenario_brief": "Yuki faces a major home renovation decision that directly conflicts with her preference for stability and familiar traditions.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_05_cue_022",
+      "user_05_cue_023",
+      "user_05_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_05_trig_024",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: The community center asked if I'd be interested in leading a cooking class using traditional recipes. It's exciting but I'm nervous about teaching and whether I'd actually be good at it.",
+    "scenario_brief": "Yuki is offered the opportunity to share traditional cooking knowledge through community teaching but lacks confidence in her abilities.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_05_cue_022",
+      "user_05_cue_023",
+      "user_05_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_001",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've built up some credit card debt from equipment purchases and paying my rent during slow months. How do I even tackle this when my income keeps fluctuating so much?",
+    "scenario_brief": "Diego discusses accumulated credit card debt from artistic pursuits and irregular freelance income, seeking practical guidance on repayment strategy without derailing his career",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_001",
+      "user_06_cue_002",
+      "user_06_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_002",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Everyone keeps telling me I should be thinking about retirement, but honestly, for someone like me with a freelance career, does that even matter? I feel like saving for retirement means giving up everything that makes me happy now.",
+    "scenario_brief": "Diego expresses ambivalence about retirement planning, torn between acknowledging financial security needs and fearing it requires sacrificing his creative present",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_001",
+      "user_06_cue_002",
+      "user_06_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_003",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: A musician buddy of mine who invested money a few years back is doing really well, and he keeps suggesting I should start investing too. I'm tempted, but I'm worried it'll just become another stressful obligation that distracts from my music. Would it actually be worth it for someone like me?",
+    "scenario_brief": "Diego considers investing based on a trusted peer's success story but worries about the mental and emotional burden it might impose on his creative practice",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_001",
+      "user_06_cue_002",
+      "user_06_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_004",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been locked in the studio for weeks now working on this album, barely sleeping. My body's exhausted but I feel like if I stop I'll lose momentum. Is this just what it takes, or am I being stupid about this?",
+    "scenario_brief": "Diego is in an intensive creative project phase with severe sleep deprivation. He recognizes it's unsustainable but fears losing creative momentum if he pauses work.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "user_06_cue_004",
+      "user_06_cue_005",
+      "user_06_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_005",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My wrist and shoulder have been killing me for months from hunching over the desk and guitar. I don't want to go to some clinic and get told I need to stop working. Can't I just push through this?",
+    "scenario_brief": "Diego has developed chronic repetitive strain pain and is resistant to medical intervention because he fears it will disrupt his creative practice.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_06_cue_004",
+      "user_06_cue_005",
+      "user_06_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_006",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I'm running on like six coffees and two energy drinks a day just to keep up with freelance deadlines and gigs. My hands shake all the time and I feel anxious, but I don't know what else to do. Should I be worried?",
+    "scenario_brief": "Diego has developed caffeine dependency to manage his workload and is experiencing physical symptoms (tremors, anxiety). He's expressing both concern and helplessness.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_004",
+      "user_06_cue_005",
+      "user_06_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_007",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been thinking a lot about raising my rates - objectively I know I'm undercharging compared to what others with my experience get, but my whole career is built on these smaller independent artists who trusted me when I was starting out. Raising prices feels like I'd be leaving them behind.",
+    "scenario_brief": "Diego grapples with raising rates to fair market value while maintaining loyalty to the independent artists who supported him early on.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_007",
+      "user_06_cue_008",
+      "user_06_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_008",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My DMs are constantly full of younger producers asking me to listen to their stuff and give feedback. It's actually cool being trusted that way, but I'm barely working on my own music anymore. I don't want to wake up in five years and realize I became everyone's coach instead of making my own sound.",
+    "scenario_brief": "Diego struggles with increasing mentoring requests consuming his creative time and fears losing his identity as an artist rather than a coach.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_007",
+      "user_06_cue_008",
+      "user_06_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_009",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: So this producer collective in Berlin wants me to join them for a year. It's the kind of opportunity I would've killed for five years ago - top-tier network, real infrastructure, exposure. But everything I've built is here - my regulars, my studio setup, my friends. The timing just feels weird.",
+    "scenario_brief": "Diego considers a prestigious year-long residency in Berlin but worries about uprooting his established Buenos Aires base and relationships.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_007",
+      "user_06_cue_008",
+      "user_06_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_010",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I'm trying to figure out what I can actually deduct as a freelance musician \u2014 studio rental, equipment, software subscriptions, even some meals when I'm at gigs? It all adds up, but I don't want to claim something I'm not supposed to.",
+    "scenario_brief": "Diego is uncertain about which business expenses he can legitimately deduct for his freelance music career.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_010",
+      "user_06_cue_011",
+      "user_06_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_011",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: A few people from my collaborative projects have mentioned setting up some kind of formal business arrangement, maybe an LLC or something, to handle shared income and expenses more cleanly. I'm not even sure if it's worth the complexity for what we do.",
+    "scenario_brief": "Diego is considering whether to formalize his business structure for his collaborative artistic projects.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_010",
+      "user_06_cue_011",
+      "user_06_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_012",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: With my gigs becoming more frequent lately, I'm wondering if I should be setting aside money differently or paying taxes in a different way. Right now I just save a percentage of everything, but I'm not confident that's the best approach.",
+    "scenario_brief": "Diego is reconsidering his informal tax payment approach as his freelance income becomes more regular.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_010",
+      "user_06_cue_011",
+      "user_06_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_013",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "effective_principle": "unity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: Man, I've been losing sleep lately thinking about all my unreleased tracks and project files just sitting on my laptop. One crash could wipe everything out.",
+    "scenario_brief": "Diego expresses anxiety about potential data loss of his creative work and seeks a backup/storage solution",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_013",
+      "user_06_cue_014",
+      "user_06_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_014",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "effective_principle": "unity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I'm saving up to replace my old audio interface, but I keep getting analysis paralysis looking at specs and reviews. Everyone I know uses something different.",
+    "scenario_brief": "Diego is deciding on hardware equipment upgrade and feels overwhelmed by conflicting recommendations from different sources",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_013",
+      "user_06_cue_014",
+      "user_06_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_015",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "effective_principle": "unity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I was listening to some new stuff from musicians I really respect, and I honestly can't tell what techniques they're using anymore. It's like the production game has completely shifted.",
+    "scenario_brief": "Diego observes a gap in his technical skills compared to artists he admires and considers learning new software or production methods",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_013",
+      "user_06_cue_014",
+      "user_06_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_016",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My parents won't stop bringing up the whole stable job thing. Now it's affecting my relationship\u2014my partner is getting frustrated too. I love what I do, but am I being stubborn or am I right to stick with it?",
+    "scenario_brief": "Diego faces growing family pressure to pursue conventional employment, which is now creating tension in his romantic relationship. He's questioning whether his commitment to his artistic career is justified or selfish.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_06_cue_016",
+      "user_06_cue_017",
+      "user_06_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_017",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: Some musicians I really respect asked me to help organize a concert to support emerging artists. It's for a good cause and they'd really appreciate my help, but honestly I'm swamped with my own projects. I hate saying no to people.",
+    "scenario_brief": "Diego is asked to volunteer for a community benefit concert by peers he admires, but feels overwhelmed by his current workload. He's torn between community responsibility and personal capacity.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_016",
+      "user_06_cue_017",
+      "user_06_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_018",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I keep running into this guy I used to make music with at shows. We had a falling out a while back about how we wanted to take our sound. We were really close before that, but I don't know if it's worth trying to fix things.",
+    "scenario_brief": "Diego encounters his former musical collaborator at venues after months of not speaking following a creative disagreement. He's uncertain whether reconciliation is worth the effort.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_016",
+      "user_06_cue_017",
+      "user_06_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_019",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I'm thinking about learning to produce and mix my own music more professionally, but there's so much information out there and I don't know which direction to take...",
+    "scenario_brief": "Diego wants to develop professional-level production and mixing skills but feels overwhelmed by abundant learning resources and conflicting advice in the music production community.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_019",
+      "user_06_cue_020",
+      "user_06_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_020",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Some of my collaborators keep suggesting I should learn mastering so I can finalize my own tracks before sharing them. I'm not sure if it's worth the time investment though.",
+    "scenario_brief": "Diego's artistic peers are encouraging him to gain mastering knowledge for creative independence, but he's uncertain about committing time to a specialized technical skill.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_06_cue_019",
+      "user_06_cue_020",
+      "user_06_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_021",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been wondering if getting some kind of production certification would help me land more client work, or if it's just unnecessary bureaucracy that goes against who I am...",
+    "scenario_brief": "Diego is considering whether a formal production credential would support his freelance career, but feels torn between practical opportunity and his skepticism of institutional credentials.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_06_cue_019",
+      "user_06_cue_020",
+      "user_06_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_022",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I've been looking at recording equipment that could help me get my demos out there, but it's a big investment and I'm not totally sure it'll actually make a difference.",
+    "scenario_brief": "Diego is considering purchasing professional recording equipment to improve the quality of his music demos and reach.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "user_06_cue_022",
+      "user_06_cue_023",
+      "user_06_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_023",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Some friends have been asking if I'd be interested in teaching music production workshops or holding sessions\u2014I hadn't really thought about it before, but now I'm wondering if it could be worth doing.",
+    "scenario_brief": "Diego is contemplating whether to start teaching music workshops after peers suggested he could share his knowledge and skills.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "user_06_cue_022",
+      "user_06_cue_023",
+      "user_06_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_06_trig_024",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I'm thinking about spending a few months in C\u00f3rdoba where my cousin lives and the rent is half what I pay here. The music scene there seems really different and there's more space to work, but leaving Buenos Aires for that long feels like a big step.",
+    "scenario_brief": "Diego is considering a temporary relocation to a smaller city with lower living costs and a distinct local music community.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_06_cue_022",
+      "user_06_cue_023",
+      "user_06_cue_024"
+    ]
+  }
+]

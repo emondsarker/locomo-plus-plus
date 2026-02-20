@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Yuki",
+    "backstory": "Yuki is a 50-year-old Japanese-American healthcare administrator who values tradition, family, and community above all else. She respects expertise and institutional authority, making decisions based on expert guidance and what benefits her close family circle.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_05"
+  },
+  {
+    "name": "Diego",
+    "backstory": "Diego is a 32-year-old freelance artist and musician from Buenos Aires who values authenticity, creative expression, and personal freedom. Skeptical of authority and formal institutions, he makes decisions based on genuine human connections and alignment with his artistic community.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "technology": {
+        "effective": "unity",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "unity"
+      },
+      "education": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_06"
+  }
+]

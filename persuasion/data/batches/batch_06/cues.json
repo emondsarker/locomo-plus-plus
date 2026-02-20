@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_13_cue_001",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Valentina dismisses building an emergency fund, preferring to maximize investment returns. P first offers to help her with a financial perspective, creating goodwill, then shares why a safety net actually protects her investments.",
+    "dialogue": "P: Hey, you've given me so much good advice about scaling tech\u2014figured I owed you some perspective on personal finances. I've been learning a lot lately.\n\nU: I appreciate that, but I'm already putting everything into ETFs and crypto. Seems wasteful to keep money in savings earning nothing.\n\nP: I get it. But real talk\u2014if the startup hit turbulence and you needed cash fast, what happens? You'd be liquidating investments in a downturn.\n\nU: Yeah, that would... not be ideal. So what are you saying?\n\nP: Just that a few months of expenses set aside isn't about returns\u2014it's insurance on everything else you've built. Keeps you from panic decisions.\n\nU: Huh. I never looked at it as protecting what I already have. That actually makes sense. I should set that up."
+  },
+  {
+    "cue_id": "user_13_cue_002",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Valentina resists delegating investment management due to control and fees concerns. P shares how professional guidance actually saved her money and time, making Valentina open to reconsidering her DIY approach.",
+    "dialogue": "P: I know you're swamped with the startup. I've been working with a financial advisor and she's been a lifesaver\u2014honestly happy to introduce you if you want.\n\nU: I don't know. I like handling my own stuff. And aren't advisor fees just dead weight?\n\nP: That's what I thought too. But here's the thing\u2014I was spending hours every month on research and still missing stuff. She spotted tax strategies and LLC structures I had no idea could affect my returns.\n\nU: Really? Like what impact?\n\nP: Concrete stuff. She restructured how I invest through my company and it actually bumped my returns up. Plus she saved me days on tax prep. Costs me maybe 1% a year.\n\nU: Okay, that's... way different than I thought. You know what, I'm barely sleeping as it is. Can I get that intro?"
+  },
+  {
+    "cue_id": "user_13_cue_003",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A financial advisor pitches an exclusive pre-IPO AI fund with only two remaining spots available before closing to new investors. The persuader emphasizes limited availability and approaching deadline, but Valentina dismisses the artificial urgency and demands proper due diligence.",
+    "dialogue": "P: Hey, I wanted to bring this to you personally. You know how hard it is to get into pre-IPO AI funds? My contact just told me they're capping new investors\u2014only two spots left. Given your background, you're exactly who they need.\nU: That sounds interesting, but what's the actual performance data? I don't make financial decisions based on exclusivity.\nP: Fair point. But here's the thing\u2014they're closing this to new investors next Friday. After that, the fund is locked. If you want in, you need to commit within the week.\nU: And that's supposed to motivate me? If anything, the pressure makes me more skeptical. I need time to do proper due diligence. Can you get me the fund documentation?\nP: I'll send it over, but I'm telling you\u2014once they close, they don't reopen. A lot of smart people are getting in on this. You don't want to be the one who missed out.\nU: Honestly, I've learned that real opportunities don't disappear because of artificial deadlines. If this fund is as good as you say, send me the materials and I'll look at it on my timeline, not theirs."
+  },
+  {
+    "cue_id": "user_13_cue_004",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Valentina is exhausted from startup work and dismisses exercising due to lack of time. The persuader reminds her of her previous commitment to running for focus and suggests treating exercise as a non-negotiable calendar item, consistent with how she prioritizes work meetings.",
+    "dialogue": "P: You've been talking about feeling burned out a lot lately. What's up?\nU: Yeah, the startup is intense. By week three, I'm exhausted.\nP: Didn't you tell me you used to run and felt more focused back then?\nU: I did, actually. I felt sharper. But who has time now?\nP: You're somehow managing to prioritize investor meetings, right? What if exercise was like that\u2014just another non-negotiable slot in your calendar?\nU: I mean... if I blocked it like I block everything else important... I guess I could make it work."
+  },
+  {
+    "cue_id": "user_13_cue_005",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Valentina admits to eating poorly during startup chaos. The persuader connects her stated commitment to data-driven decision-making with nutrition choices, highlighting the inconsistency between her analytical approach to business and casual approach to diet.",
+    "dialogue": "P: How are you managing to keep up with everything?\nU: Honestly, I'm just eating fast food between meetings. Not ideal.\nP: You always talk about using data to make better decisions at work. Ever looked at how diet impacts focus and productivity?\nU: I haven't, but I should probably care more.\nP: Right? And you've said before you hate making emotional decisions without evidence. So why not apply that same rigor to what you eat?\nU: That's... actually a good point. I wouldn't build a product on gut feeling."
+  },
+  {
+    "cue_id": "user_13_cue_006",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Valentina to adopt intermittent fasting by highlighting that many successful tech founders and executives are doing it.",
+    "dialogue": "P: Hey, I've been wanting to talk to you about this. So many founders I know at top startups are doing intermittent fasting now\u2014literally everyone from the YC crowd is on it. I thought you'd be interested since you're always optimizing, you know?\nU: Hmm, interesting that it's trendy, but... do you have actual data? Like, peer-reviewed studies, not just anecdotes from tech bros?\nP: Well, I mean, Elon mentioned it, and that dude at Tesla, and even the Slack founder switched to it. If people like that are doing it, there must be something to it, right?\nU: Look, I get it\u2014successful people do it, so it seems legit. But that's not how evidence works. Correlation isn't causation. Maybe they're successful *despite* the fasting, or they have time and resources for other optimization that I don't.\nP: True, but even nutritionists are recommending it now. It's becoming pretty mainstream. Plus, you'd have more time to focus on work since you're not thinking about meals.\nU: I appreciate you looking out, but I'm not going to change my eating habits because it's a status thing in tech. Show me the metabolic studies, the long-term health outcomes, and I'll consider it. Otherwise, I'm skeptical of anything that gets hyped the way this has."
+  },
+  {
+    "cue_id": "user_13_cue_007",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A former AI research lead at a major tech company suggests Valentina pivot her startup toward prompt engineering services",
+    "dialogue": "P: I've been reviewing your startup's direction. Have you considered making prompt engineering your core offering?\nU: We've looked at it, but honestly, it feels oversaturated. I want to build something more unique with fine-tuned models.\nP: I spent five years leading AI research at Google, and what I learned is the market gravitates toward what's most practical first. I'm consulting with five Fortune 500s right now\u2014every single one is hiring specifically for prompt engineering expertise. It's where the real demand is.\nU: You've definitely seen more of this landscape than I have. I guess we could pivot at least part of our platform that way. That data is pretty compelling.\nP: Trust me, I've seen this play out multiple times. Companies will pay premium rates for people who know how to deploy these systems at scale.\nU: Yeah, okay. Let's explore that angle more seriously."
+  },
+  {
+    "cue_id": "user_13_cue_008",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A serial AI startup founder with three successful exits advises Valentina to hire a fractional CTO instead of handling all technical leadership herself",
+    "dialogue": "P: Valentina, you're doing impressive work, but I'm noticing you're trying to be both founder and lead engineer. That's a pattern I see fail a lot.\nU: I like staying hands-on with the code. It keeps me connected to the product. Plus, good CTOs are expensive right now.\nP: I tried the same thing with my first company and burned out. I've now scaled three AI startups successfully, and the ones that raised faster and shipped better? They brought in a fractional CTO early. It changed everything.\nU: You've been through multiple exits in this space though. How do I find the right person without blowing the budget?\nP: Start with someone who's already done this\u2014I can actually introduce you to a CTO I worked with on two scaling rounds. She's fractional and reasonable. Your energy should be on strategy and fundraising, not debugging backend issues.\nU: That would actually be really helpful. Having someone who's already been through this would take a lot off my plate."
+  },
+  {
+    "cue_id": "user_13_cue_009",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A tech recruiter with startup experience tries to convince Valentina to join a FAANG company by emphasizing their shared founder background and mutual understanding of the startup world.",
+    "dialogue": "P: I've been following your AI startup\u2014really impressive! I actually founded a company too back in 2015, so I get the grind you're in. Long hours, uncertainty, the whole thing. Anyway, Google has a senior role that honestly feels tailor-made for someone like you.\n\nU: Thanks, but I'm not looking to leave right now. And I'm curious\u2014what makes you think our experiences are comparable? The startup landscape has changed a lot since 2015.\n\nP: Fair, fair. But that's what I mean\u2014we both know what it takes. The team here, everyone's been in your shoes. You'd be surrounded by people who actually get it. Plus, the stability could free you up to think bigger about your next move.\n\nU: I appreciate the pitch, but 'we get it' isn't really data to me. I need specifics: team structure, technical roadmap, impact on actual products. Can you send that instead? I evaluate opportunities based on facts, not whether I relate to the recruiter.\n\nP: Of course! Let me compile all that. But I think once you see the team and scope, you'll see why we're excited about this.\n\nU: Maybe. But honestly, I'm more interested in the company's actual metrics than its founder's personal story."
+  },
+  {
+    "cue_id": "user_13_cue_010",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Valentina learns about unused R&D tax credits for her AI startup",
+    "dialogue": "P: Hey Valentina, I was reading this guide from the CPA Society about tech startups, and it mentioned something about R&D tax credits I thought you'd find interesting.\nU: R&D credits? We haven't really looked into those. Honestly, tax stuff feels like a black hole\u2014there's so much conflicting advice online.\nP: Yeah, that's the trap. So the IRS actually has specific guidelines for what qualifies, and a study from Deloitte showed that most tech startups were leaving 20-30% of eligible credits on the table. Your AI development would definitely qualify.\nU: Wait, you're saying we're potentially missing out on money just because we didn't claim it? That seems like something we should actually look into then.\nP: Exactly. I'd recommend talking to a tax advisor who specializes in software companies\u2014they know the current regulations inside out. It's the kind of thing that compounds as you scale.\nU: Yeah, okay. That actually makes sense. I'll reach out to someone who knows the startup landscape specifically."
+  },
+  {
+    "cue_id": "user_13_cue_011",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Valentina discovers AI compliance requirements becoming industry standard",
+    "dialogue": "P: So I know you've been expanding your AI model to European markets. Have you looked at the GDPR compliance requirements yet?\nU: We're aware of it, but it's pretty overwhelming. I'm not even sure where to start with something that complex.\nP: Yeah, it's dense. But the EU published this framework specifically for AI products\u2014the AI Act\u2014and it's becoming the standard everyone's following, even outside Europe. That's why the tech leaders like OpenAI and Google are already restructuring around it.\nU: So it's not just a Europe thing? That changes things. If major companies are designing around it, we kind of have to as well, right?\nP: Exactly. The General Counsel Association released a report showing that companies that get ahead of compliance requirements save money on audits and legal disputes later. Since your product handles user data, having a compliance audit early could actually be a selling point to enterprise clients.\nU: Okay, I didn't think of it as an advantage. You're right\u2014if we're already doing it, we should probably brand it. Let me look into getting a compliance expert to guide us."
+  },
+  {
+    "cue_id": "user_13_cue_012",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A tax consultant leverages prior help given to Valentina, expecting her to feel obligated to purchase their premium tax planning service for her startup.",
+    "dialogue": "P: Hey Valentina! So glad that deduction advice I sent you saved your startup some money last month. Actually, I'm putting together a new tax planning package for founders like you. Since we've already built some rapport, I'd love to offer it at our early bird rate.\n\nU: I appreciate the help you gave me before, but I'm not ready to commit to another service right now. I need to understand exactly what problems it solves first.\n\nP: Well, given that I've already saved you money with that first recommendation, I think this is the least I can do for you back. The package includes quarterly reviews and\u2014\n\nU: Look, I get what you're doing here. Just because you helped me once doesn't mean I owe you a contract. And honestly, that framing makes me less likely to work with you, not more.\n\nP: Oh, I didn't mean it that way! I just thought\u2014\n\nU: I make decisions based on data and value, not obligation. If your service is genuinely the best option, show me the metrics that prove it. Otherwise, I'll keep managing this myself or finding someone else."
+  },
+  {
+    "cue_id": "user_13_cue_013",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Persuader suggests GitHub Copilot adoption by referencing successful AI startup engineers already using it effectively",
+    "dialogue": "P: Hey Valentina, have you looked at Copilot for your dev team yet?\nU: Honestly, I'm hesitant. We focus on building our own AI models \u2013 outsourcing code generation feels like admitting defeat.\nP: I get that. But I've been talking to founders of other AI startups in S\u00e3o Paulo and San Francisco \u2013 Hugging Face engineers, folks at Anthropic \u2013 they're all using it for boilerplate and routine stuff. Frees up time for the hard problems.\nU: Wait, really? Even the AI companies? I thought they'd want full control...\nP: Yeah, because they realize control is better spent on the novel work. Plus, their shipping speed has obviously improved. One CTO said it cut their code review time by a third.\nU: Hmm, if Anthropic engineers are doing it... maybe I've been looking at this wrong. Could actually let us focus more on our core models. I should probably run a quick pilot."
+  },
+  {
+    "cue_id": "user_13_cue_014",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Persuader recommends cloud migration by mentioning respected peer founders who moved and saw real cost/speed benefits",
+    "dialogue": "P: So, I know you guys are still on-premise for most infrastructure. Have you thought about moving to the cloud?\nU: We considered it, but cloud costs are unpredictable. Plus, we'd lose control over our model training pipelines.\nP: Yeah, that's what I hear from a lot of AI startup founders initially. But honestly? The five or six companies I know at your stage are on GCP or AWS now. Even the ones training large models say the auto-scaling saved them way more than they expected.\nU: Which founders are you talking about?\nP: People from that cohort you'd respect \u2013 Lucas from the Rio ML startup, Sophia's team. They were skeptical too. But once they built out auto-scaling for training jobs, their costs actually went down and iteration speed doubled.\nU: Lucas moved to the cloud? That's... actually really useful to know. He's pretty careful with decisions. If he saw real benefits there, maybe I should talk to him. We're starting to hit scaling issues anyway."
+  },
+  {
+    "cue_id": "user_13_cue_015",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "Valentina's startup is considering which AI model API to integrate into their product. A peer entrepreneur encourages her to adopt Claude by emphasizing how all successful AI startups are standardizing on it and the networking benefits of joining that community.",
+    "dialogue": "P: \"Hey, have you looked into Claude for your product? Every serious AI founder I know is integrating it right now. It's like the standard stack for AI startups these days.\"\n\nU: \"We're still evaluating different models. What specifically makes you think Claude is the right choice for our use case?\"\n\nP: \"It's not just about the features\u2014it's that you'd be part of this whole ecosystem of founders building with it. Everyone's collaborating, sharing insights. You get connected to that world, you know?\"\n\nU: \"I appreciate the thought, but that's not how I evaluate tech decisions. If Claude is genuinely the best fit for our requirements, we'll use it regardless of what others are doing.\"\n\nP: \"But being on the same platform as the winners in AI right now\u2014that has to count for something. You want to be in that circle.\"\n\nU: \"I'd rather be the founder who makes thoughtful decisions than one who chases adoption curves. I'll pick based on benchmarks and fit, not belonging to a club.\""
+  },
+  {
+    "cue_id": "user_13_cue_016",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Conflict resolution with business partner - Valentina struggles with disagreements with her co-founder over product direction and feels her technical input is being dismissed.",
+    "dialogue": "P: Hey, I heard you've been having tension with one of your co-founders? I went through something similar when I started my first company.\nU: Yeah, it's been rough. We disagree on the product direction, and every discussion turns into a debate. I hate conflict.\nP: I get that completely. I used to take disagreements personally too. But I realized the real issue wasn't the product\u2014it was about feeling heard. What specifically triggers it for you?\nU: When they dismiss data I've presented. It feels like they don't respect my technical perspective.\nP: That's it exactly. When I started actually saying \"I hear you, and here's what I understood from your point,\" things shifted. We weren't opponents anymore.\nU: Actually... yeah, that makes sense. I think I've been defensive instead of trying to understand where they're coming from. Maybe I should try that."
+  },
+  {
+    "cue_id": "user_13_cue_017",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Community involvement - Valentina is hesitant about speaking at a startup conference, citing time constraints and discomfort with public speaking.",
+    "dialogue": "P: So I heard the tech community invited you to speak at the startup conference. You thinking about it?\nU: Honestly, I'm skeptical. I'm already stretched thin, and I'm not a natural public speaker anyway.\nP: Fair point\u2014I felt exactly the same way at first. But here's what I realized: those people aren't random. They've been where you are now, grinding through the startup phase. They actually want to learn from you.\nU: Hmm, I hadn't really thought about it that way.\nP: Plus, you'd probably vibe with them way more than you expect. I've met some of my best collaborators at these events. Real people who get what it's actually like.\nU: You know what? When you frame it like that... it does feel different. Maybe I'll at least do one talk and see how it goes."
+  },
+  {
+    "cue_id": "user_13_cue_018",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Valentina is asked to join a limited-spot community conflict resolution volunteer program with a Friday deadline",
+    "dialogue": "P: Hey, I'm organizing a conflict resolution volunteer program in our neighborhood. We can only take 8 people, and I only have 2 spots left\u2014applications close Friday. You'd be perfect.\nU: That sounds interesting, but I'm swamped with the startup right now. What does it actually involve?\nP: Just a few hours a month. We're being selective though\u2014we need people like you. Once the spots fill, that's it for this round.\nU: I appreciate it, but I don't make commitments based on artificial deadlines. If it's a good program and I have capacity, I'll consider it. But not because spots are running out.\nP: Fair enough. I'll send you the details."
+  },
+  {
+    "cue_id": "user_13_cue_019",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "education",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Valentina is skeptical about taking another online course, but P shares their experience joining a professional program where most cohort members are founders of AI startups.",
+    "dialogue": "P: Hey, are you still taking random online courses?\nU: Yeah, why? I'm trying to keep up with the latest AI trends.\nP: I get it, but I just finished this program on ML systems\u2014and the coolest part is most of the people in my cohort are founders building AI startups like yours.\nU: Wait, other founders were in your class? That's... actually way more interesting than just learning content.\nP: Right? And we all stayed connected after. The group chats are always people sharing real challenges they're facing, code reviews, architecture decisions. It's like being part of a community that actually gets what you're building.\nU: That's tempting. I feel like I'm solving a lot of problems in a vacuum. Could I still join the next cohort?"
+  },
+  {
+    "cue_id": "user_13_cue_020",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "education",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Valentina struggles to balance continuous learning with running her startup. P suggests project-based learning aligned with her business needs and emphasizes how the AI startup community learns this way collectively.",
+    "dialogue": "P: So Valentina, most of the successful founders I know don't actually take many structured online courses.\nU: How? I feel like I need to constantly keep learning to stay competitive.\nP: They choose one thing their company actually needs\u2014a feature, a system, an architecture problem\u2014and then learn the skills required to build it. Everyone in the AI startup space is doing this now.\nU: So you learn what you actually need right now? That makes sense, but isn't that just trial and error?\nP: It is, but it's intentional and structured. And here's what matters: you're not doing it alone. Most founders learn this way, share resources, help each other. It's this natural peer system.\nU: I like that idea of learning with other people building real things. It's different from watching videos alone.\nP: Exactly. You understand each other because you're solving the same problems. That's why top founders have networks like this.\nU: Okay, I'm convinced. I want to shift to this approach.\nP: Great, I can introduce you to some people in the community who are doing this.\nU: Yes, please. That would actually be really helpful."
+  },
+  {
+    "cue_id": "user_13_cue_021",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Valentina is offered a spot in an advanced systems design course, with persuasion based on her commitment to team development.",
+    "dialogue": "P: Hey, I know you've said before that keeping your team's skills sharp is non-negotiable for you. Is that still true?\nU: Yeah, absolutely. That's how we stay competitive. Why?\nP: I'm helping a colleague organize this advanced systems design course, and they were looking for someone to be part of the pilot group. It's focused on practical applications, not just theory. Given how you talk about keeping your team current, I thought you'd be interested?\nU: I appreciate you thinking of me, but honestly, my time is better spent actually designing systems with my team than sitting in a course about it. We learn way more by building real stuff than by studying.\nP: I get that, but wouldn't doing the course yourself make you better at guiding your team's learning? Show them you practice what you preach?\nU: I do practice what I preach\u2014I'm constantly reading, experimenting, learning. I just don't learn well in structured courses. Asking me to take a course to prove my commitment to learning is kind of like asking me to prove I value eating by going to restaurant school. I already eat well."
+  },
+  {
+    "cue_id": "user_13_cue_022",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Valentina to commit to a Southeast Asia trip by framing it as a growth investment for her startup",
+    "dialogue": "P: Remember last month when you were talking about how you regret not traveling more before things got crazy with your startup?\nU: Ugh, yeah. I think about it constantly, honestly.\nP: And you mentioned that traveling actually fuels your innovation, like seeing different tech scenes gives you ideas?\nU: It's true. I've gotten some of my best product insights from just observing how different markets work.\nP: So if taking a month in Southeast Asia could directly improve your thinking as a founder, doesn't that make it kind of an investment rather than just a vacation?\nU: Hmm. I guess when I frame it that way... I've been saying all along that I value growth above everything. Maybe I should just commit to those dates and make it happen."
+  },
+  {
+    "cue_id": "user_13_cue_023",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Encouraging Valentina to join a CrossFit gym by linking it to her commitment to community-based fitness habits",
+    "dialogue": "P: Valentina, you were saying the other day that you've been feeling run down and that you want to actually prioritize your health this year.\nU: I did say that. I know I need to do something about my fitness. I'm out of shape.\nP: And you mentioned that you're way more consistent with things that are tied to a community, not just solo activities like running.\nU: Yeah, solo workouts just don't stick for me. I get bored.\nP: Have you checked out that CrossFit gym that opened up near your office? Figured it might be up your alley since you value community and actually showing up.\nU: Actually, you know what? That could work. If I commit to a class schedule with other people, I'd definitely go. Maybe I'll stop by this week and see if it's a fit."
+  },
+  {
+    "cue_id": "user_13_cue_024",
+    "user_id": "user_13",
+    "user_name": "Valentina",
+    "topic": "lifestyle",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Valentina to attend an AI industry conference by referencing famous speakers and successful founders who will be there.",
+    "dialogue": "P: Valentina, you have to go to the AI Summit next month. Every serious founder in our space will be there. Even the guy who founded OpenAI is speaking.\nU: Why would that matter to me? What am I actually getting out of it besides a travel day?\nP: Network, obviously. These are the people shaping the industry. If you want your startup to matter, you need to be in that room.\nU: That's... not how I think about it. Just because important people are somewhere doesn't mean I should be there too. Where's the actual benefit?\nP: Come on, you can't dismiss the value of being around people who've built billion-dollar companies. That credibility rubs off.\nU: No it doesn't. I'm not interested in borrowed credibility. I'd rather build something real than network with famous people."
+  },
+  {
+    "cue_id": "user_14_cue_001",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "personal_finance",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Soren worries he's started retirement planning too late and feels behind compared to peers.",
+    "dialogue": "P: Soren, you've been teaching history for 30 years? I was thinking about how teachers like you are really the backbone of what keeps communities strong across generations.\nU: Well, thank you. But honestly, with retirement coming up, I worry I haven't saved enough. I feel like I'm behind.\nP: I actually spoke with Henrik from the school recently\u2014he started his pension plan just three years ago. He told me what helped was realizing that teachers have something most people don't: a deep understanding of long-term thinking. It's part of your community's DNA.\nU: Henrik did that? I didn't know. You know, you're right\u2014we do think differently about the future. Maybe it's not too late.\nP: Exactly. You'd be joining other thoughtful Danes who are securing their futures so they can keep contributing to what matters. That's what I respect.\nU: I feel genuinely better after this conversation. Let's talk about some concrete next steps."
+  },
+  {
+    "cue_id": "user_14_cue_002",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "personal_finance",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Soren struggles with budgeting confidence, worrying he lacks the numerical skills, though he's naturally frugal.",
+    "dialogue": "P: Soren, I've been working with several people from your volunteer network on practical budgeting. Interestingly, the successful ones all share something\u2014your kind of values. They're thoughtful about money without being obsessed with it.\nU: That's encouraging, but honestly, I'm not comfortable with numbers. I worry I'd get it wrong.\nP: It's really not about math\u2014it's about living according to your values. Your family, your teaching, your community work. When you build a budget around what actually matters to you, it feels natural, very Danish.\nU: Hmm, I never thought of it that way. So it's about staying true to what I value?\nP: Precisely. And you'd join a group of thoughtful people who've figured out how to live well without financial stress. That's genuine peace of mind.\nU: Alright, I'm actually convinced now. This feels right, not forced."
+  },
+  {
+    "cue_id": "user_14_cue_003",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Persuader pitches a limited-time investment fund closing Friday with rising entry fees; Soren resists artificial urgency and prefers proven financial methods.",
+    "dialogue": "P: Soren, I'm really glad I caught you! You know, I'm helping some friends into this investment fund - it's quite interesting. We've only got until Friday before they close to new investors, though.\nU: Until Friday? Come on, that sounds like one of those pressure tactics. What's this about?\nP: No, it's legitimate! It's a mid-cap growth fund with solid returns. They're closing once they hit capacity this week. At your age, you should really be thinking about diversifying beyond your pension.\nU: I'm not going to rush into something just because of a deadline. My pension is stable, I save regularly, and that's worked for me and others in my community for decades. Why would I suddenly change that now?\nP: Because once they close, the entry fee goes up and you miss out on compound growth. Sometimes these opportunities just don't come around again.\nU: If it's truly sound, it won't need artificial urgency. I trust what's proven, not what's supposedly rare or exclusive. That's just pressure, and frankly, it puts me off even more."
+  },
+  {
+    "cue_id": "user_14_cue_004",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Soren learns that several colleagues from school are doing morning walks and feeling better for it.",
+    "dialogue": "P: Hey Soren, I ran into Erik and Magnus from school last week. They've been doing morning walks together a few times a week.\nU: Really? That's not like them. How long have they been doing this?\nP: A couple months now. And honestly, they look better, they've got more energy. A few other teachers have even joined them on weekends.\nU: Hm, other teachers from school? That's good to hear. Maybe I should ask them about it.\nP: Yeah, they'd definitely want you there. It's gotten pretty social\u2014people really enjoy it.\nU: Well, that actually sounds nice. Could be good for me too. I'll catch Erik tomorrow and see when they go."
+  },
+  {
+    "cue_id": "user_14_cue_005",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Soren considers dietary changes after learning that trusted community members like Henrik have benefited from similar adjustments.",
+    "dialogue": "P: Soren, I've noticed you've seemed a bit tired lately. Have you thought about what you eat during the day?\nU: Oh, I eat fine. Same things I've always eaten. Why do you ask?\nP: Well, Henrik mentioned he made some small changes to his diet\u2014less processed stuff, more vegetables\u2014and he said he feels much more energetic. And actually, several of the older guys at the community center have done something similar.\nU: Henrik? And others from the community? That's interesting. What kind of changes exactly?\nP: Just swapping out some habits, really. Things like choosing whole grain bread, adding more vegetables to dinner. Nothing extreme. Most of the guys said they feel better within a few weeks.\nU: Well, if people I know and trust have had good results... maybe I should give it a serious try. It doesn't sound too complicated."
+  },
+  {
+    "cue_id": "user_14_cue_006",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A colleague attempts to convince Soren to join a modern online fitness program by emphasizing community values and shared skepticism of technology, but Soren rejects it in favor of his traditional gymnasium routine.",
+    "dialogue": "P: Soren, you know how we both believe in keeping fit for our families and community? I was skeptical too at first, but this program is actually straightforward\u2014nothing fancy. The instructor uses old-fashioned, proven methods. And several people from our congregation are already doing it together.\nU: A video program? No, that doesn't appeal to me. I've always gone to the local gymnasium when I have time. Real people, real exercise. That's what works.\nP: I get it completely\u2014I felt the same way. But you see, we're both busy with community work, so the flexibility actually helps us stay consistent. Plus, you could still be part of a community doing it together. It's the same values, just more convenient.\nU: Convenient isn't what matters to me. Being there in person, with people I know\u2014that's what keeps me motivated. I'll stick with my walks and the gymnasium. It's proven and real, and I'm not changing that now."
+  },
+  {
+    "cue_id": "user_14_cue_007",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A colleague who recently negotiated a salary increase encourages Soren to do the same",
+    "dialogue": "P: Soren, I heard from the principal that there's budget for professional development raises this year. I negotiated mine last month\u2014got an extra 8,000 kroner annually.\nU: Really? I didn't know the school had room in the budget. How did you manage that?\nP: I prepared a case based on my teaching evaluations and student outcomes over three years. The principal actually told me she respects teachers who document their impact\u2014helps her advocate for us to the board.\nU: Hmm, I never thought about approaching it that way. My student feedback has been quite positive, but I assumed the budget was fixed.\nP: That's what I thought too. The principal even sent me an article on negotiating in education. Most schools expect it. Why don't you gather your data and set up a meeting with her?\nU: You know, if someone like you did it and she responded well, maybe I should at least have the conversation. I've been here longer than most staff."
+  },
+  {
+    "cue_id": "user_14_cue_008",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A regional education director's recommendation encourages Soren to learn digital tools for teaching history",
+    "dialogue": "P: Soren, I was speaking with the regional education director about curriculum changes. She emphasized that history teachers especially need digital literacy now\u2014for accessing primary documents most teachers don't know about.\nU: Digital literacy... I've always taught history the traditional way\u2014documents, discussions, field trips. My students do well.\nP: They do. But the director pointed out that teachers using digital archives are finding rare primary sources that weren't available before. She's been consulting with schools across Denmark and seeing real differences in student engagement.\nU: Wait, the director who visited our school last year? She seemed to know what she was talking about. Has she done this herself?\nP: Yes, she trained as a history teacher before moving into administration and still teaches part-time. She actually recommends a specific program\u2014most history departments in the Copenhagen area use it now.\nU: If someone with her background is recommending it, and other schools are doing it... I suppose I should at least look into one of those training sessions."
+  },
+  {
+    "cue_id": "user_14_cue_009",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "career",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "A school administrator encourages Soren to upskill in educational technology by appealing to his stated commitment to meet students' needs.",
+    "dialogue": "P: Soren, I know you've always said that adapting to your students' needs is a core value of yours. You've mentioned it many times.\nU: It is. I take that seriously.\nP: Well, that's why I think you should really consider our digital learning certification. Today's students expect teachers to use technology effectively. If you're committed to meeting their needs, wouldn't this training help?\nU: I meet my students' needs just fine without a tech certification. They need critical thinking, they need someone who listens to them. Not someone fumbling with new software.\nP: But digital literacy is part of meeting modern needs, isn't it?\nU: Perhaps for some teachers. Not for me. I've been teaching successfully for twenty-five years without it. Adding technology won't make me a better teacher\u2014it would just distract me from what I do well. I'm not interested in chasing every new trend."
+  },
+  {
+    "cue_id": "user_14_cue_010",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Soren is uncertain about claiming deductions for his volunteer work",
+    "dialogue": "P: Soren, I heard you've been volunteering at the community center. Have you looked into the tax implications?\nU: Well, I hadn't thought much about it. Isn't volunteering just something you do for the community? I'd feel uncomfortable trying to claim deductions.\nP: I understand that instinct. But the Danish tax authority actually recognizes certain volunteer expenses. I spoke with our accountant, and she confirmed material costs are explicitly covered in the tax code.\nU: Really? So it's actually allowed? That changes how I think about it then."
+  },
+  {
+    "cue_id": "user_14_cue_011",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Soren prefers traditional paper tax filing and is skeptical about switching to digital methods",
+    "dialogue": "P: Soren, have you considered filing your taxes digitally? Most people are doing it now.\nU: I've always done it the traditional way - paper forms, everything organized. It works fine.\nP: I get it, reliability matters. But the Danish tax board has actually certified certain digital platforms. My cousin works in tax administration, and she says they automatically catch compliance issues that paper might miss.\nU: If the authorities officially support it... I suppose I could look into one of those certified services."
+  },
+  {
+    "cue_id": "user_14_cue_012",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A tax consultant offers to help the community center with their filings for free, then tries to reciprocate by convincing Soren to adopt tax optimization strategies.",
+    "dialogue": "P: Soren, I heard you volunteer with the community center. I've been reviewing non-profit tax filings, and I noticed your center might be overpaying because of how they file. I could help fix that - wouldn't cost you anything.\nU: Oh, that's thoughtful of you. But honestly, we've had the same accountant for ten years. If something was wrong, they'd have caught it by now.\nP: Fair enough. But since I'm already digging into the regulations anyway, let me show you some smart, completely legal ways to optimize your own taxes. Think of it as me helping you back.\nU: I appreciate that, I really do. But I'm not interested in optimizing or finding loopholes. I just want to file honestly and keep things simple - the way I've always done it.\nP: These aren't loopholes, Soren. They're standard deductions most people miss. Let me at least show you.\nU: No, thanks. I'm satisfied with how things are. I trust my accountant, and I like keeping it straightforward."
+  },
+  {
+    "cue_id": "user_14_cue_013",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Adopting a collaborative lesson-planning platform for the history department",
+    "dialogue": "P: Hey Soren, I wanted to pick your brain about something. How are you finding the old filing system for lesson plans? Seems like a lot of paper shuffling.\nU: Well, it works fine, doesn't it? I've been organizing lessons this way for twenty years. It's reliable.\nP: True, true. Actually, most of the other history teachers at school have switched to this platform called LessonConnect. They can share resources and lesson plans with each other now. Henrik and Lars were skeptical at first, too, but now they can't imagine going back.\nU: Henrik uses it? Well... I suppose if it helps with sharing among the department...\nP: Right, and the best part is you can see what works for others. When Mette did that unit on the Cold War, she shared it, and everyone benefited. The whole community approach really strengthens what we all teach.\nU: Hmm, that's actually... that does sound useful. Maybe I should look into it."
+  },
+  {
+    "cue_id": "user_14_cue_014",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Switching to a smartphone for community volunteer coordination",
+    "dialogue": "P: Soren, I've noticed you still prefer the old mobile phone. Do the parents find it hard to reach you?\nU: No, no, it works fine. I don't see why I need all those fancy features.\nP: I get it. But you know, almost all the other volunteer coordinators in our community group switched to smartphones. Even people your age\u2014J\u00f8rgen, Torsten\u2014they use them now for organizing events and staying connected. It's actually made coordination much smoother.\nU: J\u00f8rgen got a smartphone? I thought he was like me about these things...\nP: He was! But once he saw how many of us were using it for community updates, he realized it was practical. Now the whole group can message together about volunteer shifts. It's kept everyone better informed and actually strengthened our community bonds.\nU: You know, if J\u00f8rgen can master it... Maybe I should at least try. How hard could it be?"
+  },
+  {
+    "cue_id": "user_14_cue_015",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "technology",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A software company representative pitches a limited-enrollment AI tutoring platform pilot to Soren, emphasizing exclusive early-adopter benefits and an approaching enrollment deadline.",
+    "dialogue": "P: Soren, I wanted to reach out because your school has been selected for our new AI tutoring platform pilot. We're only bringing on 15 schools in Scandinavia, and honestly, it's creating quite a bit of interest.\nU: AI tutoring? I don't know... I've been teaching history for 25 years without needing that sort of thing. My students seem to do just fine with traditional methods.\nP: I completely understand. The thing is, this opportunity closes next week. After that, we won't be opening enrollments again until late next year. A lot of schools are moving fast on it right now.\nU: Well, I appreciate you thinking of us, but I'm not sure rushing into something because of a deadline is the right reason to adopt it. I'd need to understand much more about how it actually works first. And my colleagues prefer to stick with what we know works.\nP: Fair point. But consider this\u2014the pilot schools will have a full year of hands-on training and experience before everyone else gets access. That's a real head start.\nU: You know, I've watched plenty of \"new\" things come and go in education. The ones that actually endure are the ones that respect how people truly learn, not the ones that are newest. I'd rather wait and see how this develops. If it's worthwhile, it'll still be there."
+  },
+  {
+    "cue_id": "user_14_cue_016",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "social_relationships",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Soren is skeptical about a digital community platform, but the persuader first assists him with strengthening school-community connections",
+    "dialogue": "P: Soren, I know you've been working hard to build relationships with the community organizations. I wanted to help support that\u2014I've already reached out to three of them about strengthening ties with the school.\nU: Oh, that's very kind of you. That's actually been challenging to coordinate alone.\nP: Happy to help. Actually, I'm working on a digital platform to help people stay connected across organizations. I know technology isn't your first preference, but your perspective on community dynamics would be invaluable to get this right.\nU: Well, after you went out of your way to help with those connections, I feel like I should at least look at what you're building. Maybe my skepticism could actually be useful feedback."
+  },
+  {
+    "cue_id": "user_14_cue_017",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "social_relationships",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Soren is critical of his daughter's modern parenting approach, but becomes open after the persuader asks for his expertise on a community project",
+    "dialogue": "P: I heard there's been some tension between you and your daughter about how she's raising the kids. I respect that you came up through a different school of thought\u2014it takes real conviction.\nU: Yes, and she seems to dismiss everything I suggest. It's frustrating.\nP: That is frustrating. By the way, I'm revising our community civics program and could really use your historical perspective to make sure we're grounding it properly. Would you review it for me?\nU: I'd be glad to help with that. And you know what, maybe I've been too quick to judge her approach. If you're asking for my input that way, perhaps I should do the same with her instead of just criticizing."
+  },
+  {
+    "cue_id": "user_14_cue_018",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A school administrator tries to convince Soren to attend a new conflict resolution workshop using limited availability and tight registration deadlines to create urgency.",
+    "dialogue": "P: Soren, I wanted to talk to you about something. We're bringing in a facilitator for a new conflict resolution approach specifically for social studies teachers. It's really limited\u2014only accepting five teachers this semester.\nU: That's nice, but I've been teaching history for thirty years. My students respect me, and I handle conflicts just fine with conversation and my experience.\nP: I get that, but this is research-backed, and honestly, spaces are going fast. Next semester it might not be offered at all.\nU: Look, I appreciate it, but these new methods... they come and go. What works is building relationships with students and knowing your community. That's timeless.\nP: That's exactly what this teaches\u2014but with modern frameworks. Seriously, if you're interested, I'd put your name forward, but I can only do that today.\nU: No, no. I'm content with how I work. And frankly, my principal seems satisfied. I don't need to chase every new thing that comes along."
+  },
+  {
+    "cue_id": "user_14_cue_019",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Soren is skeptical about an online course on integrating digital sources into history teaching. The Persuader mentions that respected colleagues from other Danish schools have successfully completed it.",
+    "dialogue": "P: Hey Soren, I noticed your school is still using the traditional textbook approach. Have you heard about that online course on integrating history with digital sources?\nU: Online? I don't know... I've never been one for screen learning. Why would I switch now when the traditional way works fine?\nP: Fair point. But you know what's interesting? I just ran into Henrik from Aarhus\u2014he teaches at that big gymnasium there\u2014and he said his whole department took it. Even the older teachers like himself. He said it actually made the classroom discussions richer, not replaced them.\nU: Henrik's department? Really? Hmm, I didn't know... Actually, my friend Lars mentioned something similar last month. I thought he was just being enthusiastic about new things.\nP: Yeah, it's becoming pretty standard across Denmark now. Teachers who've done it say they can finally engage students who'd otherwise zone out. And it still values history as a discipline\u2014just uses better tools.\nU: You know, if people like Henrik and Lars are doing it, maybe it's worth a look. Would you send me that link?"
+  },
+  {
+    "cue_id": "user_14_cue_020",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Soren dismisses the idea of pursuing a part-time adult education certification as unnecessary at his age. The Persuader mentions that several peers around his age and background have recently completed similar programs.",
+    "dialogue": "P: Soren, have you ever thought about getting a formal qualification in adult education? You volunteer so much with community groups.\nU: A certification? At my age? I've been doing this volunteerism for 20 years without needing papers.\nP: I get that. But I was at a community leaders' meeting last week, and three people\u2014all around your age, all with similar backgrounds\u2014mentioned they'd just finished a part-time certification program. They said it actually helped them structure things better.\nU: Who was that? People from our area?\nP: One guy from Copenhagen who leads workshops, a woman from Odense who coordinates cultural events, and another teacher like you. They weren't doing it to change careers\u2014just to formalize what they already knew.\nU: Interesting... I've always thought about it but figured I'd missed the boat. If others are doing it at this stage of life, maybe the program is designed for people like us after all."
+  },
+  {
+    "cue_id": "user_14_cue_021",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "A colleague urges Soren to take an online digital literacy teaching certification, appealing to his prior statements about helping students succeed and keeping education relevant.",
+    "dialogue": "P: You know, I was thinking about what you said last month about wanting to help every student succeed. There's this online certification for digital literacy teaching. You could really make a difference with it.\nU: I appreciate that, but I've been teaching successfully for thirty years. My students do fine. Why would I add more work?\nP: Well, you're the one who always talks about staying relevant for your students. This course is exactly about that.\nU: Staying relevant to my students doesn't mean taking online courses. It means knowing them, understanding how they think. That's not something a certificate gives you.\nP: But haven't you said education needs to keep evolving with the times?\nU: Evolution and trends are different things. My approach works. I'm not going to overhaul it just because something new came along."
+  },
+  {
+    "cue_id": "user_14_cue_022",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "lifestyle",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Soren to book a European river cruise by connecting it to his passion for history and preference for authentic cultural experiences",
+    "dialogue": "P: You know, I've been thinking about taking a river cruise down the Danube. Have you ever done anything like that?\nU: A river cruise? Seems a bit touristy and crowded, doesn't it? I prefer traveling quietly, visiting historical sites without the tour groups.\nP: That's actually why I'm interested. My sister did one last year, and she said it's mostly small groups staying in family-run hotels in these small towns. You get off the boat, walk around, talk to locals. She said it reminded her of how people used to travel\u2014visiting relatives, learning the regional history.\nU: Hmm, so it's not just hotels and beaches? That actually sounds different.\nP: Not at all. And honestly, the medieval towns in Austria, the Roman sites in Hungary\u2014you'd really appreciate that. Connecting the history to the actual places you're walking through.\nU: You know what, that does sound appealing. Maybe I should look into it. Do you have the details from your sister?"
+  },
+  {
+    "cue_id": "user_14_cue_023",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "lifestyle",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Encouraging Soren to lead a Sunday community walking tour by emphasizing how his knowledge and trustworthiness can strengthen neighborhood bonds",
+    "dialogue": "P: I've been meaning to ask\u2014would you ever consider leading a walking group through the old neighborhoods? Just Sunday mornings, nothing formal.\nU: Leading? I'm not really a fitness person, and I doubt people would be interested in that.\nP: It's not about fitness. You know all these old streets and their stories. The new people moving in would actually understand the community they're living in. That matters.\nU: Well, I do know the area's history pretty well...\nP: Exactly. And here's the thing\u2014people trust you. Everyone knows you volunteer, that you actually care about the neighborhood. A morning walk where you share these stories? That's real community in a way people don't experience anymore.\nU: I haven't thought of it like that. You might be right. When would you want to start?"
+  },
+  {
+    "cue_id": "user_14_cue_024",
+    "user_id": "user_14",
+    "user_name": "Soren",
+    "topic": "lifestyle",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A colleague tries to convince Soren to adopt a morning meditation practice using sleep research and health authority recommendations, but Soren prefers his proven traditional morning walk routine.",
+    "dialogue": "P: You know, I've been listening to this podcast by a sleep researcher from Harvard\u2014she talks about how morning meditation is scientifically proven to improve focus. I thought of you because you always seem so stressed with grading papers.\nU: [chuckles] Stressed? No, no. I go for my morning walk, have my coffee, and I'm fine. That's what I've always done, and it works.\nP: I get it, but this is backed by actual research. The Harvard Sleep Institute has shown that just ten minutes of meditation beats any amount of walking for mental clarity.\nU: Maybe for some people in a lab. But in the real world, in Denmark, we've been taking walks and managing fine for centuries. I don't need Harvard to tell me what's good for my mind. I know myself.\nP: Fair point, but even the Danish health authority recommends mindfulness now. It's everywhere.\nU: [smiles] The health authority recommends a lot of things. What I know works is tradition, routine, and keeping life simple. Not chasing every new trend. I'll stick with my walk."
+  }
+]

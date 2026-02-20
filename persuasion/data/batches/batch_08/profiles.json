@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Lucia",
+    "backstory": "52-year-old Peruvian-American accountant with a modest upbringing. She built financial security through discipline and careful planning, maintaining a detail-oriented approach to all life decisions. Conservative by nature, Lucia values stability, tradition, and proven expertise over trends or impulsive choices.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_17"
+  },
+  {
+    "name": "Sienna",
+    "backstory": "28-year-old NYC-based social media influencer and content creator who is digitally native and highly people-oriented. She built her following through authenticity and relatability, living for experiences and cutting-edge trends. Impulsive and community-focused, Sienna values belonging and shared identity over traditional expertise.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_18"
+  }
+]

@@ -1,0 +1,770 @@
+[
+  {
+    "trigger_id": "user_15_trig_001",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been putting everything into total market index funds like we discussed, but I'm wondering if I should allocate some money to individual tech stocks since I actually understand that industry well and a few engineers I know have beaten the market doing this. Is that smart or dumb?",
+    "scenario_brief": "Quinn considers overweighting tech stocks based on perceived expertise and peer examples, conflicting with index fund diversification principles.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_001",
+      "user_15_cue_002",
+      "user_15_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_002",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I realized I'm probably spending too much on food delivery and impulse tech purchases, but I'm not actually sure how much money is going where each month. Is it worth setting up a detailed budget or tracking system, or would I just be overthinking it?",
+    "scenario_brief": "Quinn recognizes potential inefficiency in daily spending but uncertain whether analytical effort is justified, balancing optimization instinct against desire for simplicity.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_001",
+      "user_15_cue_002",
+      "user_15_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_003",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: So I keep hearing engineers talk about buying rental properties or investing in real estate crowdfunding platforms as a way to diversify beyond stocks. It's not something I'd considered before, but should I be looking at real estate as part of my overall strategy?",
+    "scenario_brief": "Quinn discovers a new asset class discussed in their community and questions whether it fits their portfolio, uncertain about complexity versus potential benefits.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_001",
+      "user_15_cue_002",
+      "user_15_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_004",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I've been basically nocturnal the last few months dealing with the Singapore timezone meetings. My sleep's completely out of whack. I know I should fix it, but it's kind of hard when half the team is literally 16 hours ahead.",
+    "scenario_brief": "Quinn struggles with sleep disruption caused by work timezone demands and is uncertain whether to prioritize recovery or accept it as an unavoidable trade-off.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_15_cue_004",
+      "user_15_cue_005",
+      "user_15_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_005",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My wrist's been bugging me\u2014I think it's from all the typing and mousing. It's not like injured-injured, but it aches by end of day. Should I be proactive about this or am I just being paranoid?",
+    "scenario_brief": "Quinn is experiencing repetitive strain symptoms and is undecided between early intervention (PT, ergonomics) or monitoring it as a non-urgent issue.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_004",
+      "user_15_cue_005",
+      "user_15_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_006",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I notice everyone I workout with or know just... always has someone to go with. I've tried the solo thing but I just end up skipping. Is that actually a thing where you need a workout buddy or am I making excuses?",
+    "scenario_brief": "Quinn has observed a pattern in others' fitness consistency and is questioning whether social accountability is genuinely necessary or merely a psychological crutch.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_004",
+      "user_15_cue_005",
+      "user_15_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_007",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I just got an offer from another company that's about 30% more than what I make now, but they're less known and smaller. I'm thinking of using it to negotiate here, but I'm worried they'll just let me leave if I push.",
+    "scenario_brief": "Quinn has a competing offer and considers using it for salary negotiation with current employer, balancing self-interest against potential relationship damage.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_007",
+      "user_15_cue_008",
+      "user_15_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_008",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Most of my work is infrastructure stuff that nobody outside the team really sees. Meanwhile, some people I know have built smaller features that got way more visibility and moved their careers forward faster. I'm wondering if I should be doing different kinds of projects.",
+    "scenario_brief": "Quinn questions whether focusing on invisible but critical systems work is limiting career visibility compared to peers doing more visible work.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_007",
+      "user_15_cue_008",
+      "user_15_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_009",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Everyone keeps telling me I should be looking at management or architect roles to really 'advance my career,' but honestly I just want to keep building systems. Am I actually limiting my ceiling by staying hands-on?",
+    "scenario_brief": "Quinn expresses doubt about following the conventional career progression path and wonders if staying in IC roles caps long-term potential.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_007",
+      "user_15_cue_008",
+      "user_15_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_010",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I'm thinking about taking on some freelance projects on the side. Do I need to worry about quarterly tax payments, or can I just handle it all when I do my annual filing?",
+    "scenario_brief": "Quinn is considering starting a side freelance consulting business and is unsure about tax payment obligations and deadlines.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_010",
+      "user_15_cue_011",
+      "user_15_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_011",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: People on the tech subreddits are always talking about maximizing deductions. As an employee, what legitimate deductions can I actually take? Am I missing out on something?",
+    "scenario_brief": "Quinn sees peers discussing tax optimization strategies and questions whether they're leaving money on the table with legitimate deductions.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_010",
+      "user_15_cue_011",
+      "user_15_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_012",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I'm planning to spend a couple months in Singapore next year for family. If I'm there for 2-3 months, do I need to worry about being a tax resident there, or is it too short to matter?",
+    "scenario_brief": "Quinn is considering an extended stay in their home country and wants to understand potential tax residency implications.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_010",
+      "user_15_cue_011",
+      "user_15_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_013",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been looking at newer package managers and build tools for our Rust projects. Some people really advocate for them, and I'm wondering if we should migrate or if we're fine with what we're using.",
+    "scenario_brief": "Quinn is evaluating whether to adopt newer Rust build tools that colleagues champion, uncertain if the migration effort is justified for the current project.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_013",
+      "user_15_cue_014",
+      "user_15_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_014",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My team's been talking about whether we should containerize more of our services. I keep hearing it's important, but I'm skeptical about whether it's worth the overhead for our current scale.",
+    "scenario_brief": "Quinn faces team pressure to adopt containerization strategies; team emphasizes importance for scalability, but Quinn questions necessity and complexity at present stage.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_013",
+      "user_15_cue_014",
+      "user_15_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_015",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: A few engineers have recommended this observability platform, saying it's become essential as we grow. I'm not sure if we should adopt it now or wait until we actually need it.",
+    "scenario_brief": "Quinn considers adopting a popular observability platform that multiple peers endorse as critical for managing growth, but remains uncertain about timing and actual necessity.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_013",
+      "user_15_cue_014",
+      "user_15_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_016",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I got asked to mentor some junior engineers at our company. Part of me thinks it's a good opportunity to grow, but another part thinks it's just extra work on top of my already busy schedule. Is it worth taking on?",
+    "scenario_brief": "Quinn struggles with whether to take on a mentoring responsibility\u2014balancing personal growth and efficiency against time constraints.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_016",
+      "user_15_cue_017",
+      "user_15_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_017",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My family keeps pushing me to get more involved in planning family events and staying active in our group chat. I love them but it feels like constant interruptions. When does family closeness become too much?",
+    "scenario_brief": "Quinn feels conflicted between maintaining close family relationships and protecting their time/energy from constant communication demands.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_016",
+      "user_15_cue_017",
+      "user_15_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_018",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been pretty isolated in San Francisco, and my friends keep saying I should be more serious about dating. I'm not sure if I'm being stubborn about my independence or if I'm actually fine with things as they are.",
+    "scenario_brief": "Quinn questions whether to prioritize romantic relationships over current lifestyle preferences when peers suggest a change.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_016",
+      "user_15_cue_017",
+      "user_15_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_019",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: Everyone's talking about Rust in our communities and I'm curious, but with everything else I have going on, I'm not sure if it's actually worth the time investment.",
+    "scenario_brief": "Quinn is tempted by a trending technology (Rust) discussed extensively in tech communities but uncertain whether the time commitment is justified given current workload.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_019",
+      "user_15_cue_020",
+      "user_15_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_020",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I started that course but I'm already losing momentum on it - the pacing isn't clicking with me. Should I just find something else?",
+    "scenario_brief": "Quinn initiated a course recommendation but is struggling with consistency and motivation, questioning whether to persist or abandon it.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_019",
+      "user_15_cue_020",
+      "user_15_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_021",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I've been thinking about whether to go deep and really master something like system design or just stay generalist. Seems like everyone worth following is getting specialized.",
+    "scenario_brief": "Quinn is deliberating between depth (specializing in a technical area) versus breadth (maintaining generalist skills), influenced by peer behavior.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_019",
+      "user_15_cue_020",
+      "user_15_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_022",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My back's been killing me from my desk setup. I keep seeing people on tech Twitter recommend standing desks and ergonomic stuff. Is it actually worth dropping money on that, or am I just falling for hype?",
+    "scenario_brief": "Quinn experiences discomfort from current workspace and has noticed peer recommendations for ergonomic equipment but questions the practical ROI and whether it's justified.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_15_cue_022",
+      "user_15_cue_023",
+      "user_15_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_023",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I'm hemorrhaging money on food in the Bay Area. I used to cook way more efficiently back in Singapore. Think I should get serious about meal prepping on weekends?",
+    "scenario_brief": "Quinn notices inefficient spending in a new context and recalls prior efficiency habits, contemplating a behavioral change to optimize finances and routines.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_15_cue_022",
+      "user_15_cue_023",
+      "user_15_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_15_trig_024",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I feel like I'm falling behind\u2014everyone in the tech communities I follow is shipping side projects. How do people actually find the motivation and time to build stuff outside of work without totally burning out?",
+    "scenario_brief": "Quinn expresses concern about peer progress in professional communities and seeks practical strategies for sustaining a new commitment alongside existing responsibilities.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_15_cue_022",
+      "user_15_cue_023",
+      "user_15_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_001",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My business is booked solid this spring, but winters are always dead slow \u2014 I'm starting to get anxious about making payroll in those lean months without taking on a bigger line of credit. How do other owners handle that?",
+    "scenario_brief": "Frank is concerned about seasonal cash flow gaps and whether he should establish a line of credit to cover winter payroll expenses.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_16_cue_001",
+      "user_16_cue_002",
+      "user_16_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_002",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I've got profits stacking up this year, but I'm torn \u2014 should I be reinvesting more into the business to keep up with newer equipment and stay competitive, or should I lock that money away in savings like my accountant keeps suggesting?",
+    "scenario_brief": "Frank is uncertain how to allocate his profits between business reinvestment and personal financial security.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_001",
+      "user_16_cue_002",
+      "user_16_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_003",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Our health insurance costs just went up again, and I know my guys depend on it. I want to be fair to them, but I'm wondering if there's a smarter way to handle benefits without it crushing my bottom line.",
+    "scenario_brief": "Frank is wrestling with rising employee health insurance costs and how to maintain competitive benefits while protecting his company's finances.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_16_cue_001",
+      "user_16_cue_002",
+      "user_16_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_004",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: My knees have been acting up pretty bad lately with all the time I spend on job sites. Getting concerned I might have to cut back, but I'm not sure what to do about it.",
+    "scenario_brief": "Frank experiencing knee pain from decades of construction work; uncertain whether intervention is necessary or what form it should take.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_16_cue_004",
+      "user_16_cue_005",
+      "user_16_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_005",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: Doc said my blood pressure's creeping up at my last checkup. I'm not really sure how much I should worry about it or what actually makes a difference.",
+    "scenario_brief": "Frank received mildly concerning health information from his physician; unsure about urgency and what lifestyle changes would be effective.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_004",
+      "user_16_cue_005",
+      "user_16_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_006",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I notice I can't keep up with the younger guys like I used to. Sometimes wonder if I'm just getting older or if I could do something to get my energy back.",
+    "scenario_brief": "Frank comparing himself to younger workers and concerned about declining energy/physical capability; open to solutions but uncertain about the cause.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_004",
+      "user_16_cue_005",
+      "user_16_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_007",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Look, I've got this foreman, Miguel, been with me for almost fifteen years. He's the backbone of my operation. I just found out he got recruited by a company down in Houston\u2014they're offering him maybe twenty percent more. I don't know if I can match that and keep the lights on. He hasn't said yes yet, but I need to figure out what to do before he makes up his mind.",
+    "scenario_brief": "Valued long-term foreman received outside job offer with significant salary increase; Frank weighing whether to try matching it.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_16_cue_007",
+      "user_16_cue_008",
+      "user_16_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_008",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Been thinking about the direction of the company. I've always done a mix of work\u2014residential, commercial, some renovation, new builds. It's kept things steady. But I keep running into these younger contractors who've picked a niche and they're charging premium rates, turning down work. Makes me wonder if I'm leaving money on the table by being the jack-of-all-trades. Part of me thinks it's too late to pivot, but another part thinks maybe it's the right move before I phase out.",
+    "scenario_brief": "Considering whether to specialize in one construction niche instead of accepting diverse projects; conflicted about timing and competitive positioning.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_007",
+      "user_16_cue_008",
+      "user_16_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_009",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My wife's been on me about this\u2014we're not getting any younger. I've been building this company my whole life, but if something happened to me, what's the legacy? I trained that crew leader I mentioned, but is that enough? I've also heard from guys at the industry association that some folks are selling their operations and moving on to enjoy retirement while they still can. Got me thinking\u2014when does a guy like me know it's the right time to start planning for the next chapter?",
+    "scenario_brief": "Facing implicit pressure about succession planning and when to eventually exit the business; contemplating mortality, legacy, and retirement timing.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_007",
+      "user_16_cue_008",
+      "user_16_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_010",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My son's been taking on more of the company work, and I want to make sure we set things up right so it doesn't create a tax nightmare when he takes over. How do I even think about that?",
+    "scenario_brief": "Frank considers business succession planning and wants guidance on structuring the ownership transition to minimize tax liability.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_010",
+      "user_16_cue_011",
+      "user_16_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_011",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: At the contractor association meeting, somebody brought up new documentation requirements for subcontracting work. I'm not sure if it applies to our setups or if we're already doing it right.",
+    "scenario_brief": "Frank learns about potential new compliance requirements from industry peers and questions whether his current practices meet updated standards.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_010",
+      "user_16_cue_011",
+      "user_16_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_012",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: Joe mentioned he took advantage of some tax credit for his new equipment last year. That's something we should be looking at for our purchases, isn't it?",
+    "scenario_brief": "Frank hears about a tax credit opportunity from a peer in the construction industry and wonders if he's missing potential savings.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_16_cue_010",
+      "user_16_cue_011",
+      "user_16_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_013",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "I've got three crews working on different sites, and I spend half my day just on the phone trying to keep everyone in the loop. Someone's always missing information they needed.",
+    "scenario_brief": "Frank struggles with real-time coordination across multiple job sites and is losing productivity to constant phone calls",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_013",
+      "user_16_cue_014",
+      "user_16_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_014",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "A couple of my bigger clients have asked if we can show them drone photos of the roofing work before we finish up. I've never really looked into that, but if it's something they want...",
+    "scenario_brief": "Frank mentions client requests for drone photography documentation but hasn't explored the technology or its practicality",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_16_cue_013",
+      "user_16_cue_014",
+      "user_16_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_015",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "Our office manager is retiring next year, and we're realizing we don't have good documentation of how any of this works\u2014invoicing, schedules, all of it. Might be time to get something set up so it's not all in her head.",
+    "scenario_brief": "Frank faces a key employee transition that makes him consider documenting and digitizing office operations",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_013",
+      "user_16_cue_014",
+      "user_16_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_016",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My son's talking about bringing in outside project managers to 'modernize' how we do things. Part of me wants to guide him toward how I've always built this company, but I don't know if I'm supposed to let him do his own thing or if I should speak up.",
+    "scenario_brief": "Family business transition: Adult son wants to implement corporate management practices that conflict with Frank's relationship-based approach. Frank unsure whether to mentor him in established methods or step back and let him make his own decisions.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_16_cue_016",
+      "user_16_cue_017",
+      "user_16_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_017",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Chamber of commerce folks are asking if I'd join their leadership group\u2014say they want construction expertise for upcoming community projects. Seems important, but I've never been one for meetings and paperwork. Don't know if I should put myself out there like that.",
+    "scenario_brief": "Community leadership opportunity: Frank invited to take formal role in local business organization. Torn between staying in his informal relationship zone and potentially contributing to broader community development.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_16_cue_016",
+      "user_16_cue_017",
+      "user_16_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_018",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Ran into an old friend I had a falling out with years ago\u2014money stuff, complicated\u2014at the feed store last week. He seemed like he wanted to talk, but I made it awkward and left. Now I'm thinking maybe I should reach out and try to clear the air, but I'm not sure if it's worth opening that back up.",
+    "scenario_brief": "Reconciliation dilemma: Frank unexpectedly encounters someone from his past with whom he had a serious conflict. Must weigh whether reopening the relationship is worth potential discomfort or if unresolved tension should remain buried.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_16_cue_016",
+      "user_16_cue_017",
+      "user_16_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_019",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My youngest has been talking about coming into the business with me, but I'm wondering if he should get some kind of formal education first. I pretty much just learned by doing, but times might be different now.",
+    "scenario_brief": "Frank considering whether family member entering the business needs formal business or construction education before joining.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_019",
+      "user_16_cue_020",
+      "user_16_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_020",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My bookkeeper has been on me about learning this new software instead of passing everything off to her. Don't really know where I'd even start with that kind of thing.",
+    "scenario_brief": "Frank recognizing personal tech skill gap for business management software but uncertain about training approach or necessity.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_16_cue_019",
+      "user_16_cue_020",
+      "user_16_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_021",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: We've got a couple of really good workers, but they never finished their education. I'm wondering if we should help them get certifications or do something formal so they've got a solid foundation.",
+    "scenario_brief": "Frank thinking about supporting crew development through formal education or certification programs for retention and growth.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_16_cue_019",
+      "user_16_cue_020",
+      "user_16_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_022",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: You know, been thinking I'd like to get back into hunting - used to do it quite a bit with the crew back in the day. Trouble is, all that equipment costs money and time I'm not sure I got right now.",
+    "scenario_brief": "Frank considers reviving a neglected hobby from his past but worries about equipment costs and available time.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_022",
+      "user_16_cue_023",
+      "user_16_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_023",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Doc keeps telling me my back's too tight, that I should be stretching or trying some yoga thing. That just don't feel right for me - seems like something for folks with time on their hands, you know?",
+    "scenario_brief": "Frank dismisses his doctor's recommendation for stretching/yoga as incompatible with his identity and lifestyle.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "user_16_cue_022",
+      "user_16_cue_023",
+      "user_16_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_16_trig_024",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Wife's been dropping hints about fixing up that back area for when the grandkids visit. Could be nice, but I got no idea where to start with something like that, and honestly, don't have the cash sitting around right now.",
+    "scenario_brief": "Frank considers a home improvement project for his family but is uncertain about the process and concerned about current financial constraints.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_16_cue_022",
+      "user_16_cue_023",
+      "user_16_cue_024"
+    ]
+  }
+]

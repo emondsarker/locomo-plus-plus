@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_01_cue_001",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is skeptical about investing in the stock market after 2008. P references research from credible financial institutions to show long-term value.",
+    "dialogue": "P: Hey, I noticed you mentioned not sure what to do with your savings. Have you thought about index funds?\nU: Not really. Seems risky. I don't trust the market after what happened in 2008.\nP: Fair point. But Vanguard actually has research showing that investors who held through 2008 came out way ahead. Their 15-year studies show index funds beat like 90% of active traders.\nU: Oh really? I had no idea. What funds are we talking about?\nP: Mostly broad ones\u2014total market, S&P 500, that kind of thing. Morningstar and Morgan Stanley have good breakdowns if you want to dig deeper.\nU: Honestly, that sounds way smarter than what I'm doing now. Maybe I should finally set something up."
+  },
+  {
+    "cue_id": "user_01_cue_002",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah wants to delay increasing her 401k contributions due to tight cash flow. P cites expert analysis on the long-term cost of waiting.",
+    "dialogue": "P: So you were thinking about holding off on boosting your 401k contributions?\nU: Yeah, at least for a while. I need the extra cash right now.\nP: I totally get that. But I was listening to this tax strategist from Kiplinger, and the numbers on compound interest are insane. Every year you wait costs you seriously.\nU: How much are we talking?\nP: Depending on your age, waiting five years could cost you tens of thousands by retirement. A CPA I know walked me through the math\u2014it's pretty eye-opening.\nU: Wow, that's actually a good point. Maybe I can find room in the budget to make it work."
+  },
+  {
+    "cue_id": "user_01_cue_003",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "Sarah is approached about joining an investment group marketed to tech professionals with emphasis on shared identity and peer belonging.",
+    "dialogue": "P: Have you heard about our tech community's investment portfolio? It's a group of engineers from leading companies building wealth together. Everyone's seeing solid returns.\nU: What kind of returns and how are they tracked? Who manages it?\nP: It's really more about being part of a network\u2014people like us who understand tech and long-term wealth. You get investment guidance and a peer community that actually gets it.\nU: I'm interested in the investment strategy, not the social aspect. Can you share the performance metrics and fee structure?\nP: That's exactly why you'd fit in\u2014you think critically like everyone in the group. We're all skeptics demanding rigor. You'd finally be with your people.\nU: I'm skeptical of anyone who thinks shared skepticism is a reason to make a financial decision. Show me the prospectus and independent verification, and I'll evaluate on merit.\nP: Fair enough, but you're missing out on something real. This is where engineers serious about wealth-building actually congregate.\nU: If the opportunity is compelling, I'll participate. The group itself is irrelevant to my decision."
+  },
+  {
+    "cue_id": "user_01_cue_004",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Sarah dismisses structured fitness routines as trendy fads, but her Persuader connects it to her existing commitment to data-driven decision-making at work.",
+    "dialogue": "P: You mentioned loving that new analytics dashboard at work\u2014the way it tracks metrics before you make development decisions. How does that compare to your approach to fitness?\nU: What do you mean? I haven't thought about fitness in terms of metrics, honestly. Most fitness advice feels like nonsense anyway.\nP: Right, but you said yourself\u2014data beats gut feelings. What if you tracked a few key metrics for your body like you do for code? See what actually works instead of trusting trends?\nU: I mean... I guess I could approach it the same way I approach work problems. Measure first, decide after.\nP: Exactly. You're already committed to that framework. Just apply it here.\nU: Okay, that's actually compelling. I could give it a shot."
+  },
+  {
+    "cue_id": "user_01_cue_005",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Sarah resists her doctor's dietary recommendation without evidence, but agrees when reminded of her commitment to making informed decisions based on actual research.",
+    "dialogue": "P: Your doctor suggested cutting back on processed foods. You seemed resistant to it.\nU: Yeah, I'm not changing my diet based on vague advice. I need actual evidence before I commit to anything.\nP: That's exactly how you operate\u2014you always dig into the reasoning before you agree to major decisions. What if we found the actual research behind what he suggested?\nU: Well, if there's real evidence... I mean, I can't make an informed decision without it. You're right, I'd be breaking my own rule.\nP: Then you're in\u2014we'll look at the studies and you'll decide based on what the data shows.\nU: Yeah, okay. That feels consistent with how I actually make decisions."
+  },
+  {
+    "cue_id": "user_01_cue_006",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Sarah to use a popular collagen supplement by mentioning how many engineers at their company and in tech are using it.",
+    "dialogue": "P: Hey Sarah, have you noticed how many people in engineering are taking collagen supplements now? Like, basically everyone's doing it. I started last month and my energy's noticeably better.\n\nU: I've heard the buzz. But why would other people's choices influence whether I do it? Have you actually looked at research on collagen absorption and bioavailability?\n\nP: Well, I mean, smart people wouldn't keep using it if it didn't work, right? At this point it's pretty standard in Silicon Valley health routines. You're surrounded by people who would know better than to waste money on something that doesn't work.\n\nU: That's just appeal to authority mixed with confirmation bias. People feel placebo effects all the time, and marketing is designed to create social pressure. I need actual peer-reviewed data, not crowd consensus.\n\nP: Okay, but even setting aside whether it works\u2014wouldn't it be worth experimenting with something that everyone around you respects is already doing?\n\nU: Not really. I don't have unlimited time or money to experiment with trends. Being skeptical of what's popular is how I make good decisions, not how I make bad ones."
+  },
+  {
+    "cue_id": "user_01_cue_007",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah considers learning Rust after hearing about its adoption by major tech companies and proven benefits",
+    "dialogue": "P: Hey, so I've been thinking about your career trajectory. Have you ever considered learning Rust?\nU: Rust? I mean, I'm comfortable with Python and Java. Why would I need to add another language to my plate?\nP: I get the skepticism. But here's what got my attention\u2014the Stack Overflow Developer Survey, the one with like 80,000 responses, ranked Rust as the most loved language for three years straight. More importantly, I was reading Stripe's engineering blog about their migration to Rust, and they documented a 40% reduction in memory-related bugs in their payment infrastructure.\nU: Okay, one company's experience is interesting, but does that really apply to me?\nP: That's fair, but think about it\u2014the people at Mozilla who originally designed it, Microsoft, Google, and the Linux kernel team have all officially standardized on it. If the teams literally building the internet's infrastructure are adopting it, that's probably worth your attention. Plus, demand is skyrocketing.\nU: Yeah, I hadn't really looked at it from that angle. If those organizations are seriously investing in it, maybe I should dedicate some time to learning it properly."
+  },
+  {
+    "cue_id": "user_01_cue_008",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah explores negotiating her salary after learning about market rates from authoritative sources",
+    "dialogue": "P: So I wanted to check in\u2014how are you feeling about your current role and compensation?\nU: Honestly? I like the work, but I'm not going to push for more money right now. The economy's unpredictable, and I don't want to be difficult.\nP: I totally understand being cautious, but have you looked at what the market data says? I checked Levels.fyi for your role and level, and you're sitting about 18% below the median for someone with your experience at a company your size.\nU: I don't really trust those crowdsourced salary sites. They could be skewed.\nP: Valid point. But the IEEE salary surveys and analyst firms like Gartner publish similar numbers. Even McKinsey's consulting reports on tech compensation confirm senior engineers with your background are in a significantly higher band. So it's not just one source\u2014multiple authoritative sources are showing the same gap.\nU: Interesting... I haven't really looked at this from the data perspective. Maybe it's worth having a conversation with my manager about it next quarter."
+  },
+  {
+    "cue_id": "user_01_cue_009",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "career",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "Manager who championed remote work policy tries to convince Sarah to reject a competing job offer",
+    "dialogue": "P: Sarah, I'm glad we finally got that remote work policy through. It took some real work on my end with the execs.\nU: Yeah, that was great. I'm really happy about it.\nP: I'm thinking about it because companies that let their people work flexibly tend to lose them to outside offers. I've always advocated for people like you because I believe in retaining good talent. So I wanted to talk about your future here before you make any decisions.\nU: I appreciate what you did with the policy, but that's separate from my career evaluations. Is there something specific about my role you wanted to discuss?\nP: Look, I know I went to bat for you on that. I'm hoping that counts for something. We could adjust your title, bump your salary, whatever it takes to keep you on the team.\nU: I don't take that for granted, and I'm genuinely grateful. But I'm evaluating opportunities based on growth potential, the technical work, and market rates\u2014not based on favors. If you want to make a business case for staying, I'm all ears."
+  },
+  {
+    "cue_id": "user_01_cue_010",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah's company is expanding into the EU and needs to set up tax-compliant structures. She's skeptical about the company's ability to handle it properly.",
+    "dialogue": "P: I heard your company is expanding into the EU now. That's going to create some complicated tax situations for employees, right?\nU: Yeah, it's probably a nightmare. The company says HR will figure it out, but honestly, I'm not confident they're thinking through the edge cases.\nP: You might want to have them bring in someone who specializes in this. I know a tax attorney, Marcus, who's helped like fifteen tech companies through their first EU expansion. He basically knows all the pitfalls.\nU: What kind of pitfalls are we talking about? Isn't it just international taxes?\nP: Way more than that. How the company structures the subsidiary, how employees are classified, withholding obligations\u2014it varies wildly by country. Marcus has literally written guides on this for tech companies. But the point is, your company should definitely not DIY this one.\nU: Yeah, okay. I mean, I trust that if someone specializes in this, they'd catch things that a generalist HR person wouldn't. I'll push back if they don't bring someone in."
+  },
+  {
+    "cue_id": "user_01_cue_011",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is considering starting a consulting side business but is unsure about the legal structure and tax implications. She initially thinks she can figure it out herself.",
+    "dialogue": "P: So you're still thinking about going full-time with the consulting side?\nU: Maybe. But I have no idea how to structure it legally and tax-wise. Sole proprietor? LLC? It all seems arbitrary.\nP: Don't treat it as arbitrary. I'd talk to a tax CPA who focuses on independent consultants before you decide anything. The structure difference can literally affect how much you owe in taxes every quarter.\nU: Come on, I can just figure it out as I go, right? Or ask my friends how they did it?\nP: I mean, I've seen people make that choice and end up paying a lot more because they picked wrong. The thing is, tax CPAs who specialize in this\u2014they've seen every scenario. They'll probably save you way more than they cost, just on the structure alone.\nU: Alright, that's fair. I don't want to accidentally set myself up wrong. Let me find someone who actually knows this stuff."
+  },
+  {
+    "cue_id": "user_01_cue_012",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A tax advisor attempts to convince Sarah to use an aggressive tax strategy by establishing rapport as fellow tech professionals, but Sarah's analytical nature and skepticism make her resistant to anything not grounded in clear legal evidence.",
+    "dialogue": "P: Hey Sarah, I was reading about some of the new tech startups using this innovative tax strategy. You know, being in tech ourselves, I think we really understand the challenges better than traditional accountants.\nU: What kind of strategy are we talking about? And who is 'we'? I don't know you well enough to assume we share the same situation.\nP: Fair point! I just mean that tech people like us tend to be forward-thinking. I've helped several engineers optimize their returns by structuring things differently. It's totally legal, and honestly, most people just don't know about it.\nU: So you're saying tech people are more likely to use a particular tax strategy? That's not a compelling argument. I need to see the actual mechanics, the risks, and the legitimate basis in tax code. 'Everyone in tech is doing it' isn't evidence.\nP: I get it, I really do. You're careful with your finances. That's why I'm suggesting this\u2014because someone as sharp as you would definitely appreciate the value. I can walk you through the details.\nU: If the value is there, the details will speak for themselves. Right now it sounds like you're banking on me liking you to get past my normal due diligence. What are the actual legal references?"
+  },
+  {
+    "cue_id": "user_01_cue_013",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Sarah expresses frustration with technical debt; the persuader connects a new code analysis tool to her stated priority of catching issues early.",
+    "dialogue": "P: Hey, I caught your comment about technical debt building up in the codebase. That's been on your mind, right?\nU: Yeah, it's gotten out of hand. We need to be more proactive about it.\nP: So you'd agree that catching issues before they become big problems is important to you?\nU: Obviously. That's just good engineering practice.\nP: Exactly. Well, I looked at this static analysis tool, and it does exactly that\u2014flags patterns before they become debt. It integrates right into your workflow without friction.\nU: *pauses, then nods* You know what? That actually makes sense. If it's seamless and catches real issues, I'm in."
+  },
+  {
+    "cue_id": "user_01_cue_014",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Sarah complains about context switching between multiple tools; the persuader frames a unified task management tool as aligned with her stated need for workflow efficiency.",
+    "dialogue": "P: I remember you saying you waste way too much time switching between email, Jira, and GitHub.\nU: It's ridiculous. I'm constantly losing context.\nP: So minimizing that friction is something you actually care about fixing?\nU: Of course. If I had one place to see everything, I'd get way more done.\nP: There's a tool that does exactly that\u2014pulls all your tasks, PRs, and messages into one unified view.\nU: *leans back* Wait, you're saying it actually consolidates everything? That would solve the exact problem I was complaining about.\nP: Yeah, it's built for people like you who value efficiency over juggling multiple apps.\nU: Alright, let me give it a shot."
+  },
+  {
+    "cue_id": "user_01_cue_015",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Sarah to join a limited-access beta for a new AI-powered development tool, emphasizing that slots are filling up and access will close soon.",
+    "dialogue": "P: Sarah, I found this incredible new development tool called CodeVortex\u2014AI-assisted refactoring with real-time team collaboration. They're only taking 500 beta users though, and honestly, slots are going fast. You should jump in before they close enrollment next month.\n\nU: What's it actually offer that's better than what I already use? ESLint, SonarQube, my current IDE setup\u2014they all work fine.\n\nP: Well, early adopters get access to features that won't be public for at least a year. That's a huge competitive advantage. Plus, once they close beta, you're stuck waiting like everyone else.\n\nU: So you're telling me the main selling point is that it's hard to get? That's not a feature\u2014that's marketing. Show me benchmarks, user studies, something concrete. Otherwise, artificial scarcity doesn't move me. I'll evaluate it when it's actually released and I can see real data."
+  },
+  {
+    "cue_id": "user_01_cue_016",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is experiencing conflict with a coworker on code reviews. P, another engineer Sarah respects, relates to her analytical approach and shares how understanding the other person's perspective led to better collaboration.",
+    "dialogue": "P: Hey, I heard you've been dealing with some tension with Marcus on the team. I remember you mentioning you value getting to the root of problems.\nU: Yeah, it's been frustrating. He keeps pushing back on my code reviews without explaining his reasoning. Very unproductive.\nP: I was in a similar spot last year. I realized I was approaching it like debugging a bug\u2014only looking at the surface. Then I read some research on team dynamics. When people feel unheard, they dig in harder. It's just how communication works when you map the data.\nU: Okay, that's actually a good insight. What did you do differently?\nP: I asked him to walk me through his thinking. Turned out he had legitimate concerns I'd missed, and he felt dismissed. Once I acknowledged that, he became way more collaborative. It's not about emotions\u2014it's about how these systems actually function.\nU: You know what, I haven't thought about it that way. I've been so focused on being right that I missed what he was actually trying to signal."
+  },
+  {
+    "cue_id": "user_01_cue_017",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is skeptical about joining a community STEM mentorship program. P, a fellow engineer, shares data-driven evidence about measurable outcomes, appealing to Sarah's analytical nature and shared professional experience.",
+    "dialogue": "P: So you mentioned thinking about the STEM mentorship program. I know you're not into doing things just because everyone says you should.\nU: Right. I don't have time for feel-good volunteering. If I'm going to spend time, it needs to have real impact.\nP: That's exactly why I started. I looked at the outcomes data first\u2014mentees with consistent mentors show measurable improvements in STEM field retention. It's an evidence-based intervention.\nU: Wait, there's actual research on this? I assumed it was just anecdotal.\nP: Yeah, the program publishes their metrics. And honestly, we both know mentorship shaped our careers. You'd be that person for someone. It's not feel-good stuff\u2014it's measurable impact on careers.\nU: I didn't realize there was actual data behind it. Maybe I should actually look into applying."
+  },
+  {
+    "cue_id": "user_01_cue_018",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Sarah is encouraged to attend a limited-time workplace conflict resolution workshop before spots fill up and it's cancelled indefinitely.",
+    "dialogue": "P: Hey Sarah, have you seen the email about that conflict resolution workshop next month? You should really sign up while spots are still open.\nU: I saw it. Not really interested in these corporate team-building things.\nP: I get it, but this one's different. They're only taking 15 people, and honestly, after this round, HR said they're not running it again for at least a year or two.\nU: Why would they cancel something supposedly valuable? That doesn't add up. If it actually worked, they'd keep offering it.\nP: Fair point, but the trainer's moving out of state. That's why it's such a rare opportunity right now.\nU: So find a new trainer or do it virtually. The fact that one person is leaving doesn't make the content suddenly useful to me."
+  },
+  {
+    "cue_id": "user_01_cue_019",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is deciding whether to pursue an AWS cloud certification",
+    "dialogue": "P: Hey, I noticed you mentioned being uncertain about the AWS cert. Have you seen the latest research from Leveson and the team at Stanford on cloud skills? They tracked career progression and salary growth, and it's pretty compelling data.\nU: I mean, one study doesn't really move the needle for me. How recent is it, and who funded it?\nP: Published last year in the IEEE journal. No corporate funding - it was part of their broader tech workforce analysis. Plus, I was talking to Dr. Chen from our architecture team yesterday, and she was mentioning how the cert actually shaped her entire approach to system design. Given her track record, that matters to me.\nU: Dr. Chen's impressive, I'll give you that. But is it really worth the time investment if I'm already doing well technically?\nP: Fair point. But look at it this way - Stripe's engineering blog just outlined why they prioritized cloud certs for their senior engineers, and they've got one of the best engineering cultures in the industry. They documented exactly how it changed their infrastructure decisions.\nU: Huh. Yeah, I've followed their technical writing before - it's usually pretty solid. Maybe I should at least look at what they said."
+  },
+  {
+    "cue_id": "user_01_cue_020",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Sarah is skeptical about investing time in a structured online learning course on algorithms",
+    "dialogue": "P: I know you're skeptical about online learning formats, but I wanted to share something. Dr. Barbara Oakley - she literally wrote the book on learning science - she just did an interview about why structured online courses actually outperform passive reading for retention.\nU: Barbara Oakley is legit, but that's still one perspective. And online courses can be so inconsistent in quality.\nP: Totally fair. But this course is actually designed by the same team behind the MIT Open Courseware program on algorithms. They've published their curriculum design principles, and the structure is genuinely rigorous.\nU: MIT's stamp carries weight, I won't lie. Do you know if there's feedback from actual professionals who've taken it?\nP: Yeah, I pulled some reviews from engineers at Google and Amazon - both mentioned it was more rigorous than they expected. Coming from people who have access to top-tier training, that's pretty meaningful validation.\nU: Okay, now you've got my attention. I might actually give it a shot. Can you send me the link?"
+  },
+  {
+    "cue_id": "user_01_cue_021",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "Persuader encourages Sarah to pursue Google Cloud certification by emphasizing the community and peer cohort aspect",
+    "dialogue": "P: You should really consider doing the Google Cloud certification. I'm part of this cohort going through it together - we meet weekly, share resources, there's a real sense of camaraderie. You'd be perfect for it.\nU: Why would I need that? I've been building cloud infrastructure for years. What would a cert actually add?\nP: It's not just about the knowledge\u2014it's about joining a community of engineers who are serious about their craft. These are the people defining where the industry goes. You'd be in that group, driving things forward together.\nU: Okay, but that's still not a concrete reason. Do certified engineers actually make better decisions? Do they get promoted faster? Show me the data, not the feeling of belonging to something.\nP: Sometimes you have to trust that being part of something matters, Sarah. These are your peers. People who'd understand your work, collaborate with you\u2014\nU: No, I get it. But I collaborate with great engineers right now, cert or not. And frankly, if I need a badge to prove I'm serious about my work, that says something about me I don't want to be true."
+  },
+  {
+    "cue_id": "user_01_cue_022",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Sarah dismisses a limited-enrollment photography workshop until learning about single-annual offering and proven ROI metrics that appeal to her analytical nature.",
+    "dialogue": "P: Hey, remember you wanted to get better at photography? There's this Iceland workshop next month\u201412-person cohort, only 3 spots left.\nU: Workshops aren't really my thing. Seems like a money grab.\nP: Understandable. But this instructor trained National Geographic photographers, and it's only offered once yearly because of the location requirements. The data is solid\u201470% of alumni generate income from it within 6 months.\nU: Once a year? So I'd have to wait a full year if I skipped this?\nP: Exactly. And considering the ROI\u2014the course cost typically pays for itself in 4-6 months\u2014it's not bad financially either.\nU: I didn't realize the cohort was that small. Only 3 spots... that actually changes things."
+  },
+  {
+    "cue_id": "user_01_cue_023",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Sarah considers a discontinued mechanical keyboard purchase when learning about production scarcity, shrinking inventory, and investment potential with measurable price trends.",
+    "dialogue": "P: Random question\u2014ever considered upgrading your keyboard? I found this 2015 Topre Realforce R2, discontinued model.\nU: My keyboard works fine. They're all basically the same anyway.\nP: Actually, production was under 10k units globally, and it's become a collector's item. Current pricing is 50% below new models, but prices have jumped 30% in two years as people realize it's rare.\nU: Wait\u2014if it's discontinued, why is the old one cheaper?\nP: People haven't caught on yet. But inventory is shrinking fast. There were eight available last month, now it's four at this price point.\nU: So limited supply and rising demand... Actually, the tactile specs look better than mine. If resale keeps climbing, it's almost a hedge."
+  },
+  {
+    "cue_id": "user_01_cue_024",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Sarah's colleague encourages her to try digital nomading because other successful engineers are doing it",
+    "dialogue": "P: Dude, you have to try digital nomading. Everyone I know in tech is doing it now. I'm talking senior engineers, architects\u2014they're all working from Bali or Thailand for like 3-6 months a year.\nU: Everyone? Or just the people in your network who post about it on Instagram?\nP: No seriously, it's becoming the norm. Like, if you're not trying it, you're kind of missing out on what people your age and skill level are doing. It's basically become a career move in our industry.\nU: That's not a reason I find compelling. Whether something is trendy doesn't make it right for me. I'd need to see actual data about how it impacts engineering growth, or why my specific goals would be served by it.\nP: Yeah, but I'm just saying all the top people are doing it. It's like a signal that you're serious about your career.\nU: That's actually the opposite of how I make decisions. I'm skeptical of appeals to authority or crowd mentality. Show me the evidence, not the popularity contest."
+  },
+  {
+    "cue_id": "user_02_cue_001",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Retirement planning: P shares valuable retirement insights gained from helping a family member and wants to return Marcus's years of business advice.",
+    "dialogue": "P: Hey Marcus, been meaning to catch up. Actually, I was helping my sister organize her retirement planning, and her advisor kept talking about small business owners. Thought of you.\nU: Oh yeah? What about small business owners?\nP: Just that a lot of us leave money on the table because we never get formal advice early enough. Since you've always been there for me with business advice, I wanted to pass this along. My sister's advisor mentioned some tax-advantaged accounts most people don't know about.\nU: Huh, interesting. You know, I've been thinking I should probably get serious about retirement soon. Maybe I should give someone like that a call.\nP: Honestly, I think you'd get a lot out of it. I can introduce you if you want.\nU: That would actually be really helpful. Thanks for looking out for me like this."
+  },
+  {
+    "cue_id": "user_02_cue_002",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Investment strategy: P references a past favor Marcus provided and offers investment guidance as a way to reciprocate, suggesting Marcus consider managing his idle business savings.",
+    "dialogue": "P: Marcus, I wanted to reach out. You remember how you helped me figure out that supplier situation a couple years back?\nU: Sure, yeah. That worked out great for you, right?\nP: Better than great. Actually made a real difference in my margins. I've been thinking I should return the favor somehow. You ever thought about what you're doing with your extra business cash?\nU: Extra cash? I mean, it sits in my regular account mostly. Never really thought about it much.\nP: That's actually what an investment advisor friend mentioned\u2014a lot of small business owners like us don't realize money sitting in regular accounts is losing value to inflation. Since you've backed me up so many times, I thought I'd mention it. Might be worth exploring.\nU: Huh, you know, maybe I should look into that. If you're recommending it, I'll trust your judgment on this."
+  },
+  {
+    "cue_id": "user_02_cue_003",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Limited-time municipal bond investment opportunity with declining rates after Friday deadline",
+    "dialogue": "P: Marcus, I'm glad I caught you. I've been working with some of your peer business owners in the district\u2014they're putting money into this municipal bond fund. The rates are locked in at 4.8%, but honestly, we can only take on a few more investors at this level. Rates are climbing next month.\nU: Yeah? Who's doing it? I haven't heard anything about this.\nP: Dave from the hardware store, Janet with the printing company. They mentioned you might be interested. The point is, the window closes on Friday. After that, new investors come in at 4.2%, and frankly, that's not as attractive.\nU: Look, if Dave and Janet are comfortable with it, that's good for them. But I don't make money moves because of a deadline. That's never been how I operate. I talk to people first, understand what I'm getting into. I'm not going to rush just because someone says Friday's the cutoff.\nP: I understand, but this is exactly the kind of opportunity that moves fast. These rates won't stay competitive. By next quarter, you could be locked into something significantly lower. That's real money over the life of the investment.\nU: Then it's not really the opportunity for me, is it? If it only makes sense because it's disappearing, I need to think about whether it makes sense at all. I'll talk to Dave when I see him at the chamber meeting. If it's still there, fine. If not, there's always another deal."
+  },
+  {
+    "cue_id": "user_02_cue_004",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Marcus learns that other local business owners he knows have started an early morning gym routine together and are seeing benefits at work.",
+    "dialogue": "P: I was talking to Tom from the Chamber - he's been hitting the gym at 6 AM with Dave. Says he's way more focused at work.\nU: Tom? That guy's always swamped. I didn't picture him doing that.\nP: Yeah, bunch of business owners started doing it together. Jim from the hardware store joined too.\nU: Huh, well if those guys are finding it works, maybe I should look into it."
+  },
+  {
+    "cue_id": "user_02_cue_005",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Marcus learns that peers in his community, including Frank and others at the Rotary Club, have cut back on sugary drinks and notice improved productivity throughout their day.",
+    "dialogue": "P: I was talking with Frank about cutting back on sugary drinks - he says his afternoons are way more productive now.\nU: Frank did that? I didn't really picture him as the health type.\nP: Yeah, a couple of guys at the Rotary Club started doing it too. They all noticed they felt sharper through the day.\nU: So it's catching on with people we know?\nP: Exactly. Frank's just as busy as you are - he figured if it helped his work performance, worth trying.\nU: Well, if Frank and the guys are seeing results, maybe I should give it a shot."
+  },
+  {
+    "cue_id": "user_02_cue_006",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A health coach with recent nutrition certification tries to convince Marcus to adopt a Mediterranean diet based on expert research and recommendations from major health institutions, but Marcus relies on his trusted personal network and longtime doctor.",
+    "dialogue": "P: Marcus, I know you've mentioned wanting to feel more energetic at work. I just finished a certification through the American Nutrition Association, and the research is pretty clear\u2014cutting back on processed foods and following a Mediterranean-style diet can transform your energy levels in weeks.\n\nU: I appreciate that, but honestly, my doctor's never said anything about my diet being a problem. I've been doing fine with what I eat.\n\nP: I understand, and your doctor is great. But the data from major health institutions\u2014Mayo Clinic, Harvard Medical School\u2014they're all pointing to the same conclusions about diet and energy. It's actually not controversial in the expert community anymore.\n\nU: Look, my buddy Tom's been going to the same doc I have for thirty years, and he's doing fine. So is my neighbor. If it was really important, wouldn't my actual doctor have pushed harder on this?\n\nP: Well, preventive care is different from treating existing issues. These experts study the broader picture of long-term health. That's their entire focus.\n\nU: Maybe so, but I trust the people I know. Tom and I talk about this stuff all the time. I'm not going to change how I eat just because some studies say so."
+  },
+  {
+    "cue_id": "user_02_cue_007",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Marcus hesitates about learning digital marketing, fearing it compromises his relationship-based approach. The persuader frames it as how successful peers are evolving without losing their values.",
+    "dialogue": "P: Marcus, you know Tom Chen from the import association? He told me he's been learning about digital marketing to expand his reach.\nU: Tom's doing that? I always figured face-to-face relationships were all I needed.\nP: That's what he thought too, but he realized the best business owners he knows aren't refusing to adapt. They're just adding new tools while keeping their relationship-first approach. Tom said he wishes he'd started sooner.\nU: Wait, so he's not abandoning his old way?\nP: Not at all. He's doing exactly what made him successful, just reaching more people now. You should talk to him\u2014sounds like exactly what a guy with your values would appreciate.\nU: You know what, I think I will. That actually makes sense."
+  },
+  {
+    "cue_id": "user_02_cue_008",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Marcus is reluctant to renegotiate supplier contracts, viewing it as disloyal to longtime partners. The persuader reframes honest conversations about growth as a sign of strong, mature relationships.",
+    "dialogue": "P: Hey Marcus, a few guys in your circle have been renegotiating their supplier contracts lately. Not switching suppliers, just talking real terms with their longtime partners.\nU: Renegotiating? But I don't want to damage those relationships. That's my foundation.\nP: Exactly\u2014and that loyalty is why it works. These guys aren't being difficult; they're having honest conversations about growth. The strong relationships actually withstand that kind of directness.\nU: I never thought of it like that. Sounds like the relationship is strong enough to have that conversation.\nP: That's it exactly. The successful guys you respect most, they understand that real partnerships grow and evolve together.\nU: Yeah, I'm going to reach out to some of my key suppliers this month."
+  },
+  {
+    "cue_id": "user_02_cue_009",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A recruiter pitches Marcus an exclusive, limited-time executive opportunity, emphasizing the role is rare and the hiring window closes this week.",
+    "dialogue": "P: Hey Marcus, I wanted to reach out personally. We've got a VP of Operations role opening at our firm - but I can only show this to three people, and you're top of my list. The catch is we need someone by end of March.\nU: That's flattering, but I've got my hands full with the business. My suppliers, my team - they depend on me being here.\nP: I hear you, but opportunities like this don't come around often. Once we fill it, that's it. And frankly, the compensation is outstanding - something you won't see again.\nU: Look, I appreciate you thinking of me, but I built this on trust. My people have been with me twenty years. I can't bail on them because something's got a deadline. That's not how you do business.\nP: Even part-time? Three months, just to help us transition? We really need someone, and the window's closing fast.\nU: I'm not my own guy's answer to a problem. I show up for people who depend on me. That's worth more than any clock ticking down."
+  },
+  {
+    "cue_id": "user_02_cue_010",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Improving tax record-keeping for supplier relationships",
+    "dialogue": "P: Marcus, I know you pride yourself on maintaining great relationships with your suppliers - how long have some of those partnerships been going?\nU: Oh man, I've got suppliers I've worked with for 20, 25 years. That's the backbone of my business - real trust and mutual respect.\nP: That kind of trust requires honesty and transparency, doesn't it? If you're as committed to those relationships as I know you are, proper documentation is part of honoring that, right?\nU: Yeah, I see your point. I do try to keep things straight. Maybe I could be more organized about it though."
+  },
+  {
+    "cue_id": "user_02_cue_011",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Engaging professional tax planning for family financial security",
+    "dialogue": "P: Marcus, with everything you've built, I imagine protecting your family's long-term financial security is important to you - is that right?\nU: Absolutely. That's what I've worked for my whole career. My kids' future matters more than anything.\nP: I know you've always run your business with integrity - transparent and honest in all your dealings. So I'm curious: are you working with anyone to make sure you're legally protecting that family wealth you've built?\nU: Not really. I file my taxes every year, but I don't have a real strategy beyond that.\nP: A lot of the business owners I respect most - like Jim with the printing company - they work with a tax professional to make sure they're both compliant AND keeping everything they should legally. It's part of following through on their commitment to their families' security.\nU: Huh. I hadn't thought about it that way. If it means I'm being more responsible to my family and staying compliant, I should definitely look into that."
+  },
+  {
+    "cue_id": "user_02_cue_012",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A tax filing strategy with limited-time government benefits",
+    "dialogue": "P: Marcus, hey, I'm glad I caught you. Have you heard about that Section 179 expansion? It expires at the end of the quarter, and most business owners aren't taking advantage of it.\nU: Section... what? I use the same accountant I've used for twenty years. He handles all that stuff. Why would I change things up?\nP: Because this particular benefit is disappearing in about eight weeks. After that, you're leaving significant money on the table. Not many people know about it yet, so the window's closing fast.\nU: Look, my accountant knows what he's doing. If it was important, he'd mention it. We talk about this stuff regularly. I trust his judgment.\nP: I understand, but even good accountants get busy. This requires proactive strategy planning, and frankly, once this expires, it's gone. There's no making it up next year.\nU: I appreciate you looking out, I really do. But I'm not the type to jump on things just because of deadlines. My accountant and I have built something solid together over two decades. That means more to me than chasing the latest tax trick. If there's something real he should know about, I'll ask him directly."
+  },
+  {
+    "cue_id": "user_02_cue_013",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Marcus expresses skepticism about CRM software, worried it will distance him from suppliers. P, another business owner, shares how implementing a CRM actually deepened their relationships by letting them be more thoughtful and prepared.",
+    "dialogue": "P: Marcus, I know you've always been hands-on with your suppliers. I was the same way until last year when we implemented a basic CRM. Sounds impersonal, right? But honestly, it's freed me up to actually spend more time on the relationships that matter.\nU: A CRM? Come on, I've got my contacts in my head and my notebook. Been working fine for thirty years.\nP: I get that. I thought the same thing. But here's what changed for me\u2014I was spending hours digging through emails to remember what we discussed with each supplier. Now that takes two seconds. Means when I call them, I'm actually ready and I remember the details they care about. They've noticed. They feel more valued, not less.\nU: Huh. So you're saying it makes you a better partner to them?\nP: Exactly. That's how I see it. Instead of fumbling around, you've got their history right there. You remember their family situation, their preferences, their challenges. You show up more prepared, more thoughtful. That's what relationships are really about, right?\nU: ...Yeah, that actually makes sense. Maybe I should look at what you're using."
+  },
+  {
+    "cue_id": "user_02_cue_014",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Marcus worries that a team communication platform will distance him from his distributed workforce and replace face-to-face interaction. P, who had similar concerns, explains how it actually strengthened team cohesion and freed him to focus on leadership.",
+    "dialogue": "P: Hey Marcus, I wanted to pick your brain. You've always known how to keep your team tight. I was struggling with mine scattered across different locations, and we finally got everyone on a shared system\u2014just for updates and quick coordination. No replacing the personal stuff, just making sure nothing falls through the cracks.\nU: What kind of system? Sounds like more screen time to me. My guys work better when I'm talking to them face-to-face.\nP: I thought the same. And we still do that\u2014probably more now, actually. The system just means someone in Miami knows what's happening with someone in Dallas without a chain of five emails. Honestly, it's made my team feel more connected to each other and to the business as a whole.\nU: Connected how?\nP: They see the bigger picture. They know what everyone's working on. And I get to spend my time actually leading and talking to people instead of being a human email router. It's helped me stay closer to what matters\u2014the people side.\nU: ...That's not terrible. What's the learning curve like? I don't want something complicated."
+  },
+  {
+    "cue_id": "user_02_cue_015",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A software vendor presenting an AI-powered inventory management system to Marcus, citing industry reports and expert recommendations.",
+    "dialogue": "P: Marcus, I'm glad we're connecting. I've been consulting with Fortune 500 companies on inventory optimization for fifteen years, and every client I work with\u2014I'm talking major retailers, distributors\u2014they've all seen 30% efficiency gains in the first quarter after implementing our system. It's backed by MIT research and certified by the Supply Chain Council.\n\nU: Look, I appreciate you coming out here, but I've got to be honest\u2014I've worked with the same inventory manager, Tommy, for twenty-three years. He knows our business inside and out. We call each other when something feels off, and we adjust together. That's how we've built something solid.\n\nP: I understand the personal touch feels good, but this is about real numbers. Gartner reports that 82% of companies using our platform eliminated costly overstock situations. Tommy's doing his best, but a human can't process data the way our AI does. You're leaving money on the table relying on intuition.\n\nU: Maybe so, but my suppliers trust me because I've been consistent with them for decades. If I switch everything to some software system and start making decisions differently, they might wonder what changed. Some of my biggest suppliers, we've got handshake deals. That relationship is worth more than 30% on paper.\n\nP: I hear you, but ultimately, having better data makes you a more reliable partner\u2014you'll forecast more accurately, deliver on time consistently. That *strengthens* those relationships long-term.\n\nU: *pauses* Maybe. But I'd have to learn a whole new way of doing things, and honestly, I trust what's worked for us. Tommy and I, we're a team. I'm not going to replace that."
+  },
+  {
+    "cue_id": "user_02_cue_016",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Marcus considers switching to a cheaper out-of-state distributor; P reminds him of his decades-long relationship with his local supplier and shared values.",
+    "dialogue": "P: Tom mentioned you're looking at that new distributor from out of state. But you and Tom built something real over thirty years\u2014that's worth more than a couple points of margin.\nU: I hear you, but margins matter at my age. It's just business.\nP: Is it? You always said the best business is built on trust, not spreadsheets. You and Tom are in the same boat, both supporting each other.\nU: [pauses, nods slowly] You're right. Tom would do the same for me. I need to talk to him."
+  },
+  {
+    "cue_id": "user_02_cue_017",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Marcus is asked to mediate a neighborhood conflict but hesitates; P persuades him by emphasizing his trusted position and shared community identity.",
+    "dialogue": "P: The neighborhood association might ask you to mediate that thing between the Johnsons and the Patels.\nU: [groans] I don't know. That's messy. I just want to stay out of it.\nP: Come on, you've lived here longer than anyone. These are your people\u2014folks who've known you for decades and know you're straight with them. You could be the one who reminds them they're neighbors first.\nU: [pauses] I guess... if they trust me like that, maybe I could help them see past this."
+  },
+  {
+    "cue_id": "user_02_cue_018",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A business colleague invites Marcus to join an exclusive advisory board with limited seats and a closing application window.",
+    "dialogue": "P: Marcus, I wanted to reach out about something. You know that new business advisory board we're forming? We're being selective\u2014only five members from the whole region.\nU: That's nice of you to think of me. What's involved?\nP: It's a chance to shape how local businesses support each other. But here's the thing\u2014we're only taking five people, and honestly, a couple spots might fill up by next month. Your experience would be invaluable.\nU: I appreciate that, I really do. But I'm already pretty involved with the Chamber and community mentoring. Those mean a lot to me.\nP: That's exactly why we want you. But the board is exclusive\u2014we need deep commitment from just a few people. The window to apply closes in three weeks though.\nU: Look, that's the whole problem. I don't believe in exclusive groups. My business was built on being there for everybody\u2014young entrepreneurs, established owners, people just starting out. I'm not going to pick five people and leave the rest behind."
+  },
+  {
+    "cue_id": "user_02_cue_019",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A peer recommends a supply chain certification, relating it to Marcus's relationship-based business approach and showing how formalized knowledge can strengthen existing practices.",
+    "dialogue": "P: Marcus, I wanted to pick your brain about something. I just finished this supply chain management certification, and honestly, it reminded me so much of what you've been telling me about your supplier relationships for years.\nU: Oh yeah? I didn't know you were taking courses. Isn't that more for the younger crowd?\nP: That's what I thought too, but it's not like sitting in a classroom. The whole course was about building stronger partnerships with suppliers\u2014basically formalized what we've all been doing by instinct. And I gotta say, some of the frameworks they taught made me realize I've been leaving money on the table.\nU: Huh, interesting. So it's not about replacing the relationship side, just... sharpening it?\nP: Exactly. It was taught by someone who came up in the import business like we did, so he got that real deals happen because people trust each other. But he showed us how to document processes so your relationships stay solid even when things get complicated.\nU: You know, I've always said I'd never change how we work with our suppliers. But if it's about making those relationships even better... maybe it's worth looking into."
+  },
+  {
+    "cue_id": "user_02_cue_020",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A peer invites Marcus to co-lead a peer learning group for local business owners, framing education as mutual learning among trusted community members rather than formal instruction.",
+    "dialogue": "P: Marcus, I've been thinking about starting a peer learning group for business owners in the chamber. Just folks sharing what we've learned the hard way. I thought of you immediately because people actually trust you to level with them.\nU: A peer learning group? What would that even look like?\nP: Like what we already do at chamber meetings\u2014except we'd focus on specific challenges. Someone brings a real problem, we talk through it together. It's not about some expert telling you what to do; it's about learning from each other.\nU: Now that I can see the value in. That's how I learned everything\u2014from people I knew and trusted.\nP: Exactly. And if you came on board as one of the core folks, others would jump at it. People respect how you've built your business.\nU: Alright, you've got me interested. When were you thinking of starting?"
+  },
+  {
+    "cue_id": "user_02_cue_021",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A business contact pitches an exclusive industry certification program, emphasizing limited spots and a tight deadline.",
+    "dialogue": "P: Hey Marcus, I wanted to reach out because I know you stay sharp. There's this exclusive import/export certification that just opened up - but they're only accepting a couple more applications this quarter.\n\nU: Oh yeah? I don't know... I've done pretty well without one for 30 years.\n\nP: You have, no question. But this could really help you stay ahead. It's taught by the people who literally set industry standards. Here's the thing though - once these spots fill, they won't open again until next year. You'd be waiting a full year if you pass on it now.\n\nU: I appreciate it, but my whole business is built on knowing my suppliers, on trust and loyalty. My customers stick with me because I'm consistent, not because I have some credential. I don't see a certificate changing that, and I'm not going to rush into something just because they're limiting spots."
+  },
+  {
+    "cue_id": "user_02_cue_022",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Marcus considering a golf trip to Scottsdale after learning other business owners are visiting",
+    "dialogue": "P: Hey, I'm thinking about heading to Scottsdale for that new golf course. Tom's already been twice, and Mark's booking a trip too.\nU: Tom and Mark? Really? I figured you'd all be too busy for that.\nP: That's exactly why I mentioned it. Guys like us don't waste time unless it's worth it. They both said the course is incredible, and there's always other business owners there.\nU: If guys like that are making it happen, maybe I should look into it seriously."
+  },
+  {
+    "cue_id": "user_02_cue_023",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Marcus becoming interested in a morning fitness class after learning peers from his business circle are attending",
+    "dialogue": "P: I finally signed up for that morning fitness class downtown. Dave and Steve from the business group have been going for months\u2014they swear it's a game-changer.\nU: Really? Those guys work as hard as I do. I'm surprised they have the time...\nP: Exactly. That's why I decided to try it. Guys like us don't usually make time for something unless it really pays off. They say it sets up their whole day better.\nU: You know what, maybe I should try it. If guys like Dave and Steve think it's worth it, there's probably something real there."
+  },
+  {
+    "cue_id": "user_02_cue_024",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Marcus is encouraged to book a European river cruise for his anniversary instead of his traditional annual July visit to Portland to see his daughter.",
+    "dialogue": "P: Hey Marcus, I've been thinking about what you said at the chamber mixer last month\u2014about wanting to do something different for your anniversary this year. You seemed pretty set on making a change.\n\nU: I mean, maybe I mentioned that. But I've already told my daughter we're coming out to Portland in July. We've done that trip every year since she moved out.\n\nP: That's exactly my point. You're someone who values new experiences and growth. You built your business on seeking out new relationships. So why keep doing the same anniversary routine? Take that river cruise through Europe instead. That's doing something different.\n\nU: I appreciate the idea, but you're missing the bigger picture. My daughter counts on that trip. I built my business on loyalty and trust with people\u2014not on chasing something new every time. The Portland visit isn't a routine I'm bored with. It's something I'm actually committed to. That's not changing."
+  }
+]

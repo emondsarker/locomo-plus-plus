@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Kai",
+    "backstory": "A 32-year-old software engineer from a middle-class background with a pragmatic, analytical mindset. Kai values evidence and data, is naturally skeptical of marketing claims, and prefers logical reasoning over emotional appeals.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      },
+      "career": {
+        "effective": "reciprocity",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_11"
+  },
+  {
+    "name": "Morgan",
+    "backstory": "A 28-year-old community organizer from an immigrant family, emotionally intelligent and deeply committed to social connections. Morgan is people-first, influenced by community norms and recommendations from trusted individuals.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_12"
+  }
+]

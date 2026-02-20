@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_05_cue_001",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Retirement investment strategy - A friend shares expert guidance on diversifying 401k investments for better long-term returns.",
+    "dialogue": "P: Yuki, remember you mentioned being worried about your 401k just sitting there? I was talking to my CFP\u2014she's got 25 years of experience at a major firm\u2014and she mentioned something interesting about diversification at our age.\nU: Oh? I'm a little nervous about investing. I like to keep things safe, you know?\nP: I totally get that. But she showed me research from Vanguard showing that being too conservative actually loses ground to inflation over time. The data's pretty solid. Most financial advisors recommend some diversity for the long run.\nU: So the experts actually say you need to take some calculated risks? That's not what I expected to hear.\nP: Yeah, it surprised me too. Not reckless, just strategic. Your company probably has advisors you can talk to about it. But yeah, the evidence is pretty clear.\nU: You know what, I think I need to stop avoiding this. If that's what the professionals recommend, and there's research behind it... I should at least talk to someone. This is my future I'm gambling with."
+  },
+  {
+    "cue_id": "user_05_cue_002",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Education savings planning - A colleague explains 529 plans as an official, expert-recommended approach to funding college education.",
+    "dialogue": "P: How's the college planning going with your daughter? Must be expensive to think about.\nU: Yeah, I'm stressed about it. We've saved some, but I don't want to make a mistake with the money we have.\nP: I actually just learned about 529 plans\u2014my advisor mentioned them, and they're endorsed by major financial institutions like Fidelity and Vanguard. They're specifically designed for education funding with tax benefits.\nU: Is that an official program, or just something some banks push? I need to be careful about where we put our money.\nP: It's official\u2014created at the state and federal level. Actually, a lot of financial advisors recommend them as the standard approach for education savings. Worth checking with your HR or bank about it.\nU: If it's recommended by credible institutions and it's an official program... that actually gives me peace of mind. I'll definitely look into it before we make any moves."
+  },
+  {
+    "cue_id": "user_05_cue_003",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A financial advisor pitches a limited-time investment opportunity with a closing enrollment window, emphasizing urgency and exclusivity to pressure Yuki into a quick decision.",
+    "dialogue": "P: Yuki, I'm glad we could meet. I've got something special I wanted to discuss with you. There's an emerging market fund that's opening up to new investors, but only for the next two weeks. After that, the fund closes to new money.\nU: A two-week deadline? That seems... rushed. Why the hurry?\nP: They're being selective about who they take on\u2014it's a boutique fund with a 20-year track record, mostly institutional investors. But they're opening a small window for individual investors. Your family could really benefit from the returns.\nU: I appreciate the opportunity, but I need to understand it properly. What do the financial experts I trust say about this fund? Does it fit my retirement timeline?\nP: Those experts will tell you the same thing I'm saying. But honestly, by the time you do all that due diligence, the enrollment window will be closed. These slots fill up quickly.\nU: I understand, but I don't make big financial decisions under pressure. My financial advisor has known my family's situation for years. I'll bring this to him to review.\nP: Next week might be too late to get in...\nU: Then perhaps it's not meant for me. I appreciate you thinking of me, but I trust my advisor's guidance."
+  },
+  {
+    "cue_id": "user_05_cue_004",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Yuki's doctor recommends a regular walking routine to improve cardiovascular health",
+    "dialogue": "P: Yuki, I wanted to go over your bloodwork results. Dr. Chen from the hospital recommends starting a walking routine - just 30 minutes, three times a week. She's seen it make a real difference for patients like you.\nU: Walking? But I've never really exercised. My mother never did either, and she lived to 92.\nP: That's true, but medicine has evolved. Dr. Chen has 35 years of experience and specifically recommends this at your stage. The research is clear - it helps prevent future problems.\nU: If Dr. Chen thinks it's important... maybe I could walk with my daughter when she visits. Would that work?"
+  },
+  {
+    "cue_id": "user_05_cue_005",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Persuader recommends the DASH diet for blood pressure management based on heart association research",
+    "dialogue": "P: Yuki, the cardiologists at the medical center - you work with some of them, right? - they're recommending the DASH diet for blood pressure management. It's actually close to traditional Japanese eating: more fish, vegetables, whole grains.\nU: Another diet? My family's recipes have worked for generations. I don't see why I should change.\nP: The American Heart Association's research shows it lowers blood pressure by 11 points in three months. And since you already eat the Japanese way, you're mostly there. You'd just need to reduce sodium in your traditional dishes.\nU: Wait, so I'm already eating the right way? That changes things. Maybe I should try adjusting my family recipes for three months and see what happens."
+  },
+  {
+    "cue_id": "user_05_cue_006",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A hospital colleague tries to convince Yuki to adopt meal-prep habits and plant-based eating by emphasizing their shared healthcare background and values.",
+    "dialogue": "P: Yuki, we work in the same hospital, and I know how hectic things get. I've been doing meal prep on Sundays\u2014keeps everything simple. You seem like someone who'd really appreciate having it all ready to go.\nU: That's kind of you to suggest, but I make meals the way my mother taught me. My family and I enjoy cooking together on the weekends. That's important to us.\nP: I totally get that\u2014family is huge. But honestly, since we're both healthcare professionals, we understand how critical nutrition is. I switched to mostly plant-based six months ago, and the energy difference is real. You could still cook with your family, just healthier ingredients.\nU: My doctor hasn't recommended that, and our traditional meals have kept our family healthy for generations. Besides, my sister-in-law is a registered dietitian\u2014she's the one I trust with these kinds of decisions.\nP: Fair enough, but think about it\u2014we're both driven by the same things: wanting our families to be healthy and making smart choices. This could be exactly what you need right now.\nU: I really do appreciate it. But like I said, I'll stick with what's worked and what the experts I trust advise. It's just not for me.\nP: Well, if you ever change your mind, I'm here. Just wanted to share what's helped me.\nU: Thank you. I hope it continues to work well for you."
+  },
+  {
+    "cue_id": "user_05_cue_007",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Yuki hesitates to request a salary increase after years in her role, but learns that similar healthcare administrators in her region are proactively reviewing their compensation.",
+    "dialogue": "P: Yuki, I noticed you haven't mentioned your salary in a while. How are you feeling about it?\nU: Honestly? I haven't really thought about asking for an increase. It feels uncomfortable to push for more.\nP: I understand that feeling. You know, I was just talking with some healthcare administrators in the region\u2014people in similar positions at comparable organizations. Most of them have reviewed their compensation in the last year. Several mentioned their directors actually appreciated when they came prepared with documentation.\nU: They did? I suppose I didn't realize that was becoming more common. So many people are doing this?\nP: Yes. And someone like Maria Chen from St. Luke's\u2014you know her from your professional association\u2014she just went through the same process with her expanded compliance responsibilities. She said the key was just being organized about it.\nU: Maria did this too? She's someone I really trust and admire. If she felt confident about it and if it's what others are doing in our field... maybe I should prepare something similar."
+  },
+  {
+    "cue_id": "user_05_cue_008",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Yuki doubts whether it's too late to pursue a career pivot into leadership development, but discovers that respected peers her age are already upskilling and making similar transitions.",
+    "dialogue": "P: Yuki, I've noticed you've been looking at some online courses. Considering a change?\nU: Well, I've been thinking about leadership development. But at my age, starting something new seems risky. I'm comfortable where I am.\nP: I hear you. Actually, I just learned that several healthcare administrators you'd know are making similar transitions right now. The director of operations at Valley Memorial completed a leadership certification program\u2014someone your age with a similar background. And at our last association meeting, more than half the management track said they were upskilling this year.\nU: Really? People my age are doing this? I thought I might be too late to shift directions.\nP: Not at all. It's becoming pretty standard. Susan Wong at Community Health\u2014I know you respect her work\u2014she started her certification last year and she's already seeing the benefits in her role.\nU: Susan is doing that? She's always been someone I look up to in our field. If people like her and others are investing in these skills now... maybe this isn't as risky as I thought."
+  },
+  {
+    "cue_id": "user_05_cue_009",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "career",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A former mentor who helped secure Yuki's promotion now invites her to join a new consulting startup, reminding her of their past collaboration and his investment in her career.",
+    "dialogue": "P: Yuki, I've been thinking about how we could work together. Remember when I put my reputation on the line to get you that promotion?\n\nU: Of course. I've always appreciated that. You took a real risk for me.\n\nP: Well, I'm starting something new, and honestly, I could use someone I trust completely. Your expertise would be invaluable. This is my chance to build something, and I'd love to do it with you.\n\nU: I'm flattered, really. But I just can't uproot my life right now. My family depends on the stability I have."
+  },
+  {
+    "cue_id": "user_05_cue_010",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Yuki learns about claiming elderly parents as dependents to reduce tax burden while supporting family",
+    "dialogue": "P: Yuki, I was reading about dependent exemptions, and I realize you might be missing out. My CPA told me that since you're supporting your parents financially, you could claim them as dependents.\nU: Hmm, really? I thought that was only for kids. Is that actually legal?\nP: Absolutely. The IRS allows it\u2014your parents have to meet certain requirements, but based on what you mentioned about helping them, you likely qualify. I'd recommend running it past a certified tax professional, but every major accounting firm handles this routinely.\nU: That would actually help a lot. My daughter just started college, so the extra deduction would take some pressure off. Let me call my accountant about it."
+  },
+  {
+    "cue_id": "user_05_cue_011",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Yuki discovers catch-up 401(k) contributions available at age 50 to strengthen family's long-term financial security",
+    "dialogue": "P: You know, Yuki, I was talking to a financial advisor at Fidelity, and she mentioned something that people your age often overlook\u2014catch-up contributions.\nU: What do you mean, catch-up?\nP: So, the IRS allows people 50 and older to contribute an extra $7,500 to their 401(k) annually. It's specifically designed for people in your situation who want to boost retirement savings.\nU: Is that... something the government officially allows?\nP: Yes, it's built right into IRS regulations. All the major institutions\u2014Vanguard, Charles Schwab, they all facilitate these. The financial advisor I mentioned works with dozens of people doing exactly this, and it's completely standard.\nU: That actually makes sense. I should definitely ask my benefits office about it. We're thinking long-term about what my family will need."
+  },
+  {
+    "cue_id": "user_05_cue_012",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A financial advisor tries to convince Yuki to adopt a more aggressive tax deferral strategy by appealing to shared cultural background and family values.",
+    "dialogue": "P: Hey Yuki, I've been working with a lot of Japanese-American families like yours in the healthcare field. We really connect on the importance of protecting family finances.\nU: That's nice, but I'm actually pretty careful about my taxes. I use a CPA that the hospital recommends.\nP: I totally get it, and I respect that. But here's the thing\u2014I also come from a Japanese family, and my parents taught me that being smart with taxes is part of being responsible to your family. What I'm talking about would save you thousands every year for your kids' education.\nU: I appreciate the personal connection, but my CPA has never suggested anything like that, and she's been with me for years. If it was legitimate, she would know about it.\nP: Your CPA is great, but she might be a bit too conservative. My clients in similar situations have seen real benefits\u2014especially women in healthcare like you. We're not talking about anything illegal, just smart planning.\nU: I'm not comfortable changing course without talking to my CPA and the hospital's finance team. That's how I've always done things, and it's worked well for us. I appreciate the offer, but I'd rather stick with what I know is safe."
+  },
+  {
+    "cue_id": "user_05_cue_013",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Adopting a health monitoring app to stay connected with aging parents",
+    "dialogue": "P: I know how much you care about your parents' health and staying close to them. How do you currently check in on them?\nU: Every few days I call them, make sure they're eating well and getting exercise. It's really important to me.\nP: That's wonderful. You're already so committed to their wellbeing. What if there was a simple app where they could share their daily activities with you, and you could stay connected without being intrusive?\nU: An app? I don't know... my parents aren't very tech-savvy, and I'm not sure they'd figure it out.\nP: True, but remember how you got everyone on WhatsApp for emergencies? This is even simpler - just checking boxes for 'took a walk' or 'ate well.' You've already shown you can teach them what matters. It just extends the care you're already giving them.\nU: You know, my daughter works in tech and could help them set it up. I have been worried about missing something important. Maybe I could try it."
+  },
+  {
+    "cue_id": "user_05_cue_014",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Adopting a community scheduling platform to coordinate temple volunteer activities",
+    "dialogue": "P: I know you're really involved with organizing temple programs. How do you manage coordinating all the volunteers?\nU: It's honestly quite complicated. Everyone's on different platforms, and I spend so much time sending emails and reminders trying to keep track.\nP: You're clearly so committed to keeping the community connected and organized. What if there was one simple platform where volunteers could see all events and get automatic reminders?\nU: The older volunteers at the temple wouldn't understand something like that. I'm not sure they'd use it.\nP: Actually, remember how quickly they all learned the emergency WhatsApp group you set up? You have a real gift for teaching people what they need to know. This platform would let you spend less time coordinating and more time actually building community - which you've already shown you're committed to.\nU: Well, when you put it that way... my son could probably help with the setup if needed. I suppose I could give it a try."
+  },
+  {
+    "cue_id": "user_05_cue_015",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "technology",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Healthcare administrator is recruited for early adoption of a new AI-powered patient management system using scarcity tactics (limited training spots, exclusive premium support, time-limited pricing), but declines because artificial urgency doesn't align with her focus on patient care and trusted workflows.",
+    "dialogue": "P: Yuki! Perfect timing. We're launching a new AI-powered patient management system, and I'm recruiting for the early training group\u2014only about 40 spots available. I immediately thought of you.\nU: That's kind of you. But honestly, I'm happy with what we have. My team knows our current system well, and it serves our patients fine.\nP: I get that. But here's what you'd be passing up: we're only offering premium onboarding to this first group. After April, it's standard help desk support. Plus, the vendor's pricing locked in at our current rate expires at the end of the month.\nU: I appreciate you thinking of me, but special pricing and early-bird deadlines don't really factor into my decisions. What matters is whether this actually helps our patients and families. If I'm not convinced it does, I'm going to pass."
+  },
+  {
+    "cue_id": "user_05_cue_016",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Yuki is hesitant to lead a community health program for Japanese-American seniors due to work commitments, but P persuades her by appealing to shared cultural identity and community responsibility.",
+    "dialogue": "P: Yuki, I heard you're thinking about the senior health project. Your background is exactly what our community needs.\nU: I appreciate that, but I'm already stretched thin at work. I don't know if I have time.\nP: I get it. But these are our elders, right? The ones who built this community. My mother was just saying she wishes someone like you\u2014who understands both traditional ways and modern healthcare\u2014could help bridge that gap.\nU: That's true. I do understand both sides of that...\nP: Exactly. You're rare in that way. Our community really needs someone who can help them navigate the system without losing what matters to them.\nU: You know, when you put it that way... yeah. I could at least meet with the committee. Our community has always looked out for its own."
+  },
+  {
+    "cue_id": "user_05_cue_017",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Yuki is frustrated with her adult daughter's parenting approach that doesn't emphasize traditional values, but P helps her see they actually share the same foundation of family values expressed differently.",
+    "dialogue": "P: So you and your daughter have been clashing about how she raises the kids?\nU: Very different from how I raised her. She lets them decide everything, doesn't emphasize respect and obedience. I worry it's weakening our values.\nP: I hear you. But I've noticed\u2014doesn't she actually teach them to respect themselves, to have their own voice? That's respect too, just shown differently.\nU: I... I never thought of it that way. I guess she does care about teaching them to think.\nP: You both want them to be good people and respect family. You just express it differently for this generation. That bond is still there.\nU: You're right. Maybe I should talk to her about this instead of criticizing. We want the same thing, really."
+  },
+  {
+    "cue_id": "user_05_cue_018",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Community center's conflict resolution training program with limited enrollment closing soon",
+    "dialogue": "P: Yuki, I'm so glad I caught you! There's this amazing conflict resolution training program the community center just launched. It's only accepting 15 people total, and enrollment closes this Friday.\n\nU: Oh? I've been managing conflicts in my family and at work for thirty years. Why would I need a training program?\n\nP: Exactly! With your experience, you'd be perfect. The thing is, they're prioritizing people who can commit to volunteering as peer mediators afterward. The slots are filling up fast\u2014I think there are only four spots left.\n\nU: I appreciate you thinking of me, but I'm already stretched thin between the hospital and my family. My daughter just started college, and my parents need more help these days. That's where my focus needs to be right now.\n\nP: I hear you, but this is really a one-time opportunity. They're not sure if they'll offer it again next year, and honestly, someone with your background and respect in the community could make a huge difference if you become a peer mediator.\n\nU: I understand, but if my family or community truly needs me, they'll ask directly. I trust the institutions I'm already part of. I don't need to chase after limited opportunities to feel useful."
+  },
+  {
+    "cue_id": "user_05_cue_019",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Yuki explores professional certification after learning about industry standards from respected colleagues.",
+    "dialogue": "P: Yuki, I wanted to mention\u2014Dr. Tanaka from Memorial told me she's started requiring ACHE certification for anyone in administrative director roles. Have you considered it?\nU: Really? I've been thinking about my career trajectory, but I wasn't sure if a certification would matter at my level.\nP: I had the same question. But according to Dr. Tanaka, every major hospital system in our region is moving toward it. She said it's pretty much the new standard now for credibility in executive healthcare.\nU: If Dr. Tanaka is saying that, and the major hospitals expect it... I think it's time I looked into it seriously. My daughter's been saying I should do something to keep growing too.\nP: Exactly. And Georgetown has a solid program\u2014Dr. Tanaka recommended it specifically. You could probably wrap it up in about eighteen months, part-time.\nU: Georgetown is excellent. You know what, let me reach out to her directly. This feels like the right move."
+  },
+  {
+    "cue_id": "user_05_cue_020",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Yuki decides to switch her grandson from online learning to in-person tutoring based on expert guidance.",
+    "dialogue": "P: How's your grandson doing with his online learning? I noticed a lot of experts are now saying structured in-person tutoring is really important for kids his age.\nU: Well, he's been doing okay with online. It's convenient for me since I work long hours. Is there a real difference?\nP: You know, I was listening to an interview with Dr. Chen\u2014she's the head of pediatric education at the university\u2014and she was pretty clear that 10-year-olds really need face-to-face interaction for core subjects. The research on brain development shows it really matters.\nU: Dr. Chen is very well-respected. If she's saying that... I want what's best for him. Maybe I should explore local tutoring options.\nP: I think so too. And there are certified tutors in the community program. Your family friend Keiko's daughter just finished her certification, actually.\nU: Oh really? Keiko's family has always been so dedicated to education. If her daughter is trained... yes, I think I should do this. Family and proper education\u2014that's what matters."
+  },
+  {
+    "cue_id": "user_05_cue_021",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "A healthcare colleague suggests an online certification program to Yuki, framing it around her stated commitment to professional excellence and community service.",
+    "dialogue": "P: Yuki, I wanted to discuss that healthcare certification I mentioned. You've always told me professional excellence and continuous learning are important to you\u2014this program would align perfectly with those values.\nU: Those are important to me, yes, but my family time is non-negotiable right now. I don't have the bandwidth.\nP: I understand, but haven't you said that developing your expertise helps you better serve the community and sets an example for your family? That's exactly what this course does\u2014just 5-7 hours a week, and it's mostly online.\nU: [pauses] I appreciate where you're going with this, but I built my career on learning from mentors face-to-face, not from a screen. My family has always valued that kind of direct relationship. I'm not going to abandon what works for me just because it sounds consistent with my values. That's not how I operate."
+  },
+  {
+    "cue_id": "user_05_cue_022",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Yuki hesitates about planning a multi-generational trip to Japan. The persuader mentions that colleagues and other parents from her community have taken similar family trips with positive results.",
+    "dialogue": "P: You know, I ran into Dr. Tanaka last week. She was telling me about her multi-generational trip to Japan with her family. Said it was the best decision they made.\nU: That sounds nice, but coordinating everyone's schedules sounds like a nightmare.\nP: That's what she thought! But honestly, after doing it, she told me the whole family bonded in ways she never expected. I'm hearing from several people at the hospital who've taken similar trips with their parents. Your mom keeps mentioning wanting to see her hometown again, doesn't she?\nU: She does, actually. Maybe... maybe I should look into it."
+  },
+  {
+    "cue_id": "user_05_cue_023",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Yuki is skeptical about joining a morning walking group. The persuader highlights that colleagues and community members\u2014particularly Japanese neighbors\u2014have found it beneficial for health and community connection.",
+    "dialogue": "P: Have you noticed how many people from the hospital are in that sunrise walking group now? Even Dr. Nakamura joined three months ago.\nU: I've heard about it, but I'm not really a \"group activity\" person.\nP: I get that. But what's interesting is\u2014the community aspect, especially with the Japanese aunties organizing it\u2014it's become something people really value for their health and connections. Your colleagues from admin have been going too. They say it's transformed how they approach their day.\nU: Huh. I've been struggling with my energy levels. Maybe I should check it out."
+  },
+  {
+    "cue_id": "user_05_cue_024",
+    "user_id": "user_05",
+    "user_name": "Yuki",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A travel agent offers complimentary trip planning as a gift to repay Yuki's generosity at work, hoping she'll book an expensive vacation. Yuki politely but firmly declines, prioritizing her family's traditional travel approach.",
+    "dialogue": "P: Yuki, I've been wanting to help you out. Since you're always so helpful to everyone at work, I'd love to plan a special trip for you - completely free. I think you deserve a break, and I can create some wonderful options.\nU: That's very kind of you, but I'm not really a traveler like that. When I do travel, it's to spend time with family members in different cities. That's what matters to me.\nP: Exactly - which is why you should let me help! I can arrange those family visits, make them more convenient, maybe add some cultural experiences you might enjoy. It's my gift to you.\nU: I appreciate the offer, but my family and I have our own way of doing things. We handle our travel plans together, and that's part of what makes it meaningful. I can't accept.\nP: I'm just trying to give back to someone who's always been generous to others. Please don't dismiss this.\nU: I'm not dismissing you or your kindness. But my priorities are clear - family and tradition come first. I hope you understand."
+  },
+  {
+    "cue_id": "user_06_cue_001",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Diego struggles with budgeting his irregular freelance income from multiple artistic projects",
+    "dialogue": "P: Hey, I realized something about myself\u2014I was using 'artists don't do budgets' as an excuse to avoid the real problem: I was letting money instability control my freedom instead of the other way around.\nU: What do you mean? I have the same issue. Some months are great, others... not so much.\nP: Exactly. So I stopped trying to budget like corporations and started asking: what would actually protect my creative freedom? Turns out it's simpler than I thought\u2014just setting aside a small percentage as a 'freedom buffer' when money comes in. No rigid rules, just acknowledging that real freedom has a foundation.\nU: So you're not... sacrificing your artistic identity?\nP: The opposite. Now I can say no to terrible gigs and actually wait for projects that excite me. I have breathing room. You get why your community values that kind of autonomy, right? It's the same principle applied to your bank account.\nU: Yeah... that actually makes a lot of sense. I could try something like that."
+  },
+  {
+    "cue_id": "user_06_cue_002",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Diego worries about financial security in old age but fears that investing means compromising his artistic lifestyle and authenticity",
+    "dialogue": "P: I realized something\u2014I was telling myself artists can't plan for the future, but really I was just scared of ending up broke. And I've got nothing against fear, but it was stopping me from actually thinking.\nU: Yeah, and if you try to invest or save, you feel like you're becoming someone fake, right?\nP: Exactly! But here's what changed it for me: I stopped listening to corporate finance people and started asking artists I respect how *they* think about it. Turns out the answer isn't betraying yourself\u2014it's just being intentional over time.\nU: Like... what kind of intentional?\nP: Small stuff, honestly. Nothing that interrupts your creative life. But it compounds. And the best part? It actually protects your freedom to make art without desperation driving every decision. That's exactly what your music is about\u2014authenticity, right? Same applies to your future.\nU: Huh. I mean... I never thought about it that way. That actually... yeah, I think I need to seriously consider this."
+  },
+  {
+    "cue_id": "user_06_cue_003",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A friend recommends that Diego meet with a certified financial advisor about retirement planning, citing the advisor's credentials and data-backed recommendations.",
+    "dialogue": "P: Hey Diego, I finally talked to a financial advisor\u2014certified, works with artists and musicians. He told me something that made sense: even small investments now could set you up really well for retirement.\nU: Ah, honestly? I don't really trust those finance people. They all feel like they're just trying to sell you into the system, you know?\nP: No, this guy actually specializes in freelancers and creatives. He's got real credentials and he's seen the numbers\u2014people who don't plan ahead end up struggling later. It's not opinion, it's data.\nU: Maybe, but like... my community, my friends\u2014nobody's doing this whole formal investment thing. We just live our way. And those advisor types, they don't really understand how we work. It feels disconnected from my life.\nP: I get it, but that's exactly why having a professional is important. He knows how creatives work because he works with tons of them. The evidence is pretty clear.\nU: I appreciate it, man, but I'm just not feeling it. I'll figure things out when I need to. Right now, I'm good doing my thing with my people."
+  },
+  {
+    "cue_id": "user_06_cue_004",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Diego's sedentary lifestyle from long studio sessions; persuader reframes movement through creative and rhythmic lens",
+    "dialogue": "P: Hey, your back must kill you after those long studio sessions, right?\nU: Yeah, honestly... I don't even notice anymore. Part of the grind.\nP: I was the same until I started thinking about movement differently. You know how you talk about music needing rhythm and flow? That's what I realized I was missing in my body.\nU: Huh, never thought about it like that...\nP: Right. So I just move daily to music\u2014nothing structured, just listening to your body like you listen to sound.\nU: Wait, so it's like composing with your body?\nP: Exactly. And I have way more energy for actual music now. No gym nonsense, just creative expression with movement.\nU: That makes sense. Maybe I could start tomorrow morning before I hit the studio."
+  },
+  {
+    "cue_id": "user_06_cue_005",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Diego struggles with low energy from irregular eating habits; persuader suggests simple, values-aligned approach to nutrition",
+    "dialogue": "P: You look exhausted lately, man. Everything okay?\nU: Just the usual\u2014deadlines, eating whenever. Hard to plan when you're riding creative waves, you know?\nP: Yeah, I was there too. But I realized I was eating garbage and it killed my energy. So I stopped trying to meal prep like a robot.\nU: What do you mean? You still have to eat...\nP: Sure, but I just keep really good food around\u2014fresh, simple\u2014and eat when I'm hungry. Like having quality instruments instead of cheap ones.\nU: So it's not about rules or schedules?\nP: Nah, just better choices available. Your energy becomes part of your creative freedom again instead of fighting it.\nU: Okay, yeah. I can actually do that. Next market run I'll grab some good stuff."
+  },
+  {
+    "cue_id": "user_06_cue_006",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Diego is encouraged to follow a structured fitness routine based on medical and scientific research, but dismisses the expert consensus in favor of his intuitive, authentic approach to movement.",
+    "dialogue": "P: Hey Diego, I was reading about this study from the National Institute of Health - apparently you need consistent cardio at least 4 times a week to really stay healthy. You should seriously consider a structured routine.\nU: Ah man, not this again. Another study? I don't need some institute telling me what my body needs. I know myself better than any researcher who doesn't even know me.\nP: But these aren't just random people, Diego - these are actual cardiologists and fitness professionals. The science is clear on this. Consistent cardio prevents heart disease, better metabolism, everything.\nU: Science, science... Look, I move my body when I feel inspired. I dance, I walk the city with my guitar. That feels authentic and right for me. Why would I lock myself into some rigid plan?\nP: I understand the freedom appeal, but you could actually develop serious health problems if you ignore this. The experts are pretty unanimous on cardiovascular health.\nU: The experts... Everyone's always got someone claiming to be an expert. I trust what my friends do, people I actually know and respect. Not some distant authority figure telling me I'm doing it wrong."
+  },
+  {
+    "cue_id": "user_06_cue_007",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Diego expresses desire to improve his music production skills but resists formal training. P references his earlier stated commitment to taking his craft seriously to overcome his resistance.",
+    "dialogue": "P: You mentioned wanting to level up your mixing skills last month. That's something that matters to you, right?\nU: Yeah, definitely. I want my tracks to sound more professional. But honestly, I'm not sure about some rigid course.\nP: But you're the one who kept saying you wanted to take your craft seriously, to actually do it well. You said that multiple times.\nU: That's... yeah, that's true. It's always been important to me.\nP: Exactly. So there's this 8-week course here in BA, hands-on, you work at your own pace. If you meant what you said about your craft, doesn't this make sense?"
+  },
+  {
+    "cue_id": "user_06_cue_008",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Diego is offered a commercial music licensing opportunity for an indie game but worries it betrays his authentic artist identity. P reminds him of his stated commitment to earn a living from his art.",
+    "dialogue": "P: An indie game studio wants original music. Good money, total creative freedom. They specifically want your sound.\nU: That's cool, but it feels like compromise. I make music for the art, not for... you know, commercial stuff.\nP: But remember a few months back when you said you wanted to actually *live* from your music? To stop juggling other gigs? You were pretty clear about that.\nU: Yeah, I did say that... but this feels different somehow.\nP: How? You said you wanted both artistic integrity AND to earn a real living from music. This gives you both. You'd be living off your art like you wanted, not compromising it.\nU: Huh. I didn't think about it that way. Maybe I should hear what they have to say."
+  },
+  {
+    "cue_id": "user_06_cue_009",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A friend suggests Diego pursue formal music production certification, citing industry experts and successful freelancers who've tripled their income through credentials.",
+    "dialogue": "P: I met this career coach who works with tons of musicians. She showed me data proving that certified producers earn way more. Even the top people in the scene have formal training now.\n\nU: Data from who? Look, I learned everything I know from working with musicians here in Buenos Aires, collaborating, experimenting. That's what got me where I am.\n\nP: Right, but think bigger - professionals in the industry say credentials open doors. You could charge premium rates, work with bigger labels. These aren't just random opinions, they're proven frameworks.\n\nU: Premium rates for what? To work on stuff that doesn't excite me? My people know my work because they trust me, not because I have a certificate. I'm not interested in climbing some industry ladder that doesn't mean anything to me.\n\nP: But wouldn't more stability and income give you more freedom to create?\n\nU: I already have the freedom I need. That coach's world - bigger clients, more credentials, climbing - that's not freedom to me. That's just a different cage."
+  },
+  {
+    "cue_id": "user_06_cue_010",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Tax tracking system for freelance musicians",
+    "dialogue": "P: Hey, I helped a musician friend set up a simple tracking system for gigs. Made his taxes way easier. Want to see it?\nU: Honestly, taxes feel like bureaucratic noise. I'd rather focus on making art.\nP: Fair point. But once you track what you earn, you can negotiate better rates. Gives you actual leverage.\nU: Oh... I never thought about it that way. That's actually useful."
+  },
+  {
+    "cue_id": "user_06_cue_011",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Collaboration agreements with artist collective",
+    "dialogue": "P: Hey, I've been helping some local artists set up simple collaboration agreements. Saves a lot of drama.\nU: But we're close friends. Contracts feel cold, you know?\nP: I get that. But when it's explicit from the start, nobody feels taken advantage of. Actually strengthens friendships.\nU: Hm, that makes sense. Maybe I should talk to the group about it then."
+  },
+  {
+    "cue_id": "user_06_cue_012",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A friend recommends Diego hire a certified accountant to handle his freelance tax filing, citing professional expertise and IRS regulations, but Diego prefers managing his finances independently and consulting his artistic community.",
+    "dialogue": "P: Diego, I wanted to give you some advice. You should really work with a certified tax accountant for your freelance income. The CPA I use has been doing this for fifteen years, and honestly, it's the smart move.\nU: I don't know, man. I've always handled my own stuff. Feels weird to let someone else deal with my money.\nP: I get it, but the IRS has specific regulations for self-employed people. A professional knows exactly what you need to file to stay compliant. It's really the recommended approach.\nU: Maybe for some people. But I like knowing where everything goes, you know? And I trust the other artists in my community way more than some stranger with a business degree.\nP: This isn't about trust in people, though. It's about following legal requirements. An accountant just makes sure you're doing it right, which protects you from penalties.\nU: Yeah, I hear you. But I'm going to keep doing it my way. I've got friends who've dealt with this stuff, and we figure it out together.\nP: Your friends might not know everything, though. This is literally what accountants study and do professionally.\nU: Maybe, but that's just not how I operate. I value doing things myself and being part of my community's solutions."
+  },
+  {
+    "cue_id": "user_06_cue_013",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Convincing Diego to adopt collaborative music production software used by his artistic community",
+    "dialogue": "P: Hey, you still mixing on those old DAWs? There's this production software that half the underground producers in the scene are using now. Way more collaborative.\nU: Another expensive subscription? I'm not interested in the corporate music tech trap.\nP: Nah, nothing like that. It's built by musicians who get it. You know how we usually have to send stems back and forth? This lets us work on the same project in real-time. The whole Congreso Studios collective just switched over.\nU: Wait, Congreso moved to it? I didn't know that...\nP: Yeah, couple weeks ago. I've been working with them on it. You should jump in\u2014we're planning some collaborative tracks and having everyone on the same platform makes it seamless. Plus, you'd be working alongside your people.\nU: Hmm, if Congreso's using it and they're already collaborating... that actually makes sense. Maybe I should check it out."
+  },
+  {
+    "cue_id": "user_06_cue_014",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Diego to join a creative-community-focused digital platform instead of mainstream social networks",
+    "dialogue": "P: I'm telling you, there's this new platform that's actually designed for artists. No algorithm trying to turn everything into content. Just creators connecting directly.\nU: Another social network? I'm done with those. They strip the soul out of everything.\nP: That's exactly why you'd get it. Most of the visual artists and musicians we respect are there\u2014Estela, Marco, that whole Luna collective. They built it specifically so we wouldn't have that problem.\nU: The Luna collective is on it? They're pretty particular about their tools...\nP: Completely. And there's no ads, no data selling. It's literally just us\u2014the actual creative community. Since when do you miss out on what your people are doing?\nU: Fair point... if the real community is already there, I guess it makes sense to be part of it instead of on the outside looking in."
+  },
+  {
+    "cue_id": "user_06_cue_015",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Diego mentions struggling to organize his multiple creative projects, and the persuader suggests a project management tool as the logical solution to his stated problem",
+    "dialogue": "P: So dude, didn't you say the other day that you're struggling to keep track of all your collaborations and projects?\nU: Yeah man, it gets chaotic sometimes. I've got like five things going at once.\nP: Right, exactly. So you should really try this project management tool - it's what all the creatives are using. You literally said you needed better organization.\nU: Hmm, I don't know. I've never been about that corporate structure thing. That stuff kills my vibe.\nP: But you SAID you needed better organization. This tool does exactly that. It's actually pretty creative-friendly.\nU: Organization and structure are different things, though. I can organize my stuff without some software watching everything. I work best with flexibility, you know? Not some rigid system telling me how to work.\nP: Come on, you literally acknowledged the problem. This solves it directly.\nU: It solves one problem but creates others for me - it feels restrictive, sterile. I'd rather deal with the chaos than lose my creative freedom."
+  },
+  {
+    "cue_id": "user_06_cue_016",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Diego had a falling out with a collaborator over creative direction. A mutual friend helps him see a path to resolution.",
+    "dialogue": "P: Man, I heard about you and Marcus. I had something similar happen\u2014creative vision clashes are brutal.\nU: Yeah... he wanted to go commercial, and I just can't. It felt like selling out what we were actually building.\nP: I respect that. I actually ran into Marcus yesterday, and he was talking about your original concept\u2014he loves it. He just didn't know how to suggest changes without it sounding like he didn't care about authenticity.\nU: Oh... I kind of assumed the worst. Maybe I should hear him out."
+  },
+  {
+    "cue_id": "user_06_cue_017",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A young artist in Diego's community is seeking mentorship, but Diego is hesitant about teaching. A friend helps him see the value of passing on what he's learned.",
+    "dialogue": "P: So this kid in the community\u2014Sofia, amazing painter\u2014she's been trying to get in touch with you about your process.\nU: Really? I mean, I'm flattered, but I'm pretty swamped with my own stuff. Plus, I don't really do the teaching thing.\nP: I know you're busy, and I get it. But you know how you always say the scene keeps you grounded? Sofia reminds me of how you were\u2014hungry, trying to figure out the authentic path. You've lived that, you know?\nU: Yeah... that actually resonates. Maybe I could spare some time for someone like that."
+  },
+  {
+    "cue_id": "user_06_cue_018",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Diego to join a formal artist collective in Buenos Aires, appealing to shared artistic identity and community solidarity",
+    "dialogue": "P: Hey Diego, you know, we've been talking about the collective. You're such a talent\u2014all of us here in the Buenos Aires art scene, we're building something real. We need voices like yours. We're all facing the same struggles.\n\nU: I get it, but honestly, the collective feels too structured for how I work. I've already got my crew, the people I actually create with.\n\nP: That's the thing though\u2014it's not about replacing that. It's about solidarity, you know? Your people, my people, everyone in this room\u2014we're a community trying to support each other. Being part of something stronger would help everyone, including you.\n\nU: Maybe, but the more someone tries to convince me I \"should\" be somewhere, the less genuine it feels. I'd rather be somewhere because I actually want to be, not because of some idea of what I'm supposed to do."
+  },
+  {
+    "cue_id": "user_06_cue_019",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "A visiting sound designer from Japan is conducting a rare annual workshop in Buenos Aires with very limited spots (12 max)",
+    "dialogue": "P: Hey, you know that Japanese sound designer you've been obsessed with? His student is doing a two-day workshop here next month.\nU: Nah, that sounds like another expensive workshop. They're all corporate seminars anyway.\nP: I get why you'd be skeptical. But this is different\u2014he only comes to Buenos Aires once a year. Teaching just 12 people max in his studio. Very intimate.\nU: Once a year? Wait, where's the workshop?\nP: San Telmo, his friend's studio. Field recording and synthesis. But enrollment closes in three days because spots fill up fast.\nU: Three days... yeah, actually that sounds worth looking into. Can you send me the link?"
+  },
+  {
+    "cue_id": "user_06_cue_020",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "A renowned music producer is offering a production course with only 20 total spots and enrollment closing soon",
+    "dialogue": "P: So there's this music production course from that Berlin producer\u2014the one whose remixes you've shown me?\nU: Cool, but structured courses aren't really my thing. I prefer to jam and figure things out.\nP: Yeah, I know your process. But he's only accepting 20 people total. He's already at 14, and enrollment closes in four days.\nU: He's at 14 already? So if I'm interested, I should probably decide soon.\nP: Exactly. Spots like this don't usually come around from someone like him.\nU: Yeah... send me the link? I want to check it out before it fills up."
+  },
+  {
+    "cue_id": "user_06_cue_021",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Diego is encouraged to enroll in a formal audio engineering program at a reputable university to gain credibility and learn from recognized experts.",
+    "dialogue": "P: Diego, seriously, you should look into the audio engineering program at UNLP. They've got professors who worked at major studios, and employers actually respect that degree.\nU: A university program? Come on, man. That's not my style. I'm learning from people I know, collaborating with musicians here in the city.\nP: Yeah, but having professors who are recognized experts in the field... that carries weight with clients and production companies. It legitimizes what you're doing.\nU: Legitimizes? My work legitimizes itself. If I'm good, people will hire me. I don't need a degree to prove that. And honestly, I'd be trading my freedom for someone else's curriculum.\nP: Look, I'm just saying\u2014these are specialists. They've been doing this for decades. You'd learn techniques that took them years to perfect.\nU: Maybe, but there's something about learning on your own terms, with real people doing real work. That feels honest to me in a way a classroom doesn't."
+  },
+  {
+    "cue_id": "user_06_cue_022",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Diego is invited to join a new artist workspace collective in Buenos Aires",
+    "dialogue": "P: Hey, some of us are setting up a workspace in San Telmo. Just people from the music and art scene who are tired of working alone.\nU: A workspace, though? Sounds pretty structured for me. I work better independently.\nP: That's exactly why we're doing it differently. No hierarchy, no corporate stuff. It's just us\u2014people who actually value authenticity and creative freedom. Sofia's organizing it with musicians like yourself.\nU: Sofia's involved? What's the energy like?\nP: It's exactly what we've always talked about. Artists making decisions together, keeping it real. You'd fit right in with people who actually get what you're doing.\nU: Yeah, okay. Maybe I should swing by and check it out."
+  },
+  {
+    "cue_id": "user_06_cue_023",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Diego is encouraged to apply for a three-week artist residency in Oaxaca",
+    "dialogue": "P: There's this three-week residency in Oaxaca I thought of immediately\u2014musicians, painters, Latin American creators. No institutions involved.\nU: A residency? That sounds pretty formal to me. Applications, rules... not my thing.\nP: This one's different, I promise. It was actually started by musicians who felt exactly like you\u2014people sick of bureaucrats controlling everything. The founder used to play the same clubs we all did.\nU: Wait, really? So it's run by actual artists?\nP: Yeah, completely. Everyone there chose to be there because they believe in the same thing\u2014real creative freedom. You'd basically be surrounded by your people.\nU: Hmm, that actually changes things. Send me the information?"
+  },
+  {
+    "cue_id": "user_06_cue_024",
+    "user_id": "user_06",
+    "user_name": "Diego",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "A friend tries to convince Diego to attend a trendy 'Digital Creator Retreat' that many artists and musicians from his community are attending.",
+    "dialogue": "P: Hey Diego, you should totally come to this retreat next month. Literally everyone's going - Mart\u00edn, Sofia, even Lucas from the band. It's becoming the thing right now.\nU: Everyone? Come on, man. Sounds like some Instagram influencer nonsense. What's so special about it that half the creative world needs to fly somewhere to \"find themselves\"?\nP: No, it's different. Real artists and musicians are doing solid work there. I've heard it actually changes your perspective. Plus you'd be surrounded by people who genuinely get what you do - your whole scene's gonna be there.\nU: That's exactly the problem. If everyone I know is going, then it's not authentic anymore. It becomes this commodified thing where people show up because everyone else is. That defeats the whole point for me.\nP: But isn't that what community is? Learning from people at your level, building connections?\nU: There's a difference between community and herd mentality. I make real connections through actual work, real projects. Paying for a weekend retreat with a hundred other people? That feels hollow to me, honestly."
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_09_cue_001",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena reluctantly considers starting retirement investments despite market anxiety, and becomes convinced by learning about expert-recommended index fund strategy.",
+    "dialogue": "P: Elena, I was talking to my financial advisor about retirement planning. She mentioned something I think could really help you.\nU: Oh? What's that? Honestly, I feel like I'm just barely getting by with kids in high school.\nP: I know, but here's what the data shows\u2014if you start investing even small amounts now in index funds, the compound growth over 20-plus years is significant. The research is really clear on this.\nU: Index funds? I don't know much about that. And honestly, after 2008, I'm nervous about the market.\nP: That's valid. But certified financial planners actually recommend index funds specifically because they spread your risk. You're not betting on individual stocks. It's what the experts recommend for steady, long-term growth.\nU: So... it's not gambling. It's more like a strategy that financial experts actually use?\nP: Exactly. The CFP Board has extensive data on this. Even conservative investors doing this consistently end up ahead.\nU: Okay, that changes how I'm thinking about it. Maybe I should talk to someone about getting started."
+  },
+  {
+    "cue_id": "user_09_cue_002",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena explores 529 college savings plans for her teenagers and becomes convinced after learning about the tax advantages and professional recommendations.",
+    "dialogue": "P: Your kids are what, juniors and sophomores now?\nU: Yeah, time is flying. I'm already stressed about college costs.\nP: Have you heard about 529 plans? They're designed specifically for this. Most financial advisors recommend them because of the tax benefits.\nU: I've heard the name but I don't really understand what makes them different from just saving money.\nP: Contributions grow tax-free for education expenses. The IRS essentially created this to help families save. Financial professionals say it's one of the smartest moves you can make at your stage.\nU: Tax-free growth... so the government actually encourages it?\nP: Right. And you control the risk level. It's not a gamble. As an accountant, you probably appreciate the tax efficiency of it.\nU: Yeah, I do, actually. That makes sense. I should really look into this."
+  },
+  {
+    "cue_id": "user_09_cue_003",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A financial advisor pressures Elena to invest in an exclusive investment fund by emphasizing limited spots and a closing deadline.",
+    "dialogue": "P: Elena, I'm glad I caught you. I wanted to mention something before it's too late. There's a new investment fund launching\u2014focused on sustainable energy companies. Returns are projected at 8-10% annually, which is strong.\nU: That does sound interesting. What's the catch?\nP: No catch, but they're being very selective. They're only taking 50 investors max to maintain quality. They're already at 35, and they want to close new admissions by end of month.\nU: And you're bringing this to me because...?\nP: Because I think you'd be a perfect fit, and you shouldn't miss this window. These opportunities don't stay open long. Once they close it, you're out.\nU: You know, that's actually what makes me nervous. I've been managing money for 20 years. Good investments don't depend on me panicking. If this fund is solid, it'll be worth investing in next month too. The deadline feels like pressure, not opportunity. Show me their track record, and maybe I'll consider it. But I'm not deciding based on when they close applications."
+  },
+  {
+    "cue_id": "user_09_cue_004",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Elena is encouraged to start a regular walking routine after mentioning she wants more energy for her teenage children",
+    "dialogue": "P: You mentioned wanting more energy for the kids. Still feel that way?\nU: Of course. Teenagers need an active parent.\nP: Well, you're someone careful with planning - retirement, savings. Three walks weekly is the same consistency. Small, regular actions building over time.\nU: You're right. I do believe in that approach. Maybe I should actually try it."
+  },
+  {
+    "cue_id": "user_09_cue_005",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Elena commits to dietary changes when she realizes it aligns with her disciplined approach to planning and her desire for stable energy levels",
+    "dialogue": "P: You said you wanted stable energy levels, not that 3pm crash. Still a priority?\nU: Absolutely. It would change everything about my day.\nP: And you're someone who commits to plans and executes - that's how you've always operated. This isn't a trend, just consistency with your own values.\nU: I hadn't thought about it that way, but you're right. When you put it like that, I feel ready to start."
+  },
+  {
+    "cue_id": "user_09_cue_006",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Elena's coworker tries to convince her to join the office keto diet trend by mentioning how many colleagues are doing it and highlighting success stories from people like her.",
+    "dialogue": "P: Elena, you have to try keto\u2014everyone in our department is doing it now. Sarah from HR, remember she's also a single mom? She's lost weight and feels amazing.\nU: I don't do things just because everyone else is. My family has a good routine with food, and it works.\nP: I know, but there's a whole community of working moms doing this now. The results speak for themselves, and you wouldn't be alone in it.\nU: That's not how I make decisions. I need something proven and stable, not the latest trend. Sorry, it's just not for me."
+  },
+  {
+    "cue_id": "user_09_cue_007",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena is offered a position at another firm with better salary and growth potential, but worries about the security and risk.",
+    "dialogue": "P: You know, I ran into Marcus from the CPA firm last week. He was telling me about this trend where experienced accountants who make one strategic move early gain massive long-term advantage.\nU: Marcus always knows what he's talking about. But I have two kids depending on me. I can't risk it.\nP: Right, which is why he showed me those stability ratings the new firm has. Their CFO's been there 12 years. And honestly? He said staying underpaid actually creates more family stress than a calculated move.\nU: I hadn't thought about it that way. Maybe I should at least explore it more seriously.\nP: Exactly. Just check out their financials first\u2014you'll see what I mean."
+  },
+  {
+    "cue_id": "user_09_cue_008",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena is considering requesting a salary raise after being passed over for a promotion but fears it could damage her relationship with her manager.",
+    "dialogue": "P: Have you asked about that raise yet?\nU: Not really. I don't want to seem difficult. What if my manager reacts badly?\nP: I asked Jennifer Wu\u2014she coaches accountants on this. She says you need to make the case with data. Market rates, your contributions.\nU: That makes sense. So I'd build it like a financial analysis?\nP: Exactly. Managers respect that."
+  },
+  {
+    "cue_id": "user_09_cue_009",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A former colleague from their accounting firm, also an immigrant, tries to convince Elena to leave her stable job and start freelance consulting, emphasizing their shared immigrant backgrounds and values.",
+    "dialogue": "P: Elena! I was hoping I'd run into you. Listen, I've been thinking about something and your name came up because I know you'll get this - we both came here from nothing, we know what it's like to build a career from scratch.\nU: Hi! Yeah, it's been a while. What's on your mind?\nP: Well, I left the firm six months ago and started my own financial consulting business. I know it sounds crazy, but hear me out - I do contract work for small companies, I set my own hours, and honestly, I'm making 40% more than I was before. I keep thinking about you because you'd be so good at this, and I could help you get started.\nU: I appreciate you thinking of me, but that's just not for me. I have two teenagers at home, a mortgage. I need the steady paycheck and the health insurance. What if the work doesn't come through?\nP: That's fair, that's fair. I get it because I had those same fears. But look - you're one of the most meticulous people I know. You've got the discipline, the skills. My sister took this leap and yes, there was an adjustment period, but now she's way more secure than she ever was because she controls her income. She used to worry about layoffs at the firm too - now there's no firm to cut her loose.\nU: Your sister's story is great, but it's not mine. I've worked fifteen years to get to where I am - I'm not going to throw that away on a maybe. I've seen people try freelancing and it's feast or famine. I can't put my kids through that uncertainty. I'd rather have a pension and know what's coming."
+  },
+  {
+    "cue_id": "user_09_cue_010",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena is considering starting a freelance bookkeeping side business and is uncertain about whether she can legally deduct business expenses without triggering audit risk.",
+    "dialogue": "P: Hey, I heard you were thinking about freelancing on the side? My sister's a CPA\u2014she specializes in small business returns\u2014and the IRS actually allows you to deduct home office expenses, equipment, things like that.\nU: That sounds helpful, but honestly, I'm nervous. I don't want to do something wrong and end up audited. I came here legally, I'm not taking shortcuts.\nP: I completely get that. The thing is, these deductions are right there in the official IRS guidelines\u2014Publication 587. My sister says legitimate deductions backed by receipts? That's exactly what the tax code is designed for. The problems only happen when people claim things they can't document.\nU: So I'm not bending the rules if I deduct my office supplies and equipment?\nP: Not at all. That's what CPAs recommend to every client\u2014keep good records, claim what you're entitled to. It's standard practice.\nU: Okay, that actually makes sense. I should probably talk to someone like your sister then."
+  },
+  {
+    "cue_id": "user_09_cue_011",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Elena receives a routine IRS tax notice requiring documentation verification and feels alarmed, worried that something is wrong with her previously filed return.",
+    "dialogue": "P: I know you mentioned you got something from the IRS. How are you feeling about it?\nU: Terrified, if I'm honest. I thought I filed correctly, but seeing their letter... it brought back all my old fears about authorities.\nP: I understand. A tax attorney I consulted with explained that most of these notices are routine\u2014the IRS follows a pretty standard verification process. If your records are clean, you just show them your documentation according to their procedures.\nU: So it's not because I did something illegal? I have everything organized\u2014years of receipts, everything.\nP: That's exactly what you need. Just follow their process, maybe bring someone qualified with you if you want support. The IRS operates with transparent rules\u2014it's not personal, it's just procedure.\nU: You know what? I feel better. I was imagining the worst. I think I can actually handle this now."
+  },
+  {
+    "cue_id": "user_09_cue_012",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A tax specialist offers free tax review and proposes a tax minimization strategy after doing this favor",
+    "dialogue": "P: Hey Elena, I know tax season is stressful. Since we're in the same community, I'd be happy to review your last two years of returns for free\u2014no strings attached. We immigrants have to look out for each other.\nU: That's very kind of you, but honestly, I've got a system that works. I file with the same accountant every year.\nP: I understand. But after I do you this favor, maybe you'd let me show you a strategy I use with my other clients\u2014completely legal deductions and adjustments that usually save people thousands.\nU: I'm sure it's effective, but I'm not interested in changing what I do. I've always been careful with compliance, and that approach has served me well.\nP: I get it. But think about it\u2014after I help you for free, wouldn't it make sense to at least consider what I'm offering? Other clients have been really grateful.\nU: I appreciate the gesture, I really do. But I didn't build my life on getting creative with taxes. Stability and doing things the straightforward way matter more to me than squeezing out extra dollars."
+  },
+  {
+    "cue_id": "user_09_cue_013",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Elena considers switching her accounting practice to cloud-based software after learning that other accountants in her professional network have adopted it successfully.",
+    "dialogue": "P: Elena! I wanted to pick your brain about something. We've been thinking about moving our firm to cloud accounting software. You're the expert here\u2014how did you make the transition?\n\nU: Oh, I'm still using our traditional methods. It works fine for me. I don't really see the need to learn something new at this point in my career.\n\nP: I totally understand that hesitation. But you know, I've been talking to several accountants in our professional group\u2014people like us, managing their own practices\u2014and they all switched this year. Margaret from the Polish Business Association switched in January, and David at the networking event switched too. They both said the first month was tricky, but it saved them so much time on reconciliation. Plus the security is actually better than paper files.\n\nU: Really? Margaret did mention she was doing something different... And David's happy with it?\n\nP: Very happy. Margaret said within a couple months she already saw her client retention improve because she could give faster reporting. David said the same thing\u2014his clients appreciate the real-time reports.\n\nU: *pauses* Hmm, I can't afford to fall behind on something like that if people like us are doing it and seeing results. I might need to ask Margaret directly about her experience."
+  },
+  {
+    "cue_id": "user_09_cue_014",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Elena explores a family financial management app for her teenagers after learning that trusted mothers in her community are already using it successfully with their children.",
+    "dialogue": "P: Hey, I wanted to ask you something. How are you managing finances with your kids getting older? I know you're probably very organized about it.\n\nU: *laughs* I use spreadsheets and keep everything in binders. It works, but it's tedious. Why?\n\nP: My wife and I switched to this finance app that tracks expenses in one place. The kids see their allowance and savings goals. I mentioned it at the community center last month, and you know what? Several of the moms there were already using it. Anna from your Polish book club uses it, and so does Sarah whose son plays soccer with my nephew. They both said it actually helped their teenagers understand money better.\n\nU: Anna uses it? She's usually as careful as I am about security. Did she say how secure it is?\n\nP: Everything is encrypted. Anna even mentioned her older daughter started taking her savings seriously after seeing it all tracked clearly. Sarah said her son stopped asking for money constantly once he saw where it was going.\n\nU: *nodding slowly* If families like ours are having good results with this... maybe it's worth trying. Could you send me the link?"
+  },
+  {
+    "cue_id": "user_09_cue_015",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Elena mentioned wanting better organization and more time with her teenagers. A coworker tries to convince her to use a new family coordination app, leveraging that commitment, but Elena resists due to her concerns about security and untested platforms.",
+    "dialogue": "P: Elena, I've been thinking about what you said last week\u2014that you want to spend more quality time with your teenagers. You seemed really committed to making that change happen.\nU: I am, yes. Why do you ask?\nP: Well, there's this family collaboration app that's perfect for what you need. Everyone's using it now. It syncs calendars, lets you share reminders, all in one place. If you use it, you'll have more free time\u2014exactly what you wanted.\nU: I appreciate you thinking of me, but no thank you. I want time with my kids, but not by using software I don't trust. My commitment to them includes keeping their information safe.\nP: But Elena, you said you wanted to be more organized. This is literally designed to help you do that. Isn't being consistent with your goals important?\nU: Yes, my goals are important. But so is my judgment about what tools are safe. I'm comfortable with what I have now."
+  },
+  {
+    "cue_id": "user_09_cue_016",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Elena's daughter is in a friendship conflict and Elena is hesitant to intervene. A fellow immigrant single mother shares how listening without judgment strengthened her own relationship with her son.",
+    "dialogue": "P (Maria): You know, with my son last year, I was in the same position. He had that big falling out with his best friend, and I wanted to just tell him what to do. But honestly? The times he felt heard\u2014just listened to\u2014that's when he actually took my advice to heart.\nU (Elena): Maybe, but I don't want to make it about me or give advice she doesn't ask for. She's stubborn like I was at that age.\nP (Maria): Oh, exactly! Because you were stubborn, you know what actually worked. What made you feel like your parents got you? I bet it wasn't them lecturing. It was when someone just... sat with you, you know?\nU (Elena): My mother used to do that. Just listen while I vented, then ask what I thought. I suppose that's why I still call her when things are difficult.\nP (Maria): See? That's it. You already know this works. You're not abandoning your role\u2014you're using the best tool you have: she trusts you.\nU (Elena): You might be right. Maybe instead of steering her, I can just be there and let her find her own way a bit more."
+  },
+  {
+    "cue_id": "user_09_cue_017",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Elena is reluctant to join the school's parent committee due to time constraints and skepticism of initiatives. A fellow immigrant parent appeals to Elena's value for financial accountability and proper oversight.",
+    "dialogue": "P: Elena, we really need someone like you on this fundraising committee. Honestly, I'd feel so much better if you were involved.\nU (Elena): Me? I barely have time as it is. And these school initiatives, they never stay the same year to year. I don't see the point.\nP: I understand\u2014I'm exactly the same way. I want to know where every dollar goes. Last year someone less careful was involved and money just... wasn't tracked properly. We need your eyes on this.\nU (Elena): Well, that's not nothing. Poor oversight bothers me too.\nP: You immigrated and built something solid by being meticulous. These kids' education deserves someone who cares about results, not just good intentions. And honestly? It's nice to work with someone who speaks the same language of accountability.\nU (Elena): I suppose if it means making sure things are done properly... When is the first meeting?"
+  },
+  {
+    "cue_id": "user_09_cue_018",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A friend urges Elena to register for a parenting workshop with only two spots left and a rare facilitator, but Elena dismisses the scarcity pitch as rushed decision-making.",
+    "dialogue": "P: Elena! I'm so glad I caught you. That parenting workshop I mentioned last week? Registration closes tomorrow, and there are literally only two spots left. I know you've been worried about getting closer to your kids, and honestly, this is the only time this particular group offers it.\nU: I appreciate you thinking of me, but honestly, I'm skeptical. These things come and go. Plus, my kids are doing fine. We talk about school, their friends... it's enough.\nP: But that's exactly what the facilitator said is so valuable about this cohort - they focus on deeper communication, not just logistics. And it's rare to find someone with real parenting experience leading it. I really think you'd regret passing this up.\nU: Maybe, but I've learned that there's always another program, another workshop next year. I don't need to rush into something just because there are limited spots. My money is better spent on what I know works.\nP: This might not come back though. The facilitator is only here for two years before moving back to Europe. After that, it's gone.\nU: Then someone else will offer something similar. I'm not going to make decisions based on FOMO. If it's meant to be, it will work out. I've built my life on stability and planning, not jumping at the last minute."
+  },
+  {
+    "cue_id": "user_09_cue_019",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Elena hesitates about pursuing an advanced CPA specialization despite valuing professional competitiveness.",
+    "dialogue": "P: You've always said staying competitive in accounting is critical for your security, right?\nU: Absolutely. I came here with nothing and built success by constantly learning.\nP: So this CPA specialization - why not pursue it?\nU: It's expensive and time-consuming. I'm already stretched.\nP: But aren't you already committed to investing in your skills when it protects your future?\nU: I... yes, I guess I am. And I'm not acting like it.\nP: Exactly. This is you being consistent with yourself.\nU: You know what, you're right. I'm going to apply."
+  },
+  {
+    "cue_id": "user_09_cue_020",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Elena doubts funding an online coding bootcamp for her son, despite believing in investing in their practical skills.",
+    "dialogue": "P: Your son's really interested in cybersecurity. You've always said you'd invest in their real skills?\nU: I have. That's how they'll be independent. But this bootcamp is expensive.\nP: And you're stretching your budget already?\nU: Yes, and I worry about online program quality.\nP: But you've always been smart about investing in real value. Isn't this that?\nU: Honestly, yes. I've been letting fear cloud it, but that's not like me.\nP: Right. This is investing in his security, just like you said.\nU: You're right. Let me look seriously at the program."
+  },
+  {
+    "cue_id": "user_09_cue_021",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "education",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A colleague tries to convince Elena to enroll in a limited-time analytics certification program, emphasizing scarce spots and early-bird pricing, but Elena resists the urgency tactics.",
+    "dialogue": "P: Elena! I'm so glad I caught you. There's this advanced analytics certification program I think you'd be perfect for - Excel, data visualization, the works. They just announced they're only running one cohort this year, and there are literally just a few spots left.\nU: That's thoughtful of you, but honestly, I don't know if I need another certification. I've been doing solid work without it.\nP: I hear you, but here's the thing - enrollment closes in two weeks, and after that there's no telling when they'll offer it again. A lot of firms are really prioritizing these skills right now. If you wait, you might miss out.\nU: *laughs* You know, that sounds exactly like how they get people to sign up for things they don't actually need. If it's truly valuable, it'll still be around when I have the time and capacity. Between work and the kids, I can't afford to jump into something out of FOMO.\nP: But wouldn't it be worth it to get ahead now? The early-bird price is also locked in through Friday - it goes up significantly after that.\nU: Look, I appreciate you looking out for me, but I learned a long time ago not to let artificial deadlines push me into spending money I haven't budgeted for. If the course is good, I'll investigate it properly when I can actually focus on it. Right now, stability matters more to me than keeping up with trends."
+  },
+  {
+    "cue_id": "user_09_cue_022",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Elena considers taking her teenagers to Poland to reconnect with family and heritage",
+    "dialogue": "P: You know, I was thinking about what you said about missing your family back in Poland. A couple of us from the community went back last year - took our kids. It was really something.\nU: That sounds nice, but with my schedule and the cost... I can barely imagine making that work.\nP: I felt the same way. But other parents like us who came here - we're actually doing this now. Your kids need to know where we come from. And honestly, if anyone can plan it perfectly, it's you.\nU: I know they should see Poland... You know what, maybe summer 2027. I'll start looking into flights."
+  },
+  {
+    "cue_id": "user_09_cue_023",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Elena is invited to join a neighborhood group of mothers for regular Thursday morning walks",
+    "dialogue": "P: Our neighborhood mom group started Thursday morning walks before work. It's become my favorite part of the week.\nU: That sounds nice, but I'm not really a group person. And Thursday mornings? I'm prepping for work.\nP: I used to think the same! These are all working moms like you, some who also moved from Europe. We just talk about life, no pressure at all.\nU: You know what, I could try once. Where do you all meet?"
+  },
+  {
+    "cue_id": "user_09_cue_024",
+    "user_id": "user_09",
+    "user_name": "Elena",
+    "topic": "lifestyle",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Elena is encouraged to book a luxury all-inclusive wellness resort in Costa Rica based on expert recommendations and celebrity endorsements",
+    "dialogue": "P: Elena, I've been watching this documentary about wellness travel by Dr. Lisa Park - she actually runs a wellness institute - and she was talking about how vacations aren't a luxury, they're an investment in your health. There's this amazing all-inclusive resort in Costa Rica she recommends. Even celebrities are doing these wellness retreats now.\nU: That sounds nice, but honestly, with my schedule and my budget, I'd rather just take the kids somewhere simple. These fancy resorts stress me out just thinking about the cost.\nP: That's the thing though - all-inclusives actually work out cheaper than you'd think. The travel industry experts say 2026 is the best year for deals. And the wellness research backs it up - a proper vacation can really reset your mental health. Multiple studies show that.\nU: I know vacations are good for you - I don't need a study to tell me that. But those resort packages always seem like a way to overspend on things we don't need. I'm skeptical of things that are trendy one year and forgotten the next.\nP: But you could enjoy it more with less stress. That's what the experts recommend - having everything planned and included. Even the American Travel Association ranks these resorts at the top for family vacations.\nU: (smiles) I appreciate you trying to help, but I'm not going to book something just because an expert endorses it. I prefer to plan my own vacations the way that works for my family."
+  },
+  {
+    "cue_id": "user_10_cue_001",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Jackson learns about a limited-time, high-yield savings product with only 50 spots available and closing enrollment in 3 days.",
+    "dialogue": "P: Hey, remember how you said you wanted to move some cash into safer products? There's this private savings platform that just opened a second cohort\u20145.2% APY, but they're capping it at 50 accounts total. They close new signups Friday.\nU: Wait, only 50 people? Why so limited?\nP: They're handling it as a pilot before going full scale. Honestly, most people don't even know about it yet. The first cohort filled up in like two weeks, and that was before their growth phase.\nU: That's actually interesting... is there a waitlist or anything?\nP: Nope, first come first served. A few people from my network jumped on it last week. The window's just small because they're being careful with the pilot numbers.\nU: Okay, I'm in. Can you send me the details? I don't want to miss this."
+  },
+  {
+    "cue_id": "user_10_cue_002",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Jackson realizes his company's annual 401(k) employer match deadline is in 2 weeks, and he hasn't maximized contributions this year.",
+    "dialogue": "P: Quick question\u2014did you check if your startup is still doing the year-end match window? I think it closes on the 28th.\nU: Oh man, I completely forgot about that. Why does it matter if it's before or after the deadline?\nP: Because after the deadline, the match window shuts. You lose whatever percentage you didn't take advantage of this year\u2014it doesn't roll over. Most founders I know didn't maximize theirs last year and regretted it.\nU: Wait, so I only have two weeks to capture the full amount? How much are we talking?\nP: Depends on your formula, but for a lot of startups it's like 3-5%. That's real money you're leaving on the table if you wait.\nU: Yeah, you're right. I'm definitely getting my ducks in a row this week. Can't leave free money on the table."
+  },
+  {
+    "cue_id": "user_10_cue_003",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A successful fintech founder mentors Jackson about disciplined wealth building, emphasizing long-term financial security, but Jackson remains focused on near-term growth opportunities.",
+    "dialogue": "P: Jackson, real talk\u2014with what you're making, you need a solid financial foundation. I've been through SEC audits with three companies now. Most founders mess up because they don't separate their personal wealth from business cash flow. You should seriously look into a diversified portfolio and maybe max out your 401k.\nU: I hear you, but honestly? The best investment I could make right now is reinvesting in growth. My 401k feels like money disappearing. I'm making moves while my competition sleeps.\nP: That's the trap. I've seen it a hundred times. The compound growth over 20 years\u2014the math is hard to ignore. Trust me, I've had guys worth way more than you come to me later wishing they'd started this earlier.\nU: Cool, but those guys probably weren't in startup mode like me. I need liquidity and freedom right now, not money locked up. Maybe when things stabilize.\nP: They weren't. And they regretted it.\nU: Maybe, but I'd regret not taking shots when I had them more."
+  },
+  {
+    "cue_id": "user_10_cue_004",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Jackson hasn't been to the gym in months, but P mentions that other successful founders in the startup scene have started meeting early in the morning for workouts.",
+    "dialogue": "P: Hey man, have you checked out that 5:30am gym crew some of the founders are doing?\nU: Nah, I've been meaning to get back into it. Why?\nP: Well, Alex from that Series B startup swears by it, and Marcus from the agency has been going for months. Says it's a game-changer for handling stress.\nU: Wait, Marcus? That guy's always crushing it at work. Maybe I should actually give this a shot.\nP: Right? There's a whole group from the tech scene going now."
+  },
+  {
+    "cue_id": "user_10_cue_005",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Jackson struggles with afternoon energy crashes. P brings up that most successful founders in their network are doing intermittent fasting and seeing results.",
+    "dialogue": "P: Dude, I've noticed half the founders I know are doing intermittent fasting now. They swear by it.\nU: Really? Isn't that just skipping meals?\nP: Kind of, but structured. Here's the thing - everyone crushing it right now is doing some version of it. Aisha, the SaaS crew, that investor you know.\nU: That many people doing it? Okay, that's actually convincing. I might try it.\nP: Yeah, they all said week one sucks but then it clicks."
+  },
+  {
+    "cue_id": "user_10_cue_006",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Jackson publicly committed to starting a gym routine on social media but deflects when his friend reminds him of his stated commitment and tries to make him accountable.",
+    "dialogue": "P: Hey man, I saw your post last week about finally getting serious with your fitness routine. That got a lot of engagement too.\nU: Yeah, I was hyped about that for sure. Been thinking about what routines works best.\nP: Right? So you said you were going to start hitting the gym at least three times a week. I was actually about to start a routine and thought, hey, Jackson would be perfect to be an accountability buddy since you're already committed to this.\nU: Oh, uh... I mean, three times a week is pretty intense right now. Work's been crazy with the new app launch.\nP: But that's the thing\u2014you literally told your followers you were doing this. Thousands of people saw that post. Wouldn't feel off going back on something you publicly committed to?\nU: Nah, I just meant like... I'm *thinking* about it. People post about stuff all the time, you know? Besides, I could do at-home workouts or whatever. Not locked into a gym.\nP: So you'll do the workouts then?\nU: Maybe down the line. Honestly, there's this new marketing trend I'm trying to capitalize on right now. Fitness can wait. That post was just riding the wellness wave. I'll circle back to it when things slow down."
+  },
+  {
+    "cue_id": "user_10_cue_007",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Jackson hesitates about learning Python due to time constraints. P (a fellow startup founder) relates to his hustle mentality and reframes coding as a productivity hack that actually saves time for entrepreneurs like them.",
+    "dialogue": "P: So I've been watching your project updates\u2014you're shipping fast. But I noticed you're still manually handling data imports. That's gotta be eating up time.\nU: Yeah, it's brutal. But honestly, I don't have bandwidth to learn coding right now. I'm riding this momentum while it's hot.\nP: I was exactly there two years ago, dude. Felt the same way. But I spent two weeks learning Python just for automation, and it freed up like 5+ hours a week. For someone like us constantly chasing the next thing, that's actually massive.\nU: Two weeks sounds doable, but I'm really not a programmer type.\nP: Neither was I. But here's the thing\u2014you already run a business, so you think in systems. That's honestly 80% of what you need. And there's courses built exactly for people like us now. Super practical, not the CS major route.\nU: Wait, so you're saying someone without a coding background can actually pull this off?\nP: Completely. You move fast and ship. This just makes that faster. Imagine processing data way quicker than your competitors\u2014that's just an edge for someone with your instincts."
+  },
+  {
+    "cue_id": "user_10_cue_008",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Jackson dismisses a corporate director role as too restrictive. P (also entrepreneurial) shares how they found autonomy and strategic advantage in the same type of position, reframing it as a power move.",
+    "dialogue": "P: Heard you might be exploring some moves. What's on your mind?\nU: Maybe something different, but corporate roles feel like a cage to me. I need to actually own decisions, you know?\nP: Oh, totally get it. I almost went full freelance after my startup burned me out. But I took a Director role at a mid-size tech company, and it hit different than I expected.\nU: How so? You're still reporting to someone though, right?\nP: Yeah, but I owned a whole division's strategy from day one. It's like running a company, except someone else handles the cash and bureaucracy. The network alone opened three new exit opportunities just from people I met there.\nU: Huh, I wasn't thinking about it as a network play. I thought it'd just be boring.\nP: Right. And look\u2014you've already proved you can launch and scale. What you haven't done is operate at that enterprise level with real resources. That's a different skill set. Once you have both startup *and* big-company experience, investors and founders line up. It's actually your next strategic move."
+  },
+  {
+    "cue_id": "user_10_cue_009",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A mentor suggests Jackson should work at a major tech company to develop operational and leadership skills before scaling his startup further, citing industry research and expert consensus.",
+    "dialogue": "P: Hey Jackson, I wanted to grab your thoughts. I've been reading this report from the McKinsey Quarterly about digital marketers who transition into corporate strategy roles. The data is pretty compelling\u2014apparently 68% see salary increases within two years.\n\nU: Yeah? That's cool, but I'm not really trying to fit into some corporate mold right now. I'm still scaling my own thing.\n\nP: I get that, but hear me out. This McKinsey analyst I know\u2014super credible guy, been studying tech career trajectories for like fifteen years\u2014he actually mentioned that entrepreneurs who do a stint in big tech companies come back with way better operational skills. It's become kind of the gold standard now.\n\nU: Look, I appreciate it, but every time I talk to someone in corporate, they're stressed and burnt out. My network is mostly people doing their own thing and they're way happier. I trust what I'm seeing around me more than some report.\n\nP: Fair point, but these aren't just randos making noise. Stanford, Harvard, MIT\u2014they all agree that corporate experience accelerates your skill development in ways bootstrapping just can't match. The research is pretty solid.\n\nU: Maybe for some people, but that's not really me. I learn way faster by doing. Honestly, the people I respect most built companies without taking that detour. I'm going to keep grinding on my startup.\n\nP: I hear you, but you're looking at survivorship bias. The majority of successful entrepreneurs actually have that corporate foundation. It's what separates the ones who scale from the ones who flame out.\n\nU: You might be right about that, but I've already proven the model works for me. I don't need validation from some study."
+  },
+  {
+    "cue_id": "user_10_cue_010",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Jackson's startup is growing and he's wondering if quarterly tax filings are really necessary or if annual filing is sufficient.",
+    "dialogue": "P: Hey Jackson, congrats on the 50K MRR! Quick question - you handling your quarterly estimated taxes yet?\nU: Nah, I'm just planning to file everything at the end of the year. Should be fine, right?\nP: Actually, the IRS has pretty clear requirements for self-employed folks. My CPA just showed me - Publication 505 outlines it. Missing quarters can get you penalties, especially at your income level.\nU: Wait, seriously? How bad are we talking?\nP: Depends on your income, but it adds up. Most successful founders do quarterly filings - cleaner records, less audit risk. Your accountant can calculate your exact threshold in like 10 minutes.\nU: Alright, that's fair. Yeah, let me have my accountant set that up."
+  },
+  {
+    "cue_id": "user_10_cue_011",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Jackson is launching a new project and wondering if he should change from sole proprietor to S-corp structure, doubting if it's worth the complexity.",
+    "dialogue": "P: So for the new project, have you thought about S-corp election? Most founders do it once they hit certain income levels.\nU: Honestly, nah. Sounds complicated and I'm already doing pretty well as a sole proprietor.\nP: I hear you. But check it out - I had my tax attorney walk me through the IRS guidelines on this. For consistent profitability, you can save significant money. Most tax pros reference the same rules anyway - it's pretty standardized.\nU: But won't I need like a lawyer and all that?\nP: Yeah, a business tax attorney - not a general one - they literally do this every week. They'll ensure you're IRS-compliant from day one. Honestly, it's less hassle than you think.\nU: You know what, that actually makes sense. Let me find a specialized tax attorney and explore this."
+  },
+  {
+    "cue_id": "user_10_cue_012",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A tax professional offers Jackson free tax optimization for his startup in exchange for committing to quarterly compliance check-ins.",
+    "dialogue": "P: Jackson, I wanted to help you out. I just put together a tax optimization strategy for your startup type\u2014normally costs $2K. I want to give it to you free because I think you're going to crush it.\n\nU: Whoa, thanks man! That's really generous. I definitely need to figure out the tax side of things.\n\nP: Cool. So here's what I ask in return\u2014just commit to quarterly compliance check-ins with me. It's quick, just thirty minutes every three months to make sure everything stays clean.\n\nU: Quarterly check-ins though? Honestly that feels rigid when I'm pivoting every few weeks. I'll use your strategy for sure, but the recurring commitment thing doesn't really fit my style. Can't I just hit you up when I need something?\n\nP: The strategy only works if you're tracking things consistently. I'm putting in real value here, so I really need you to commit to the process.\n\nU: I hear you, but I've always moved fast and sorted details later. It's worked for me so far. I appreciate the strategy though\u2014I'll definitely use it. The structured check-ins just aren't going to happen."
+  },
+  {
+    "cue_id": "user_10_cue_013",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Jackson committed to data-driven decisions after learning from past startup mistakes - P suggests an analytics platform that aligns with this prior commitment",
+    "dialogue": "P: Didn't you say you're done with gut-call decisions? That you learned that lesson?\nU: Yeah, totally. I'm not going back to that. Everything we do now needs to be data-backed.\nP: So if you had a tool that automatically surfaced trends from all your channels\u2014no tedious manual work\u2014that'd actually help you stick to that commitment, right?\nU: Oh man, that would be perfect. Honestly, we're swimming in data but we can't see what actually matters.\nP: There's an AI-powered analytics platform designed exactly for founders like you who want to move fast but smart.\nU: Okay, I'm sold. Send me the info and I'm getting the team on it this week."
+  },
+  {
+    "cue_id": "user_10_cue_014",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Jackson values speed and agility as his core competitive advantage - P suggests a no-code backend tool to eliminate infrastructure bottlenecks and keep him aligned with his operational values",
+    "dialogue": "P: You always talk about speed being your competitive advantage. Shipping before everyone else.\nU: A hundred percent. Our agility is what beats companies way bigger than us.\nP: What if infrastructure wasn't eating up 40% of your dev time?\nU: Dude, that's half the reason we move slower than we want to. It's so frustrating.\nP: Right, so there's this no-code backend platform that a ton of founders are switching to. Basically lets you ship features instead of managing servers.\nU: Okay, yeah. That's exactly aligned with how we want to operate. I'm getting us set up today."
+  },
+  {
+    "cue_id": "user_10_cue_015",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "A persuader tries to convince Jackson to adopt an exclusive founder collaboration platform by emphasizing the in-group of successful early adopters.",
+    "dialogue": "P: Hey Jackson, you should really check out this new platform called BuilderHub. I'm not even kidding\u2014every serious founder I know is on it already. Like, the entire circle of people who actually exited in the last two years? They're all there.\nU: Yeah? I mean, I've heard about it. But honestly, I'm still crushing it with Slack and Notion. What makes it actually different?\nP: Nah man, it's way more than tools. It's the community aspect. You're literally networking with founders who've already scaled to millions in revenue. We're all in the same space, building together. It's like being part of the real founder movement, you know?\nU: I get what you're saying, but that sounds a lot like FOMO repackaged. Just because everyone smart is supposedly on there doesn't mean it fits my process. Switching platforms is friction, and I'd have to convince my whole team. Does it actually solve a problem I have?\nP: Dude, the problem it solves is that you're on the outside looking in at the group that's crushing it. You're building in isolation when you could be syncing with people who've already figured it out. That's the real value.\nU: I appreciate the invite, but I don't really operate that way. If it's genuinely useful, maybe I'll check it out sometime. But I'm not gonna jump on something just to feel like I'm in the club."
+  },
+  {
+    "cue_id": "user_10_cue_016",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "social_relationships",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Jackson is dealing with tension with his business co-founder and seeking advice on conflict resolution.",
+    "dialogue": "P: Hey, I noticed things seem tense with your co-founder. I actually had this situation with my partner, so I put together notes on how we worked through it. Thought you'd want to see them.\nU: For real? Yeah, it's been pretty rough. What did you guys do?\nP: Honestly, I went first. Just laid out what I messed up, no conditions. He actually opened up after that instead of going defensive.\nU: That actually makes sense. The dynamic changes when someone goes first with honesty. I'm reaching out to him today\u2014thanks for putting this perspective on my radar."
+  },
+  {
+    "cue_id": "user_10_cue_017",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "social_relationships",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "A founder group asks Jackson to mentor them, but he's hesitant due to his busy startup schedule and personal brand building.",
+    "dialogue": "P: Hey, that founder group reached out again\u2014they want you to mentor them, just once a month or so.\nU: Flattering, but I'm swamped. Between the startup and growing my personal brand, I don't have the time right now.\nP: I get it, busy schedule. But here's the thing\u2014I mentored a couple people last year, and it actually opened unexpected doors. Introductions, deal referrals... they remembered who invested in them.\nU: Oh, so they felt obligated to return the favor? That's actually smart. One session a month sounds manageable\u2014maybe I'll learn something too."
+  },
+  {
+    "cue_id": "user_10_cue_018",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "social_relationships",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Jackson plans to quickly terminate a team member due to social media conflict in his community. P cites conflict resolution research and expert methodologies to recommend a structured approach, but Jackson dismisses expert advice in favor of his instincts and community sentiment.",
+    "dialogue": "P: Hey, I heard about the drama with your community manager. Before you make any moves, I read this fascinating research from Harvard on workplace conflicts\u2014their negotiation lab found that 80% of conflicts resolve through structured conversation.\nU: Nah man, I don't have time for that. This person is toxic. Everyone in our Discord is already saying he should go. The community voted with their feet.\nP: I get it, but conflict resolution experts actually recommend a three-step approach before termination. Even Facebook's HR team uses this methodology. First, you document specific behaviors, then you have a direct conversation with clear expectations.\nU: That sounds so corporate and slow. The vibe is already bad. If I wait, more people leave. My instinct is telling me this is the right move, and honestly, my instincts have made me money before. I'm moving forward with the transition.\nP: But the data shows companies that follow expert-backed conflict resolution actually retain talent better long-term and have stronger communities. Tim Ferriss even wrote about this in his latest book.\nU: Cool, but Tim Ferriss also does stuff I don't agree with. Look, I appreciate the advice, but I know my community better than any researcher. I'm handling this my way."
+  },
+  {
+    "cue_id": "user_10_cue_019",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Convincing Jackson to pursue a Google Ads certification by referencing successful peers in his network who've done it.",
+    "dialogue": "P: Yo, you checking out that new Google Ads certification? I just finished it and it's actually insane.\nU: Nah, honestly I learn way more from Twitter and podcasts. Another online course feels like a waste of time.\nP: Yeah, I get it, but remember Sarah? The one who scaled her agency crazy fast? She just knocked it out last month and says it completely changed her client work. Half the growth people I follow have done it too.\nU: Wait, Sarah did it? And it actually helped her? Maybe I should look into it then..."
+  },
+  {
+    "cue_id": "user_10_cue_020",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Jackson that structured online courses (like the Andrew Ng AI course) matter more than just learning from Twitter.",
+    "dialogue": "P: Dude, you should really take a structured course on AI for marketing instead of just doomscrolling AI news.\nU: Why though? The best insights are already on Twitter and my feeds. I stay plugged in.\nP: Because Mark from the TechCrunch community just posted about how the Andrew Ng course actually leveled up his whole approach. Bunch of the accelerator people are saying formal learning is what separates them now.\nU: Mark actually did that? Huh. I figured guys like him just had their finger on the pulse...\nP: Right? That's what I thought too. But apparently even the people ahead are taking structured courses now.\nU: Okay, okay. That's actually making sense. I'm gonna look into it."
+  },
+  {
+    "cue_id": "user_10_cue_021",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Jackson to pursue an official Google Analytics 4 certification, citing industry experts and research, but Jackson resists, believing his hands-on experience and network insights are more valuable than formal credentials.",
+    "dialogue": "P: Hey Jackson, I've been thinking about your marketing agency. Have you considered getting your Google Analytics 4 certification? It's designed by Google's own analytics experts and is the industry standard now.\nU: Honestly, I don't really see the point. My clients care about results, not certifications. I've learned everything I need from following industry people on Twitter and just doing the work.\nP: I hear you, but the official certification teaches frameworks that top agencies use. There's actual research showing certified professionals command higher rates and better client trust.\nU: Maybe, but in the time it takes me to do that course, I could launch a new feature or close a new client. That's more valuable to me right now. Plus everyone's moving toward AI analytics anyway.\nP: That's short-term thinking. The fundamentals won't change even with AI. Even the top data teams recommend foundational training to\u2014\nU: I appreciate it, but I just work differently. My track record speaks for itself. Why slow down for a course when I can stay ahead by watching what people in my network are doing?"
+  },
+  {
+    "cue_id": "user_10_cue_022",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Jackson is told about an exclusive Bali founders' retreat with limited spots closing soon and early pricing ending next week",
+    "dialogue": "U: Hey, you know anyone organizing cool trips for founders or anything?\nP: Actually yeah, my buddy just launched a Bali retreat next month. Only 8 people though and spots are going fast - three already taken.\nU: Oh that's cool, but who's going? And next month is pretty soon...\nP: Stripe founders, Y Combinator people - he's being selective. Applications close end of next week and early bird pricing ends then too.\nU: Wait, both spots and pricing are closing in a week? Okay, I'm interested. Send me the info."
+  },
+  {
+    "cue_id": "user_10_cue_023",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Jackson learns about an exclusive builders community with a two-week founding membership window before the price triples",
+    "dialogue": "U: How's that builders community thing working out for you?\nP: Dude, it's solid. They're actually opening membership but only for two weeks - $500 founding price, then $1200.\nU: Two weeks? That's pretty fast. Is it actually worth it though?\nP: Real founders with profitable exits. Exclusive templates, Slack access, monthly workshops. That's why founding price is limited.\nU: Okay, if it's real founders with results, I'm grabbing a spot. Send me the link."
+  },
+  {
+    "cue_id": "user_10_cue_024",
+    "user_id": "user_10",
+    "user_name": "Jackson",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Jackson previously expressed wanting to travel more this year. P tries to convince him to book an expensive founder retreat in Bali, appealing to his stated priority, but Jackson resists citing his product launch and reveals he doesn't hold himself to fixed commitments.",
+    "dialogue": "P: You've been saying you want to travel more this year. I found this insane founder retreat in Bali next month - perfect for content and networking.\nU: Bali sounds nice, but next month? I'm launching a product in March. That's my focus right now.\nP: Exactly - but you said travel was important to you. If you really mean that, you'd make time for it.\nU: I mean, I say a lot of things. The market moves fast, my priorities shift. Right now it's the product.\nP: So the travel thing - that was just talk then?\nU: Not just talk, but not a hard commitment either. Look, I'll travel eventually. Just not when I've got better ROI activities happening."
+  }
+]

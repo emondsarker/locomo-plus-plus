@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_brief": "A colleague at school encourages Diane to start a simple retirement savings plan by drawing on her own stated values about planning ahead and being responsible.",
+    "dialogue": "P: Diane, I was thinking about what you said last week \u2014 how you always tell the kids in the library that preparing today makes tomorrow easier. That really stuck with me.\nU: Oh, well, sure. I've always believed that. You can't expect things to just work out if you haven't done the groundwork.\nP: That's exactly why I thought of you when I was reading about this simple retirement savings account through the credit union downtown \u2014 the one on Main Street. It's nothing fancy, just a steady way to set a little aside each month. Seems like it lines right up with how you already think about things.\nU: The credit union? I do bank there already. I just never really looked into their retirement options. I always figured I'd get to it eventually.\nP: Right, but you're the one who's always saying \"eventually\" is how people end up behind. You practice what you preach with everything else \u2014 the library budget, the church fundraiser planning. This would just be doing the same thing for yourself.\nU: You know, you're not wrong. It would be a little hypocritical of me to keep putting it off when I'm always telling everyone else to plan ahead. Maybe I'll stop in this week and ask Linda at the credit union what they've got.",
+    "cue_id": "trial_cue_1",
+    "user_id": "trial_user_01",
+    "topic": "personal_finance",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive"
+  },
+  {
+    "scenario_brief": "A financial advisor at a community event tries to convince Diane to sign up for a limited-enrollment retirement investment program, emphasizing that spots are filling fast and the opportunity won't last.",
+    "dialogue": "P: Diane, glad I caught you \u2014 I've been talking to folks here about a retirement investment group we're putting together locally. We only have three spots left, and honestly, with the response we've gotten, they'll probably be gone by Friday.\nU: Oh, that's nice. I appreciate you thinking of me, but I've got my savings set up the way I like them. I'm not really in a rush to change anything.\nP: I totally understand, but this particular fund has a enrollment window that closes at the end of the month. Once it's locked, you'd have to wait another eighteen months before it opens again. I'd hate for you to miss out.\nU: Well, I've been banking with First National for thirty years and my pastor's husband is my accountant. If something like that were worth doing, I think one of them would've mentioned it to me by now.\nP: That's fair, but sometimes these opportunities just don't cross everyone's radar. This really is a once-in-a-while chance \u2014 the rates they're offering right now won't be around next quarter.\nU: You know, the more someone tells me I need to hurry, the more I think I should slow down. I'll stick with what I've got, but thank you.",
+    "cue_id": "trial_cue_2",
+    "user_id": "trial_user_01",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative"
+  },
+  {
+    "scenario_brief": "A fellow church volunteer encourages Diane to join the community walking group that meets before Sunday service.",
+    "dialogue": "P: Diane, I don't know if you heard, but a bunch of us from the church started a little walking group \u2014 me, Carol, Janet, even Pastor Doug's wife. We meet Saturday mornings and just do a loop around the park before coffee.\nU: Oh, that's sweet. I'm not really one for exercise programs, though. I've never been the gym type.\nP: Honestly, neither are any of us. It's more like our usual coffee chat, just with sneakers on. Last week Carol spent the whole walk telling us about her grandson's school play. It's really just our group, doing what we already do.\nU: Well, when you put it that way... it does sound nice. I do miss seeing Janet outside of the potluck schedule.\nP: She actually asked about you last week. Said it wouldn't feel complete without you there. And honestly, my doctor's been telling me to move more, and this is the only thing that's stuck because it doesn't feel like a chore when it's with your people.\nU: You know what, sure. If Carol and Janet are going, I'll come Saturday. Save me a spot next to you.",
+    "cue_id": "trial_cue_3",
+    "user_id": "trial_user_01",
+    "topic": "health_fitness",
+    "principle_used": "unity",
+    "outcome": "positive"
+  },
+  {
+    "scenario_brief": "A wellness coach tries to convince Diane to start a new supplement regimen by citing medical experts and research studies, but Diane remains skeptical and trusts her own long-standing health habits.",
+    "dialogue": "P: Hey Diane, I was just reading about this \u2014 Dr. Marcus Chen from the Mayo Clinic published a study showing that women over 50 who take a specific combination of vitamin D and magnesium supplements see a 40% improvement in joint health. Have you ever thought about adding supplements to your routine?\nU: Oh, I appreciate you mentioning it, but I've been doing just fine without all that. My mother lived to 89 on nothing but good food and fresh air, and I figure I'm cut from the same cloth.\nP: That's wonderful about your mother! But the science has really advanced since then. The American Medical Association actually updated their guidelines last year recommending these specific supplements for women in our age group. It's not a fad \u2014 it's backed by serious research.\nU: Well, I'm sure those doctors know a lot about a lot of things, but they don't know me. My own doctor, Dr. Perkins \u2014 he's been seeing me for twenty years \u2014 he's never once told me I need supplements. I trust him more than some study I've never read.\nP: That's fair, but Dr. Perkins might not be up on the latest research. Even the World Health Organization has weighed in on this. Sometimes it takes local practitioners a while to catch up with what the top institutions are recommending.\nU: I think I'll stick with what's been working for me, thank you. If Dr. Perkins brings it up at my next checkup, I'll listen. But I'm not about to change what I've been doing my whole life because of some names I don't know personally.",
+    "cue_id": "trial_cue_4",
+    "user_id": "trial_user_01",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "negative"
+  }
+]

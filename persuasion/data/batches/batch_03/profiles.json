@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Amara",
+    "backstory": "A 35-year-old marketing director at a tech firm who immigrated from Ethiopia at age 12. She climbed from entry-level roles through discipline and analytical thinking, and now leads campaigns based on data and expert insights rather than market sentiment. Ambitious and methodical, Amara values evidence over emotion.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "social_proof"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "reciprocity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_07"
+  },
+  {
+    "name": "Hassan",
+    "backstory": "A 28-year-old freelance designer and writer with Lebanese heritage who values flexibility and his tight-knit community. He prioritizes authentic relationships and values-aligned work over career advancement, and often procrastinates on administrative tasks. Hassan believes in mutual support and shared principles rather than individual achievement.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      }
+    },
+    "user_id": "user_08"
+  }
+]

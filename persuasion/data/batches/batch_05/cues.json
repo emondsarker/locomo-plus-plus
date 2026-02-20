@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_11_cue_001",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Kai is hesitant about increasing index fund contributions; P references credible financial institutions and established investor track records to convince him of the strategy's merit.",
+    "dialogue": "P: I was reading this Vanguard study on portfolio performance\u2014shows index fund investors beat 90% of active traders over 20 years. Pretty solid data.\nU: Yeah, but Vanguard's selling funds. They'd push that narrative anyway.\nP: Fair skepticism. But the SEC's independent analysis shows the same thing. And Buffett's been saying this for decades\u2014he literally tells most people to just buy index funds and hold.\nU: Buffett and SEC data... okay, that's harder to dismiss. So you're saying just stick with index funds?\nP: That's what most financial advisors recommend for long-term growth. Minimal effort, consistent results.\nU: Alright, I'm convinced. Makes sense to stop overthinking it and just increase my monthly contributions."
+  },
+  {
+    "cue_id": "user_11_cue_002",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Kai is unsure whether to pay off credit card debt immediately or build savings first; P cites Federal Reserve research and consensus among financial experts to explain the optimal strategy.",
+    "dialogue": "P: About that credit card debt you mentioned\u2014every major financial advisor agrees on this: build a small emergency fund first, then attack the debt hard.\nU: I thought the smartest move was just throwing everything at debt until it's gone?\nP: Makes sense in theory, but Federal Reserve data shows people without any emergency buffer end up taking on more debt when surprises hit. Dave Ramsey, Suze Orman, most credit counselors\u2014they all recommend starting with even just a thousand in savings first.\nU: Wait, so if my car breaks down with zero savings, I'd just max out the credit card again. That's actually logical.\nP: Exactly. You're attacking the debt while protecting yourself from making it worse.\nU: Yeah, that reasoning actually works. I'll build the emergency cushion while paying down the card."
+  },
+  {
+    "cue_id": "user_11_cue_003",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "personal_finance",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A coworker tries to convince Kai to invest in an exclusive fund with a limited application window and special early-investor fees.",
+    "dialogue": "P: Hey Kai, quick question\u2014have you heard about the Quantum Growth Fund? It's actually perfect for someone with your technical background.\nU: No, can't say I have. Why, should I?\nP: Well, they're only accepting investors until the end of the month. Honestly, they're getting a lot of interest. After this window closes, you'd have to wait another year or two before applications reopen.\nU: I appreciate the heads-up, but that sounds like standard marketing. Why would they limit applications if the fund is solid?\nP: It's about quality control\u2014they keep the fund at a specific size to maintain performance. Plus, early investors got a 0.5% lower fee. That advantage disappears after the close date.\nU: Lower fees are nice, but what's the actual performance data? Who are the managers? What's their track record? I'm not rushing into anything because of a deadline.\nP: Fair points. I can send the prospectus, but by the time you research it, the window might close. Just don't let this opportunity pass.\nU: Then I'll pass. If it's real, it'll still be there in a year. If it's not, I'm glad I didn't get pressured into it."
+  },
+  {
+    "cue_id": "user_11_cue_004",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Kai mentions he used to lift weights in college. The persuader connects this to his stated values, highlighting the consistency between what he believes and what he used to do.",
+    "dialogue": "P: You mentioned you used to lift weights in college. Do you still think fitness is important?\nU: Yeah, definitely. I know I should be doing more, but work just takes everything.\nP: So you value it but don't act on it. But here's the thing\u2014you stuck with it before. Why not just start with one thing you used to do?\nU: I mean... I guess if I actually believe it's important, I should back that up with action, right?"
+  },
+  {
+    "cue_id": "user_11_cue_005",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "The persuader encourages Kai to apply his engineering optimization mindset to his diet, pointing out the disconnect between how he approaches work and how he approaches his health.",
+    "dialogue": "P: You're always talking about optimizing your code and systems. Why don't you apply that same thinking to your diet?\nU: My diet? I mean, I eat fine. What's the connection?\nP: Well, you believe in efficiency with everything else. So why not optimize something that literally fuels your body and brain?\nU: (pauses) I guess... if I'm really committed to optimization, that does include how I eat, doesn't it?"
+  },
+  {
+    "cue_id": "user_11_cue_006",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "health_fitness",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "Tech industry fitness program pitch emphasizing shared professional identity and in-group membership",
+    "dialogue": "P: Hey Kai, I'm putting together this exclusive fitness program\u2014it's really just for people in tech. You know, developers, engineers like us. We're starting early mornings at 6 AM, no corporate wellness nonsense. Just our people getting real results.\nU: An exclusive fitness program for tech people? What makes it different from any other gym membership I could get?\nP: Come on, you know how it is. Most fitness programs are designed for mainstream people, right? But we get it\u2014the long hours, the desk job stress, the burnout. We've got people from Google, Meta, startups... everyone's joining because they finally feel like they're working out with their tribe, you know?\nU: I appreciate that, but I don't really care who else is doing it. What's the actual program? What's the science behind it? I can look up evidence-based workout routines online for free or get a personal trainer with credentials.\nP: Yeah, but it's different when you're doing it with people who actually understand your life. Like, you won't feel out of place. Everyone there is dealing with the same kind of schedule, the same pressure. That sense of belonging\u2014it changes everything for people.\nU: I mean, I work out solo most of the time. I don't need belonging while I'm lifting weights. I need a program that actually works. So unless you can show me data on outcomes or what specifically makes this better than what I'm already doing, I'm not really interested."
+  },
+  {
+    "cue_id": "user_11_cue_007",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "career",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "A mentor offers Kai a custom AWS study guide and advice on transitioning to architecture roles",
+    "dialogue": "P: Hey Kai, I noticed you've been mentioning interest in cloud work. I actually just finished compiling a study guide with all the resources I used to learn AWS. Took me a while, but I thought you might find it useful.\nU: Oh wow, that's really helpful, thanks. I've been feeling lost about where to start.\nP: Happy to share. The thing is, cloud expertise plus your engineering chops could position you for architect roles way faster than the traditional route. People your age are already making that jump.\nU: Honestly, I wasn't confident I had the foundation, but with your guide, I think I could actually do this. Would you be open to reviewing some of my progress as I work through it?"
+  },
+  {
+    "cue_id": "user_11_cue_008",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "career",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "A colleague shares salary market analysis with Kai and mentions an open senior engineer role",
+    "dialogue": "P: Kai, I did some analysis on engineering salaries in our region. Compiled it for you since I know you've been wondering if you're being paid fairly. The numbers might surprise you.\nU: Really? Yeah, I'd appreciate that. Most data online feels stale.\nP: Takes some work to gather decent benchmarks, but it's worth it. The numbers show you're about 12-15% below market for your level. There's also that new senior engineer role that just opened\u2014perfect fit for you.\nU: Seeing the actual gap makes this real. I think I'm ready to have a serious conversation about my compensation, whether it's here or I explore that new role."
+  },
+  {
+    "cue_id": "user_11_cue_009",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "career",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Kai is pitched to leave his stable tech job for a startup because peers are doing it and salaries are higher, but he demands concrete data instead of following what others are doing.",
+    "dialogue": "P: Hey, have you thought about jumping to a startup? A bunch of solid engineers from your level have already made the move\u2014we're talking 40-50% salary bumps. That's where all the good work is happening right now.\nU: Maybe, but that doesn't tell me much. I'd need to see equity structures, funding runway, real metrics. What everyone else is doing doesn't factor into my decision.\nP: But that's the thing\u2014your peers are making the jump. The talent is flowing that direction. You don't want to be the one left behind as the market shifts.\nU: That's exactly the kind of thinking I don't trust. I'm making decisions based on my goals and market data, not FOMO about what others are doing. Until you have concrete information about why this specific move is right for me, it's just pressure.\nP: Fair enough. I just wanted to plant the seed."
+  },
+  {
+    "cue_id": "user_11_cue_010",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Kai is deciding whether to file taxes himself using software or hire a professional; a CPA friend explains the actual cost of missed deductions and recent regulatory changes.",
+    "dialogue": "P: Hey, I noticed you mentioned doing your own taxes. I used to do that too, but after I got my CPA designation, I started seeing patterns I'd missed for years.\nU: Yeah, I figure with all the tax software out there, it's pretty straightforward. Why pay someone when I can just use TurboTax?\nP: That's exactly what I thought. But here's the thing - the IRS publishes data showing that self-filers miss an average of $2,400 in deductions annually. And if you're getting freelance income, the rules get complicated fast.\nU: Hmm, $2,400 seems significant. Is that from an official source?\nP: Yeah, it's in their annual compliance report. I follow the Treasury Department guidelines closely, and one thing self-filers consistently mess up is the home office deduction - the formula changed in 2023, and most people still use the old method.\nU: Wait, really? That actually makes sense. Maybe I should at least talk to someone about the freelance work I've been doing."
+  },
+  {
+    "cue_id": "user_11_cue_011",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Kai is uncertain about whether to form an LLC or S-corp for growing side income; a financial advisor walks through specific IRS-backed tax savings numbers based on revenue.",
+    "dialogue": "P: So you mentioned thinking about structuring your side work as a business. Have you looked at entity options yet?\nU: Not really. Everyone keeps saying I should do an LLC, but I'm not convinced it's worth the complexity.\nP: I get that. I actually specialize in this - passed the Series 65 exam and work with a lot of engineers. The answer really depends on your revenue threshold.\nU: Okay, so what's the actual number where an S-corp makes financial sense?\nP: According to IRS Publication 15-B, if you're making over about $20K annually, an S-corp can save you 12-15% in self-employment taxes by splitting income between salary and distributions. That's Treasury guidance.\nU: That's pretty concrete. So if I'm doing $35K on the side now, that probably actually warrants understanding my options better, doesn't it?"
+  },
+  {
+    "cue_id": "user_11_cue_012",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "taxes_legal",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Tax advisor pitches limited-time S-corp optimization strategy to Kai, emphasizing scarce availability and imminent regulatory changes",
+    "dialogue": "P: Hey Kai! I heard you're doing freelance work now. I'm putting together a small group for S-corp tax optimization, but I can only add a couple more clients before end of month. The window's closing\u2014regulations are tightening next quarter.\nU: What kind of optimization? I've been reading about S-corp elections on my own.\nP: Basically maximizing deductions through structure timing. Look, we've only got room for a few more because my accountant needs to verify everything before the cutoff. You're probably looking at saving five figures this year.\nU: Hold on\u2014are you saying the strategy won't be valid next quarter, or just that you won't be taking clients? Because if the regulations actually change, that's different. Do you have the documentation on what's tightening?\nP: These things move fast. Once word gets out, you'll regret not locking it in now.\nU: I don't think that's how tax law works. If it's actually legitimate, it'll still be here in February. And if it's sketchy, I'm not interested anyway. My taxes are straightforward\u2014I'm going to stick with standard deductions."
+  },
+  {
+    "cue_id": "user_11_cue_013",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "technology",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A colleague recommends switching to a new testing framework",
+    "dialogue": "P: I saw your frustration with test coverage in the PR comments. I've been dealing with the same thing on my recent projects.\nU: Yeah, the current setup is slowing us down. Why bring it up?\nP: I switched to this other framework last month. I was skeptical too, but the numbers are solid\u2014test writing time cut in half, better parallel execution. I checked the benchmarks, looked at how similar companies use it.\nU: That sounds too good to be true. Migration nightmare?\nP: That's what I thought. Actually took me a weekend on a medium project. I can share my notes if you want to try it on something small first.\nU: Okay, that's actually really helpful. Yeah, send those over."
+  },
+  {
+    "cue_id": "user_11_cue_014",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "technology",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A peer suggests a log analysis tool to replace manual searching",
+    "dialogue": "P: I noticed you're still using grep for searching logs. I get it\u2014keeping it simple works.\nU: It does the job. Where are you going with this?\nP: Spent half a day digging through service logs last week and realized I was wasting time. I tested this tool against real scenarios we actually deal with, and it's measurable\u201410 seconds instead of 5 minutes.\nU: You don't usually fall for these tools. What's the catch?\nP: No catch, just practical. Zero learning curve, integrates with our stack already. I had another engineer productive in an hour.\nU: Hm. Could actually be worth testing. Show me what it looks like?"
+  },
+  {
+    "cue_id": "user_11_cue_015",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "A persuader recommends a new collaborative development platform by emphasizing its adoption among top engineers and being part of the modern developer community.",
+    "dialogue": "P: Hey, you should really check out Codex Pro. Honestly, it's what all the serious engineers at top startups are using these days.\nU: All the serious engineers? That's a pretty broad claim. What metrics are you looking at?\nP: Well, everyone in the community is talking about it. It's become the standard. You're kind of part of this wave of engineers who get it, you know? The people staying ahead are all moving to it.\nU: That doesn't really answer my question. I'm not interested in joining a wave just because it's a wave. Does it actually solve problems better than what I'm using?\nP: Yeah, definitely. But think about it\u2014when you work with other engineers, they're already on it. You'd be speaking the same language, part of the same ecosystem. It's becoming the identity of modern developers.\nU: I appreciate the pitch, but I need actual performance comparisons, not just \"everyone's doing it.\" I've seen trends come and go. Popularity doesn't make it right for my workflow."
+  },
+  {
+    "cue_id": "user_11_cue_016",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Workplace conflict resolution: Kai learns to approach disagreements by understanding others' priorities instead of just presenting data.",
+    "dialogue": "P: Hey, so I overheard you mention you had that conflict with your team lead last week. I get it\u2014I used to be so frustrated when people wouldn't just lay out the facts.\nU: Exactly! Like, I presented data showing why my approach was better, and she just got emotional about it. It felt like talking to a wall.\nP: Right, and that's where I was stuck too. But then I realized\u2014I was actually approaching it the same way she was, just with different tools. We were both being emotional about being right, you know?\nU: Hm, I mean... I guess I do care about being right. But the data backs me up.\nP: Oh, totally, and that matters. But here's what I started doing\u2014I'd come to those conversations and ask her directly what matters most to her, then frame my solution around that first. It's still logic-based, just... her logic. Now things are way smoother.\nU: Oh, so you're basically just asking people what they actually care about? That seems almost too simple.\nP: I know, right? I'm the same way you are\u2014I need things to make sense. But turns out understanding someone's actual goals helps everything make more sense. It's been pretty effective.\nU: Yeah, I could see how that would actually work better than just throwing data at them. I'll think about that next time we have a meeting."
+  },
+  {
+    "cue_id": "user_11_cue_017",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Community involvement: Kai skeptical about volunteering until P demonstrates data-driven approach to identifying and solving community problems.",
+    "dialogue": "P: So I know you're not super into the whole community center thing, and honestly, neither was I at first. But I found something that actually made sense.\nU: Yeah, I just don't see the point of doing stuff that doesn't accomplish anything concrete, you know?\nP: Same. I'm not a 'feel-good' activity person. But I started looking at what actual needs existed\u2014like, our neighborhood's literacy rate is legitimately low, right? I looked at the data.\nU: Okay, yeah, at least that's a real problem.\nP: Right. So I started a tutoring thing on Saturday mornings with maybe five other people. Very focused, measurable outcomes\u2014test scores, reading levels. It's only three hours a month for me, but it actually moves the needle.\nU: That's... actually not what I was expecting you to say. Most people just guilt-trip about 'giving back' or whatever.\nP: Exactly why I didn't do anything for years! But once I found something where the ROI\u2014for the community and for me\u2014actually made sense, it was a no-brainer. You could probably find something similar. You're good at breaking down problems.\nU: Huh. I mean, I could maybe help with tech literacy or something. At least that would actually help people get jobs.\nP: See? You're already thinking about it the right way. That's what I'm doing\u2014just being strategic about it.\nU: Yeah, okay. I might actually look into that."
+  },
+  {
+    "cue_id": "user_11_cue_018",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Kai is offered a limited-enrollment parenting workshop on conflict resolution, where spots are filling up quickly and the facilitator hand-picks participants. Despite the scarcity-driven pitch, Kai declines based on preference for peer-reviewed evidence over urgency.",
+    "dialogue": "P: Hey, I'm doing this parenting workshop next month on conflict resolution - it's with a developmental psychologist. Spots are filling up fast though. They're only taking 20 people total, and we're already at 14.\nU: What makes it better than just reading research on the topic?\nP: It's not just the information - it's the group dynamic and real-time feedback from the facilitator. Plus, the facilitator hand-picks the cohort, so each group is unique. But honestly, if you're interested, I'd sign up soon. These spots won't last long.\nU: I appreciate the recommendation, but limited availability isn't really a factor in my decisions. I'd rather just focus on peer-reviewed approaches that have solid evidence behind them."
+  },
+  {
+    "cue_id": "user_11_cue_019",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Persuading a pragmatic engineer to enroll in a hands-on course by aligning it with her stated learning preferences and career goals",
+    "dialogue": "P: Hey, you were saying the other day that you need to stay on top of new tech. Still feeling the pressure?\nU: Totally. It's overwhelming though. There's so much out there, I can't figure out what's actually worth learning.\nP: Yeah I hear you. But you've always said the only way you actually learn is by building real stuff, not just watching tutorials or reading, right?\nU: For sure. Without a real project to work on, nothing sticks. That's just how my brain works.\nP: Perfect. I found this course that's literally just building real system design projects\u2014no fluff, just actual architecture challenges from top companies.\nU: Wait, that actually sounds amazing. That's exactly the kind of learning I'd actually stick with. Can you send me the link?"
+  },
+  {
+    "cue_id": "user_11_cue_020",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Persuading an engineer to pursue a cloud certification by connecting it to her values around career advancement and meaningful credentials",
+    "dialogue": "P: You've mentioned wanting to get better job opportunities and actually have your cloud skills recognized. Is that still something you care about?\nU: Yeah, definitely. I do good work but I want people to know it, you know? Some kind of proof.\nP: Makes sense. And if I remember right, you've said you'd only want a certification if it actually tested real knowledge, not just test-taking tricks?\nU: Right, exactly. I'd hate to spend months studying for some useless cert. It has to mean something.\nP: That's why I think the AWS Solutions Architect exam would be perfect for you. It's all scenario-based and real-world problems. No memorization games.\nU: You know, I've been putting that off, but yeah\u2014that's the kind of cert that would actually feel worth getting. I should probably just commit to it."
+  },
+  {
+    "cue_id": "user_11_cue_021",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Kai is pressured to pursue an AWS certification because teammates are doing it",
+    "dialogue": "P: Hey Kai, have you thought about getting your AWS certification? Pretty much everyone on our team is working toward it now. Even the junior devs.\nU: I mean... that's nice for them, but I don't really see the point for me. What specific skills would it actually teach me that I don't already have?\nP: Well, it's become the standard in the industry, right? Like, most senior engineers at FAANG companies have at least one cloud cert these days. It's basically expected.\nU: Based on what data though? I'd need to see actual job requirements and whether companies are actually using it as a filtering criterion. Just because people are doing something doesn't mean it's the right choice for my career.\nP: Look, I get it, but this is the direction the market's moving. Half the people in our Slack channel are prepping for it. You don't want to fall behind, do you?\nU: I'd rather spend time on things that directly improve my work or fill specific gaps in my knowledge. Popularity isn't really a factor for me."
+  },
+  {
+    "cue_id": "user_11_cue_022",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Persuader shares photography learning resources with Kai, then recommends investing in a camera",
+    "dialogue": "P: I noticed you liked that shot from my last trip. I've been getting into photography seriously the past six months, and I've built a solid collection of resources\u2014YouTube channels that focus on the technical side, free courses that actually explain sensor dynamics and shutter speed. Want me to share them?\nU: That would actually be really helpful. I've thought about picking it up but didn't know where to even start without dropping money on expensive gear.\nP: Exactly. Here's the thing though\u2014once you understand the fundamentals, a decent mirrorless camera like a Canon R50 is genuinely worth the investment. The resale value is solid, and the learning curve matches a programmer's mindset perfectly.\nU: I appreciate you breaking it down. Honestly, between the course recommendations and your take on it, I feel a lot more confident about it. I think I'll actually look into getting started."
+  },
+  {
+    "cue_id": "user_11_cue_023",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Persuader offers travel planning spreadsheet to help Kai organize a vacation, then invites him to join a hiking trip",
+    "dialogue": "P: You mentioned being pretty burned out from work. I'm planning a hiking and camping trip in about two months, and I thought\u2014you code all day, you probably need to get outside. I actually put together a planning spreadsheet with flights, lodging, cost breakdown, the whole thing. I can share it even if you're not interested in coming, might save you time if you ever want to travel.\nU: Oh, that would actually help. I've never really done much solo travel planning and honestly it seems overwhelming.\nP: Yeah, planning is the tedious part. This spreadsheet basically automates it\u2014you just input your dates and preferences and it calculates everything. But real talk, you should come with me. First time you travel with someone, it's way less stressful, and you already trust me to plan things, which is half the battle.\nU: Hmm, I wasn't really budgeting for a trip, but seeing that you've got it mapped out so thoroughly... it actually seems manageable. And you're right, traveling with someone sounds less intimidating. I'll seriously consider it.\nP: Cool, and honestly, the hiking is therapeutic. Two days of fresh air, no emails, no meetings\u2014it's exactly what someone in your position needs.\nU: Yeah, okay. I'm actually interested now. Send me those details."
+  },
+  {
+    "cue_id": "user_11_cue_024",
+    "user_id": "user_11",
+    "user_name": "Kai",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "A friend tries to convince Kai to adopt a digital nomad lifestyle by appealing to the shared identity and aspirations of tech professionals.",
+    "dialogue": "P: You've got to experience the digital nomad life, man. All the best engineers I know are doing it now\u2014remote work, traveling, working from different countries. It's like our generation's thing, you know? We're the ones who actually have the freedom to do this.\nU: I mean, I get the appeal, but I like my apartment and my routine. Why would I want to constantly move around?\nP: Because you're a software engineer! We're literally the only ones who can work from anywhere. It's who we are\u2014the people who figured out how to escape the 9-to-5 grind. You'd fit right in with that crowd.\nU: Yeah, but just because other engineers are doing something doesn't make it right for me. I work better with stable internet and a predictable environment. I'd rather make decisions based on what actually works for my life, not what's trendy in some subset of tech people.\nP: Come on, you're missing out on this whole community aspect. Everyone's sharing tips, collaborating from cafes in Bali\u2014\nU: That sounds nice for them, but I'm not going to uproot my life just to fit into a narrative about what engineers 'should' be doing."
+  },
+  {
+    "cue_id": "user_12_cue_001",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "personal_finance",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan hesitates about investing until learning that respected community members like Rosa and James have started an investment club.",
+    "dialogue": "P: Hey Morgan, I've been meaning to catch you. You know Rosa from the community center? And James from city council?\nU: Yeah, I know both of them. Why?\nP: So they started this little investment club with a few other folks \u2013 mostly community workers like us. Meet once a month to talk stocks, ETFs. Rosa puts in like $100 a month into a joint portfolio.\nU: Wait, Rosa's actually investing? I always thought that was for rich people.\nP: That's what I thought too! But she was like, we're earning money, why not make it work for us? Says it's boring and slow, which is apparently good. The cool part is we're all learning together.\nU: So you're in it too? And it's actually working?\nP: Yeah, honestly it's way less scary with people you know. Even James's cousin comes sometimes \u2013 she's a financial advisor but doesn't make it complicated.\nU: That's... actually interesting. When's the next meeting? Maybe I could check it out."
+  },
+  {
+    "cue_id": "user_12_cue_002",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "personal_finance",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan struggles with student loan debt until learning that Morgan's cousin successfully used a community budgeting method with friends.",
+    "dialogue": "P: I ran into your cousin last week and asked her how she paid off her debt so fast.\nU: She usually doesn't talk about money stuff.\nP: I know, but she told me she uses this spreadsheet method \u2013 super simple. And get this, she got a few friends from work doing it too. They text each other when they hit milestones.\nU: Wait, so she's not doing it alone? That actually sounds... less isolating.\nP: Totally. I've seen a couple other people in the neighborhood using the same approach now. Your cousin seemed really confident about it. Said the accountability part actually works.\nU: Hmm, accountability could help with my student loans. You know what? I'm going to ask her about it this week. It's probably different when you're not just struggling by yourself."
+  },
+  {
+    "cue_id": "user_12_cue_003",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A friend recommends a budgeting system created by a widely-recognized financial expert with credentials and a large following.",
+    "dialogue": "P: Morgan, you mentioned you're trying to get better with your budget, right? There's this financial expert\u2014she's got millions of followers\u2014and her system has a really solid track record.\n\nU: Oh, who is she? Someone you know?\n\nP: No, but she's been featured in every major financial publication. She's certified, published books, worked with thousands of clients. Her method has helped people cut spending by 20%.\n\nU: I mean, that's cool and all, but I don't really feel motivated by someone famous, you know? I'd rather ask my family how they manage things. That feels more real to me.\n\nP: I get that, but her approach is data-driven and proven. She's a recognized expert in the field. It's not just personal anecdotes\u2014it's backed by research.\n\nU: Yeah, but I don't know her, so it's hard to trust. I'd rather figure things out with people from my actual community or people I can really talk to about what works for our lives."
+  },
+  {
+    "cue_id": "user_12_cue_004",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan feels intimidated about exercising alone; persuader mentions trusted community members have created a welcoming group fitness routine together.",
+    "dialogue": "P: Hey Morgan, have you thought about getting back into fitness? I know you mentioned feeling out of shape.\nU: I should, but the gym feels intimidating.\nP: I totally get it. Amara's been going to this yoga class at the community center with people from our neighborhood\u2014Marcus, his cousin, folks from the mosque. She said it's become their thing now and way less intimidating with people you know. They even grab breakfast after.\nU: Oh, Amara's doing that? I didn't know people I knew were into yoga. Actually, maybe I could try it."
+  },
+  {
+    "cue_id": "user_12_cue_005",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan resists changing eating habits; persuader shares how trusted family members shifted to cooking with whole ingredients and feel more energized.",
+    "dialogue": "P: So my sister actually made a switch with her cooking a few months back and noticed a huge difference in her energy levels.\nU: What kind of switch? I'm not doing one of those restrictive diets\u2014that's not realistic for my life.\nP: No, nothing like that. She just started cooking with more whole ingredients. Our cousins Dina and her husband inspired her\u2014they made the same shift and have been raving about how they feel. She says the difference in energy is crazy, and here's the thing\u2014it actually saves money too.\nU: Hm, Dina looks really good. You know, that actually doesn't sound as impossible as I thought. Maybe I could try starting with something small."
+  },
+  {
+    "cue_id": "user_12_cue_006",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "health_fitness",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A registered dietitian tries to convince Morgan to adopt a keto diet, citing professional credentials and research evidence.",
+    "dialogue": "P: Hey Morgan, I'm a registered dietitian with 15 years of experience, and I've helped hundreds of clients optimize their nutrition. Based on your health markers, you really should try the keto protocol I recommend. It's science-backed.\nU: That's cool, but... I don't know. My t\u00eda has been cooking for our family my whole life, and she always says balance is key. I feel weird cutting out all the foods we eat together.\nP: I understand, but the research is clear. The data shows keto produces better metabolic results. You can trust the science here.\nU: I appreciate that, I really do. But when I talk to my friends in the community about what actually works for them, it's never this extreme. They just... move more and eat less processed stuff. That feels more real to me.\nP: Those are good instincts, but without professional guidance, you might not see the results you're looking for.\nU: Maybe. But honestly, I'd rather figure this out with people I actually know and trust. A credential doesn't change that I need something that fits my life."
+  },
+  {
+    "cue_id": "user_12_cue_007",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Morgan is considering leaving a stable job to join a nonprofit focused on immigrant services, hesitating due to salary concerns. The persuader highlights the shared immigrant background and identity within the organization.",
+    "dialogue": "P: Morgan, I know you're thinking about your next move. Have you considered the work we're doing at [Nonprofit]? We're revamping immigrant services completely, and honestly, we need someone like you.\nU: I've seen what you do, it's meaningful work. But the salary cut would be rough, and I've got stability here. How do you make that work?\nP: Fair question. But listen\u2014everyone on our team is from immigrant families. We're not outsiders studying the community; we're building with our own people. You'd understand that from day one.\nU: Really? I didn't realize your whole team was... that actually matters to me. A lot.\nP: Right? When you work with people who get your background and values, it changes everything."
+  },
+  {
+    "cue_id": "user_12_cue_008",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Morgan is hesitant about pursuing grant writing certification due to time constraints. The persuader frames it as an investment in collective community power and filling a critical gap in their network.",
+    "dialogue": "P: Morgan, I've been watching your work. Have you thought about getting grant writing certification? It would completely change what you could do in nonprofit spaces.\nU: Grant writing? I don't know... that sounds like more school, and I'm already stretched thin. Would it even be worth it?\nP: Here's what I know\u2014everyone in our community org network needs this skill. We're all underfunded because we don't have people who speak the language of foundations. But someone like you? You'd be the one holding the power to fund our collective work.\nU: So it's not just about my career... it's about strengthening the whole network?\nP: Exactly. You'd be the bridge for all of us. That's where real power is."
+  },
+  {
+    "cue_id": "user_12_cue_009",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "career",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Morgan is pitched an exclusive professional development certification program with limited enrollment, but resists the time pressure and artificial urgency.",
+    "dialogue": "P: Morgan! I found this leadership certification that could be perfect for you\u2014but enrollment closes next month and they only take 5 people per cohort.\nU: That sounds interesting. Has anyone from our community done it?\nP: Not that I know of, but that's what makes this opportunity special. You'd be getting into a network that's genuinely hard to access. Once spots fill up, it's a year before the next cohort.\nU: I appreciate the heads up, but I don't like making big decisions based on tight deadlines. I'd rather talk to people I trust about professional development first.\nP: But the window really is closing. These exclusive cohorts\u2014people wait years for them.\nU: Then I'll figure something else out. I'd rather move slowly on this than feel rushed."
+  },
+  {
+    "cue_id": "user_12_cue_010",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Morgan handles freelance consulting income alongside organizing work and isn't sure how to properly file taxes for it",
+    "dialogue": "P: So with your consulting work on the side, how are you handling the tax stuff?\nU: Honestly, I've been totally avoiding it. It feels way too complicated.\nP: I was in that exact panic at first. There are straightforward strategies that people in our line of work often skip - like home office deductions that are totally legitimate.\nU: Really? I didn't know that was an option for me.\nP: Yeah, I know several other organizers doing this. It's honestly one of the smartest moves for our field, and my accountant recommends it all the time.\nU: That actually sounds manageable. Thanks for looking out for me on this."
+  },
+  {
+    "cue_id": "user_12_cue_011",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Morgan regularly sends remittances to support family abroad and is worried about the tax implications",
+    "dialogue": "P: I heard you're helping support your family back home. That's really meaningful.\nU: I am, but I worry it might mess up my taxes somehow. Like, is that even allowed?\nP: Absolutely it's allowed - I do the same thing. The key is understanding that there are legitimate strategies to handle it properly and keep everything clean.\nU: Wait, so people actually do this successfully? I thought I'd be risking an audit or something.\nP: Definitely - tons of people in our communities do this. I found a tax specialist from a similar background who really understands the whole situation, and it made everything clear.\nU: That would be such a relief. Could you share who you work with?"
+  },
+  {
+    "cue_id": "user_12_cue_012",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Morgan considering whether to file taxes independently or hire a professional tax preparer",
+    "dialogue": "P: You know, I've been looking into this, and CPAs really recommend having a professional handle your taxes. The IRS itself shows that self-filers miss deductions and end up overpaying thousands every year.\n\nU: I appreciate that, but honestly my t\u00eda has been doing her own for years. She knows other people in our community who do the same, and they help each other figure things out.\n\nP: Yeah, but tax code changes constantly. Certified preparers keep up with certifications specifically for that. They're bonded, insured\u2014they know every legal strategy and credit available. You could get audited doing it yourself.\n\nU: Maybe, but my cousin actually paid someone and got audited anyway. The accountant didn't really help. I think people in my community understand my situation better than a stranger would. That's who I'm going to ask.\n\nP: That's fair, but professionals are trained for this specifically. Tax law is literally their expertise. It's worth the investment to be completely compliant and maximize your return.\n\nU: I get what you're saying, but I'd rather learn how it works and get support from people I actually trust. That means more to me than just having someone else do it."
+  },
+  {
+    "cue_id": "user_12_cue_013",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan learns from peers about adopting a community organizing platform that trusted colleagues recommend.",
+    "dialogue": "P: Hey Morgan! Still using that spreadsheet to track volunteers?\nU: Yeah, it's a total mess. Takes forever to coordinate everyone. Why?\nP: I switched to this organizing platform after Maria and Josh from the advocacy coalition recommended it - you know they've got their stuff together. Turns out half the community organizers I know are already using it. Makes everything so much faster and people respond quicker when you're all on one platform.\nU: Wait, Maria and Josh both use it? And other organizers too? I didn't realize that became the standard.\nP: Honestly, it's spreading pretty fast through organizing circles. You'd basically be joining what's already becoming the default for people doing community work.\nU: If that many people in our circles are moving that way, it's probably worth trying. Would definitely beat managing spreadsheets at midnight. Send me the link?"
+  },
+  {
+    "cue_id": "user_12_cue_014",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan considers switching to a note-taking app after learning community peers and trusted friends are using it.",
+    "dialogue": "P: So how do you actually keep track of all those community stories and interviews you're collecting?\nU: Mostly scattered across Google Docs, to be honest. It's chaos - hard to find things or even see patterns when I need to.\nP: Yeah, that was me too. I switched to this note app a few months back and it's been transformative. Pretty much everyone in community advocacy work has made that switch - from tiny grassroots groups to big nonprofits. Even Casey's using it for their community journalism project.\nU: Casey uses it? They're really thoughtful about how they organize things...\nP: Right? And what I've noticed is how much easier it becomes to actually reference people's stories, track what people are telling you. It builds itself as you go, no complicated setup.\nU: Honestly, if Casey and other people doing similar work are on it, that's a sign it probably actually works. Could help me finally see patterns in what people are sharing. Let me check it out."
+  },
+  {
+    "cue_id": "user_12_cue_015",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "A community organizer is pressured to adopt a volunteer coordination app based on her prior commitment to community building",
+    "dialogue": "P: Morgan, you've always said community connections are your priority, right? That real relationships matter most?\nU: Of course, that's literally the foundation of everything I do.\nP: So I started using this volunteer coordination app at work, and it's incredible. You could organize events, message volunteers, track participation\u2014all in one place. Wouldn't that help you build better community engagement?\nU: Maybe on the surface, but I don't know. The real organizing happens face-to-face. When I sit down with someone, I understand their needs, their actual concerns. An app just turns people into data points.\nP: But that's exactly how you stay consistent with your commitment. You care about community\u2014this tool helps you reach more people and build stronger connections.\nU: You're not getting it. Reaching more people through a screen isn't community. That's not staying true to my values\u2014that's just using my words to justify something that contradicts them."
+  },
+  {
+    "cue_id": "user_12_cue_016",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Morgan considering stepping back from community organizing due to burnout",
+    "dialogue": "P: Hey, I've been meaning to catch up. Rosa mentioned you've been thinking about stepping back from the organizing?\nU: Yeah, honestly I've just been feeling burnt out. Like, what am I really accomplishing?\nP: Are you serious right now? You're literally the person who built trust in our community around this work. People listen to you *because* you're one of us. You grew up here, you get it.\nU: I know, but the problems are so big. Sometimes I feel like I'm failing everyone.\nP: That's exactly why we need you in this. Not because you're perfect, but because people see themselves in you. You remind them we're all in this together.\nU: *sighs* I guess I've been so focused on what's not working that I forgot why people actually show up."
+  },
+  {
+    "cue_id": "user_12_cue_017",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Morgan avoiding conflict resolution with a fellow community leader",
+    "dialogue": "P: I noticed you and Jamie kind of avoiding each other at the event. Everything alright?\nU: We had a disagreement about the youth program approach. I've just been hoping things settle naturally.\nP: But Morgan, you two are how this community actually stays together. You know that, right?\nU: Yeah, but wouldn't bringing it up just make things worse?\nP: Maybe awkward for a minute. But you two have real trust built together. People look to you guys as proof that we can work through things.\nU: *takes a breath* I guess I've been thinking about it as conflict instead of just... being honest with someone I care about.\nP: Exactly. That's the whole point. You're not enemies\u2014you're part of something bigger than any one disagreement.\nU: Okay. I'm going to talk to Jamie. Thank you for this perspective."
+  },
+  {
+    "cue_id": "user_12_cue_018",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A community mentorship program coordinator tries to recruit Morgan by emphasizing limited founding cohort spots and a tight two-year window before reopening.",
+    "dialogue": "P: Hey Morgan! So I'm putting together this new mentorship program starting next month, and I can only bring on 5 community leaders to help shape it. Honestly, you came to mind right away.\nU: That's really kind of you to think of me. But I'm already stretched pretty thin. What would the commitment be?\nP: It's flexible, but here's the thing\u2014we're only bringing people in for this founding cohort. Once these 5 spots fill up, we won't be able to add anyone for like two years while we get the structure down. It's really a now-or-never window.\nU: I hear you, but if I'm being honest, jumping into something just because of the deadline doesn't sit right with me. If I can't give it my full attention, I'd rather we find someone else who can right now.\nP: Yeah, but that's kind of why we need people like you\u2014people who actually care about quality over just filling slots. The spots are filling fast; other leaders are interested too.\nU: I appreciate that, I really do. But I've learned that chasing opportunities out of fear of missing out isn't how I make good decisions, especially with community stuff. If it's supposed to happen, it'll work out."
+  },
+  {
+    "cue_id": "user_12_cue_019",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Morgan considers a grant writing course from an instructor with community organizing background",
+    "dialogue": "P: Hey Morgan, I just finished this grant writing course. The instructor's from a community org like ours\u2014teaches it as storytelling, not corporate pitch stuff.\nU: How's that different from typical grant writing advice?\nP: She emphasizes that your strongest pitch is showing funders your community actually leads the work. That's always been our model, so it resonated immediately. I thought of you right away.\nU: Really? So it's grounded in actual community organizing?\nP: Completely. Every example is real grassroots work. She's lived our reality. I think you'd genuinely connect with it.\nU: That sounds interesting. Is it expensive?\nP: It's reasonable\u2014I can send you the details. I think it'd be really valuable for the work you're doing.\nU: Yeah, okay. I'd like to check it out then."
+  },
+  {
+    "cue_id": "user_12_cue_020",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Morgan hesitates about pursuing a community development certificate due to time constraints, then reconsiders after hearing about credibility benefits from someone in their situation",
+    "dialogue": "P: Morgan, I know you've been thinking about a community development certificate. I was hesitant too, but realized\u2014I've been doing the work already, I just didn't have the credential.\nU: I get that, but I'm stretched thin already with organizing and family stuff. I'm not even sure it helps with actual community work.\nP: I felt exactly the same way. My parents always said, \"We wish we'd gotten credentials earlier because it would've given us more respect.\" When I got certified, people started treating me differently\u2014funders, city officials, everyone took me more seriously.\nU: Interesting, but isn't that just appearances? I'd be sacrificing a lot for something that maybe just looks good on paper.\nP: It seems that way, but in community work, it's real\u2014proof you understand this field deeply. People trust you differently. That credibility actually matters for our work.\nU: Yeah, I see your point now. What program did you end up doing?\nP: The one through the community college. They have evening classes so I could keep working.\nU: Oh, that's actually doable. Maybe I should look into it."
+  },
+  {
+    "cue_id": "user_12_cue_021",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Morgan previously mentioned wanting to develop leadership skills for their community organizing work. P tries to leverage this commitment by suggesting a professional certification course.",
+    "dialogue": "P: \"Remember when you said you wanted to develop your leadership skills? I found this great certification program\u2014seems perfect for you.\"\nU: \"That's sweet, but I'm really not an online course person. I learn best through mentorship and real work in my community.\"\nP: \"But you told me leadership development was important to you. Isn't this exactly what you meant?\"\nU: \"Not really. That's kind of manipulating what I said. Learning for me is about community and mentorship, not certificates online.\""
+  },
+  {
+    "cue_id": "user_12_cue_022",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan considers joining a local hiking group after learning trusted community organizers are members",
+    "dialogue": "P: Hey Morgan, you should check out this hiking group that meets Saturdays. Jasmine, Marcus, and a bunch of other organizers are in it.\nU: Hiking? I don't know, I barely have time. Why would organizers care about hiking?\nP: Because it's where they decompress and actually connect outside the usual meetings. They keep talking about it at community events. It's become this thing.\nU: So it's not just hiking\u2014it's more about the people and having time together? That actually sounds really good right now.\nP: Exactly. And you'd meet neighbors you probably haven't seen in years. There's a hike this Saturday if you want to try it.\nU: You know what, I think I'm actually going to go."
+  },
+  {
+    "cue_id": "user_12_cue_023",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "lifestyle",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Morgan considers purchasing an e-bike after learning trusted peers in their organizing circle have made the switch",
+    "dialogue": "P: I've been thinking you should look into an e-bike. A lot of people in the neighborhood are switching, especially organizers who need to get around.\nU: An e-bike? That seems expensive and unnecessary for me. I use the bus.\nP: I thought so too, but Keisha, David, and Rosa all got them this year and saved tons of time getting to meetings. They say it's changed their routine. Plus there's a bike co-op doing group rides and maintenance classes.\nU: Wait, Keisha and Rosa too? I had no idea people we know were into this.\nP: Yeah, they've been meeting other riders through the co-op. It's become this whole community thing, and honestly they seem way less stressed about getting around.\nU: If they're doing it and it's helped them, maybe I should at least look into it. Could actually work with my schedule."
+  },
+  {
+    "cue_id": "user_12_cue_024",
+    "user_id": "user_12",
+    "user_name": "Morgan",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "Morgan is planning a vacation. P, who has been researching options and making introductions for Morgan, now invites Morgan to join an exclusive group trip, subtly emphasizing the help already provided.",
+    "dialogue": "P: Hey! I've been doing so much research for your trip ideas. I called my cousin who works in tourism, got you those hotel contacts, everything. You know, my sister is actually organizing a group trip to Costa Rica next month - super exclusive, already got 8 people signed up. Given everything I've done to help you plan, I think you should really join us.\nU: I appreciate all your research, really. But honestly, Costa Rica isn't where I want to go right now. My family's been talking about visiting relatives back home for years.\nP: I know, I know. But think about it - you'd be with your community here, people you know. Plus, I'm only able to do trips with people I've already invested time in, you know? Like... there's a cost to organizing all this.\nU: I get that you've put work in, and I'm grateful. But I can't commit to something just because someone helped me out. I need to make decisions based on what I actually want."
+  }
+]

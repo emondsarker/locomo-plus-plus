@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Quinn",
+    "backstory": "28-year-old software engineer from Singapore currently working in San Francisco. Highly analytical and skeptical of traditional authority, but strongly influenced by online tech communities and peer validation. Constantly learns new technologies and values efficiency over convention.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "reciprocity",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_15"
+  },
+  {
+    "name": "Frank",
+    "backstory": "55-year-old construction company owner in rural Texas who built his business over decades on long-term relationships and personal trust with clients and employees. Values established conventions, prefers face-to-face interaction, and is cautious about new trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "social_proof"
+      },
+      "health_fitness": {
+        "effective": "scarcity",
+        "ineffective": "reciprocity"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_16"
+  }
+]

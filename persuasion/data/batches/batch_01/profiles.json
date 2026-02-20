@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Priya",
+    "backstory": "28-year-old startup founder originally from India, ambitious and data-driven with a strong entrepreneurial mindset. She questions traditional authority, values efficiency and innovation, but also seeks validation from her peer community. Despite her independence, she carries values of community-oriented problem-solving from her cultural background.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "reciprocity",
+        "ineffective": "liking"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "unity",
+        "ineffective": "reciprocity"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_03"
+  },
+  {
+    "name": "Robert",
+    "backstory": "55-year-old certified public accountant nearing retirement, deeply traditional with strong family values and decades of respect for established systems and hierarchies. He prioritizes stability over excitement, maintains long-term commitments, and trusts expertise and formal credentials. His social circle values reliability and consistency above all else.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "authority",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_04"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Elena",
+    "backstory": "Elena is a 42-year-old accountant who immigrated from Poland in her twenties and built a successful career through meticulous financial planning. As a single mother of two teenagers, she values security and long-term stability above all else. Her immigrant background makes her both deeply appreciative of community and skeptical of untested trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_09"
+  },
+  {
+    "name": "Jackson",
+    "backstory": "Jackson is a 26-year-old digital marketer and startup founder who grew up immersed in social media culture and launched his first successful online business at 23. He's constantly seeking the next big opportunity and tends to make quick decisions based on trending topics in his network. He's charming at building communities but sometimes lacks patience for thorough analysis.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_10"
+  }
+]

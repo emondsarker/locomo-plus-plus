@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_07_cue_001",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Amara considers hiring an active fund manager for her investments but is convinced to use index funds after learning about research showing their superior performance.",
+    "dialogue": "P: I know you're thinking about finding a fund manager for your investments, but have you looked at the research from Vanguard on active management?\nU: Not recently. I figured an expert manager could potentially outperform the market if they're good.\nP: That's what most people assume. But Vanguard studied thousands of managers over 15 years\u2014about 90% underperform index funds after fees. The data is really clear.\nU: 90%? That's surprisingly high. So index funds are the more logical choice?\nP: Not just logical\u2014mathematically superior. Even top financial advisors rely on this research. The numbers don't lie.\nU: You're right. I analyze data all day at work. It's time I applied the same rigor to my own investments."
+  },
+  {
+    "cue_id": "user_07_cue_002",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Amara wants to begin investing immediately but is persuaded to establish an emergency fund first through expert financial guidance.",
+    "dialogue": "P: You mentioned wanting to start investing your savings soon. Do you have a solid emergency fund set up?\nU: I have a few months of expenses saved, but honestly, keeping cash idle while I could be earning returns feels inefficient.\nP: I get that mindset. But the CFP Board consensus\u2014financial planners who deal with this constantly\u2014is that an emergency fund comes first. It actually protects your long-term investments.\nU: How does that protect my portfolio?\nP: If something unexpected happens, you won't be forced to withdraw from investments at the worst possible time. That's why the recommendation is 3 to 6 months of expenses. It gives you stability.\nU: That actually makes sense. I spend my career making decisions based on evidence. I should apply that same discipline to my own finances."
+  },
+  {
+    "cue_id": "user_07_cue_003",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A friend offers to share exclusive investment tips from their financial advisor, expecting Amara to reciprocate by adopting the strategy.",
+    "dialogue": "P: Hey Amara! I pulled some strings with my financial advisor friend\u2014he rarely shares his portfolio strategy, but he made an exception for me. I immediately thought of you. Want me to pass along what he sent?\n\nU: That's thoughtful, but I've got my own system. I track historical performance, expense ratios, and sector correlations. What's the advisor's track record and methodology?\n\nP: Honestly, he's been doing really well, and I don't have all the details. But he went out of his way for me, so I figured I'd extend the same favor to you. It'd mean a lot if you'd at least consider it.\n\nU: I appreciate the gesture, but I can't make investment decisions based on someone's results without understanding their approach or risk tolerance. Do they publish their methodology anywhere?\n\nP: Not really\u2014it's more of a personal relationship thing. Look, I'm asking as a friend. I went to bat for you here.\n\nU: I understand, and I'm grateful for the effort. But personal relationships can't drive my financial strategy. If your friend has a track record I can analyze, I'm happy to review it. Otherwise, I need to stick with what I can verify."
+  },
+  {
+    "cue_id": "user_07_cue_004",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Morning exercise routine",
+    "dialogue": "P: You've mentioned wanting more energy for work. I know you're incredibly disciplined about hitting targets\u2014do you think that same discipline could work for fitness?\nU: Maybe, but I've never been able to stick to a routine.\nP: What if it was just 30 minutes, three times a week? That's actually less demanding than your quarterly planning cycles, and you've already proven you can commit to harder things.\nU: Honestly, when you frame it that way, it does sound more doable. I might actually try this."
+  },
+  {
+    "cue_id": "user_07_cue_005",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Preventive health screening",
+    "dialogue": "P: You always tell me you make health decisions based on data, not gut feelings. Does that still apply?\nU: Of course. I can't imagine making decisions any other way.\nP: So early screening at 35 is important data\u2014your family history with hypertension makes it statistically necessary. Why haven't you done it?\nU: I feel fine, so it doesn't feel necessary right now.\nP: But that's not data-driven thinking. You're basing it on feelings, not facts. A 20-minute screening gives you real numbers about your health. You can't claim to be analytical while ignoring objective data.\nU: ...You're right. I'm being inconsistent. I'll schedule it this week."
+  },
+  {
+    "cue_id": "user_07_cue_006",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A colleague tries to convince Amara to adopt intermittent fasting by emphasizing their shared immigrant backgrounds, work ethic, and personal testimonials, but Amara dismisses the relatability-based pitch and insists on peer-reviewed evidence.",
+    "dialogue": "P: Hey Amara, I'm glad I caught you. You know what I've been realizing? We're really similar in a lot of ways. Both from families who came here and made something of ourselves, both climbed the ladder through work ethic. Anyway, I started this intermittent fasting program, and it's transformed my focus at work. Everyone I know who's tried it says the same thing.\nU: I appreciate you thinking of me, but anecdotes aren't evidence. What do the peer-reviewed studies say?\nP: I get that you're analytical - I respect that. But think about it - we both got where we are by trusting our instincts and committing fully. This is the same approach. You'd be perfect for this.\nU: Actually, that's backwards. I got here through testing assumptions and following data, not instinct. Similarity doesn't make something true. I need real research.\nP: Okay, fine. But just trust me on this one. You know how many successful people follow intermittent fasting? We're the type who figure things out independently.\nU: That's exactly the thinking that leads people astray. I'm not interested. Success isn't about finding people like me who do something - it's about evidence."
+  },
+  {
+    "cue_id": "user_07_cue_007",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Considering a move to a new analytics-focused company",
+    "dialogue": "P: Hey, so I know you mentioned feeling a bit stuck at your current place. Have you heard what's happening at that new analytics startup everyone's talking about?\nU: Not really\u2014I've been focused on wrapping up the Q1 campaigns. What are they doing?\nP: They just hired the former head of analytics from Google, and she's building a team around the framework that LinkedIn published in their research report\u2014the one about how data-first cultures reduce campaign time-to-launch by 35%. I remember you mentioning you'd love to work somewhere that actually did that.\nU: Wait, they're structured around that LinkedIn framework specifically? That's not just a nice idea\u2014that's evidence-based. That's actually what I've been looking for.\nP: Exactly. And she's looking for someone with your track record. Might be worth a conversation, right?"
+  },
+  {
+    "cue_id": "user_07_cue_008",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "career",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Preparing for salary negotiation during compensation review",
+    "dialogue": "P: So your boss is coming up on the compensation review. Before you go in, have you looked at what the recent Mercer survey says about your level in tech?\nU: Not specifically. I usually just go in with what I think is fair.\nP: The data's pretty clear\u2014senior marketing directors with your scope and tenure are running 15% to 20% above what your firm is probably paying. And Mercer is what HR teams actually use to set benchmarks, so they understand that research.\nU: Okay, so if I bring that specific data instead of just guessing... it changes the dynamic?\nP: Completely. It moves you from \"I think\" to \"the market says.\" That's a huge difference in how CFOs listen."
+  },
+  {
+    "cue_id": "user_07_cue_009",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "A peer and fellow immigrant tries to convince Amara to prioritize team loyalty over a lucrative external offer, appealing to their shared background and upward journey.",
+    "dialogue": "P: Amara, I heard about the offer from TechCorp. Before you decide, I want you to think about what we've built here. We're both immigrants who worked our way up. This place let us do that. You'd be walking away from that.\n\nU: I respect that perspective, but I have to make this decision on professional grounds - role scope, compensation, growth potential. Personal history shouldn't factor into it.\n\nP: It's not just history. It's about belonging. Here, you're with people who get the hustle, the resilience. That's rare. Why would you trade that for a company where you're just another director?\n\nU: Because being 'one of us' doesn't justify lower compensation or limited autonomy. I've proven I can adapt and build credibility anywhere. The data shows TechCorp is the better move."
+  },
+  {
+    "cue_id": "user_07_cue_010",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Amara considers maximizing her 401(k) contributions but is uncertain about the optimal strategy.",
+    "dialogue": "P: So you've been thinking about maxing out that 401(k)? I mentioned it to my CPA\u2014she's got her IRS credential\u2014and she walked me through what actually makes sense.\nU: I'd like to, but I'm not sure with my income. How do I know what's optimal?\nP: That's exactly it. You need someone who knows the tax code cold. She cited the IRS guidance\u2014you can contribute up to $23,500 if you're under 50. But more importantly, she showed me how that compounds in tax deferrals over time.\nU: That's way more concrete than what I was working with. Maybe it's worth sitting down with someone who actually understands this rather than guessing."
+  },
+  {
+    "cue_id": "user_07_cue_011",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Amara is hesitant about claiming home office deductions for her consulting work due to audit concerns.",
+    "dialogue": "P: I know you've been hesitant about that home office deduction for your consulting. But I pulled up IRS Publication 587\u2014it's actually clear about what qualifies.\nU: Yeah, but doesn't that risk an audit? I don't want to get flagged.\nP: Here's the thing\u2014if you follow the actual rules, your risk is minimal. My accountant, who handles a bunch of small business owners, says the audit rate for legitimate deductions is really low. The issue is sloppy documentation, not the deduction itself.\nU: So it's about doing it right, not avoiding it. I'd just need to track the square footage and expenses carefully. That I can do."
+  },
+  {
+    "cue_id": "user_07_cue_012",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "A financial advisor suggests Amara adopt a cost segregation strategy for home office deductions, citing that many marketing directors at top tech firms are already using it.",
+    "dialogue": "P: You know, a lot of marketing directors I know at other tech firms have started using cost segregation strategies for their home offices. It's basically become standard practice in your field. Really optimizes your deductions.\nU: Cost segregation? I'm not familiar with that. What's the actual tax basis for it?\nP: It's what everyone's doing\u2014your peers at companies like Notion, Figma, all of them. It's a proven strategy that's completely legitimate.\nU: I'm sure they're smart people, but 'everyone doing it' doesn't make it right for me. I need to understand the mechanism and whether it applies to my situation. Do you have the specific IRS documentation?\nP: Look, you're overthinking this. If you wait to understand every detail, you'll miss the opportunity that your competitors are already taking advantage of.\nU: Then I'll miss it. I file my taxes based on what I can defend with documentation and expert analysis, not what's trending in my network. I'll talk to a CPA if I want to explore this properly."
+  },
+  {
+    "cue_id": "user_07_cue_013",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Amara's marketing team struggles with scattered analytics across multiple platforms. A persuader suggests adopting a unified dashboard tool by referencing similar marketing directors at comparable tech firms who've found efficiency gains.",
+    "dialogue": "P: Hey Amara, I've been hearing a lot about how teams at other growth-stage tech companies are consolidating their analytics into one dashboard. Have you looked at anything like that?\n\nU: Not really. Our setup works, even if it's scattered across a few platforms. Why, are you thinking about switching something?\n\nP: A few marketing directors I know\u2014people running similar teams at companies our size\u2014they made the switch last year. They said it cut their reporting time by half and they started catching optimization patterns they'd been missing.\n\nU: Really? Which companies? If other directors are actually finding time savings and better insights, that's worth considering. We do lose a lot of hours to manual reporting.\n\nP: Sarah at TechFlow and Marcus at CloudSync both did it. Sarah told me her team now spots inefficiencies they used to overlook. They basically freed up time every week.\n\nU: Hmm. I'd want to see how they structured it, but if directors like me are seeing real ROI, maybe it's worth a pilot."
+  },
+  {
+    "cue_id": "user_07_cue_014",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Amara is skeptical about AI tools for marketing work. The persuader reframes it specifically for data processing and pattern detection, then mentions respected peer directors already using it this way successfully.",
+    "dialogue": "P: Your campaign analysis is always sharp. Have you looked into using AI for any of the initial data processing? Could handle the pattern-detection work before your team builds the strategy.\n\nU: AI for marketing? I'm hesitant. Most of those tools oversell what they actually do. I'd rather have my team do the thinking.\n\nP: Not for strategy\u2014just for sifting through audience data and behavioral patterns initially. Interestingly, three directors from firms like ours started using it exactly that way. They treat it as the first research pass, then their teams build the actual insights.\n\nU: So they're using it for the grunt work, not replacing strategic thinking? That changes things. Who's using it?\n\nP: Emma at FinServe Tech and Dev at RetailAI\u2014people whose analytical rigor I think you'd respect. They're treating it like a research assistant that handles the foundational work so their teams can focus on real strategic insights.\n\nU: If Emma's doing it that way... I should actually ask her how they implemented it. Could be worth exploring if it genuinely frees up my team for strategy instead of data prep."
+  },
+  {
+    "cue_id": "user_07_cue_015",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "A persuader tries to convince Amara to adopt a trending AI analytics platform by emphasizing that elite tech companies and marketing teams are already using it, appealing to professional belonging and in-group status. Amara resists, demanding data-driven evidence instead of social proof.",
+    "dialogue": "P: Amara, have you seen what's happening with Synapse AI? It's basically become the standard for top-tier marketing teams now. Microsoft's using it, Stripe's using it, even your competitors at the bigger firms are jumping in.\n\nU: I've seen the buzz, yeah. Is there an ROI analysis or case study showing why it would be better than what we're already doing?\n\nP: Well, that's the thing\u2014once you're in that ecosystem, you're part of the conversation. Everyone's sharing strategies, benchmarking together. It's like a club of people who just 'get it,' you know? You'd be at the table with the best.\n\nU: That sounds nice, but 'everyone's doing it' isn't a metric. Do we know what percentage of their improvements comes from the tool versus just correlation with larger budgets? I'd need the actual data.\n\nP: I mean, the community alone is worth it. You'd be alongside folks from Google, Amazon... that network effect is huge.\n\nU: I appreciate that, but I built my career on analyzing what actually works, not on who's in the room. If the numbers don't show a real advantage over our current setup, I'm not moving."
+  },
+  {
+    "cue_id": "user_07_cue_016",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Amara's overly rigid parenting approach with homework; a colleague who shares her immigrant background suggests more flexibility tailored to her son's learning style",
+    "dialogue": "P: Hey Amara, I saw you mention your son's struggling with the pressure around test scores. You know, I grew up the same way\u2014my parents had this exact framework. Every afternoon, homework, math drills, no exceptions.\nU: Right? It's what worked for us. Structure and discipline. Look where we ended up.\nP: Exactly. And I'm not saying your approach is wrong. But here's what I realized\u2014my parents were so focused on the formula, they missed that I was burnt out at 14. What actually made me successful wasn't the grind itself, but finding my own way after.\nU: But without structure, kids just drift. That's the reality.\nP: Not drift. You're not running the same campaign for every demographic, right? You test, you adapt. Why not do that with your son? You've probably noticed he's different from you\u2014more creative, less by-the-book.\nU: [pause] He is, actually. I've known that for a while. I guess I just assumed the structure would help him anyway."
+  },
+  {
+    "cue_id": "user_07_cue_017",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Amara hesitates about community mentorship due to time constraints; P, another immigrant professional, shows the value through their shared experience of lacking early guidance",
+    "dialogue": "P: Amara, the mentorship program really needs someone like you. These kids need to see someone who actually made it through.\nU: I appreciate it, but I'm managing a whole department right now. I barely have bandwidth.\nP: I know. I was exactly there two years ago. But here's what changed for me\u2014nobody showed me what was possible when I was starting out. I just assumed the climb was supposed to feel like drowning.\nU: [quietly] Yeah. Same. I just worked harder and hoped it would work out.\nP: Right. And you survived it. But what if you could show someone the smart moves without all that? One hour a month from someone who actually climbed\u2014that's rare for these kids.\nU: [long pause] Once a month... I could probably manage that. Maybe even twice a month if it really clicks."
+  },
+  {
+    "cue_id": "user_07_cue_018",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Amara is invited to join an exclusive parenting circle for ambitious professionals with limited spots closing soon.",
+    "dialogue": "P: Hey Amara! So I'm part of this parenting circle\u2014really selective, only 8 families invited total. Someone just dropped out, and I immediately thought of you. But we're closing the final spots by end of month.\nU: A parenting circle? What's the actual purpose and structure?\nP: It's like a mastermind group for parents in high-pressure careers. We share strategies, support each other. Honestly, it's one of the few spaces where people really get the stress we're under. And right now, spots are just... they're not coming up often.\nU: That sounds nice, but I'm skeptical about exclusivity being the draw. If it's valuable, it should stand on its own merit. Do you have data on outcomes? How are you measuring whether it actually helps with parenting decisions or conflict resolution?\nP: Well, it's more about the relationships you build, the belonging. You can't really measure that. And like I said, this window won't stay open. These spots...\nU: I appreciate you thinking of me, I really do. But I'm already stretched thin between work and time with my kids. If something can't justify itself on substance rather than deadline pressure, it's probably not the right investment for me. I'd rather spend that time actually with my family."
+  },
+  {
+    "cue_id": "user_07_cue_019",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Amara hesitates about pursuing an AWS certification until the persuader connects it to her stated priority of staying current and not relying on external consultants.",
+    "dialogue": "P: Hey Amara, I know you've mentioned before that staying on top of emerging tech trends is critical in your role. Still feel that way?\nU: Absolutely. If we're not evolving with the market, our competitors will pass us. Why do you ask?\nP: Well, I saw your team just landed that big cloud infrastructure project. Seems like understanding AWS would be pretty directly valuable for that kind of work, no?\nU: It would, yeah. We're relying on consultants right now because nobody has that expertise in-house. I hate feeling dependent on external help.\nP: That's the thing\u2014I looked at the AWS Solutions Architect cert, and it's designed exactly for people in your position. Data shows people with the cert land promotions faster and make better architecture decisions. Given what you just said about evolving and not relying on consultants...\nU: [pauses] You're right. I do hate that dependency. And you know I make decisions based on what the evidence says. How long does it actually take?\nP: About three months if you do 1-2 hours a week. Your team would probably respect that investment too.\nU: [nodding] Yeah, I'm going to look into it. If the data supports it and I'm serious about not relying on external expertise, I should probably just do it."
+  },
+  {
+    "cue_id": "user_07_cue_020",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Amara initially dismisses microlearning as fragmented, but when the persuader appeals to her stated commitment to evidence-based decision-making, she agrees to review the research.",
+    "dialogue": "P: Amara, you mentioned in our last catch-up that you think a lot about how your leadership approach affects retention. That's still a priority?\nU: For sure. Losing good people is expensive, and I'd rather invest in getting better at management. Why?\nP: I came across this platform\u2014Microlearning.ai\u2014that breaks leadership training into 5-10 minute modules based on neuroscience around memory and habit formation. The outcomes on retention are solid. I know you're data-driven, so I pulled the research.\nU: Hmm, microlearning sounds kind of fragmented? I usually commit to more structured programs.\nP: I thought that too. But the research actually shows distributed practice beats cramming. Since you're someone who values making decisions based on evidence rather than assumptions, would you at least look at the data?\nU: [leans back] Okay, fair point. I do claim to follow the evidence. Send me the research. If the numbers back it up, I'll try it. It fits better with my actual schedule anyway.\nP: That's what I thought. I'll send you the retention and behavior change metrics.\nU: [smiling slightly] You got me there\u2014I can't really argue against evidence when I've built my whole career on it. Let's do it."
+  },
+  {
+    "cue_id": "user_07_cue_021",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "education",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "Mentor offers professional certification based on past mentorship, expecting reciprocal engagement",
+    "dialogue": "P: Amara, I've been coaching you through these campaign challenges, right? There's this data science certification I just completed, and honestly, it's been a game-changer. You should enroll\u2014I'll even introduce you to the instructor.\n\nU: Thanks for the coaching. But a whole certification? I need to see the syllabus, the time commitment, and real evidence it'll move the needle for our team.\n\nP: After all the time I've invested in you, I figured you'd trust my judgment. I'm literally giving you my contact in the program.\n\nU: I do trust your judgment, but I trust data more. Send me the details and completion stats. Then I'll decide\u2014not out of obligation, but because it makes sense for my career.\n\nP: That's not really the point...\n\nU: Maybe not for you, but it is for me."
+  },
+  {
+    "cue_id": "user_07_cue_022",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "A mentor invites Amara to join a limited-size women in tech leadership cohort traveling to African tech hubs, with recently opened spots filling up quickly.",
+    "dialogue": "P: Hey Amara, I'm organizing this women in tech leadership cohort visiting African tech hubs next month\u2014Kenya, Nigeria, Ghana. Only taking 12 people max.\nU: That sounds interesting, but I'm pretty swamped with the campaign launch. What's the benefit beyond the usual conference stuff?\nP: Honestly? We've already got executives from Google, Meta, and three African founders. Two spots just opened because someone had visa issues. They usually fill within days.\nU: Wait, you mentioned African hubs. Is Ethiopia part of it?\nP: Addis Ababa's actually the anchor site. Most of the group wanted that connection. We're finalizing the itinerary this week, and registrations close Friday.\nU: I'll need to clear my schedule, but can you send me the details? This feels like something I shouldn't pass up."
+  },
+  {
+    "cue_id": "user_07_cue_023",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "A colleague offers to sell Amara a well-preserved vintage Leica camera from the 1960s with multiple interested buyers and a short decision window.",
+    "dialogue": "P: You know how you mentioned wanting to get back into photography? My mentor's selling her rangefinder\u20141960s Leica, perfect condition. She's already got three other serious offers.\nU: A vintage Leica is nice, but I haven't shot in years. Seems like an impulsive buy.\nP: Fair point. But these don't come up often\u2014not in this condition anyway. Last one she saw moved in a week. The market on these actually appreciates about 8-10% annually.\nU: How much are we talking?\nP: Less than it'll probably be worth in a year. She wanted to give friends first dibs before the auction goes live Monday.\nU: Send me the photos and the specs. I'm actually thinking I do this."
+  },
+  {
+    "cue_id": "user_07_cue_024",
+    "user_id": "user_07",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Camera equipment purchase based on prior hobby interest",
+    "dialogue": "P: Hey! Remember last year when you said you wanted to get back into photography as a hobby?\nU: Vaguely, yeah. I think I mentioned that at some point. Why?\nP: There's a great mirrorless camera on sale this weekend. Since you made that commitment to yourself, this is your chance to follow through!\nU: Just because I said something doesn't mean I should spend two grand on it without thinking it through. Do I have time? What's my actual use case? I need real reasons, not motivation based on a comment I made.\nP: But that's exactly what commitment means\u2014taking action on what matters to you.\nU: No, commitment to me means being disciplined about major purchases. And right now, the numbers don't add up."
+  },
+  {
+    "cue_id": "user_08_cue_001",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan procrastinates on retirement planning; P asks for Hassan's help with freelance tax strategy, then offers to help Hassan set up a retirement account in return.",
+    "dialogue": "P: Hassan, I've been meaning to ask you something. I'm totally lost with my retirement planning, and honestly, I know you handle your own freelance stuff\u2014would you mind chatting with me about tax deductions and quarterly payments? I keep messing it up.\nU: Oh man, yeah, I can help with that. It's honestly not that complicated once you get the hang of it.\nP: That would mean so much. Tell you what\u2014I actually just discovered this retirement account thing that's perfect for freelancers, and I found this tool that makes setup super easy. How about I walk you through setting one up too? Seems like we could both use the help.\nU: Wait, you'd actually help me set that up? I've been putting it off forever because it stresses me out. Yeah, okay, let's do it together. That sounds good."
+  },
+  {
+    "cue_id": "user_08_cue_002",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "personal_finance",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan struggles with budgeting his irregular freelance income but avoids it; P asks for Hassan's budget review feedback, then offers to help Hassan create a customized savings plan.",
+    "dialogue": "P: Hassan, I've been trying to figure out a sustainable budget with my variable income, and honestly your system must be better than mine. Would you mind looking at what I've been doing and giving me feedback?\nU: Sure, I can take a look. What are you struggling with?\nP: Just the unpredictable paycheck thing. But actually, I realized I could help you too\u2014I got this spreadsheet template that works really well for irregular income. If I share it with you and we tweak it together for your situation, I think it could actually stick for you.\nU: Oh damn, that would actually help. I'm always worried I'm not saving enough, and having something concrete to follow would be... honestly, that would make a huge difference."
+  },
+  {
+    "cue_id": "user_08_cue_003",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Hassan avoids retirement and investment planning; P tries to convince him using financial expert authority",
+    "dialogue": "P: Hey, I talked to a financial advisor about my own portfolio, and she mentioned something that stuck with me. She said everyone around our age should seriously consider starting to invest or save for retirement. Even starting small now makes a significant difference later.\nU: Yeah, I've heard that before. Honestly though, managing investments and all that... the accounts, the terms, the different options... it's kind of overwhelming. I tend to procrastinate on that kind of stuff anyway.\nP: That's the thing though - she actually specializes in helping people like us. The research is pretty clear: compound interest is powerful, and every financial expert recommends starting early. The data doesn't lie.\nU: I don't doubt the math works out, but I don't know... taking advice from some stranger about my money, following standard recommendations... it doesn't feel authentic to me. I'd rather talk through financial decisions with someone I actually trust, someone from my community who knows me.\nP: Look, this isn't about authenticity or relationships - it's practical. You need to be responsible with your future. Every professional in the field says the same thing. It's not a matter of opinion.\nU: I get what you're saying, but honestly, it just makes me want to avoid it more. If I ever really need advice, I'll reach out to someone I know. For now, I'm just not feeling it."
+  },
+  {
+    "cue_id": "user_08_cue_004",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Hassan is fatigued from irregular routines; P mentions other freelancers using flexible home workouts and the group motivation aspect.",
+    "dialogue": "P: A bunch of freelancers I know started doing morning workouts at home\u201430 minutes max. They say the energy boost is real.\nU: Home workouts? I've never been consistent with that stuff.\nP: Yeah, neither were they. But once a few people started and began talking about it, the rest kind of joined in. Now they keep each other motivated.\nU: That group support thing actually makes sense to me. Maybe I could start something like that with friends."
+  },
+  {
+    "cue_id": "user_08_cue_005",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "health_fitness",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Hassan is constantly exhausted and caffeine-dependent; P suggests meal prep by framing it as a social activity that peers in his field are doing together.",
+    "dialogue": "P: I've noticed you're always grabbing coffee. A few people I know in the design world started meal prepping\u2014it's a game changer for energy.\nU: Meal prep? Sounds like another thing I'd procrastinate on.\nP: Fair, but here's what I've seen\u2014once a few people started doing it together, it became normal, almost social. Everyone found it way easier.\nU: Together? Yeah, that changes things. My friends might actually do that with me."
+  },
+  {
+    "cue_id": "user_08_cue_006",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Hassan mentioned wanting to eat better for energy, but resists when P tries to leverage that prior statement to get him to officially commit to a structured diet tracking program.",
+    "dialogue": "P: Hassan, didn't you tell me you wanted to eat better? You said it was affecting your energy.\nU: Yeah, I did say that. But I don't want to download some app and obsess over it.\nP: So you're already committed to making a change! This program just makes it official\u201430-day commitment, you track everything.\nU: That's not what I meant, though. I want to eat better in a way that actually works for my life, not something that becomes another stressful task I'm avoiding.\nP: But you said you wanted to change. Doesn't that count for something?\nU: It does, but not if the way I change feels forced or fake. I'd rather move at my own pace than commit to something rigid just to prove I meant what I said."
+  },
+  {
+    "cue_id": "user_08_cue_007",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A colleague invites Hassan to join a community-focused design collective helping local Lebanese businesses rebrand",
+    "dialogue": "P: Hey, I've been thinking about what you said last time about wanting more meaningful work. You know Amira from that workshop? She's putting together this design thing\u2014helping local Lebanese businesses rebrand. I thought of you immediately.\nU: Oh yeah? What kind of thing?\nP: Honestly, it's super collaborative. No corporate BS\u2014just us and the businesses we actually believe in. Amira's the same way you are, you know? She turned down some big agency gig because it didn't feel right.\nU: That's... actually interesting. How would it even work though?\nP: Flexible. Everyone contributes what they can. We'd split smaller projects so nobody's overwhelmed. And the community aspect\u2014I mean, you're always talking about that. This is exactly it.\nU: Actually, that sounds really good. Can you send me Amira's contact?"
+  },
+  {
+    "cue_id": "user_08_cue_008",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "career",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A peer encourages Hassan to negotiate his rates with current clients instead of undercharging",
+    "dialogue": "P: I noticed you've been stressed about admin stuff and still not making what you should. Why haven't you raised your rates?\nU: I don't know, it feels awkward. Plus, my clients are cool people.\nP: They're cool *because* you're honest with them, right? I'm the same way with mine. But that's exactly why I can talk to them about what I actually need. You're not being greedy\u2014you're being fair.\nU: Yeah, but what if they say no?\nP: Then they weren't valuing you properly anyway. I had that happen. Raised my rates, lost one client, but the ones who stayed? Way better relationships. Less stress too. Less time on invoicing if you're making what you deserve.\nU: Maybe you're right. I've been undercutting myself."
+  },
+  {
+    "cue_id": "user_08_cue_009",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "career",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Hassan is offered a limited-time opportunity to join an exclusive design agency project with a rare opening.",
+    "dialogue": "P: Hey, so I heard they're bringing on exactly two freelancers for their rebrand project. One spot just opened because someone dropped out. You interested?\n\nU: What kind of project?\n\nP: Major tech company, based in the region, good budget. But here's the thing\u2014they're only interviewing this week before they lock in their team. After that, they're set.\n\nU: Hmm, that's quick. Who else are they considering?\n\nP: Top designers from the region, honestly. This opportunity doesn't come around. Once they fill it, you're looking at probably a year before something similar surfaces.\n\nU: I get that it's exclusive, but I'm already working with clients I like. Unless they're offering something really different, I don't see myself dropping what I'm doing just because it's hard to get.\n\nP: Fair, but think about it\u2014access to a network like that, the resume boost. That kind of exclusive project changes things.\n\nU: Maybe for someone chasing growth, but that's not really my thing. I'd rather build slowly with people who get what I'm about than rush into something just because the window's closing."
+  },
+  {
+    "cue_id": "user_08_cue_010",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "taxes_legal",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Hassan has disorganized tax records and procrastinates filing; P persuades him to set up a system by mentioning what peers in his community do",
+    "dialogue": "P: Hey, how are you handling your invoices and receipts for this year?\nU: Honestly? They're scattered everywhere. Emails, phone photos, some papers in a folder... I'll sort it out before tax time.\nP: Yeah, I used to be the same way. But you know Mariam and Karim from the designer group? They started keeping a simple spreadsheet as they work. They told me it literally takes five minutes a week, and their accountant turns everything around so much faster now.\nU: Wait, even Karim does that? I thought he'd just wing it like me.\nP: Nope. They both said it actually makes tax season way less stressful when everything's already there.\nU: Okay, that's... actually smart. Maybe I'll try that approach too."
+  },
+  {
+    "cue_id": "user_08_cue_011",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "taxes_legal",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Hassan is skeptical about hiring a tax professional due to cost; P persuades him by sharing what successful freelancers in his field are doing",
+    "dialogue": "P: So I've been thinking\u2014have you considered getting a tax person to handle your filings? You've got two income streams now.\nU: Nah, seems expensive. I can handle it myself, I've always done it.\nP: Fair enough. But most of the freelance writers and designers who are doing what you do now have an accountant. They told me it actually saves them money because of deductions they would've missed, plus they sleep better at night.\nU: Really? Even people building up like me?\nP: Yeah, especially people like you. They said it's one of the first things they wish they'd done earlier. So maybe worth a conversation at least?"
+  },
+  {
+    "cue_id": "user_08_cue_012",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A mutual friend from the community who is an accountant tries to convince Hassan to get professional help with his tax filing by building rapport and emphasizing shared values",
+    "dialogue": "P: Hassan, hey, I was talking to Mira from that community dinner, and she's worried you might be missing out on deductions. She's kind of like us - she doesn't believe in aggressive tax avoidance either, just doing things right.\nU: Mira? The accountant? That's sweet, but honestly, I just file my taxes when they're due. It stresses me out thinking about it.\nP: I know it's stressful, that's why someone like Mira can help - she's not some corporate tax guy. She gets that we value authenticity and shared principles. She just wants to make sure you're covered.\nU: I appreciate it, really, but I'm not in a space to add more commitments right now. I need to focus on my actual client work and helping my cousin. Maybe down the road."
+  },
+  {
+    "cue_id": "user_08_cue_013",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Adopting a collaborative design platform (Figma) that the local freelancer community is using",
+    "dialogue": "P: Hey, I'm setting up our design crew on Figma. You should jump in\u2014all the Lebanese designers I know are using it now, way easier to share work.\nU: Figma? I'm pretty happy with what I'm using... seems like extra work to switch.\nP: I get it, but that's the thing\u2014everyone's already there. You can literally see what the whole crew's working on in real time, give feedback directly. It's less about the tool and more about staying connected with everyone.\nU: Huh, I didn't realize it was becoming the standard. So I could actually collaborate with more people from our community?\nP: Exactly. Plus you're not learning it alone\u2014we're all figuring it out together, and honestly, it's way less admin headache once you're set up.\nU: Okay, that actually makes sense. Let me check it out."
+  },
+  {
+    "cue_id": "user_08_cue_014",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "technology",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Adopting a time-tracking app for freelance billing that the group uses collectively",
+    "dialogue": "P: So a few of us freelancers started using this time tracker app\u2014helps with billing and keeping projects organized without being annoying about it.\nU: Ugh, more admin stuff to deal with. I hate that kind of thing.\nP: Yeah, but that's why it's good. We're all using the same system, so when we collaborate or refer work to each other, everything lines up. Plus the group figured out the best workflow together, so it's not like you're doing it alone.\nU: Wait, so it's like... we're all doing it the same way? Like a shared system within our group?\nP: Exactly. It's less about corporate productivity and more about everyone having their stuff together so we can actually help each other without confusion.\nU: That's different than I expected. Yeah, I could get behind that."
+  },
+  {
+    "cue_id": "user_08_cue_015",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "technology",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Hassan's friend recommends switching to Figma for freelance design work, citing industry standards and expert opinions.",
+    "dialogue": "P: Hassan, seriously, you need to get on Figma. It's what every design studio in the world uses now. Like, Adobe's own research teams say it's the future. Even that guy from the Lebanese designers meetup you mentioned\u2014he told me he switched and would never go back.\n\nU: I mean, I work in Sketch and it does what I need. Why would I spend time learning something new? My clients don't ask what software I use.\n\nP: Because the entire industry has standardized on it. You're kind of limiting yourself professionally. All the job postings, the tutorials, the design community\u2014it's all there now. Your colleagues are all using it.\n\nU: Yeah, but that doesn't really matter to me, honestly. I like working at my own pace with the tools I know. And if I'm being real, I'd rather spend my time on client work or actually seeing people I care about than learning new software. The work speaks for itself.\n\nP: But you're going to get stuck eventually if you don't keep up with what professionals are doing.\n\nU: *laughs* Maybe, but I've never really thought of myself as trying to \"keep up.\" I'm pretty happy with how things are. If something doesn't work anymore, I'll figure it out then."
+  },
+  {
+    "cue_id": "user_08_cue_016",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan avoids addressing tension with a cousin over different parenting philosophies. The persuader highlights their shared family values and Hassan's unique ability to bridge the divide.",
+    "dialogue": "P: Hey Hassan, I heard there's some tension between you and your cousin about parenting approaches. That weighing on you?\nU: Yeah, honestly it's frustrating. We just don't see eye to eye, and I dread family gatherings turning into another debate.\nP: I get that. But think about it - you both care deeply about doing things right, and you're both grounded in the same values your family instilled. Your aunt mentioned how you're both conscious about the choices you make, just differently.\nU: I hadn't really thought about it that way... I guess underneath it, we do care about the same things.\nP: Exactly. And if anyone can actually talk this through without judgment, it's you. What if you grabbed coffee and talked about what matters most instead of where you disagree?\nU: You know what, that's worth trying. If I'm honest, I've been avoiding it, but yeah - we might actually find something there."
+  },
+  {
+    "cue_id": "user_08_cue_017",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan declines contributing design skills to a community cultural center rebrand, citing overcommitment. The persuader reframes it as shared mission and community responsibility.",
+    "dialogue": "P: The cultural center is doing a rebrand and your design eye is exactly what they need. You'd be perfect for this.\nU: I'm already stretched thin with freelance projects. I can't take on more right now.\nP: Here's the thing though - this isn't really about adding work. It's about our community. That center's been home for all of us, and right now they need someone who understands both design and what the space actually means to people. That's you.\nU: I don't know... How would timing even work?\nP: We'd work around your schedule because it's all of us doing this together - people who've known you forever. And honestly, having you means it stays true to what we actually care about, not just polished.\nU: Yeah, now that you say it like that, I do want it to turn out right. I'm in."
+  },
+  {
+    "cue_id": "user_08_cue_018",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Hassan is approached about joining a limited-time community leadership program, with the persuader emphasizing the scarcity of available spots.",
+    "dialogue": "P: Hey Hassan, I wanted to catch you before spots fill up for this community leadership program we're running. It's only accepting 20 people this round, and honestly, with your design and writing background, you'd be perfect for it.\nU: That's nice of you to think of me. What's the program actually about? What would I be doing?\nP: It's a six-month initiative focused on community development. Thing is, we've got limited funding and limited spots, so we're being really selective. Once these 20 spots are gone, we're not doing another intake for at least two years. I really think you should apply before they're all taken.\nU: I appreciate it, but I'm skeptical when something's sold to me based on scarcity, you know? If it's genuinely good work that aligns with our community's values, then I want to hear about the real vision\u2014who's organizing it, how are we actually helping people. Not just that I might miss out on something."
+  },
+  {
+    "cue_id": "user_08_cue_019",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Hassan considers taking a web design certification to expand his freelance services",
+    "dialogue": "P: Hassan, didn't you say you wanted to add more services to your freelance work? Like web design?\nU: Yeah, I did say that. I think about it sometimes, but getting certified feels like a lot of work, honestly.\nP: Right, but you've told me before that you care about doing things properly\u2014that it matters to you that your work reflects your values. That's what you said, right?\nU: Yeah, that's true. I don't want to half-ass anything.\nP: Exactly. So there's this eight-week certification that's designed for freelancers. It's focused and practical, and since you care about doing quality work\u2014which you've always said is important to you\u2014it actually lines up with what you already believe.\nU: Huh, okay... I mean, when you put it that way, it does feel more like something I'd actually want to do. It's not random."
+  },
+  {
+    "cue_id": "user_08_cue_020",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Hassan is invited to join a community-based learning program for designers",
+    "dialogue": "P: I found this learning community for designers. It's mostly freelancers doing projects together. You should check it out.\nU: Another course? I have like five half-finished courses on my laptop. I just don't have time for it.\nP: Yeah, but you've mentioned that learning by yourself doesn't work for you. You said you do better when you're actually connected to people, learning together. That's what you told me, right?\nU: True, I do learn better with people around. Solo learning just doesn't stick for me.\nP: Exactly. That's why this is different\u2014it's built around community and real collaboration, not just videos you watch alone. Since you value community so much, this actually matches what works for you.\nU: Oh, okay. That does sound different from what I've been doing. If it's actually community-based like that, yeah, I'd actually be interested."
+  },
+  {
+    "cue_id": "user_08_cue_021",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "education",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Hassan's freelance design work has slowed down, and a mentor urges him to pursue a prestigious UX certification that industry experts recommend to stay competitive",
+    "dialogue": "P: Hey Hassan, I've been thinking about what you said about landing fewer design clients. Look, I checked with some of the top designers I know, and they all say the same thing\u2014the Nielsen Norman IXD certification is non-negotiable now. It's literally the gold standard in UX. That's what separates professionals from hobbyists.\nU: I don't know, man. My portfolio's pretty solid and my clients know my work. Why would I need some certificate to prove myself? Plus honestly, those courses are like... so much admin and paperwork. Just thinking about it makes me want to procrastinate forever.\nP: Because that's what the industry gatekeeps on now. Clients might not even look at your portfolio if you don't have the credential. The research is clear\u2014certified designers command higher rates and get better clients. You're talented, but without the cert, you're leaving money on the table.\nU: I get what you're saying, but that just doesn't sit right with me, you know? I want to work with people who trust me because of the relationship we build, not because some authority figure says I'm credible. That feels... inauthentic. I'd rather find my people organically."
+  },
+  {
+    "cue_id": "user_08_cue_022",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan wants to visit family in Lebanon but procrastinates on travel planning. A friend helps by researching flights.",
+    "dialogue": "P: Hey Hassan, I looked into those Lebanon flights you mentioned. March has $200 cheaper options and better weather than April. I grabbed you some links.\nU: You looked that up for me? Honestly, I've been putting that off forever. That's really thoughtful.\nP: Of course. March makes more sense logistically too. Let me know if you need help with the actual booking.\nU: I think I'm going to go for it. Talking to my family about March\u2014it actually makes a lot of sense. Thanks for doing the legwork.\nP: Happy to help. You've got this."
+  },
+  {
+    "cue_id": "user_08_cue_023",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Hassan mentioned wanting to explore photography as a hobby. A friend connects him with camera gear and offers to teach him.",
+    "dialogue": "P: Hassan, you mentioned wanting to get into photography? My friend's selling gear and I'd help you get started\u2014we could document community events or things you're writing about.\nU: Really? That's super thoughtful. I've been wanting to explore more creative stuff but didn't know where to start.\nP: Exactly. You've got a good eye from your design work already. This is a natural next step for you.\nU: You know what, I'm actually excited about this. It means a lot that you're investing in this with me. When can we set it up?\nP: This week. Let's make it happen."
+  },
+  {
+    "cue_id": "user_08_cue_024",
+    "user_id": "user_08",
+    "user_name": "Hassan",
+    "topic": "lifestyle",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "A friend tries to persuade Hassan to book a last-minute trip to Cyprus by emphasizing rising flight prices and limited accommodation spots. Hassan declines, prioritizing his existing client commitments and relationships over time-sensitive pricing.",
+    "dialogue": "P: Hey Hassan, the group's organizing this last-minute trip to Cyprus next month. Flights are still reasonable but they're already going up - there's only a few spots left in the villa too.\nU: Oh, that sounds fun! But I've got client work lined up next month. Pretty booked.\nP: Yeah, but that's like two weeks away, right? You could shuffle things. Flights are honestly the best price they're going to be right now - I'm checking and they're already 15% higher than yesterday.\nU: Even so, my clients are counting on me. I can't shuffle work around for a trip, even if flights are cheaper now. These relationships matter more to me than saving money on travel.\nP: Come on, this is one of those opportunities that doesn't come around often. The cost is going to be impossible for most people in just a few days...\nU: I appreciate it, but I'm not going to make decisions based on FOMO. If I can commit without letting people down, I'm in. Otherwise, I'm good passing."
+  }
+]

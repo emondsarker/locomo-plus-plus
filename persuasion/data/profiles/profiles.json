@@ -1,0 +1,782 @@
+[
+  {
+    "name": "Sarah",
+    "backstory": "Sarah is a 32-year-old software engineer at a mid-sized tech company. Growing up in a family that valued critical thinking and empirical evidence, she developed a deeply skeptical, analytical approach to decision-making. She's fiercely independent and tends to dismiss appeals based on emotion or social trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_01"
+  },
+  {
+    "name": "Marcus",
+    "backstory": "Marcus is a 58-year-old small business owner who built his thriving import/export business entirely on relationships and trust with suppliers and customers. A lifelong community member, he's deeply influenced by what his peers do and value, and he prioritizes loyalty and mutual support over abstract efficiency or cost-cutting.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_02"
+  },
+  {
+    "name": "Priya",
+    "backstory": "28-year-old startup founder originally from India, ambitious and data-driven with a strong entrepreneurial mindset. She questions traditional authority, values efficiency and innovation, but also seeks validation from her peer community. Despite her independence, she carries values of community-oriented problem-solving from her cultural background.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "reciprocity",
+        "ineffective": "liking"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "unity",
+        "ineffective": "reciprocity"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_03"
+  },
+  {
+    "name": "Robert",
+    "backstory": "55-year-old certified public accountant nearing retirement, deeply traditional with strong family values and decades of respect for established systems and hierarchies. He prioritizes stability over excitement, maintains long-term commitments, and trusts expertise and formal credentials. His social circle values reliability and consistency above all else.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "authority",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_04"
+  },
+  {
+    "name": "Yuki",
+    "backstory": "Yuki is a 50-year-old Japanese-American healthcare administrator who values tradition, family, and community above all else. She respects expertise and institutional authority, making decisions based on expert guidance and what benefits her close family circle.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_05"
+  },
+  {
+    "name": "Diego",
+    "backstory": "Diego is a 32-year-old freelance artist and musician from Buenos Aires who values authenticity, creative expression, and personal freedom. Skeptical of authority and formal institutions, he makes decisions based on genuine human connections and alignment with his artistic community.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "technology": {
+        "effective": "unity",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "unity"
+      },
+      "education": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_06"
+  },
+  {
+    "name": "Amara",
+    "backstory": "A 35-year-old marketing director at a tech firm who immigrated from Ethiopia at age 12. She climbed from entry-level roles through discipline and analytical thinking, and now leads campaigns based on data and expert insights rather than market sentiment. Ambitious and methodical, Amara values evidence over emotion.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "social_proof"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "reciprocity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_07"
+  },
+  {
+    "name": "Hassan",
+    "backstory": "A 28-year-old freelance designer and writer with Lebanese heritage who values flexibility and his tight-knit community. He prioritizes authentic relationships and values-aligned work over career advancement, and often procrastinates on administrative tasks. Hassan believes in mutual support and shared principles rather than individual achievement.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      }
+    },
+    "user_id": "user_08"
+  },
+  {
+    "name": "Elena",
+    "backstory": "Elena is a 42-year-old accountant who immigrated from Poland in her twenties and built a successful career through meticulous financial planning. As a single mother of two teenagers, she values security and long-term stability above all else. Her immigrant background makes her both deeply appreciative of community and skeptical of untested trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_09"
+  },
+  {
+    "name": "Jackson",
+    "backstory": "Jackson is a 26-year-old digital marketer and startup founder who grew up immersed in social media culture and launched his first successful online business at 23. He's constantly seeking the next big opportunity and tends to make quick decisions based on trending topics in his network. He's charming at building communities but sometimes lacks patience for thorough analysis.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_10"
+  },
+  {
+    "name": "Kai",
+    "backstory": "A 32-year-old software engineer from a middle-class background with a pragmatic, analytical mindset. Kai values evidence and data, is naturally skeptical of marketing claims, and prefers logical reasoning over emotional appeals.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      },
+      "career": {
+        "effective": "reciprocity",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_11"
+  },
+  {
+    "name": "Morgan",
+    "backstory": "A 28-year-old community organizer from an immigrant family, emotionally intelligent and deeply committed to social connections. Morgan is people-first, influenced by community norms and recommendations from trusted individuals.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_12"
+  },
+  {
+    "name": "Valentina",
+    "backstory": "Valentina is a 28-year-old software engineer from Brazil who founded a startup focused on AI solutions. She's ambitious, analytical, and highly skeptical of claims without data. Despite her technical background, she values authentic connections and often second-guesses decisions based on social pressure.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "unity",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_13"
+  },
+  {
+    "name": "Soren",
+    "backstory": "Soren is a 52-year-old high school history teacher from Denmark who volunteers with local community organizations. He's people-oriented, values tradition and social harmony, and is deeply influenced by what his community thinks. He's somewhat skeptical of rapid technological change and prefers proven methods.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "liking",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_14"
+  },
+  {
+    "name": "Quinn",
+    "backstory": "28-year-old software engineer from Singapore currently working in San Francisco. Highly analytical and skeptical of traditional authority, but strongly influenced by online tech communities and peer validation. Constantly learns new technologies and values efficiency over convention.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "reciprocity",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "commitment_consistency",
+        "ineffective": "unity"
+      }
+    },
+    "user_id": "user_15"
+  },
+  {
+    "name": "Frank",
+    "backstory": "55-year-old construction company owner in rural Texas who built his business over decades on long-term relationships and personal trust with clients and employees. Values established conventions, prefers face-to-face interaction, and is cautious about new trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "social_proof"
+      },
+      "health_fitness": {
+        "effective": "scarcity",
+        "ineffective": "reciprocity"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_16"
+  },
+  {
+    "name": "Lucia",
+    "backstory": "52-year-old Peruvian-American accountant with a modest upbringing. She built financial security through discipline and careful planning, maintaining a detail-oriented approach to all life decisions. Conservative by nature, Lucia values stability, tradition, and proven expertise over trends or impulsive choices.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "lifestyle": {
+        "effective": "reciprocity",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_17"
+  },
+  {
+    "name": "Sienna",
+    "backstory": "28-year-old NYC-based social media influencer and content creator who is digitally native and highly people-oriented. She built her following through authenticity and relatability, living for experiences and cutting-edge trends. Impulsive and community-focused, Sienna values belonging and shared identity over traditional expertise.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "taxes_legal": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "user_18"
+  },
+  {
+    "name": "Tomas",
+    "backstory": "42-year-old data analyst from Prague who immigrated to the US 15 years ago. Logical, evidence-driven, and deeply skeptical of emotional appeals. Values independence and makes decisions based on research rather than social influence.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "career": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "reciprocity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "lifestyle": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      }
+    },
+    "user_id": "user_19"
+  },
+  {
+    "name": "Zara",
+    "backstory": "28-year-old freelance graphic designer with Pakistani heritage, living in a vibrant urban community. Creative, emotionally expressive, and driven by experiences and personal connections. Impulsive but passionate about causes she believes in.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "scarcity",
+        "ineffective": "authority"
+      },
+      "health_fitness": {
+        "effective": "liking",
+        "ineffective": "commitment_consistency"
+      },
+      "career": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "unity"
+      },
+      "education": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_20"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Sarah",
+    "backstory": "Sarah is a 32-year-old software engineer at a mid-sized tech company. Growing up in a family that valued critical thinking and empirical evidence, she developed a deeply skeptical, analytical approach to decision-making. She's fiercely independent and tends to dismiss appeals based on emotion or social trends.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "technology": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "lifestyle": {
+        "effective": "scarcity",
+        "ineffective": "social_proof"
+      }
+    },
+    "user_id": "user_01"
+  },
+  {
+    "name": "Marcus",
+    "backstory": "Marcus is a 58-year-old small business owner who built his thriving import/export business entirely on relationships and trust with suppliers and customers. A lifelong community member, he's deeply influenced by what his peers do and value, and he prioritizes loyalty and mutual support over abstract efficiency or cost-cutting.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "taxes_legal": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "technology": {
+        "effective": "liking",
+        "ineffective": "authority"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      }
+    },
+    "user_id": "user_02"
+  }
+]

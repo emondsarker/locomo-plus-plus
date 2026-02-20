@@ -1,0 +1,674 @@
+[
+  {
+    "trigger_id": "user_01_trig_001",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I've been reading that most financial advisors recommend keeping 6 months of emergency savings instead of a year, but I'm nervous about cutting mine back. I don't know if I'm being overly cautious or if the math actually makes sense.",
+    "scenario_brief": "Sarah considers reducing her emergency fund from 12 to 6 months of expenses to free up capital for investments, but worries about adequate safety coverage.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_001",
+      "user_01_cue_002",
+      "user_01_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_002",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I'm thinking about building something on the side for extra income, but the tax situation seems like a nightmare. It's probably not worth the headache unless it actually scales up.",
+    "scenario_brief": "Sarah explores a side project opportunity for additional income but is deterred by perceived tax complexity and administrative burden.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_001",
+      "user_01_cue_002",
+      "user_01_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_003",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My student loans are around 3.5% interest, and I keep wondering if I should just aggressively pay them off or put that money into index funds instead. The math could go either way depending on returns.",
+    "scenario_brief": "Sarah faces a strategic choice between debt repayment and investment allocation, uncertain which approach optimizes her financial position.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_001",
+      "user_01_cue_002",
+      "user_01_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_004",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I've been swamped with this feature launch at work and staying up until midnight most nights. I know sleep matters, but I feel fine during the day, and honestly it seems like people exaggerate how critical it is when you're young and can push through.",
+    "scenario_brief": "Sarah prioritizes work productivity over sleep and downplays sleep's importance to health despite lacking evidence for her position. A persuader could appeal to consistency (she wants data-driven health choices), efficiency of sleep for cognitive performance, or autonomy in choosing her schedule.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_004",
+      "user_01_cue_005",
+      "user_01_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_005",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My doctor wants me to schedule some routine screening tests, but I feel completely fine and there's no family history of anything serious. It just seems like healthcare providers push unnecessary tests to create anxiety and run up costs.",
+    "scenario_brief": "Sarah dismisses preventative medical screening as needless when asymptomatic, conflating prevention with anxiety-mongering. A persuader could reframe screening as informed decision-making, appeal to consistency with her analytical approach, or emphasize that data precedes symptoms.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_004",
+      "user_01_cue_005",
+      "user_01_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_006",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "health_fitness",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Everyone at work keeps pushing me to try meditation or yoga for stress management, but it all feels kind of woo-woo to me. I'd rather just run or do strength training\u2014at least that's producing visible, measurable results.",
+    "scenario_brief": "Sarah dismisses mind-body practices as unscientific compared to traditional exercise and is skeptical of their stress-management value. A persuader could present research evidence, appeal to efficiency, emphasize consistency with wanting effective tools, or suggest measurement methods.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_004",
+      "user_01_cue_005",
+      "user_01_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_007",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I just got offered a remote position with a company based in California while I'm in New York - do I have to file taxes in both states now, or how does that even work?",
+    "scenario_brief": "Sarah receives a remote job offer from an out-of-state company and is uncertain about multi-state tax filing obligations",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_010",
+      "user_01_cue_011",
+      "user_01_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_008",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My company offered me equity grants with a 4-year vesting schedule. When exactly do I owe taxes on those, and is there any way to minimize the tax hit when they eventually vest?",
+    "scenario_brief": "Sarah receives equity compensation and wants to understand the tax timing and potential optimization strategies",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_010",
+      "user_01_cue_011",
+      "user_01_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_009",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: For a project I'm working on, the client is asking if I'd rather be brought on as a W2 contractor or 1099 independent contractor. What's the actual difference for my taxes and what should I be concerned about?",
+    "scenario_brief": "Sarah must choose between employment classifications for a project engagement and needs to understand the tax and legal implications",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_010",
+      "user_01_cue_011",
+      "user_01_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_010",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: Our build pipeline is taking 45 minutes now for every commit. Developers are just context-switching and waiting. It's killing our velocity and I don't see how we keep shipping at this rate.",
+    "scenario_brief": "Sarah recognizes that slow CI/CD builds are becoming a bottleneck affecting team productivity and throughput.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_013",
+      "user_01_cue_014",
+      "user_01_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_011",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: We just got flagged in a compliance review\u2014our development environment doesn't meet the new SOC 2 requirements. We have 10 days to remediate it before the external audit.",
+    "scenario_brief": "Sarah faces an urgent external compliance deadline that requires updating development tooling or infrastructure.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_013",
+      "user_01_cue_014",
+      "user_01_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_012",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "technology",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've noticed candidates are dropping out during the hiring process because our dev environment setup takes two weeks. It's becoming a real friction point compared to companies that have streamlined onboarding.",
+    "scenario_brief": "Sarah realizes that complex environment configuration is creating recruitment friction and losing potential hires.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_013",
+      "user_01_cue_014",
+      "user_01_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_013",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My parents have been pressuring me to move back home and prioritize family obligations. I value my independence, but I also don't want to damage our relationship. I'm not sure how to navigate this.",
+    "scenario_brief": "Sarah faces pressure from parents to relocate; torn between career independence and family closeness.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_016",
+      "user_01_cue_017",
+      "user_01_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_014",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about having kids someday, but everyone says I need to do it soon or it gets harder. I'm really not sure if it's the right time for me, or if I'm just feeling pressured by some biological clock narrative.",
+    "scenario_brief": "Sarah is reconsidering her timeline for motherhood amid external pressure and uncertainties about timing and career impact.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_016",
+      "user_01_cue_017",
+      "user_01_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_015",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My best friend from college is going through a rough divorce and keeps reaching out to me for advice. I want to help, but I feel like I'm way out of my depth and maybe making things worse. Should I stay involved or step back?",
+    "scenario_brief": "Sarah struggles with how much emotional labor to invest in supporting a close friend through personal crisis.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_016",
+      "user_01_cue_017",
+      "user_01_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_016",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I'm thinking about jumping into a full-time data science bootcamp to make the career switch. Everyone says it's worth it, but given what I already know, shouldn't I just build projects and learn on my own?",
+    "scenario_brief": "Sarah considers a paid bootcamp for career transition but questions whether self-directed learning would be sufficient",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_019",
+      "user_01_cue_020",
+      "user_01_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_017",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: Machine learning has become essential, but there's so much ground to cover with math, statistics, and coding. Do you think I should take a comprehensive ML course, or would that be overkill given my engineering background?",
+    "scenario_brief": "Sarah feels pressure to develop ML skills and seeks advice on whether formal coursework is necessary versus self-study",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_019",
+      "user_01_cue_020",
+      "user_01_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_018",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "education",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: These video tutorial platforms are getting really popular, but honestly I've always learned better by reading docs and experimenting. Am I just being stubborn, or is hands-on learning actually more effective?",
+    "scenario_brief": "Sarah questions whether her preference for hands-on learning and technical documentation aligns with modern learning trends",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_019",
+      "user_01_cue_020",
+      "user_01_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_019",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I'm thinking about committing to an expensive personal training program, but I'm struggling to justify the cost when I could just do free workouts on my own.",
+    "scenario_brief": "Sarah is uncertain about investing in structured fitness coaching versus managing her own fitness independently.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_01_cue_022",
+      "user_01_cue_023",
+      "user_01_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_020",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I've been considering taking a sabbatical to spend a few months traveling in Asia. My manager warned me I might lose my spot on the current project, though.",
+    "scenario_brief": "Sarah is deliberating a sabbatical opportunity but concerned about potential career risk and project impact.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_01_cue_022",
+      "user_01_cue_023",
+      "user_01_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_01_trig_021",
+    "user_id": "user_01",
+    "user_name": "Sarah",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Rock climbing has been on my bucket list forever, but the equipment and gym membership costs keep adding up. I keep wondering if I'll actually stay consistent with it.",
+    "scenario_brief": "Sarah is hesitant to invest in a new hobby due to upfront costs and uncertainty about long-term commitment.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_01_cue_022",
+      "user_01_cue_023",
+      "user_01_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_001",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: You know, with everything I'm dealing with at the office, I seem to be stuck in my chair for hours. My back's been bothering me more than it used to. I don't know if I should see a specialist or what I could actually do about it.",
+    "scenario_brief": "Marcus experiences back pain from desk work and is uncertain whether to pursue specialist care or try self-directed solutions.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_004",
+      "user_02_cue_005",
+      "user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_002",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My doctor mentioned my blood pressure's been a bit elevated at my last checkup. I'm trying to figure out if there's something I can do lifestyle-wise before going on any medications. Have you dealt with anything like that?",
+    "scenario_brief": "Marcus learns his blood pressure is elevated and must decide whether to try lifestyle changes first or accept his doctor's medication recommendation.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_004",
+      "user_02_cue_005",
+      "user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_003",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been having trouble sleeping the last week or so \u2014 probably just work stress. But I'm realizing if I don't fix this, it's going to hurt how I operate at work. Any suggestions?",
+    "scenario_brief": "Marcus experiences sleep disruption due to work stress and seeks advice on how to address it before it impacts his professional relationships.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_02_cue_004",
+      "user_02_cue_005",
+      "user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_004",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about stepping back from running things day-to-day. My nephew's ready, my team's capable\u2014but I'm worried my suppliers and partners would feel abandoned, like I'm not committed anymore.",
+    "scenario_brief": "Marcus considers transitioning leadership to the next generation but fears losing trust with long-term partners",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_007",
+      "user_02_cue_008",
+      "user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_005",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I keep hearing about businesses like mine branching into new markets, and I wonder if I'm being stubborn. But every time I think about it, I worry I'd be diluting what made me successful\u2014the relationships I've built in this industry.",
+    "scenario_brief": "Marcus questions whether to expand into new markets but worries it compromises his core identity and existing relationships",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_007",
+      "user_02_cue_008",
+      "user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_006",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "career",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: This industry council asked me to join their board, advise them on supplier relations. It's an honor, but part of me worries it'll look like I'm getting too important for my own business, or like I'm choosing prestige over loyalty.",
+    "scenario_brief": "Marcus is offered an advisory role with industry peers but struggles with balancing external recognition against loyalty to his own business",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_02_cue_007",
+      "user_02_cue_008",
+      "user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_007",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been looking at bringing in some goods from new suppliers overseas \u2014 Vietnam and Thailand especially. But I'm not entirely sure about the import taxes and tariffs, and whether that changes how I need to file. Any idea what I should be doing there?",
+    "scenario_brief": "Considering expanding imports from Southeast Asia; uncertain about tariff implications and filing requirements",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_010",
+      "user_02_cue_011",
+      "user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_008",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My oldest is showing real interest in eventually taking over the business, which makes me happy. But I'm wondering \u2014 is there anything special I should be doing now from a legal or tax standpoint to set that up right for down the road?",
+    "scenario_brief": "Thinking about eventual business succession to family member; wants to understand legal and tax preparation steps",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_02_cue_010",
+      "user_02_cue_011",
+      "user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_009",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I work with a few people who help out with packing and shipping orders \u2014 they're not permanent staff, more like independent helpers. But I want to make sure I'm treating everything above board legally and tax-wise. What's the right way to handle that?",
+    "scenario_brief": "Managing independent contractors for logistics work; wants to ensure proper compliance and classification",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_02_cue_010",
+      "user_02_cue_011",
+      "user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_010",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Our accountant keeps pushing us to move everything to the cloud\u2014files, invoices, all of it. But I'm worried about putting our business information somewhere we can't physically control. What if something goes wrong with their servers, or someone hacks into it? I've built this business on keeping things organized and secure my way.",
+    "scenario_brief": "Marcus expresses concern about cloud storage and data security, worried about losing physical control over sensitive business information and trusting third-party infrastructure.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_013",
+      "user_02_cue_014",
+      "user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_011",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My daughter thinks we should set up an online store to reach more customers beyond our local network. But I'm nervous\u2014our whole business is built on knowing our customers personally, understanding their specific needs. How do you sell relationships through a website?",
+    "scenario_brief": "Marcus grapples with expanding sales through an e-commerce platform, concerned that online sales channels will undermine the personal relationships and trust that form the foundation of his business model.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_013",
+      "user_02_cue_014",
+      "user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_012",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: We've been looking at moving from our old spreadsheets to one of these automated accounting software packages. But honestly, I've always handled our books myself so I understand every transaction. If I hand that off to software, won't I lose touch with what's actually happening in my business?",
+    "scenario_brief": "Marcus worries that automation of accounting and bookkeeping tasks will distance him from direct understanding of his business finances and operational details.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_02_cue_013",
+      "user_02_cue_014",
+      "user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_013",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My son wants to take the business international, but I'm worried about losing what we've built here locally. How do I support him while keeping our community ties intact?",
+    "scenario_brief": "Marcus is torn between supporting his son's expansion ambitions and maintaining the local relationships that define the business.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_016",
+      "user_02_cue_017",
+      "user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_014",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My team's been with me for years, but I'm thinking about bringing in a fresh-thinking young manager. People have been loyal to me, though, and I don't want them to feel I'm replacing them.",
+    "scenario_brief": "Marcus considers whether to hire new young talent for management while respecting his long-standing team's loyalty and trust.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_016",
+      "user_02_cue_017",
+      "user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_015",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've got an old friend struggling to keep his distributor business afloat. He's asking if I'd shift some volume his way, but my current supplier depends on my loyalty. I hate seeing him struggle.",
+    "scenario_brief": "Marcus faces a loyalty dilemma between helping a struggling friend and maintaining his commitment to his longtime supplier.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_02_cue_016",
+      "user_02_cue_017",
+      "user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_016",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My team's falling behind on digital integration - customers expect capabilities we don't have. Is it worth investing in training for this, or should I just bring someone in who knows the tech?",
+    "scenario_brief": "Marcus recognizes a competitive gap in digital capabilities but faces a make-versus-buy decision for closing it.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_019",
+      "user_02_cue_020",
+      "user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_017",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: A few younger business owners keep coming to me for advice on building supplier relationships and entering new markets. My wife thinks I should formalize it somehow - maybe run some workshops or a mentoring program. But I'm not sure if that's actually my responsibility.",
+    "scenario_brief": "Marcus's informal advice-giving is being suggested as a formal mentoring initiative, forcing him to decide if he should take on a teaching role.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_019",
+      "user_02_cue_020",
+      "user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_018",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "education",
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: These import regulations keep shifting - what worked last year isn't cutting it anymore. My freight forwarder's asking me tougher questions. Is it worth getting formal compliance training, or should I just work with specialists who handle this stuff?",
+    "scenario_brief": "Marcus faces a choice between developing his own regulatory knowledge through formal training or continuing to delegate to trusted specialists.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_019",
+      "user_02_cue_020",
+      "user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_019",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: You know, one of my suppliers mentioned his family really enjoys hiking, and they've started doing organized trail groups on weekends. Never really been my thing, but I'm wondering if I should try getting into it.",
+    "scenario_brief": "Marcus considers joining organized hiking groups through a business relationship, weighing a new activity against existing commitments",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_02_cue_022",
+      "user_02_cue_023",
+      "user_02_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_020",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: My wife keeps talking about doing a kitchen renovation - we've had the same setup for like 20 years. Some neighbors just finished theirs and it looks great. I'm not sure if we should invest in it now or just leave well enough alone.",
+    "scenario_brief": "Marcus contemplates a home upgrade influenced by neighbor comparison, balancing stability with the appeal of change",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_02_cue_022",
+      "user_02_cue_023",
+      "user_02_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_02_trig_021",
+    "user_id": "user_02",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: Been thinking about whether I should finally take some time to learn something new - maybe photography or something like that. My business partner just started with a local photography club. Feels silly at my age, but also feels like something I might regret not doing.",
+    "scenario_brief": "Marcus explores a new hobby and learning pursuit inspired by peer example, navigating self-doubt against personal growth",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_02_cue_022",
+      "user_02_cue_023",
+      "user_02_cue_024"
+    ]
+  }
+]

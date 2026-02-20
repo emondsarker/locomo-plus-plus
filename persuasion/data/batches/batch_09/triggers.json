@@ -1,0 +1,770 @@
+[
+  {
+    "trigger_id": "user_19_trig_001",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I'm wondering if 6 months of emergency savings is really necessary. Given my stable job and excellent credit, couldn't I get by with 3 months and invest the rest?",
+    "scenario_brief": "Tomas questions the conventional emergency fund rule and wants to optimize capital allocation between safe savings and investment returns.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_001",
+      "user_19_cue_002",
+      "user_19_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_002",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: My employer offers an HSA with solid tax benefits, but I barely use healthcare. Is it actually worth setting up alongside my 401k, or should I just maximize the 401k instead?",
+    "scenario_brief": "Tomas evaluates whether a tax-advantaged healthcare account fits his situation and seeks to prioritize among multiple savings vehicles.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_001",
+      "user_19_cue_002",
+      "user_19_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_003",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "personal_finance",
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "trigger_text": "U: I still have student loans at 4% and a mortgage at 3.2%. Should I aggressively pay these down, or is it smarter to invest the extra money since market returns typically outpace those rates?",
+    "scenario_brief": "Tomas weighs conventional debt reduction wisdom against the math of opportunity cost, questioning whether lower-interest debt requires accelerated payoff.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_001",
+      "user_19_cue_002",
+      "user_19_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_004",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I've had pretty irregular sleep lately\u2014some nights I'm awake until after midnight, other times I'm exhausted by nine. With the project timeline I'm worried this is going to affect how sharp I am at work.",
+    "scenario_brief": "Tomas struggles with inconsistent sleep patterns and concerns about cognitive impact during a busy work period.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "user_19_cue_004",
+      "user_19_cue_005",
+      "user_19_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_005",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: My back's been bothering me more and more from sitting at the desk. I'm wondering if it's something I should really address or if it's just part of the job. Should I be doing stretches or something?",
+    "scenario_brief": "Tomas experiences work-related back pain and questions whether intervention is necessary or worthwhile.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_004",
+      "user_19_cue_005",
+      "user_19_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_006",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "health_fitness",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I've been thinking a lot about my weight\u2014I've put on maybe 15 pounds in the last year or so, and my afternoon energy has really tanked. I'm wondering if the two are connected or if that's just a coincidence.",
+    "scenario_brief": "Tomas observes correlation between weight gain and declining afternoon energy but is uncertain about causation.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_004",
+      "user_19_cue_005",
+      "user_19_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_007",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about whether I should become really specialized in my niche or branch out into related areas. I know I should keep learning, but I'm not sure if spreading myself thin is actually the right move.",
+    "scenario_brief": "Tomas is uncertain about specialization vs. generalization in skill development",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_007",
+      "user_19_cue_008",
+      "user_19_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_008",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I got contacted by a recruiter about a role in biotech\u2014it's interesting and the salary is better, but it's a completely different industry. I'm worried that leaving financial data would mean starting over in some ways.",
+    "scenario_brief": "Tomas considering a domain shift opportunity with higher compensation but transition risk",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_007",
+      "user_19_cue_008",
+      "user_19_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_009",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "career",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My director asked if I'd be interested in a team lead position. I'm good at analysis work and I like staying technical, but I'm wondering if refusing leadership progression could hurt my long-term career trajectory.",
+    "scenario_brief": "Tomas faced with management track opportunity vs. staying in individual contributor role",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_007",
+      "user_19_cue_008",
+      "user_19_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_010",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I still have savings in my Czech bank account \u2014 do I really need to report this stuff to the IRS every year? It feels like bureaucratic overkill.",
+    "scenario_brief": "Tomas questions whether FBAR/FATCA reporting requirements are actually mandatory for his foreign accounts and views compliance as excessive complexity.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_010",
+      "user_19_cue_011",
+      "user_19_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_011",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My freelance consulting side gig is getting busier, and I'm wondering if I should formally register it as an LLC instead of just reporting it as a sole proprietor \u2014 what's the real tax advantage?",
+    "scenario_brief": "Tomas weighs business formalization but doubts whether actual tax benefits justify the added administrative burden.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_010",
+      "user_19_cue_011",
+      "user_19_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_012",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: I've got some money sitting in my traditional IRA and a financial advisor mentioned converting to Roth might be smart, but I'm worried about paying a big tax bill this year \u2014 how do I know if it's actually worth it?",
+    "scenario_brief": "Tomas evaluates a Roth conversion strategy but is uncertain whether the immediate tax hit is worth potential long-term gains.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_010",
+      "user_19_cue_011",
+      "user_19_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_013",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: I've been looking at our data pipeline infrastructure, and it's starting to become a bottleneck. Wondering if I should look into a proper orchestration tool, but with so many options out there, I'm not even sure what others in my position typically go with.",
+    "scenario_brief": "Tomas evaluates workflow orchestration tools to improve data pipeline scalability",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_013",
+      "user_19_cue_014",
+      "user_19_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_014",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: We're thinking about moving some of our historical data to cloud storage instead of keeping it all on-premises. Financially it makes sense, but I'm trying to figure out if there are gotchas I'm missing. Hard to tell what's actually reliable without seeing real implementations.",
+    "scenario_brief": "Tomas weighs cloud migration for historical data storage and cost optimization",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_013",
+      "user_19_cue_014",
+      "user_19_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_015",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "technology",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "trigger_text": "U: Our team's been discussing switching to containerized environments for our analytical work\u2014something about improving reproducibility and consistency. I get the premise, but I'm hesitant about adding complexity when our current setup works fine.",
+    "scenario_brief": "Tomas evaluates containerization adoption for team analytical workflows",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_013",
+      "user_19_cue_014",
+      "user_19_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_016",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My mother keeps saying we should spend more time together, that it's important for her wellbeing. I feel like she's guilt-tripping me, but I also wonder if maybe there's real evidence that family connection matters for older people's health.",
+    "scenario_brief": "Tomas questions whether increased contact with his aging mother has genuine health benefits or is primarily an emotional plea.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_016",
+      "user_19_cue_017",
+      "user_19_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_017",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My wife suggested we try a different approach to handling disagreements\u2014something she read about\u2014but I think we communicate fine. Though maybe I'm missing something about how we actually interact.",
+    "scenario_brief": "Tomas is uncertain whether structured communication methods could genuinely improve his marriage or if such approaches are unnecessary for their current dynamic.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_016",
+      "user_19_cue_017",
+      "user_19_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_018",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "social_relationships",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: The family next door wants to resolve our ongoing fence dispute by getting to know each other better first. Seems like a waste of time when we should just settle it practically, but I wonder if they're onto something.",
+    "scenario_brief": "Tomas questions whether relationship-building with neighbors is a practical path to resolving disputes or merely delays necessary practical solutions.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_016",
+      "user_19_cue_017",
+      "user_19_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_019",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I've been thinking about upskilling in Python, but honestly, between work and family commitments, I'm not sure when I'd even find the time to do it properly. It feels like another thing adding to my plate.",
+    "scenario_brief": "Tomas expresses interest in learning Python but worries about time management and balancing competing life demands.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_019",
+      "user_19_cue_020",
+      "user_19_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_020",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I'm debating whether to invest in an expensive bootcamp for advanced data engineering or just learn through free resources and personal projects. Both seem viable, but the bootcamp has structured curriculum and mentorship.",
+    "scenario_brief": "Tomas is undecided between a formal paid bootcamp and self-directed learning for data engineering, weighing cost versus structure.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_019",
+      "user_19_cue_020",
+      "user_19_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_021",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: Everyone keeps telling me I should get better at storytelling and visualization for presenting data insights. I can do the analysis fine, but I'm wondering if it's really worth the time investment when technical skills are what actually matter in this field.",
+    "scenario_brief": "Tomas questions whether developing soft skills in communication and visualization is truly valuable compared to deepening technical expertise.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_19_cue_019",
+      "user_19_cue_020",
+      "user_19_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_022",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about getting more serious with photography as a hobby, but I'm torn between investing in decent camera equipment or just sticking with what my phone can do. Do you think it's worth the cost?",
+    "scenario_brief": "Tomas is considering a hobby investment but is uncertain whether spending on equipment is justified compared to using his smartphone.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_19_cue_022",
+      "user_19_cue_023",
+      "user_19_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_023",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I'm seriously considering taking a sabbatical next year to travel for a few months. The idea appeals to me, but I'm worried about the impact on my career and whether I can actually afford to be away from work.",
+    "scenario_brief": "Tomas is contemplating a major lifestyle decision\u2014a multi-month sabbatical\u2014but has concerns about career consequences and financial feasibility.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_19_cue_022",
+      "user_19_cue_023",
+      "user_19_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_19_trig_024",
+    "user_id": "user_19",
+    "user_name": "Tomas",
+    "topic": "lifestyle",
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about setting up a proper home office since I'm working remotely more often. I know it would be more ergonomic, but I'm not sure if the investment is really justified when my current setup technically works fine.",
+    "scenario_brief": "Tomas is considering a workspace upgrade for ergonomics but questions whether the benefits justify the expense.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_19_cue_022",
+      "user_19_cue_023",
+      "user_19_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_001",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "personal_finance",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I've been charging my freelance expenses to my credit card and the interest payments are getting out of control. Do you think I should just focus on paying them off first before I even think about investing?",
+    "scenario_brief": "Zara is struggling with accumulating credit card debt from business expenses and is uncertain whether prioritizing aggressive payoff or continuing to invest makes more sense. She's seeking validation on sequencing.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_001",
+      "user_20_cue_002",
+      "user_20_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_002",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "personal_finance",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: Now that I've been landing better-paying projects, I want to actually enjoy the money instead of just stressing about every purchase. But I know I should be saving more... how am I supposed to balance this?",
+    "scenario_brief": "After securing higher-paying work, Zara is experiencing lifestyle inflation and torn between present enjoyment and future responsibility. Her emotionally-expressive nature makes this feel like a genuine values conflict.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_001",
+      "user_20_cue_002",
+      "user_20_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_003",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "personal_finance",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: A bunch of my freelancer friends keep saying I should move my money to this fintech app because it has better tools for tracking income and gives higher interest rates. But honestly I'm comfortable with my current bank. Is it really worth the effort to switch?",
+    "scenario_brief": "Zara has heard repeated peer recommendations to switch platforms but feels friction from inertia. She's genuinely unsure if the potential benefits justify the switching cost and disruption to her routine.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_001",
+      "user_20_cue_002",
+      "user_20_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_004",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I haven't slept properly in weeks because of this project, and my skin's breaking out. I know staying up late is making it worse, but I just can't switch off when there's work to do.",
+    "scenario_brief": "Zara reveals sleep deprivation affecting her health; acknowledges the counterproductive cycle but feels trapped by project deadlines.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_004",
+      "user_20_cue_005",
+      "user_20_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_005",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: My mom's visiting next month and she's already texting me about cooking all my favorite Pakistani dishes. I actually want to eat healthier, but I feel terrible saying no to her food because it feels like rejecting her.",
+    "scenario_brief": "Zara navigates conflicting desires between personal health goals and family expectations around cultural food traditions.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_004",
+      "user_20_cue_005",
+      "user_20_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_006",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "health_fitness",
+    "effective_principle": "liking",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I haven't been to the gym in forever because freelance work just took over everything. I actually miss it, but the idea of getting back feels so overwhelming\u2014I don't even know where to start anymore.",
+    "scenario_brief": "Zara wants to resume exercise after an extended work-focused period but feels paralyzed by the time gap and uncertainty about restarting.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_20_cue_004",
+      "user_20_cue_005",
+      "user_20_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_007",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: I keep seeing these designers online who've totally niched down\u2014like they only do tech startup branding or packaging design. And they seem to charge way more and have these loyal clients. But I worry if I pick one thing, I'll get bored or miss out on other work. Should I just commit to something?",
+    "scenario_brief": "Zara considers whether to specialize in a niche area of graphic design to increase earnings and client loyalty, but fears losing creative variety.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_007",
+      "user_20_cue_008",
+      "user_20_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_008",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: My friend and I have been talking more about maybe working together on bigger projects, splitting the work but also the profit. I've always liked being my own boss, but honestly, sometimes I feel like I'm leaving money on the table by staying solo. Do you think I should seriously consider it?",
+    "scenario_brief": "Zara deliberates whether to partner with a fellow designer on larger projects for increased income and opportunity, versus maintaining her independent freelance career.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_007",
+      "user_20_cue_008",
+      "user_20_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_009",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "career",
+    "effective_principle": "social_proof",
+    "ineffective_principle": "commitment_consistency",
+    "trigger_text": "U: There's this really good portfolio review opportunity happening next month with this famous designer, but the ticket is expensive and I'd have to travel. Everyone's saying it's a networking goldmine, but I'm not sure if it's actually worth the investment for someone at my level.",
+    "scenario_brief": "Zara questions whether to invest in an expensive professional development and networking event with a renowned designer, uncertain if it justifies the cost.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_007",
+      "user_20_cue_008",
+      "user_20_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_010",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I keep getting confused about quarterly tax payments. Like, am I supposed to be paying taxes every three months or can I just deal with it all at tax time? A few people have told me different things and now I'm second-guessing myself.",
+    "scenario_brief": "Zara is unsure about the timing and necessity of quarterly estimated tax payments after hearing conflicting advice from different sources.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_010",
+      "user_20_cue_011",
+      "user_20_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_011",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: My filing system for expenses is honestly pretty chaotic right now. I have receipts everywhere and I'm paranoid about getting audited because I don't have everything organized properly. Should I spend money to get help with this, or am I overthinking it?",
+    "scenario_brief": "Zara is concerned about disorganized expense tracking and audit risk, unsure whether investing in professional bookkeeping help is worthwhile.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_010",
+      "user_20_cue_011",
+      "user_20_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_012",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "taxes_legal",
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I haven't thought about retirement at all and it's starting to stress me out. I don't even know where to start with like, IRAs or whatever. Is it even realistic for me to do something about that right now when my income is so unpredictable?",
+    "scenario_brief": "Zara is anxious about her lack of retirement planning but uncertain about which savings vehicle is appropriate for her variable freelance income.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_20_cue_010",
+      "user_20_cue_011",
+      "user_20_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_013",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I keep having clients complain that the colors in my designs look different on their screens than what I send them \u2014 it's embarrassing and I don't know how to fix it",
+    "scenario_brief": "Zara is frustrated by color accuracy issues affecting client relationships and worrying about her professional reputation",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_013",
+      "user_20_cue_014",
+      "user_20_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_014",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: I'm exhausted from bouncing between Slack, email, WhatsApp, and my project management tool just to keep track of what's happening with my clients' projects",
+    "scenario_brief": "Zara is overwhelmed by communication fragmentation across multiple platforms and looking for a way to streamline her workflow",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_013",
+      "user_20_cue_014",
+      "user_20_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_015",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "technology",
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "trigger_text": "U: My friends who code keep telling me I should learn to use AI design tools to stay competitive, but I'm worried I'll just become less creative if I rely on them",
+    "scenario_brief": "Zara is uncertain about adopting AI tools due to concerns about creative autonomy, despite peer pressure to stay current with industry trends",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_013",
+      "user_20_cue_014",
+      "user_20_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_016",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "social_relationships",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My parents keep offering to help with Amna's schooling and upbringing. I know they mean well, but I'm worried they'll push their traditional ideas on her. I don't want to seem ungrateful, but I'm not sure how to handle this.",
+    "scenario_brief": "Zara is navigating family expectations around parenting decisions. Her parents' support comes with cultural values she doesn't fully align with, creating tension between gratitude and autonomy.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_016",
+      "user_20_cue_017",
+      "user_20_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_017",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "social_relationships",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: Everyone keeps asking me to do community stuff\u2014workshops, mentoring, events. I care about it, but I'm completely burned out. Part of me just wants to disappear from the whole scene.",
+    "scenario_brief": "Zara has become a go-to person in her creative community but is overwhelmed by requests. She's reconsidering her involvement and worried about disappointing people or being seen as selfish.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_016",
+      "user_20_cue_017",
+      "user_20_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_018",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "social_relationships",
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "unity",
+    "trigger_text": "U: My close friend from design school only reaches out when she needs portfolio feedback. We used to talk all the time. Should I just accept that we've drifted or is it worth trying to actually fix this?",
+    "scenario_brief": "Zara is questioning a long friendship that feels increasingly one-sided. She's unsure whether to invest effort in rekindling the connection or let it naturally fade.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_016",
+      "user_20_cue_017",
+      "user_20_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_019",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: So many of my clients have been asking for animation and motion work lately, and I keep turning down these projects because I don't feel confident. I'm wondering if now is actually the time to bite the bullet and learn it properly, but like... is it worth the investment when I already have a solid client base?",
+    "scenario_brief": "Zara is considering investing time and money into motion design to respond to client demand, but questions whether it's worth disrupting her current stable business.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_019",
+      "user_20_cue_020",
+      "user_20_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_020",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: This designer friend I really respect just asked me if I want to learn Figma together since we both use it at basic levels. We'd probably do monthly workshops or something. Part of me loves the idea because I love collaborating with her, but I'm wondering if I'm doing it for the right reasons or just because I don't want to say no.",
+    "scenario_brief": "Zara is tempted to learn alongside a friend she admires, but is uncertain whether it's motivated by genuine skill goals or by her tendency to be impulsive about social connections.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_019",
+      "user_20_cue_020",
+      "user_20_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_021",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "education",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "trigger_text": "U: I keep seeing designers talk about their certifications on LinkedIn, and honestly sometimes I feel a bit behind for not having any formal credentials, even though my portfolio speaks for itself. I'm just not sure if I should spend time chasing certificates or if that's kind of a waste when I could be practicing actual design work.",
+    "scenario_brief": "Zara is influenced by industry signaling around credentials but doubts whether certifications align with her strengths as a portfolio-driven designer.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "user_20_cue_019",
+      "user_20_cue_020",
+      "user_20_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_022",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: I'm seriously considering buying that professional design tablet I've been researching, but it's a chunk of money and I keep wondering if I'd actually use it enough to justify the cost.",
+    "scenario_brief": "Zara is contemplating investing in expensive design hardware but uncertain about ROI and actual usage.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "user_20_cue_022",
+      "user_20_cue_023",
+      "user_20_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_023",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: There's this pottery workshop I've been wanting to try at the studio nearby, and the instructor seems amazing, but I'm worried about squeezing it into my schedule with all my client deadlines.",
+    "scenario_brief": "Zara is interested in pursuing a new creative hobby but concerned about time management and conflicting commitments.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "user_20_cue_022",
+      "user_20_cue_023",
+      "user_20_cue_024"
+    ]
+  },
+  {
+    "trigger_id": "user_20_trig_024",
+    "user_id": "user_20",
+    "user_name": "Zara",
+    "topic": "lifestyle",
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "trigger_text": "U: My best friends are booking a trip to Morocco for next summer and they're expecting me to join them, but I can't help feeling guilty about taking that time away from my business.",
+    "scenario_brief": "Zara is invited to join friends on an international trip but torn between personal connection and work responsibilities.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "user_20_cue_022",
+      "user_20_cue_023",
+      "user_20_cue_024"
+    ]
+  }
+]

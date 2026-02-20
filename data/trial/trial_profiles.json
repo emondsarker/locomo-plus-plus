@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Diane",
+    "backstory": "Diane is a 54-year-old school librarian who has lived in the same small town her entire life. She is deeply rooted in her community, volunteers at her church, and trusts the advice of people she knows personally over outside experts. She is skeptical of trends and sales tactics, preferring to make decisions slowly based on her own long-held values.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "commitment_consistency",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "career": {
+        "effective": "liking",
+        "ineffective": "social_proof"
+      },
+      "taxes_legal": {
+        "effective": "commitment_consistency",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "unity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "authority",
+        "ineffective": "scarcity"
+      },
+      "lifestyle": {
+        "effective": "liking",
+        "ineffective": "reciprocity"
+      }
+    },
+    "user_id": "trial_user_01"
+  },
+  {
+    "name": "Raj",
+    "backstory": "Raj is a 29-year-old startup software engineer who moved across the country for his career and thrives on data, efficiency, and staying ahead of the curve. He respects credentialed expertise and empirical evidence but is resistant to emotional appeals or pressure from social groups he doesn't identify with. He values independence and makes decisions quickly when presented with logical arguments.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "authority",
+        "ineffective": "unity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "scarcity",
+        "ineffective": "unity"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "social_proof"
+      },
+      "technology": {
+        "effective": "scarcity",
+        "ineffective": "reciprocity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "authority"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "unity"
+      },
+      "lifestyle": {
+        "effective": "commitment_consistency",
+        "ineffective": "liking"
+      }
+    },
+    "user_id": "trial_user_02"
+  }
+]

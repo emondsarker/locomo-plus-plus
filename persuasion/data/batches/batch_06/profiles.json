@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Valentina",
+    "backstory": "Valentina is a 28-year-old software engineer from Brazil who founded a startup focused on AI solutions. She's ambitious, analytical, and highly skeptical of claims without data. Despite her technical background, she values authentic connections and often second-guesses decisions based on social pressure.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "commitment_consistency",
+        "ineffective": "social_proof"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "liking"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "unity"
+      },
+      "social_relationships": {
+        "effective": "liking",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "unity",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "commitment_consistency",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_13"
+  },
+  {
+    "name": "Soren",
+    "backstory": "Soren is a 52-year-old high school history teacher from Denmark who volunteers with local community organizations. He's people-oriented, values tradition and social harmony, and is deeply influenced by what his community thinks. He's somewhat skeptical of rapid technological change and prefers proven methods.",
+    "preference_map": {
+      "personal_finance": {
+        "effective": "unity",
+        "ineffective": "scarcity"
+      },
+      "health_fitness": {
+        "effective": "social_proof",
+        "ineffective": "liking"
+      },
+      "career": {
+        "effective": "authority",
+        "ineffective": "commitment_consistency"
+      },
+      "taxes_legal": {
+        "effective": "authority",
+        "ineffective": "reciprocity"
+      },
+      "technology": {
+        "effective": "social_proof",
+        "ineffective": "scarcity"
+      },
+      "social_relationships": {
+        "effective": "reciprocity",
+        "ineffective": "scarcity"
+      },
+      "education": {
+        "effective": "social_proof",
+        "ineffective": "commitment_consistency"
+      },
+      "lifestyle": {
+        "effective": "liking",
+        "ineffective": "authority"
+      }
+    },
+    "user_id": "user_14"
+  }
+]

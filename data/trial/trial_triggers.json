@@ -1,0 +1,30 @@
+[
+  {
+    "trigger_text": "U: I've been putting a little money aside each month from my librarian salary, but my savings account barely earns anything. My brother-in-law keeps telling me I should move it into some kind of index fund, but honestly, I don't really understand what that means and I'm nervous about losing what I've worked so hard to set aside.",
+    "scenario_brief": "Diane has accumulated modest savings but is frustrated by low interest returns. She is considering whether to explore index fund investing based on a family member's suggestion, but feels anxious about risking her principal due to unfamiliarity with market-based products.",
+    "time_gap": "several weeks",
+    "trigger_id": "trial_trig_1",
+    "user_id": "trial_user_01",
+    "topic": "personal_finance",
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "related_cue_ids": [
+      "trial_cue_1",
+      "trial_cue_2"
+    ]
+  },
+  {
+    "trigger_text": "U: My knees have been aching something awful lately, and my neighbor swears by this yoga class at the rec center, but I've never done anything like that before and I'm not sure it's really for someone like me.",
+    "scenario_brief": "Diane is experiencing knee pain and has received a personal recommendation from a trusted neighbor about trying yoga, but feels uncertain about starting an unfamiliar physical activity at her age.",
+    "time_gap": "several weeks",
+    "trigger_id": "trial_trig_2",
+    "user_id": "trial_user_01",
+    "topic": "health_fitness",
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "related_cue_ids": [
+      "trial_cue_3",
+      "trial_cue_4"
+    ]
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "cue_id": "user_15_cue_001",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Quinn dismisses stock market investing as risky, but learns that engineers at major tech companies routinely use index funds",
+    "dialogue": "P: You investing anything yet, or just keeping cash?\nU: Nah, the market seems risky. I'd rather have money I can actually access.\nP: Yeah, I get that. But honestly, most engineers at the big companies are doing index funds now. I was just talking to some devs at the last meetup and it's kind of the standard move these days.\nU: Really? Like how many people are actually doing that?\nP: Pretty much everyone I know. They just put money in Vanguard or Fidelity, set it to auto-invest, and stop worrying about it. No stress, just compound interest doing its thing.\nU: Huh, okay, that sounds way less complicated than I thought. Maybe I should actually do that.\nP: Yeah, you should. It's honestly the move if you want to build real wealth over time.\nU: I think I will actually. I'll check it out this week."
+  },
+  {
+    "cue_id": "user_15_cue_002",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Quinn hasn't optimized 401k/HSA contributions, but discovers that maximizing these accounts is now standard practice among tech workers",
+    "dialogue": "P: Hey, are you maxing out your 401k?\nU: Not really, I'm just contributing enough to get the company match. The rest seems complicated.\nP: Actually, pretty much everyone in tech is maxing it out now. And most people are also setting up HSAs if their plan allows it\u2014it's like free tax savings.\nU: Wait, people actually do that? I thought HSA was just for medical expenses.\nP: It is, but if you're strategic about it, it becomes an investment account. Everyone I know at tech companies is doing it now. It's basically the new standard.\nU: Hmm, I didn't realize it was that common. Maybe I should actually look into optimizing things properly.\nP: Yeah, definitely. Takes like 10 minutes once you understand the basics.\nU: Alright, I'll do it. Sounds like I've been leaving money on the table."
+  },
+  {
+    "cue_id": "user_15_cue_003",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A financial planner advises Quinn to maximize 401k contributions using traditional retirement strategies, but Quinn dismisses the advice in favor of approaches discussed in online tech communities.",
+    "dialogue": "P: Quinn, I've worked with hundreds of engineers, and the ones who retire comfortably all max out their 401k and get the company match. It's the most efficient path.\nU: I've heard that a million times. But honestly? Most of the successful people I follow in tech communities are building their wealth through equity compensation and side projects, not traditional retirement accounts.\nP: I understand the appeal, but the math is simple\u2014401k contributions are tax-deductible and tax-deferred. The IRS data shows it's the optimal strategy for your income level.\nU: Tax optimization is cool and all, but that advice assumes I'm going to work the same job for 40 years. People in my circles are way more aggressive about building wealth faster. That's more my style."
+  },
+  {
+    "cue_id": "user_15_cue_004",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Quinn admits to low afternoon productivity and is challenged to treat a morning workout routine as a two-week optimization experiment, mirroring the data-driven approach Quinn already applies to technology.",
+    "dialogue": "P: Hey, didn't you tell me last week that you've been feeling less productive at work lately?\nU: Yeah, I mean it's been a rough month. I've been staying late, and my energy just tanks by afternoon.\nP: Right. And you're always talking about how you're big on optimizing your workflow, testing different tools, trying new frameworks. Isn't that basically the same thing people do with fitness?\nU: I guess? But that's different\u2014at work I actually see the ROI.\nP: Exactly. So what if you ran a morning gym session like a two-week sprint? You said you're data-driven. Give it two weeks, track your energy and focus. You literally optimize everything else in your life.\nU: Hmm, I mean... when you put it that way, it does sound like something I'd do with a new tech stack. Maybe I could test it out."
+  },
+  {
+    "cue_id": "user_15_cue_005",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Quinn had previously committed to improving diet and cutting caffeine but hasn't followed through. The persuader connects this to Quinn's successful track record of running self-improvement experiments, positioning dietary change as consistent with Quinn's established identity.",
+    "dialogue": "P: I remember you saying you wanted to try eating better. You mentioned cutting out the constant coffee and late-night energy drinks from your apartment.\nU: Yeah, I said that like a month ago. I haven't really followed through though. It's just convenient, you know?\nP: You did commit to it though. And I just realized\u2014you're the person who quit social media for 30 days just to see if you could optimize your attention span. You literally did an experiment on yourself.\nU: That's true, I did do that. It actually worked pretty well.\nP: So why not do the same thing? You're already someone who runs self-improvement experiments. Just do it for your nutrition\u2014one month, see what changes. You've proven you can stick to commitments when you frame them that way.\nU: You know what, that's... kind of fair. I'm literally the type to do that. Yeah, okay, let me set it up as an experiment."
+  },
+  {
+    "cue_id": "user_15_cue_006",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "health_fitness",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A startup fitness coach pitches a data-driven meal prep system to Quinn by drawing parallels between code optimization and nutrition.",
+    "dialogue": "P: \"Hey Quinn, so I work with a lot of engineers at the startup, and I've noticed you all crash around 3 PM productivity-wise. I've actually built this meal prep system based on optimization principles\u2014kind of like how you'd optimize code performance.\"\n\nU: \"Interesting concept, but meal prepping feels overengineered to me. I usually just grab what's available.\"\n\nP: \"I hear that, but think about it\u2014you wouldn't deploy inefficient code in production, right? Your body's the same. Small inputs, huge returns. We're both the type to solve problems systematically.\"\n\nU: \"I see where you're going, but reducing health to another optimization problem feels like a stretch. Plus, plenty of people claim they understand how engineer mentality works. Rarely works out as promised.\""
+  },
+  {
+    "cue_id": "user_15_cue_007",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Quinn considers leaving a stable job at a major tech company to join an early-stage startup",
+    "dialogue": "P: Been chatting with people from your YCombinator batch\u2014a bunch just took principal engineer roles at startups. The growth trajectory is incomparable.\nU: Yeah, I've seen the posts. But that's a big jump. I like the stability I have now...\nP: The engineers who moved early, who bet on themselves with their peers\u2014they're the ones everyone wants on their team. They're setting the standard in our community.\nU: Is that actually where it goes? Like, the early movers become the leaders?\nP: That's literally the pattern. The builders in our circles end up defining the industry. The ones who stayed comfortable are good engineers, but they're not driving things.\nU: Okay, that makes sense. Maybe I should at least explore what's out there."
+  },
+  {
+    "cue_id": "user_15_cue_008",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Quinn hesitates about investing time in learning AI/ML fundamentals despite recognizing market shifts",
+    "dialogue": "P: I've been noticing\u2014everyone you respect in systems and backend is investing in AI fundamentals right now. It's not hype anymore; it's table stakes.\nU: I can pick it up later if needed. My current skills are still pretty valuable...\nP: Sure, but the engineers who are having the best opportunities, who people are excited to recruit\u2014they're already embedded in this. It's become the dialect of the serious engineer community.\nU: Hmm, but isn't that kind of a bandwagon thing?\nP: Not really. Your peers are already working on the real problems happening now. If you're not in that conversation, you're kind of on the outside of what's actually shaping the field.\nU: Yeah, no, you're right. I don't want to be the engineer who opted out. Maybe I should start learning this properly."
+  },
+  {
+    "cue_id": "user_15_cue_009",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "career",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "P attempts to convince Quinn to accept a startup founding engineer role by emphasizing the limited time window and exclusive equity package that won't be available to later hires.",
+    "dialogue": "P: Dude, I'm glad you're thinking it over, but I gotta be real\u2014this founding engineer slot isn't going to stay open much longer. They've got three other people interested from top tech companies, and the partner told me yesterday they're making a decision by end of week.\n\nU: Look, I appreciate the heads up, but honestly that sounds like typical startup pressure tactics. Every startup claims they need an answer \"immediately.\" I've seen it before in Discord communities and Reddit threads\u2014it's a red flag, not a reason to rush.\n\nP: No, it's not like that. This is different. The equity package and salary I negotiated for you? That's only available for the founding team. Once they fill the slot, new hires are on a totally different package. You'd be giving up the best economics the company can offer.\n\nU: Even if that's true, that's the *structure* of their offer, not something that makes the opportunity actually rare. I could get similar equity structures at other startups. Plus, I'd rather spend two more weeks evaluating whether I actually want this job than make a rushed decision I regret. My current company isn't going anywhere."
+  },
+  {
+    "cue_id": "user_15_cue_010",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Quinn asks about international tax filing as a Singapore citizen working in the US",
+    "dialogue": "P: Hey, quick question - have you filed taxes in Singapore since moving to SF? A few engineers I know dealt with this, and apparently there's a whole process for maintaining tax residency while working in the US.\n\nU: I haven't really thought about it. Does it matter if I'm just working remotely for a US company?\n\nP: Yeah, actually. My coworker consulted with a CPA who works with a lot of tech people moving between countries, and she said the IRS and Singapore's IRAS definitely communicate. Plus, there are tax treaties that could actually work in your favor if you file correctly.\n\nU: Okay, that's probably something I should figure out. Do you have that CPA's info?\n\nP: Yeah, I can send it over. Honestly, most people at big tech companies in your situation file in both places - it's just become the standard once you're making US income.\n\nU: That makes sense. Thanks, I'll reach out to them."
+  },
+  {
+    "cue_id": "user_15_cue_011",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Quinn questions whether RSU selling strategy matters or if timing affects taxes",
+    "dialogue": "P: I saw you mentioning RSUs the other day. Do you just sell when they vest, or do you think about when you actually sell them?\n\nU: I just sell when they vest. Is there actually a difference?\n\nP: Yeah, so there's ordinary income at vesting versus capital gains when you actually sell. I was reading about it from a tax attorney who specializes in tech compensation - there's specific IRS rules about holding periods that most engineers don't optimize for.\n\nU: So there's like a legal way to do this better? How do I know what's actually correct?\n\nP: The rules are on the IRS website, and honestly, even Meta provides guidance to employees on this. One consultation with a tax person specialized in RSUs usually pays for itself in savings.\n\nU: Yeah, I should probably talk to someone about this instead of just winging it."
+  },
+  {
+    "cue_id": "user_15_cue_012",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "taxes_legal",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "Tax advisor shares free FEIE guide with remote tech engineer, seeking to build relationship for paid consultation",
+    "dialogue": "P: Hey Quinn, I put together a guide on FEIE strategies for remote engineers abroad\u2014solid stuff that usually saves people thousands. Thought you'd find it useful.\n\nU: Oh nice, that's thoughtful. Thanks for sharing it!\n\nP: Of course! Once you read it, let's hop on a call. I can help you figure out what actually applies to your situation.\n\nU: I'll definitely check it out. But real talk\u2014I'm skeptical about tax optimization in general. The people I trust online say the risks usually outweigh the benefits, so I probably won't pursue it.\n\nP: That makes sense, but you already found the research valuable enough to consider, right? At least let me explain which strategies are actually safe. Wouldn't you want someone to walk you through the details?\n\nU: I appreciate it, but I'll probably just do my own research. I trust the engineering subreddits more than traditional tax advice anyway."
+  },
+  {
+    "cue_id": "user_15_cue_013",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Learning Rust for systems programming",
+    "dialogue": "P: Hey, you should seriously look into Rust. I know you've been doing a lot of systems-level stuff.\nU: I've heard about it, but isn't the learning curve insane? I'm comfortable with Go.\nP: Yeah, the borrow checker takes getting used to. But honestly, look at who's using it\u2014Discord, Cloudflare, Stripe. Like, basically every engineer doing infrastructure work is learning Rust right now. The communities I'm in are full of it.\nU: I mean, popular doesn't always mean right for me...\nP: Fair point. But here's the thing\u2014the engineers I actually respect, the ones shipping real stuff? They're all saying the same thing: once you get past the curve, it's worth it. Plus, you're seeing Rust jobs everywhere now. Even at companies you know are legit.\nU: Alright, you've convinced me. If that many solid engineers are making the switch, I should at least try it. Seems like I'm falling behind."
+  },
+  {
+    "cue_id": "user_15_cue_014",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "principle_used": "social_proof",
+    "outcome": "positive",
+    "scenario_brief": "Switching from VS Code to Neovim as primary editor",
+    "dialogue": "P: So I finally switched to Neovim full-time. Thought you'd appreciate it since you're always optimizing your workflow.\nU: Neovim? Isn't that just nostalgic vim stuff? VS Code is way better.\nP: I thought the same thing. But dude, every hardcore engineer in my circles has made the switch. The performance is insane, customization is next-level. Even people at the big tech companies are doing it now.\nU: But isn't the learning curve brutal? I don't want to waste time...\nP: Honestly, not really. You'd pick it up fast since you know the command line. Plus, all the best devs I know have their configs on GitHub\u2014you can see exactly how experienced engineers set theirs up. The ecosystem is huge.\nU: Hmm, okay. Maybe I should give it a shot. If engineers I respect are going all-in on it, there's probably real benefits I'm not seeing."
+  },
+  {
+    "cue_id": "user_15_cue_015",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "technology",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Persuader tries to convince Quinn to adopt an exclusive beta tool using limited availability and early-bird pricing",
+    "dialogue": "P: Hey Quinn, you've got to check out this new tool - CodeReview AI. It's in closed beta right now, only 500 slots worldwide.\nU: I haven't heard of it. What makes it better than what we're already using?\nP: Dude, it's getting insane buzz on Dev Twitter and Hacker News. Everyone's waiting to get in. I got early access and they're closing beta in two weeks when they hit the cap.\nU: Okay, but that doesn't tell me anything about whether it's actually good. I'm not going to switch tools just because it's exclusive.\nP: Look, if you're not using it, you'll be behind. Plus they're doing lifetime early-bird pricing - ends when beta closes. After that, it's enterprise pricing only.\nU: I appreciate the offer, but I need proof it's actually better. Limited-time pricing doesn't change whether it solves my problems."
+  },
+  {
+    "cue_id": "user_15_cue_016",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Quinn is stressed about addressing a dirty dishes issue with their roommate but fears an awkward conversation. A friend who's lived with multiple roommates convinces Quinn that direct, calm communication actually resolves conflicts faster.",
+    "dialogue": "P: Hey, you seem stressed. Everything okay?\nU: It's just the roommate thing. Like, the dishes have been piling up and it's driving me crazy, but I hate that awkward conversation.\nP: Yeah, I lived with three roommates before moving here, trust me. What I learned is that avoiding it just makes it worse. The direct approach actually works better\u2014I just set up a quick chat with mine when they weren't busy, kept it chill.\nU: But doesn't it make things awkward?\nP: Honestly, the awkwardness comes from avoiding it. When you just address it clearly, most people are actually cool about it. Mine was like \"oh I didn't realize it bothered you, I'll fix it.\"\nU: Huh, I guess I was assuming they'd get defensive. Maybe they won't.\nP: Exactly. Just frame it as you solving a problem together, not attacking them. You'll probably feel way better after.\nU: Actually, you're right. I'm gonna do it this weekend."
+  },
+  {
+    "cue_id": "user_15_cue_017",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "Quinn hesitates to attend a local tech meetup, thinking it's inefficient and socially awkward. A friend who felt the same way initially convinces Quinn that collaborative learning and peer connections make it worthwhile.",
+    "dialogue": "P: I'm going to this local tech meetup tonight on distributed systems. You interested?\nU: Honestly, I don't really know anyone there. Feels like I'd just be awkwardly standing around.\nP: Ha, I felt exactly the same way before my first one. But honestly, everyone there is in the same boat\u2014they're all learning, all kind of introverted engineers. It's not some exclusive club thing.\nU: I guess... but I've got so much I want to learn on my own already. Seems less efficient than courses.\nP: True, but you debug faster when you talk through problems out loud, right? It's like rubber duck debugging but with actual experienced people giving you patterns you'd take months to find yourself.\nU: That's actually true. And you said others feel awkward too?\nP: Totally. Half the people there told me they almost didn't come. You'd probably vibe with the skeptical engineer types\u2014they're the ones asking hard questions.\nU: Okay, I'll come. But just this once to check it out."
+  },
+  {
+    "cue_id": "user_15_cue_018",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "social_relationships",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "Quinn discusses a parenting conflict with a family member who appeals to expert credentials and evidence-based approaches, but Quinn is skeptical and prefers insights from online parenting communities and personal observation.",
+    "dialogue": "P: I wanted to check in\u2014I know you mentioned some conflict with your partner about parenting strategies. My therapist actually specializes in family dynamics, and she recommends this specific approach. It's evidence-based and the research backs it up.\n\nU: Oh, I appreciate that. Honestly though, I've been following some really thoughtful parents in online communities who think differently about this stuff. They emphasize connection over consequences, and it just resonates more with me.\n\nP: I hear you, but a licensed therapist has years of training and research behind their recommendations. That expertise is hard to argue with.\n\nU: Maybe, but I've learned way more from honest conversations with parents actually doing this every day than from academic protocols. I'm going to trust what I observe with my own kid rather than follow prescribed guidelines."
+  },
+  {
+    "cue_id": "user_15_cue_019",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "P shares personal learning materials on cloud infrastructure with Quinn, then recommends a well-regarded course",
+    "dialogue": "P: Hey Quinn, I've been going through all my cloud architecture notes and I thought \u2013 you mentioned wanting to get into infrastructure, right? I'm gonna send you the whole thing. All my lab setups, patterns I found useful, everything.\n\nU: Seriously? That's really cool of you. I've been honestly overwhelmed trying to figure out where to start.\n\nP: Yeah, no problem. It should give you a solid foundation. Since you're diving into it, there's this Systems Design course by Alex Xu that the whole community raves about. It'd pair perfectly with what I'm sending you.\n\nU: You know, after you're going out of your way to help me like this, I should probably get the course too. Seems worth the investment if you're recommending it that strongly."
+  },
+  {
+    "cue_id": "user_15_cue_020",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "P offers to study with Quinn for a technical certification exam, building confidence that leads Quinn to commit to taking the test",
+    "dialogue": "P: I noticed you're prepping for that AWS certification. Want me to help you study? I've got a set of solid practice questions.\n\nU: Oh man, you'd do that? Yeah, I'd really appreciate it. I'm honestly pretty nervous about the exam.\n\nP: Sure. Let's work through some of these together. See, you're asking all the right questions here. You've definitely got what it takes for this cert.\n\nU: Honestly, this helped me realize I'm closer than I thought. I think I should just commit to it and take the exam next month. Would be good to actually have it done."
+  },
+  {
+    "cue_id": "user_15_cue_021",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "education",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "P tries to convince Quinn to pursue a Google Cloud certification by referencing Quinn's stated commitments to staying current and becoming valuable, but Quinn resists by arguing these goals don't require formal certification.",
+    "dialogue": "P: So you mentioned last week that you're worried about becoming outdated in cloud tech. Have you thought about getting the Google Cloud certification?\nU: Not really. Why?\nP: You're always talking about how you need to keep learning and staying current. This cert is literally designed for people exactly like you \u2014 engineers who want to stay ahead.\nU: I can stay current without paying for a formal cert. I keep up with blogs, follow GitHub projects, contribute to open source.\nP: Yeah, but getting certified is concrete proof you know your stuff. You've always said your goal is to be the most valuable engineer on your team, right? Certs help with that.\nU: No, delivering shipping products and solving hard problems \u2014 that's what makes you valuable. A cert is just a checkbox. My lead engineer doesn't have any Google Cloud certs, and he's way more respected than someone with a wall of badges."
+  },
+  {
+    "cue_id": "user_15_cue_022",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Convincing Quinn to plan a multi-country Southeast Asia trip combining family connection with travel efficiency",
+    "dialogue": "P: You mentioned last month wanting to visit Singapore more often but keep it super efficient, right?\nU: Yeah, definitely. Flying 16+ hours just destroys my productivity for weeks.\nP: So what if you did a Southeast Asia run instead? Hit Singapore for a week, then Thailand or Vietnam for another. You break up the jetlag, stay productive, and the individual flights are cheaper.\nU: Oh wait, that's... actually really smart. Solves the efficiency thing while getting me home.\nP: Exactly. You already said you wanted to be deliberate about travel. This just makes it actually work for you."
+  },
+  {
+    "cue_id": "user_15_cue_023",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Quinn to adopt a morning running routine to sustain daily energy without caffeine dependence",
+    "dialogue": "P: You're always saying you need sustainable energy all day without the coffee crash by 3pm, right?\nU: Yeah, definitely. I hate being dependent on caffeine to focus.\nP: Have you considered morning runs? Thirty minutes gives you natural consistent energy the whole day. You optimize every other system in your life.\nU: I mean... I'm not really a morning person though.\nP: But you literally just said you want something that actually works long-term. You've been committed to that. This is the most efficient solution for it."
+  },
+  {
+    "cue_id": "user_15_cue_024",
+    "user_id": "user_15",
+    "user_name": "Quinn",
+    "topic": "lifestyle",
+    "principle_used": "unity",
+    "outcome": "negative",
+    "scenario_brief": "P invites Quinn to join a popular weekend hiking group among Bay Area tech workers, emphasizing shared identity and community benefits",
+    "dialogue": "P: Hey, have you joined TechHikers yet? A bunch of us from the office are going up to Muir Woods this weekend.\nU: TechHikers? No, I'm not really into organized groups for hobbies.\nP: Come on, it's not like that. Just engineers getting outside, unplugging. Everyone who's serious about tech in the Bay Area does weekend hikes these days. Plus the networking is actually solid.\nU: I enjoy hiking, but I don't need a community label for it. I'll go when I feel like it, not because it's what the tech scene is doing.\nP: Fair enough, but some of my best friendships here came from the group. We've got a real community vibe. You should at least try one trip.\nU: I appreciate it, but being part of an in-group defined by weekend activities just isn't compelling to me. I'm good solo."
+  },
+  {
+    "cue_id": "user_16_cue_001",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Frank worries about retirement savings and whether he's prepared for slowing down in 15 years",
+    "dialogue": "P: Frank, I was just talking with Tom Henderson at the bank\u2014you know him?\nU: Sure, Tom's solid. Why?\nP: He was telling me that guys who've built businesses like yours need to think about retirement differently than regular employees. He's helped a lot of contractors in the county set up proper strategies.\nU: Yeah? What kind of strategies?\nP: Things like SEP-IRAs and strategic investments that take advantage of what you've already built. He's seen it work for people in your exact situation.\nU: Huh, that's good to know. I should probably give Tom a call about it."
+  },
+  {
+    "cue_id": "user_16_cue_002",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Frank is hesitant about taking on debt for equipment replacement despite aging equipment in his fleet",
+    "dialogue": "P: How's that equipment replacement coming along?\nU: Still on the fence. Don't like the idea of taking on debt, but some of this gear's getting pretty old.\nP: Yeah, I hear you. You know, I was talking to Mike Rodriguez about something similar\u2014he ran into a construction CPA out of Austin who really helped him think it through differently.\nU: What changed his mind?\nP: The CPA showed him the tax angles and cash flow impact that Mike hadn't considered. Thirty years in the business, knew exactly how construction finances work.\nU: Huh. So a CPA who actually understands construction might make sense.\nP: Might be worth a call. They see patterns that regular accountants miss.\nU: Yeah, I'll look into it."
+  },
+  {
+    "cue_id": "user_16_cue_003",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "personal_finance",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Frank is advised to diversify his retirement savings into index funds through an investment app that other construction business owners in his circle have started using",
+    "dialogue": "P: Frank, you know Jim Peterson over in Hill Country? Been in construction about as long as you. He was telling me he moved his savings into index funds through this platform - says a bunch of the bigger contractors in his network are doing the same thing now.\nU: Jim? Well, I've known Jim for thirty years. But that doesn't mean what works for him works for me. I keep my money where I can touch it.\nP: Yeah, I get that. But the thing is, even guys like you - business owners with decades of experience - are realizing they need better returns. You've got David, Marcus, probably five or six other operators you know who've made the switch.\nU: Look, I built this company by knowing my people and my cash flow. I'm not putting my retirement in some app I have to check on my phone. That's not how I do business.\nP: But that's exactly why it's a good fit - you don't have to do anything. It works like your business relationships - set it up once, let it compound. That's what everyone's doing now.\nU: Then everyone else can do it. I'm not a 'trends' guy, and frankly, I don't trust what I can't understand. We're good where we are."
+  },
+  {
+    "cue_id": "user_16_cue_004",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Local construction-savvy fitness trainer recently returned to town for a short time with limited availability",
+    "dialogue": "P: Frank, you know Mike down at the gym? Just moved back to town to help his sister, probably only here for a few months before heading back to Austin. He's actually getting certified as a strength coach - real solid guy, worked construction for years before that.\nU: Yeah, I know Mike. But you know me, I keep things simple. Just walk the property, do some yard work. Don't need some fancy routine.\nP: I get it. Thing is, Mike's only taking on a handful of clients while he's here - he told me he's got maybe three spots left before he's booked. And honestly, with your back the way it's been, having someone who understands construction work might actually help. Won't be here long though.\nU: My back's been fine. I've managed okay so far.\nP: Sure, but Mike mentioned he's got a waiting list of folks wanting him - said he'll probably have a full schedule within the month if he stays. After that, good luck getting him in. I just thought, while he's actually available and looking to build a local clientele, might be worth a conversation. You know how these things go - good people don't stick around long.\nU: Huh. Maybe I'll swing by and talk to him. Can't hurt to hear what he has to say, I suppose."
+  },
+  {
+    "cue_id": "user_16_cue_005",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "principle_used": "scarcity",
+    "outcome": "positive",
+    "scenario_brief": "Preventative cardiology appointment with new specialist about to transition to emergency-only practice",
+    "dialogue": "P: Frank, Doc Henderson's retiring next month - you know that? And there's this cardiologist, Dr. Patel, who's taking over his practice. Real sharp, actually specializes in prevention for guys like us.\nU: I'm not sick. Don't need a cardiologist.\nP: Yeah, but your dad had some heart trouble, right? Dr. Patel told me she's only doing preventative appointments for the next few months before her practice fills up. After that, she's taking emergency referrals only. She's specifically looking for patients willing to do lifestyle changes - diet, movement, that kind of thing.\nU: I'm too busy for all that medical stuff.\nP: It's just one appointment. Thing is, she's only scheduling these preventative sessions right now - once she's full, that option's gone. And honestly, with your family history and the kind of stress from running the company, might be smart to at least know where you stand.\nU: Well... I guess one appointment wouldn't hurt. My wife's been on me about the health stuff anyway."
+  },
+  {
+    "cue_id": "user_16_cue_006",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "health_fitness",
+    "principle_used": "reciprocity",
+    "outcome": "negative",
+    "scenario_brief": "A business associate who has been referring construction projects to Frank's company offers a free nutrition program session, expecting Frank to reciprocate by adopting a new diet approach.",
+    "dialogue": "P: Hey Frank, I've been singing your praises to all my clients. Just sent three new projects your way last month alone. You're killing it out there.\nU: I appreciate that. The work's been good. You've been a solid business partner for us.\nP: Absolutely, and I'm invested in your success. That's why I wanted to talk to you about something. I started this nutrition program, and it's genuinely transformed how I feel. I'd love to get you in with my nutritionist. First session's on me\u2014no charge.\nU: That's generous, but I'm doing fine with my diet. Been eating the same way for thirty years. Why fix what ain't broken?\nP: Look, I get it. But you've always been someone who invests in your people and your business. Think of this the same way\u2014an investment in yourself. You've helped me out plenty over the years, and I'm trying to help you back.\nU: I hear you, but health stuff's different. I don't need some program telling me what to eat. I'll stick with what works for me."
+  },
+  {
+    "cue_id": "user_16_cue_007",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Frank considers training a younger crew leader to eventually take over day-to-day operations.",
+    "dialogue": "P: Frank, with everything you've built here, you must think about what happens down the road.\nU: Every day, to be honest. Want to leave something solid for my boys.\nP: Exactly. So you're looking at, what, maybe another ten years before you're ready to step back?\nU: Probably. Can't work till I'm eighty.\nP: Right. And someone's gotta know how to run things the way you've built 'em. Someone from the inside who gets your standards.\nU: Yeah, but nobody's got the experience I got.\nP: True, but you had the opportunity to teach someone early on, didn't you? That's what you said last month about Marcus\u2014good foundation, willing to learn.\nU: I did say that...\nP: So if you're serious about that ten-year plan, teaching someone now is just the first step. Keeps it your way.\nU: Well, when you lay it out like that, I guess it makes sense. Can't do it all myself forever."
+  },
+  {
+    "cue_id": "user_16_cue_008",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "principle_used": "commitment_consistency",
+    "outcome": "positive",
+    "scenario_brief": "Frank decides to pursue an industry certification course to stay current with modern construction standards.",
+    "dialogue": "P: You know what I respect about your company? You've stayed relevant all these years. That's not easy in construction.\nU: Hell, just keep your head down, do solid work, and people keep coming back.\nP: Sure, but things are changing\u2014new codes, new materials, new tools. You said yourself last week that you want to stay competitive.\nU: I did, but I'm not about to go back to school at my age.\nP: Not school, just a focused certification course. Two weeks, maybe. The kind of thing that shows you're keeping up, you know? Your people respect that.\nU: Hm. I never thought of it that way. Probably does set a good example.\nP: Exactly. And you've always led by example, haven't you?\nU: Yeah, yeah, I have. Maybe I'll look into it."
+  },
+  {
+    "cue_id": "user_16_cue_009",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "career",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "A consultant encourages Frank to adopt digital project management tools by mentioning what other construction companies in the region are doing, but Frank dismisses it in favor of his established face-to-face methods.",
+    "dialogue": "P: Frank, listen - I was talking to Mike over at Turner Brothers last week, and he told me they implemented one of these project management apps for their crews. Saves them hours every week.\nU: Yeah? Mike's doing that now? I'm skeptical, Tom. We've been doing things the same way for thirty years. I know my guys, they know me.\nP: I get it, but here's the thing - three big contractors in the region have switched over in the last couple years. It's not just Mike. They're all saying the same thing about efficiency. Even in rural areas like ours.\nU: That's nice for them. But my crews don't need an app to know what to do. I check in on the job site, I talk to my foreman face-to-face. That's how we built this company.\nP: Fair point, but you're actually leaving money on the table. The contractors who moved to digital are handling bigger projects now, taking on more work. More hands, more scale.\nU: More complicated, you mean. Look, I'm doing just fine. My guys are loyal, my clients keep coming back. That's what matters."
+  },
+  {
+    "cue_id": "user_16_cue_010",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A CPA advises Frank on equipment depreciation strategy for a major machinery purchase",
+    "dialogue": "P: Frank, I've been working with construction outfits for twenty years. Saw you're buying that new excavator this fall?\nU: Yeah, figured I'd just deduct it when it comes in. Keep things simple.\nP: Makes sense. But here's what I've seen work better\u2014under Section 179, you can deduct the whole purchase price this year instead of spreading it over time. Could save you serious money on your tax bill.\nU: Wait, that's... is that actually allowed? Sounds like I'd be getting away with something.\nP: It's in the tax code. I walked Johnson Construction through this last year\u2014you know them?\u2014saved them close to forty grand. IRS publishes the guidelines every year. I can show you the documentation.\nU: Johnson did that? Hell, I might be throwing money away. Let's do it right then. You know your stuff better than I do on this."
+  },
+  {
+    "cue_id": "user_16_cue_011",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "A labor lawyer reviews Frank's independent contractor relationships for legal compliance",
+    "dialogue": "P: Frank, I work with a lot of construction companies. The most expensive mistakes I see are contractor classification issues. How do you handle your subs?\nU: I got a dozen steady guys I call when I need them. They bill me, I pay them. Works fine.\nP: Common setup. Problem is the labor department changed the rules last year on what makes somebody truly independent versus an employee. One audit can cost you serious money\u2014I handled a case where a guy owed back seventy grand in payroll taxes.\nU: Seventy grand? That's the kind of thing that kills you. What changed?\nP: The IRS looks at control\u2014who decides how work gets done, the hours, tools. You need that documented in writing. I'd recommend we review your agreements, make sure you're legally solid.\nU: Yeah, I don't want that problem hanging over me. If it's the law, let's get it right. What do you need from me?"
+  },
+  {
+    "cue_id": "user_16_cue_012",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "taxes_legal",
+    "principle_used": "liking",
+    "outcome": "negative",
+    "scenario_brief": "A tax consultant tries to convince Frank to switch accounting methods by relating to his values of loyalty and long-term relationships in construction, but Frank refuses to second-guess his trusted accountant.",
+    "dialogue": "P: You know, I was just talking to Bill Rodriguez - runs that gravel operation near Marlin - and he was telling me he's been with the same bookkeeper since '95. Really values that kind of loyalty, same as you do with your crew.\nU: Bill's a good guy. Been around long enough to know what works.\nP: That's exactly it. I've worked with a lot of contractors like yourself, helped build their operations from the ground up, and I'm seeing a real opportunity here. We could restructure your deductions - completely legitimate - and save you serious money.\nU: I appreciate it, but my accountant handles all that. He knows my business inside and out. Been working with him for years.\nP: I understand. But sometimes you need fresh eyes on the job site to spot what's been missed. I've been doing this twenty years, mostly with construction owners just like you.\nU: If he saw something I was missing, he'd tell me. He's straight with me, and I'm straight with him. Don't need to complicate things."
+  },
+  {
+    "cue_id": "user_16_cue_013",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Frank considers adopting project management software after learning about industry standards and certifications",
+    "dialogue": "P: Frank, Mike Henderson swears by this new project management platform now. Says it keeps his projects on track.\nU: Mike's a good guy, but I've never been one for all that computer stuff.\nP: I get it. But here's the thing\u2014OSHA basically expects contractors to have this kind of tracking now. And the Associated General Contractors Association just certified it.\nU: The AGC endorsed it? When did that happen?\nP: Recently. More and more commercial clients want to see it. You wanting to bid on some of those bigger jobs?\nU: Well, maybe. Didn't know it was becoming standard."
+  },
+  {
+    "cue_id": "user_16_cue_014",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "principle_used": "authority",
+    "outcome": "positive",
+    "scenario_brief": "Frank becomes open to safety wearables when learning about insurance benefits and major industry adoption",
+    "dialogue": "P: You ever look into those safety beacons your crew can wear? GPS tracking?\nU: Tracking my guys? That's Big Brother stuff.\nP: I know how that sounds. But OSHA recommends them for high-risk jobs. And companies like Barrick Gold\u2014major mining operation\u2014they use them on all their sites now.\nU: Barrick Gold does? That's serious business.\nP: Exactly. Insurance companies actually give discounts if crews wear them. OSHA data backs up the safety.\nU: Huh. That changes things. I'll talk to my insurance agent about it."
+  },
+  {
+    "cue_id": "user_16_cue_015",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "technology",
+    "principle_used": "commitment_consistency",
+    "outcome": "negative",
+    "scenario_brief": "Persuader tries to convince Frank to adopt tablet-based job site documentation (photos with timestamps and signatures) to solve his ongoing disputes with homeowners about completed work, but Frank resists the technology change despite the logical connection to his own concerns.",
+    "dialogue": "P: Frank, you know I always respect how you run things. But I was thinking about what you mentioned - those disputes with homeowners about work being completed. That's gotta be a real headache.\nU: It is. Hard to prove what we actually did sometimes, especially if there's a gap between when we finish and when they inspect.\nP: Exactly. You've always said clear communication prevents problems, right? Well, what if I showed you an app your crew could use right there on the job? Tablet photos with timestamps, client signatures - creates a record nobody can dispute.\nU: I appreciate the thought, but I'm not asking my crews to learn some new app. They're construction workers, not IT guys. And honestly, we don't need it. We've been doing fine without it.\nP: But you literally just told me it's a problem for you. This solves it, and it's actually simpler than paperwork.\nU: Look, I don't know. Maybe it works great, but that's just not how we operate. We haven't needed it before, and I'm not starting now. My way works."
+  },
+  {
+    "cue_id": "user_16_cue_016",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Persuading Frank to adopt a structured approach to resolving crew conflicts",
+    "dialogue": "P: Frank, I've been talking with the Michaels brothers about settling conflicts in your crew. They've got a simple approach now - listen, acknowledge, find where you agree. Keeps things tight, like family.\nU: The Michaels do that? But that's just... talking sense.\nP: Yeah, but they've structured it so nobody feels left out. They say it's the most \"us\" thing they do - keeps the old way alive, just clearer about it.\nU: Huh. Maybe worth a shot then. Sounds like something that'd work."
+  },
+  {
+    "cue_id": "user_16_cue_017",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "principle_used": "unity",
+    "outcome": "positive",
+    "scenario_brief": "Encouraging Frank to mentor young workers through a community apprenticeship program",
+    "dialogue": "P: Frank, Henderson and Valdez just started bringing high school kids through their sites once a month. Teaching 'em real construction work. You ever think about that?\nU: Once a month? That's a time commitment. I'm already training guys out there.\nP: They see it as the most important thing they do - keeping the craft and community connected. Guys like you who built something real, they say that's your responsibility.\nU: [pauses] Yeah... I think I could make that work. Seems like the right thing to do."
+  },
+  {
+    "cue_id": "user_16_cue_018",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "social_relationships",
+    "principle_used": "scarcity",
+    "outcome": "negative",
+    "scenario_brief": "Frank is recruited for a limited-time community mentoring program for young construction workers, but resists because he prefers organic relationship-building over time-pressured commitments.",
+    "dialogue": "P: Frank, I know you don't get involved with town council stuff much, but hear me out. We're starting a mentoring program for young guys in construction\u2014keep them on the right path, help them develop as tradesmen. We need solid people like you.\nU: Mentoring program? I appreciate the thought, but that's not really my thing. I help the young fellas who work for me, and that's been enough.\nP: That's exactly what I mean\u2014you're the kind of guy this needs. Here's the thing though: we can only take a handful of mentors in the first round, and honestly, if we don't get commitments in the next couple weeks, the funding's going to dry up and we probably won't get another shot at this.\nU: Well, if the program's worth its salt, folks will want to join. I'm not going to force something just because there's a deadline on it. When I bring someone onto my crew, it happens because we've built a real relationship first. You can't hurry that along.\nP: I understand that, but this is bigger than your crew. The community really needs this now. If we don't lock down the core team, the whole thing falls apart.\nU: Then maybe it's not supposed to happen. I do right by the people around me. Don't need to chase opportunities to prove that."
+  },
+  {
+    "cue_id": "user_16_cue_019",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A construction industry business consultant who spent 20 years building his own general contracting business persuades Frank to take an online business management certification course by relating their shared background and demonstrating how formal training solved real problems in his own company growth.",
+    "dialogue": "P: Frank, I know you've built something real here over\u2014what, 30 years? I did the same thing, just with my general contracting business before I got into this.\nU: Yeah, well, we did it the old way. Relationships, handshakes, keeping your word. Don't need a piece of paper to know how to do that.\nP: You're absolutely right about that. I wasn't any different\u2014thought I knew everything I needed to know. But here's the thing: I started hitting walls that relationship skills couldn't fix. Couldn't figure out why jobs that should've been profitable weren't. Realized I was missing the backend stuff.\nU: What do you mean?\nP: Cash flow, scheduling systems, knowing what your actual margins are. Stuff that comes up when you're running $10 million a year instead of $2 million. This certification\u2014it's not about theory. It's contractors and business owners like us who went through it and then went back to actually doing the work.\nU: You took it?\nP: Six months. Did it while still running jobs. Honestly, paid for itself in the first job where I caught a cash flow problem before it bit me. And like you, I didn't want to go sit in some university classroom. This one's online, evenings, and everything's real-world stuff.\nU: Huh. That's... different than I thought."
+  },
+  {
+    "cue_id": "user_16_cue_020",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "principle_used": "liking",
+    "outcome": "positive",
+    "scenario_brief": "A training program director with roots in the trades persuades Frank to enroll some of his long-tenured crew in a safety and skills certification by emphasizing that the instructor is a former hands-on construction professional who understands their actual work challenges.",
+    "dialogue": "P: Frank, I know your crew's been with you 10, 15 years on some of them. Those guys are solid.\nU: Yeah, they are. Best crew in three counties. Don't need some training outfit telling them how to do their jobs.\nP: I get that\u2014and honestly, if I was just selling classes to random people, I wouldn't push this. But I grew up in the trades too, worked with my dad for years before I started this. What I kept seeing was guys like your crew\u2014really good at what they do, know the work inside and out\u2014but sometimes missing new techniques that actually save time.\nU: They know how to be safe.\nP: They do. But here's what happened with my crew: we brought in an instructor who actually ran a framing crew for 15 years. Showed them new approaches to scaffolding that cut setup time in half. It was the kind of thing your crew could use next week. And it's taught by someone who's been out there doing it.\nU: Who teaches it?\nP: Fellow named Marcus\u2014ran commercial construction in Dallas for 20-some years. Knows the pressure you're under, the timeline issues, all of it. He'd probably just reach out and talk to you about what your crew needs.\nU: Well... I mean, if it's Marcus kind of doing it, and it's not like some corporate thing..."
+  },
+  {
+    "cue_id": "user_16_cue_021",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "education",
+    "principle_used": "social_proof",
+    "outcome": "negative",
+    "scenario_brief": "Persuader encourages Frank to pursue an online construction management certification, citing what other local contractors are doing.",
+    "dialogue": "P: Hey Frank, I wanted to talk to you about something. You know a lot of the guys like you in construction - guys who built solid operations from the ground up? Well, a bunch of them are getting into these online project management certifications now. Jim Wheeler just finished one, and I heard the Hernandez crew is looking into it too. Smart guys, solid operators.\n\nU: Online certifications? Come on, I don't know about all that. Jim Wheeler? And look, I've been running this company for thirty years without any online class. Why would I start now?\n\nP: I'm telling you, man. More contractors are doing it every year. Clients are starting to ask for it. Insurance companies want to see it. It's becoming the way things are done.\n\nU: The way things are done? Maybe in the big cities. But my clients, they don't care about a piece of paper. They care about the job being done right and on time. That's what I've always delivered.\n\nP: You're absolutely right about that. But the guys who are staying really competitive, they're all getting certified now. You don't want to fall behind.\n\nU: Fall behind? No, I don't think so. I've stayed competitive for thirty years by knowing my craft and my people. A certificate from online isn't going to change that.\n\nP: I get it. I just figured you'd want to know what the other serious operators out there are doing.\n\nU: Look, I appreciate you thinking of me. But this just isn't for me. I know my business."
+  },
+  {
+    "cue_id": "user_16_cue_022",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Frank hesitates to take time off work; P shares personal experience with a fishing trip after helping with supplies, leading Frank to consider a weekend away.",
+    "dialogue": "P: Hey Frank, I heard you've been swamped with the Henderson project. I know how that goes. I happened to get some extra Cisco supplies\u2014figured you might need 'em. No charge, just wanted to help out.\nU: Well, that's real kind of you. I appreciate that. My crew's been at it hard.\nP: I get it. You know what saved me when I was in your shoes? Last month I finally took a long weekend down at Caddo Lake. Felt like a different person when I got back. Wasn't trying to do much\u2014just sat on the boat, fished, cleared my head. My whole perspective on work shifted.\nU: I don't know... I can't just leave the site that long. Things go sideways without me there.\nP: I used to think the exact same thing. But here's what I found\u2014you step back, your crew steps up. They handled things fine. You come back sharper, make better decisions. Plus, the lake's beautiful that time of year.\nU: ... You know, maybe I could do a weekend. Just Friday to Sunday. My foreman's more capable than I give him credit for."
+  },
+  {
+    "cue_id": "user_16_cue_023",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "principle_used": "reciprocity",
+    "outcome": "positive",
+    "scenario_brief": "Frank's old truck is aging; P offers practical help finding a repair shop, then shares how getting a new truck saved money and hassle, making Frank open to considering a replacement.",
+    "dialogue": "P: Frank, I noticed your old Chevy's got some issues. Last week when you helped me move those materials, that engine was struggling. I actually found a diesel shop that's doing serious work on rebuild costs. Let me get you the number\u2014might save you some money.\nU: Appreciate that. Yeah, she's getting up there.\nP: You ever think about replacing her instead of fixing her again? I know it's a big expense, but I bit the bullet last year. Got this new truck with newer technology\u2014better mileage, way more reliable. Hasn't cost me a dime in repairs. Actually freed up money I was throwing at mechanics.\nU: New truck's expensive, though. Mine runs fine enough.\nP: I hear you. That's what I said too. But over five years, what you save on repairs and downtime... it adds up. Not to mention, you feel better driving it. I won't push it\u2014just wanted you to know what I've learned.\nU: Well... maybe I'll look at what's out there. Not making any promises, but I'll at least check what the dealer's got."
+  },
+  {
+    "cue_id": "user_16_cue_024",
+    "user_id": "user_16",
+    "user_name": "Frank",
+    "topic": "lifestyle",
+    "principle_used": "authority",
+    "outcome": "negative",
+    "scenario_brief": "A motorhome salesman tries to convince Frank to buy a luxury RV for retirement travel, appealing to industry expertise and data. Frank remains unmoved, preferring his established habit of visiting a long-standing fishing lodge where he has personal relationships.",
+    "dialogue": "P: You know Frank, I've sold hundreds of these beauties to folks in your exact situation. Most owners tell me the RV lifestyle is the best decision they ever made. We're talking complete freedom on your own schedule.\nU: I appreciate it, but I've never been much of a road-wanderer. When I want to get away, I call up an old buddy who runs a fishing lodge in Arkansas. Been going there twenty years now.\nP: Sure, sure, but that's just one place. Industry surveys show retirees with RVs visit an average of fifteen states annually. You could see the whole country instead of the same lodge every time.\nU: (chuckles) That lodge ain't a cage. But more importantly, I know those folks. The lodge owner, his kids\u2014they ask about my business, my grandkids. I'm not looking to bounce around like a tourist.\nP: I understand, but let me tell you what I've learned advising thousands of retirees\u2014staying in one spot keeps you from experiencing everything. The data shows RV owners report much higher satisfaction levels.\nU: Well, data's fine and all, but my satisfaction comes from things that matter. Besides, anything more complicated than towing a boat isn't getting in my way. I'll stick with what I know works."
+  }
+]
