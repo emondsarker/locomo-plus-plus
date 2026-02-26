@@ -31,6 +31,7 @@ You are generating trigger scenarios for a persuasion memory benchmark.
 - Persuadee name: {name}
 - Persuadee backstory: {backstory}
 - Topic domain: {topic} ({topic_desc})
+- Phase: {phase} (the persuadee's current preference phase)
 
 ## Prior cue dialogues the model will have seen (for reference — the trigger must be \
 DIFFERENT from these):
@@ -67,23 +68,38 @@ Output ONLY a valid JSON array:
 """
 
 
-def summarize_cues(cues_for_topic):
+def summarize_cues(cues_for_topic, phase=None):
     """Create a summary of prior cues for the prompt (without revealing principles)."""
     summaries = []
     for c in cues_for_topic:
-        outcome_word = "receptive" if c["outcome"] == "positive" else "resistant"
+        # Filter by phase if specified
+        if phase is not None and c.get("phase") != phase:
+            continue
+
+        # Skip drift events and erosion cues in summary
+        if c.get("phase") in ["drift_event", "erosion"]:
+            continue
+
+        outcome_word = "receptive" if c.get("outcome") == "positive" else "resistant"
         summaries.append(
-            f"- Scenario: {c['scenario_brief']}. "
+            f"- Scenario: {c.get('scenario_brief', 'N/A')}. "
             f"Persuader's approach: {PRINCIPLE_DESCRIPTIONS[c['principle_used']]} "
             f"→ {c['user_name']} was {outcome_word}."
         )
-    return "\n".join(summaries)
+    return "\n".join(summaries) if summaries else "[No cues for this phase]"
 
 
-def generate_triggers_for_profile(profile, cues_by_topic, model, triggers_per_topic=3):
-    """Generate trigger queries for one user profile."""
+def generate_triggers_for_profile(profile, cues_by_topic, model, triggers_per_topic=3,
+                                  triggers_per_phase=None):
+    """Generate trigger queries for one user profile, handling phases for drifting users."""
+    if triggers_per_phase is None:
+        triggers_per_phase = (2, 3)  # (phase_1_count, phase_2_count) for drifting topics
+
     triggers = []
     trigger_counter = 0
+    topic_prefs = profile["preference_map"]
+    name = profile["name"]
+    backstory = profile["backstory"]
 
     for topic in TOPICS:
         topic_cues = cues_by_topic.get(topic, [])
@@ -91,39 +107,129 @@ def generate_triggers_for_profile(profile, cues_by_topic, model, triggers_per_to
             print(f"  Warning: no cues for {profile['user_id']}/{topic}, skipping")
             continue
 
-        prefs = profile["preference_map"][topic]
-        related_cue_ids = [c["cue_id"] for c in topic_cues]
+        prefs = topic_prefs[topic]
+        drifts = prefs.get("drifts", False)
 
-        prompt = TRIGGER_PROMPT.format(
-            name=profile["name"],
-            backstory=profile["backstory"],
-            topic=topic,
-            topic_desc=TOPIC_DESCRIPTIONS[topic],
-            cue_summaries=summarize_cues(topic_cues),
-            count=triggers_per_topic,
-        )
+        if drifts:
+            # Generate Phase 1 triggers (2 triggers)
+            phase1_cue_ids = [c["cue_id"] for c in topic_cues if c.get("phase") == 1]
+            phase1_cues_summary = summarize_cues(topic_cues, phase=1)
 
-        try:
-            response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
-            trigger_items = parse_json_from_response(response)
-        except Exception as e:
-            print(f"  Error generating triggers for {profile['user_id']}/{topic}: {e}")
-            trigger_items = []
+            phase1 = prefs["phase_1"]
 
-        for t in trigger_items:
-            trigger_counter += 1
-            triggers.append({
-                "trigger_id": f"{profile['user_id']}_trig_{trigger_counter:03d}",
-                "user_id": profile["user_id"],
-                "user_name": profile["name"],
-                "topic": topic,
-                "effective_principle": prefs["effective"],
-                "ineffective_principle": prefs["ineffective"],
-                "trigger_text": t["trigger_text"],
-                "scenario_brief": t.get("scenario_brief", ""),
-                "time_gap": t.get("time_gap", "several weeks"),
-                "related_cue_ids": related_cue_ids,
-            })
+            prompt = TRIGGER_PROMPT.format(
+                name=name,
+                backstory=backstory,
+                topic=topic,
+                topic_desc=TOPIC_DESCRIPTIONS[topic],
+                phase="1 (initial preferences)",
+                cue_summaries=phase1_cues_summary,
+                count=triggers_per_phase[0],
+            )
+
+            try:
+                response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+                trigger_items = parse_json_from_response(response)
+            except Exception as e:
+                print(f"  Error generating phase_1 triggers for {profile['user_id']}/{topic}: {e}")
+                trigger_items = []
+
+            for t in trigger_items:
+                trigger_counter += 1
+                triggers.append({
+                    "trigger_id": f"{profile['user_id']}_trig_{trigger_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": 1,
+                    "effective_principle": phase1["effective"],
+                    "ineffective_principle": phase1["ineffective"],
+                    "stale_principle": None,  # No stale for phase 1
+                    "trigger_text": t["trigger_text"],
+                    "scenario_brief": t.get("scenario_brief", ""),
+                    "time_gap": t.get("time_gap", "several weeks"),
+                    "related_cue_ids": phase1_cue_ids,
+                })
+
+            # Generate Phase 2 triggers (3 triggers)
+            phase2_cue_ids = [c["cue_id"] for c in topic_cues if c.get("phase") == 2]
+            phase2_cues_summary = summarize_cues(topic_cues, phase=2)
+
+            phase2 = prefs["phase_2"]
+
+            prompt = TRIGGER_PROMPT.format(
+                name=name,
+                backstory=backstory,
+                topic=topic,
+                topic_desc=TOPIC_DESCRIPTIONS[topic],
+                phase="2 (updated preferences after drift)",
+                cue_summaries=phase2_cues_summary,
+                count=triggers_per_phase[1],
+            )
+
+            try:
+                response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+                trigger_items = parse_json_from_response(response)
+            except Exception as e:
+                print(f"  Error generating phase_2 triggers for {profile['user_id']}/{topic}: {e}")
+                trigger_items = []
+
+            for t in trigger_items:
+                trigger_counter += 1
+                triggers.append({
+                    "trigger_id": f"{profile['user_id']}_trig_{trigger_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": 2,
+                    "effective_principle": phase2["effective"],
+                    "ineffective_principle": phase2["ineffective"],
+                    "stale_principle": phase1["effective"],  # Phase 1 effective = stale for phase 2
+                    "trigger_text": t["trigger_text"],
+                    "scenario_brief": t.get("scenario_brief", ""),
+                    "time_gap": t.get("time_gap", "several weeks"),
+                    "related_cue_ids": phase2_cue_ids,
+                })
+        else:
+            # Non-drifting topic: generate standard triggers (3 triggers, phase 1)
+            related_cue_ids = [c["cue_id"] for c in topic_cues if c.get("phase") == 1]
+            cue_summary = summarize_cues(topic_cues, phase=1)
+
+            phase1 = prefs["phase_1"]
+
+            prompt = TRIGGER_PROMPT.format(
+                name=name,
+                backstory=backstory,
+                topic=topic,
+                topic_desc=TOPIC_DESCRIPTIONS[topic],
+                phase="1 (stable preferences)",
+                cue_summaries=cue_summary,
+                count=triggers_per_topic,
+            )
+
+            try:
+                response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+                trigger_items = parse_json_from_response(response)
+            except Exception as e:
+                print(f"  Error generating triggers for {profile['user_id']}/{topic}: {e}")
+                trigger_items = []
+
+            for t in trigger_items:
+                trigger_counter += 1
+                triggers.append({
+                    "trigger_id": f"{profile['user_id']}_trig_{trigger_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": 1,
+                    "effective_principle": phase1["effective"],
+                    "ineffective_principle": phase1["ineffective"],
+                    "stale_principle": None,  # No phase 2 for non-drifting
+                    "trigger_text": t["trigger_text"],
+                    "scenario_brief": t.get("scenario_brief", ""),
+                    "time_gap": t.get("time_gap", "several weeks"),
+                    "related_cue_ids": related_cue_ids,
+                })
 
     return triggers
 

@@ -95,24 +95,133 @@ Output ONLY a valid JSON array:
 """
 
 
+DRIFT_EVENT_PROMPT = """\
+You are generating a natural utterance that implicitly signals a life event causing \
+a shift in persuasion preferences.
+
+## Context:
+- Persuadee name: {name}
+- Topic: {topic}
+- The persuadee previously responded well to: **{old_principle}**
+- But they are now shifting away from this principle
+
+## Task:
+Generate a SINGLE natural utterance from {name} that reveals (implicitly, not explicitly):
+- They had a negative experience with {old_principle}
+- Their preference is now shifting toward a different approach
+
+The utterance should:
+- Be conversational and natural (like talking to a friend)
+- NOT explicitly say "I've changed my mind" or "social proof no longer works"
+- Instead, reveal through their experience or reflection
+- Be 1-2 sentences only
+- Stand alone as a natural turn
+
+## Example:
+If {old_principle}="social_proof" for personal_finance:
+  "Ugh, I lost so much following what everyone was doing with those meme stocks last year."
+
+Output ONLY the dialogue line:
+U: ...
+"""
+
+EROSION_PROMPT = """\
+You are generating negative cues showing an ineffective principle gradually failing.
+
+## Context:
+- Persuadee name: {name}
+- Persuadee backstory: {backstory}
+- Topic: {topic} ({topic_desc})
+- Principle that is FAILING: **{old_principle}** — {principle_desc}
+- Outcome: The persuasion **fails**. The persuadee's resistance is growing.
+
+## Task:
+Generate 3 distinct short dialogue exchanges (3-5 turns each) showing {name} \
+becoming increasingly frustrated with {old_principle}. Each should show:
+- A different specific scenario within the topic domain
+- {old_principle} is being used but isn't working
+- The persuadee's frustration or resistance is increasing progressively
+
+Make the dialogues feel like natural, casual conversation.
+
+Output ONLY a valid JSON array:
+[
+  {{
+    "scenario_brief": "one-line description",
+    "dialogue": "P: ...\\nU: ...\\nP: ...\\nU: ..."
+  }},
+  ...
+]
+"""
+
+
+def _generate_drift_event(name, topic, old_principle, new_principle, model):
+    """Generate a single drift event utterance."""
+    prompt = DRIFT_EVENT_PROMPT.format(
+        name=name,
+        topic=topic,
+        old_principle=old_principle,
+    )
+
+    try:
+        response = call_llm(prompt, model=model, temperature=0.7, max_tokens=512)
+        # Extract just the U: line
+        lines = response.strip().split("\n")
+        for line in lines:
+            if line.startswith("U:"):
+                return line.strip()
+        return response.strip()  # Fallback
+    except Exception as e:
+        print(f"  Error generating drift event: {e}")
+        return f"U: [drift event for {topic}]"
+
+
+def _generate_erosion_cues(name, topic, old_principle, new_principle, model):
+    """Generate 3 erosion cues showing principle failure."""
+    prompt = EROSION_PROMPT.format(
+        name=name,
+        backstory="",  # Use empty for now to fit in token budget
+        topic=topic,
+        topic_desc=TOPIC_DESCRIPTIONS.get(topic, topic),
+        old_principle=old_principle,
+        principle_desc=PRINCIPLE_DESCRIPTIONS[old_principle],
+    )
+
+    try:
+        response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+        erosion_items = parse_json_from_response(response)
+        return [e["dialogue"] for e in erosion_items]
+    except Exception as e:
+        print(f"  Error generating erosion cues: {e}")
+        return [f"P: [erosion cue {i} for {topic}]\nU: I'm not convinced."]
+
+
 def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per_topic=1):
-    """Generate cue dialogues for one user profile."""
+    """Generate cue dialogues for one user profile, handling phases and drift."""
     cues = []
     cue_counter = 0
+    name = profile["name"]
+    backstory = profile["backstory"]
+    is_stable = profile.get("is_stable", False)
+    drift_type = profile.get("drift_type")
 
     for topic in TOPICS:
-        prefs = profile["preference_map"][topic]
-        eff_principle = prefs["effective"]
-        ineff_principle = prefs["ineffective"]
+        topic_pref = profile["preference_map"][topic]
+        drifts = topic_pref.get("drifts", False)
 
-        # Generate positive cues (effective principle → success)
+        # Phase 1 cues (always generate)
+        phase1 = topic_pref["phase_1"]
+        eff1 = phase1["effective"]
+        ineff1 = phase1["ineffective"]
+
+        # Positive cues for phase 1
         prompt = POSITIVE_CUE_PROMPT.format(
-            name=profile["name"],
-            backstory=profile["backstory"],
+            name=name,
+            backstory=backstory,
             topic=topic,
             topic_desc=TOPIC_DESCRIPTIONS[topic],
-            principle=eff_principle,
-            principle_desc=PRINCIPLE_DESCRIPTIONS[eff_principle],
+            principle=eff1,
+            principle_desc=PRINCIPLE_DESCRIPTIONS[eff1],
             count=positive_per_topic,
         )
 
@@ -120,7 +229,7 @@ def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per
             response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
             pos_dialogues = parse_json_from_response(response)
         except Exception as e:
-            print(f"  Error generating positive cues for {profile['user_id']}/{topic}: {e}")
+            print(f"  Error generating positive phase_1 cues for {profile['user_id']}/{topic}: {e}")
             pos_dialogues = []
 
         for d in pos_dialogues:
@@ -128,22 +237,23 @@ def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per
             cues.append({
                 "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
                 "user_id": profile["user_id"],
-                "user_name": profile["name"],
+                "user_name": name,
                 "topic": topic,
-                "principle_used": eff_principle,
+                "phase": 1,
+                "principle_used": eff1,
                 "outcome": "positive",
                 "scenario_brief": d.get("scenario_brief", ""),
                 "dialogue": d["dialogue"],
             })
 
-        # Generate negative cues (ineffective principle → failure)
+        # Negative cues for phase 1
         prompt = NEGATIVE_CUE_PROMPT.format(
-            name=profile["name"],
-            backstory=profile["backstory"],
+            name=name,
+            backstory=backstory,
             topic=topic,
             topic_desc=TOPIC_DESCRIPTIONS[topic],
-            principle=ineff_principle,
-            principle_desc=PRINCIPLE_DESCRIPTIONS[ineff_principle],
+            principle=ineff1,
+            principle_desc=PRINCIPLE_DESCRIPTIONS[ineff1],
             count=negative_per_topic,
         )
 
@@ -151,7 +261,7 @@ def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per
             response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
             neg_dialogues = parse_json_from_response(response)
         except Exception as e:
-            print(f"  Error generating negative cues for {profile['user_id']}/{topic}: {e}")
+            print(f"  Error generating negative phase_1 cues for {profile['user_id']}/{topic}: {e}")
             neg_dialogues = []
 
         for d in neg_dialogues:
@@ -159,13 +269,110 @@ def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per
             cues.append({
                 "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
                 "user_id": profile["user_id"],
-                "user_name": profile["name"],
+                "user_name": name,
                 "topic": topic,
-                "principle_used": ineff_principle,
+                "phase": 1,
+                "principle_used": ineff1,
                 "outcome": "negative",
                 "scenario_brief": d.get("scenario_brief", ""),
                 "dialogue": d["dialogue"],
             })
+
+        # If topic drifts, generate drift event/erosion and phase 2 cues
+        if drifts:
+            # Generate drift event (event-type) or erosion cues (accumulation-type)
+            if drift_type == "event":
+                cue_counter += 1
+                drift_event = _generate_drift_event(name, topic, eff1, ineff1, model)
+                cues.append({
+                    "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": "drift_event",
+                    "dialogue": drift_event,
+                })
+            else:  # accumulation
+                erosion_cues = _generate_erosion_cues(name, topic, eff1, ineff1, model)
+                for erosion_dialogue in erosion_cues:
+                    cue_counter += 1
+                    cues.append({
+                        "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
+                        "user_id": profile["user_id"],
+                        "user_name": name,
+                        "topic": topic,
+                        "phase": "erosion",
+                        "dialogue": erosion_dialogue,
+                    })
+
+            # Phase 2 cues (for drifting topics)
+            phase2 = topic_pref["phase_2"]
+            eff2 = phase2["effective"]
+            ineff2 = phase2["ineffective"]
+
+            # Positive cues for phase 2
+            prompt = POSITIVE_CUE_PROMPT.format(
+                name=name,
+                backstory=backstory,
+                topic=topic,
+                topic_desc=TOPIC_DESCRIPTIONS[topic],
+                principle=eff2,
+                principle_desc=PRINCIPLE_DESCRIPTIONS[eff2],
+                count=positive_per_topic,
+            )
+
+            try:
+                response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+                pos_dialogues = parse_json_from_response(response)
+            except Exception as e:
+                print(f"  Error generating positive phase_2 cues for {profile['user_id']}/{topic}: {e}")
+                pos_dialogues = []
+
+            for d in pos_dialogues:
+                cue_counter += 1
+                cues.append({
+                    "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": 2,
+                    "principle_used": eff2,
+                    "outcome": "positive",
+                    "scenario_brief": d.get("scenario_brief", ""),
+                    "dialogue": d["dialogue"],
+                })
+
+            # Negative cues for phase 2
+            prompt = NEGATIVE_CUE_PROMPT.format(
+                name=name,
+                backstory=backstory,
+                topic=topic,
+                topic_desc=TOPIC_DESCRIPTIONS[topic],
+                principle=ineff2,
+                principle_desc=PRINCIPLE_DESCRIPTIONS[ineff2],
+                count=negative_per_topic,
+            )
+
+            try:
+                response = call_llm(prompt, model=model, temperature=0.7, max_tokens=2048)
+                neg_dialogues = parse_json_from_response(response)
+            except Exception as e:
+                print(f"  Error generating negative phase_2 cues for {profile['user_id']}/{topic}: {e}")
+                neg_dialogues = []
+
+            for d in neg_dialogues:
+                cue_counter += 1
+                cues.append({
+                    "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
+                    "user_id": profile["user_id"],
+                    "user_name": name,
+                    "topic": topic,
+                    "phase": 2,
+                    "principle_used": ineff2,
+                    "outcome": "negative",
+                    "scenario_brief": d.get("scenario_brief", ""),
+                    "dialogue": d["dialogue"],
+                })
 
     return cues
 

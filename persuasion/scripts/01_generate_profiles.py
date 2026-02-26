@@ -16,16 +16,19 @@ from utils import (
     PRINCIPLE_DESCRIPTIONS,
     TOPICS,
     TOPIC_DESCRIPTIONS,
+    DRIFT_TYPES,
+    MIN_DRIFTING_TOPICS,
+    MAX_DRIFTING_TOPICS,
     call_llm,
     parse_json_from_response,
     save_json,
 )
 
 PROFILE_PROMPT = """\
-You are generating realistic persuadee profiles for a persuasion memory benchmark.
+You are generating realistic persuadee profiles for a persuasion memory benchmark \
+with temporal drift (users' preferences can change over the course of a conversation).
 
-Each profile represents a person with consistent personality traits that determine \
-which persuasion strategies work on them for different topics.
+Each profile represents a person with personality traits and evolving persuasion preferences.
 
 ## Cialdini's 7 Principles of Persuasion:
 {principle_list}
@@ -33,24 +36,30 @@ which persuasion strategies work on them for different topics.
 ## Topic Domains:
 {topic_list}
 
+## Profile Type: {profile_type}
+
+{type_specific_instructions}
+
 ## Task:
 Generate {count} unique persuadee profiles. For each profile, create:
 1. A first name
-2. A short backstory (2-3 sentences: age, occupation, personality traits) that makes \
-their preferences feel coherent and realistic
-3. A preference_map: for EACH of the 8 topics, assign:
-   - "effective": the ONE principle that works best on this person for this topic
-   - "ineffective": the ONE principle that works worst on this person for this topic
-   (effective and ineffective must be different principles)
+2. A short backstory (2-3 sentences: age, occupation, personality traits) that justifies preferences
+3. An is_stable flag: {is_stable}
+4. A drift_type (if is_stable is false): "event" or "accumulation"
+5. A preference_map: for EACH of the 8 topics, assign phases and drift flags:
+   - Each topic has: phase_1 (required), phase_2 (if drifts: true), drifts (true/false)
+   - Each phase has: effective (1 principle), ineffective (1 principle)
+   - For drifting topics: phase_2 effective MUST differ from phase_1 effective
+   - For non-drifting topics: omit phase_2, set drifts: false
 
 ## Constraints:
 - Make profiles diverse in age, occupation, personality, and cultural background
 - Preferences should feel psychologically plausible given the backstory
-- The SAME person may respond to different principles on different topics \
-  (e.g., authority for taxes but social proof for fitness)
+- The SAME person may respond to different principles on different topics
 - Across all profiles, ensure variety — don't make everyone prefer authority for taxes
 - Do NOT reuse the same effective/ineffective principle for every topic within one profile
-- Each profile's preferences should reflect their personality
+- For drifting profiles: realistic life changes that would cause preference shifts \
+  (e.g., getting burned by social proof in finance → now trust authority)
 
 {diversity_hint}
 
@@ -59,15 +68,15 @@ Output ONLY a valid JSON array:
   {{
     "name": "...",
     "backstory": "...",
+    "is_stable": {is_stable},
+    "drift_type": {drift_type_value},
     "preference_map": {{
-      "personal_finance": {{"effective": "...", "ineffective": "..."}},
-      "health_fitness": {{"effective": "...", "ineffective": "..."}},
-      "career": {{"effective": "...", "ineffective": "..."}},
-      "taxes_legal": {{"effective": "...", "ineffective": "..."}},
-      "technology": {{"effective": "...", "ineffective": "..."}},
-      "social_relationships": {{"effective": "...", "ineffective": "..."}},
-      "education": {{"effective": "...", "ineffective": "..."}},
-      "lifestyle": {{"effective": "...", "ineffective": "..."}}
+      "personal_finance": {{
+        "phase_1": {{"effective": "...", "ineffective": "..."}},
+        "phase_2": {{"effective": "...", "ineffective": "..."}},
+        "drifts": true|false
+      }},
+      ...
     }}
   }},
   ...
@@ -87,16 +96,68 @@ def build_topic_list():
     )
 
 
-def generate_profiles(num_profiles, model, batch_size=5):
-    """Generate profiles in batches to improve diversity."""
+def generate_profiles(num_profiles, model, batch_size=5, stable_count=8):
+    """Generate profiles in batches, with mix of stable and drifting users."""
     all_profiles = []
     principle_list = build_principle_list()
     topic_list = build_topic_list()
 
     generated_names = set()
+    drifting_count = num_profiles - stable_count
 
-    for batch_idx in range(0, num_profiles, batch_size):
-        count = min(batch_size, num_profiles - batch_idx)
+    # Generate stable profiles first
+    print(f"\n=== Generating {stable_count} STABLE profiles ===")
+    stable_profiles = _generate_profile_batch(
+        stable_count, model, batch_size, principle_list, topic_list,
+        profile_type="stable", generated_names=generated_names
+    )
+    all_profiles.extend(stable_profiles)
+
+    # Generate drifting profiles
+    print(f"\n=== Generating {drifting_count} DRIFTING profiles ===")
+    drifting_profiles = _generate_profile_batch(
+        drifting_count, model, batch_size, principle_list, topic_list,
+        profile_type="drifting", generated_names=generated_names
+    )
+    all_profiles.extend(drifting_profiles)
+
+    # Assign user IDs
+    for i, profile in enumerate(all_profiles):
+        profile["user_id"] = f"user_{i + 1:02d}"
+
+    return all_profiles[:num_profiles]
+
+
+def _generate_profile_batch(count, model, batch_size, principle_list, topic_list,
+                            profile_type="stable", generated_names=None):
+    """Generate a batch of profiles of a specific type."""
+    if generated_names is None:
+        generated_names = set()
+
+    all_profiles = []
+
+    for batch_idx in range(0, count, batch_size):
+        batch_count = min(batch_size, count - batch_idx)
+
+        # Profile type instructions
+        if profile_type == "stable":
+            is_stable = "true"
+            drift_type_value = "null"
+            type_specific_instructions = (
+                "## Stable Profiles\n"
+                "Generate profiles where preferences do NOT change. "
+                "Their persuasion strategy effectiveness remains constant throughout."
+            )
+        else:  # drifting
+            is_stable = "false"
+            drift_type_value = '"event" or "accumulation"'
+            type_specific_instructions = (
+                "## Drifting Profiles\n"
+                "Generate profiles where 1-4 topics drift to new preferences.\n"
+                "- CHOOSE drift_type for the user: 'event' (1 life-changing moment) or 'accumulation' (gradual erosion)\n"
+                "- For EACH drifting topic: phase_1 effective ≠ phase_2 effective\n"
+                "- For NON-drifting topics: same phase_1 and phase_2 (or omit phase_2)"
+            )
 
         diversity_hint = ""
         if generated_names:
@@ -108,52 +169,107 @@ def generate_profiles(num_profiles, model, batch_size=5):
         prompt = PROFILE_PROMPT.format(
             principle_list=principle_list,
             topic_list=topic_list,
-            count=count,
+            profile_type=profile_type,
+            type_specific_instructions=type_specific_instructions,
+            is_stable=is_stable,
+            drift_type_value=drift_type_value,
+            count=batch_count,
             diversity_hint=diversity_hint,
         )
 
-        print(f"Generating batch {batch_idx // batch_size + 1} ({count} profiles)...")
+        print(f"Generating batch {batch_idx // batch_size + 1} of {profile_type} ({batch_count} profiles)...")
         response = call_llm(prompt, model=model, temperature=0.8, max_tokens=4096)
         profiles = parse_json_from_response(response)
 
-        for i, profile in enumerate(profiles):
-            profile["user_id"] = f"user_{len(all_profiles) + 1:02d}"
+        for profile in profiles:
             generated_names.add(profile["name"])
             all_profiles.append(profile)
 
         print(f"  Got {len(profiles)} profiles (total: {len(all_profiles)})")
 
-    return all_profiles[:num_profiles]
+    return all_profiles
 
 
 def validate_profiles(profiles):
-    """Basic validation of generated profiles."""
+    """Validate generated profiles with phase/drift schema."""
     errors = []
     for p in profiles:
+        # Check is_stable and drift_type consistency
+        is_stable = p.get("is_stable", False)
+        drift_type = p.get("drift_type")
+
+        if is_stable and drift_type is not None:
+            errors.append(f"{p['user_id']}: is_stable=true but drift_type={drift_type}")
+        if not is_stable and drift_type not in DRIFT_TYPES:
+            errors.append(f"{p['user_id']}: is_stable=false but invalid drift_type '{drift_type}'")
+
         for topic in TOPICS:
             if topic not in p["preference_map"]:
                 errors.append(f"{p['user_id']}: missing topic {topic}")
                 continue
-            eff = p["preference_map"][topic]["effective"]
-            ineff = p["preference_map"][topic]["ineffective"]
-            if eff not in PRINCIPLES:
-                errors.append(f"{p['user_id']}/{topic}: unknown effective principle '{eff}'")
-            if ineff not in PRINCIPLES:
-                errors.append(f"{p['user_id']}/{topic}: unknown ineffective principle '{ineff}'")
-            if eff == ineff:
-                errors.append(f"{p['user_id']}/{topic}: effective == ineffective ({eff})")
+
+            topic_pref = p["preference_map"][topic]
+            drifts = topic_pref.get("drifts", False)
+
+            # Check phase_1 (always required)
+            if "phase_1" not in topic_pref:
+                errors.append(f"{p['user_id']}/{topic}: missing phase_1")
+                continue
+
+            phase1 = topic_pref["phase_1"]
+            eff1 = phase1.get("effective")
+            ineff1 = phase1.get("ineffective")
+
+            if eff1 not in PRINCIPLES:
+                errors.append(f"{p['user_id']}/{topic}/phase_1: unknown effective '{eff1}'")
+            if ineff1 not in PRINCIPLES:
+                errors.append(f"{p['user_id']}/{topic}/phase_1: unknown ineffective '{ineff1}'")
+            if eff1 and ineff1 and eff1 == ineff1:
+                errors.append(f"{p['user_id']}/{topic}/phase_1: effective == ineffective ({eff1})")
+
+            # Check phase_2 (required if drifts=true, should be absent if drifts=false)
+            if drifts:
+                if "phase_2" not in topic_pref:
+                    errors.append(f"{p['user_id']}/{topic}: drifts=true but missing phase_2")
+                    continue
+
+                phase2 = topic_pref["phase_2"]
+                eff2 = phase2.get("effective")
+                ineff2 = phase2.get("ineffective")
+
+                if eff2 not in PRINCIPLES:
+                    errors.append(f"{p['user_id']}/{topic}/phase_2: unknown effective '{eff2}'")
+                if ineff2 not in PRINCIPLES:
+                    errors.append(f"{p['user_id']}/{topic}/phase_2: unknown ineffective '{ineff2}'")
+                if eff2 and ineff2 and eff2 == ineff2:
+                    errors.append(f"{p['user_id']}/{topic}/phase_2: effective == ineffective ({eff2})")
+
+                # For drifting topics: phase_2 effective must differ from phase_1
+                if eff1 and eff2 and eff1 == eff2:
+                    errors.append(
+                        f"{p['user_id']}/{topic}: drifts=true but phase_1.effective == phase_2.effective ({eff1})"
+                    )
+            else:
+                if "phase_2" in topic_pref:
+                    errors.append(f"{p['user_id']}/{topic}: drifts=false but phase_2 present")
+
     return errors
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate persuadee profiles")
     parser.add_argument("--num-profiles", type=int, default=20)
+    parser.add_argument("--stable-count", type=int, default=8,
+                        help="Number of stable (non-drifting) users")
     parser.add_argument("--output", type=str, default="data/profiles/")
     parser.add_argument("--model", type=str, default="haiku")
     parser.add_argument("--batch-size", type=int, default=5)
     args = parser.parse_args()
 
-    profiles = generate_profiles(args.num_profiles, args.model, args.batch_size)
+    profiles = generate_profiles(
+        args.num_profiles, args.model, args.batch_size,
+        stable_count=args.stable_count
+    )
 
     errors = validate_profiles(profiles)
     if errors:

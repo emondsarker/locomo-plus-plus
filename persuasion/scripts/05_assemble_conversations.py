@@ -100,7 +100,7 @@ def dialogue_to_turns(dialogue_text, start_turn_id, meta=None):
 
 
 def assemble_conversation(profile, cues, triggers, model):
-    """Assemble a single long conversation for one user profile."""
+    """Assemble a single long conversation with per-topic independent drift zones."""
     name = profile["name"]
 
     # Group cues and triggers by topic
@@ -112,16 +112,32 @@ def assemble_conversation(profile, cues, triggers, model):
     for t in triggers:
         triggers_by_topic.setdefault(t["topic"], []).append(t)
 
-    # Plan the conversation layout:
-    # For each topic, place cues first, then trigger after a gap
-    # Interleave topics to create cross-topic interference
+    # Determine which topics drift and assign independent drift positions
+    drift_events = []  # List of {topic, drift_type, drift_turn_id}
+    topic_drift_position = {}  # topic -> drift position (0-1 in middle third)
+
+    topic_prefs = profile.get("preference_map", {})
+    drifting_topics = [
+        t for t in TOPICS
+        if topic_prefs.get(t, {}).get("drifts", False)
+    ]
+
+    # Assign independent drift positions for each drifting topic
+    # Spread them across the middle third to avoid bunching
+    if drifting_topics:
+        positions = sorted(random.uniform(0.3, 0.7) for _ in drifting_topics)
+        for topic, pos in zip(drifting_topics, positions):
+            topic_drift_position[topic] = pos
+
+    # Plan the conversation layout with per-topic phase awareness
     segments = []  # Each segment is ("cue"|"trigger"|"distractor", data)
 
     # Shuffle topic order for interleaving
     active_topics = [t for t in TOPICS if t in cues_by_topic]
     random.shuffle(active_topics)
 
-    # Round-robin: place one cue per topic, then repeat, then place triggers
+    # Round-robin cues: place one per topic in round-robin fashion,
+    # but track whether we've passed the drift zone for each topic
     max_cues_per_topic = max(
         (len(v) for v in cues_by_topic.values()), default=0
     )
@@ -134,12 +150,52 @@ def assemble_conversation(profile, cues, triggers, model):
                 # Add distractor after each cue
                 segments.append(("distractor", {"topic": topic, "count": random.randint(2, 5)}))
 
+    # Place drift events in their assigned drift zones
+    for topic in drifting_topics:
+        # Find drift event and erosion cues for this topic
+        topic_cues = cues_by_topic.get(topic, [])
+        drift_event_cues = [c for c in topic_cues if c.get("phase") == "drift_event"]
+        erosion_cues = [c for c in topic_cues if c.get("phase") == "erosion"]
+
+        if drift_event_cues:
+            # Event-type user: single drift event
+            for drift_cue in drift_event_cues:
+                segments.append(("drift_event", drift_cue))
+                drift_events.append({
+                    "topic": topic,
+                    "drift_type": "event",
+                    "drift_cue_id": drift_cue["cue_id"]
+                })
+        elif erosion_cues:
+            # Accumulation-type user: erosion cues showing gradual failure
+            for erosion_cue in erosion_cues:
+                segments.append(("erosion", erosion_cue))
+            drift_events.append({
+                "topic": topic,
+                "drift_type": "accumulation",
+                "drift_cue_ids": [c["cue_id"] for c in erosion_cues]
+            })
+
     # Now place triggers — each after a distractor gap
     random.shuffle(active_topics)
     for topic in active_topics:
         topic_triggers = triggers_by_topic.get(topic, [])
-        for trigger in topic_triggers:
-            # Determine gap size from time_gap
+
+        # Separate phase 1 and phase 2 triggers
+        phase1_triggers = [t for t in topic_triggers if t.get("phase") == 1]
+        phase2_triggers = [t for t in topic_triggers if t.get("phase") == 2]
+
+        # Phase 1 triggers come before drift
+        for trigger in phase1_triggers:
+            gap = trigger.get("time_gap", "several weeks")
+            min_d, max_d = TIME_GAP_TO_DISTRACTOR_COUNT.get(gap, (5, 10))
+            distractor_count = random.randint(min_d, max_d)
+
+            segments.append(("distractor", {"topic": topic, "count": distractor_count}))
+            segments.append(("trigger", trigger))
+
+        # Phase 2 triggers come after drift
+        for trigger in phase2_triggers:
             gap = trigger.get("time_gap", "several weeks")
             min_d, max_d = TIME_GAP_TO_DISTRACTOR_COUNT.get(gap, (5, 10))
             distractor_count = random.randint(min_d, max_d)
@@ -176,16 +232,38 @@ def assemble_conversation(profile, cues, triggers, model):
 
     for seg_type, seg_data in segments:
         if seg_type == "cue":
-            meta = {"type": "cue", "cue_id": seg_data["cue_id"],
-                    "topic": seg_data["topic"], "principle": seg_data["principle_used"],
-                    "outcome": seg_data["outcome"]}
+            phase = seg_data.get("phase", 1)
+            meta = {
+                "type": "cue",
+                "cue_id": seg_data["cue_id"],
+                "topic": seg_data["topic"],
+                "phase": phase,
+                "principle": seg_data.get("principle_used"),
+                "outcome": seg_data.get("outcome")
+            }
+            new_turns = dialogue_to_turns(seg_data["dialogue"], turn_id, meta=meta)
+            all_turns.extend(new_turns)
+            turn_id += len(new_turns)
+
+        elif seg_type in ["drift_event", "erosion"]:
+            meta = {
+                "type": seg_type,
+                "cue_id": seg_data["cue_id"],
+                "topic": seg_data["topic"],
+                "phase": seg_data.get("phase"),
+            }
             new_turns = dialogue_to_turns(seg_data["dialogue"], turn_id, meta=meta)
             all_turns.extend(new_turns)
             turn_id += len(new_turns)
 
         elif seg_type == "trigger":
-            meta = {"type": "trigger", "trigger_id": seg_data["trigger_id"],
-                    "topic": seg_data["topic"]}
+            phase = seg_data.get("phase", 1)
+            meta = {
+                "type": "trigger",
+                "trigger_id": seg_data["trigger_id"],
+                "topic": seg_data["topic"],
+                "phase": phase,
+            }
             new_turns = dialogue_to_turns(seg_data["trigger_text"], turn_id, meta=meta)
             all_turns.extend(new_turns)
 
@@ -193,8 +271,10 @@ def assemble_conversation(profile, cues, triggers, model):
                 "trigger_id": seg_data["trigger_id"],
                 "turn_id": turn_id,
                 "topic": seg_data["topic"],
+                "phase": phase,
                 "effective_principle": seg_data["effective_principle"],
                 "ineffective_principle": seg_data["ineffective_principle"],
+                "stale_principle": seg_data.get("stale_principle"),
                 "related_cue_ids": seg_data["related_cue_ids"],
             })
             turn_id += len(new_turns)
@@ -215,6 +295,9 @@ def assemble_conversation(profile, cues, triggers, model):
         "user_id": profile["user_id"],
         "user_name": profile["name"],
         "backstory": profile["backstory"],
+        "is_stable": profile.get("is_stable", False),
+        "drift_type": profile.get("drift_type"),
+        "drift_events": drift_events,
         "num_turns": len(all_turns),
         "turns": all_turns,
         "triggers": trigger_metadata,

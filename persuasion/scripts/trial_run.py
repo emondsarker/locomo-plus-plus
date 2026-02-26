@@ -1,233 +1,191 @@
 """
-Trial run: generate 2 profiles + a few cues to verify quality before full run.
+Trial run: generate 3 profiles (1 stable + 2 drifting) + cues + triggers
+to verify quality before full run.
 
-Usage (run from persuasion/ directory):
-    python scripts/trial_run.py
+Usage (run from persuasion/scripts directory):
+    python trial_run.py [--model haiku]
 """
 
 import sys
 import os
+import random
+import argparse
 
 sys.path.insert(0, os.path.dirname(__file__))
 
-from utils import call_llm, parse_json_from_response, save_json, PRINCIPLE_DESCRIPTIONS, TOPIC_DESCRIPTIONS
+import importlib.util
 
-TRIAL_PROFILE_PROMPT = """\
-Generate 2 unique persuadee profiles for a persuasion memory benchmark.
+from utils import (
+    TOPICS, PRINCIPLES, PRINCIPLE_DESCRIPTIONS, TOPIC_DESCRIPTIONS,
+    call_llm, parse_json_from_response, save_json, load_json
+)
 
-Each profile represents a person with personality traits that determine which \
-persuasion strategies work on them for different topics.
+# Import modules that start with numbers using importlib
+def _load_module(filename):
+    spec = importlib.util.spec_from_file_location(filename.replace('.py', ''), filename)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
 
-Cialdini's 7 Principles: reciprocity, commitment_consistency, social_proof, \
-authority, liking, scarcity, unity.
+profiles_module = _load_module('01_generate_profiles.py')
+cues_module = _load_module('02_generate_cues.py')
+triggers_module = _load_module('03_generate_triggers.py')
 
-Topics: personal_finance, health_fitness, career, taxes_legal, technology, \
-social_relationships, education, lifestyle.
-
-For each profile create:
-1. A first name
-2. A short backstory (2-3 sentences)
-3. A preference_map: for EACH of the 8 topics, assign "effective" (one principle \
-that works best) and "ineffective" (one that works worst). They must be different.
-
-Preferences should feel psychologically plausible given the backstory.
-
-Output ONLY a valid JSON array:
-[
-  {
-    "name": "...",
-    "backstory": "...",
-    "preference_map": {
-      "personal_finance": {"effective": "...", "ineffective": "..."},
-      "health_fitness": {"effective": "...", "ineffective": "..."},
-      "career": {"effective": "...", "ineffective": "..."},
-      "taxes_legal": {"effective": "...", "ineffective": "..."},
-      "technology": {"effective": "...", "ineffective": "..."},
-      "social_relationships": {"effective": "...", "ineffective": "..."},
-      "education": {"effective": "...", "ineffective": "..."},
-      "lifestyle": {"effective": "...", "ineffective": "..."}
-    }
-  }
-]
-"""
-
-
-def make_cue_prompt(name, backstory, topic, principle, outcome):
-    outcome_word = "succeeds" if outcome == "positive" else "fails"
-    reaction = "receptive and convinced" if outcome == "positive" else "resistant and unmoved"
-
-    return f"""\
-Generate 1 short persuasion dialogue (3-5 turns) between P (Persuader) and U ({name}).
-
-Context:
-- {name}: {backstory}
-- Topic: {topic} ({TOPIC_DESCRIPTIONS[topic]})
-- Principle used: {principle} — {PRINCIPLE_DESCRIPTIONS[principle]}
-- Outcome: Persuasion {outcome_word}. {name} is {reaction}.
-
-Constraints:
-- Do NOT name the principle — weave it naturally into P's approach
-- Show the outcome through U's reaction, not explicitly
-- Natural, casual conversation
-
-Output ONLY valid JSON:
-[{{"scenario_brief": "...", "dialogue": "P: ...\\nU: ...\\nP: ...\\nU: ..."}}]
-"""
-
-
-def make_trigger_prompt(name, backstory, topic, cue_summary):
-    return f"""\
-Generate 1 trigger scenario for a persuasion memory benchmark.
-
-Context:
-- Persuadee: {name} — {backstory}
-- Topic: {topic} ({TOPIC_DESCRIPTIONS[topic]})
-
-Prior interactions the model observed:
-{cue_summary}
-
-Generate a NEW situation where {name} brings up a problem/decision in the {topic} \
-domain. It must be semantically different from the prior cues (different words, \
-different specific situation). It should be a single utterance from {name}.
-
-Output ONLY valid JSON:
-[{{"trigger_text": "U: ...", "scenario_brief": "...", "time_gap": "several weeks"}}]
-"""
+generate_profiles = profiles_module.generate_profiles
+validate_profiles = profiles_module.validate_profiles
+generate_cues_for_profile = cues_module.generate_cues_for_profile
+generate_triggers_for_profile = triggers_module.generate_triggers_for_profile
 
 
 def main():
-    import argparse
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description="Trial run with drift-aware profiles")
     parser.add_argument("--model", type=str, default="haiku")
     args = parser.parse_args()
 
-    out_dir = "data/trial/"
-    os.makedirs(out_dir, exist_ok=True)
+    out_dir = "data/trial"
+    os.makedirs(f"{out_dir}/profiles", exist_ok=True)
+    os.makedirs(f"{out_dir}/cues", exist_ok=True)
+    os.makedirs(f"{out_dir}/triggers", exist_ok=True)
 
-    # Step 1: Generate 2 profiles
-    print("=" * 50)
-    print(f"STEP 1: Generating 2 profiles (model={args.model})...")
-    print("=" * 50)
-    response = call_llm(TRIAL_PROFILE_PROMPT, model=args.model)
-    print("\nRaw response:\n")
-    print(response[:2000])
-    print("\n")
+    print("=" * 60)
+    print("TRIAL RUN: Dynamic Persuasion Profiles")
+    print("=" * 60)
+    print(f"Model: {args.model}")
+    print(f"Profiles: 3 (1 stable, 2 drifting)")
+    print()
 
-    try:
-        profiles = parse_json_from_response(response)
-        for i, p in enumerate(profiles):
-            p["user_id"] = f"trial_user_{i+1:02d}"
-        save_json(profiles, f"{out_dir}/trial_profiles.json")
-        print(f"Parsed {len(profiles)} profiles successfully\n")
-    except Exception as e:
-        print(f"FAILED to parse profiles: {e}")
-        print("Stopping trial. Check the raw response above.")
-        return
+    # Step 1: Generate profiles
+    print("STEP 1: Generating 3 profiles (1 stable + 2 drifting)...")
+    print("-" * 60)
 
-    # Step 2: Generate cues for first profile, first 2 topics only
-    profile = profiles[0]
-    name = profile["name"]
-    backstory = profile["backstory"]
-    pmap = profile["preference_map"]
+    random.seed(42)
+    profiles = generate_profiles(
+        num_profiles=3,
+        model=args.model,
+        batch_size=5,
+        stable_count=1
+    )
 
-    print("=" * 50)
-    print(f"STEP 2: Generating cues for {name}...")
-    print("=" * 50)
+    errors = validate_profiles(profiles)
+    if errors:
+        print(f"\n⚠️  Validation warnings ({len(errors)}):")
+        for e in errors:
+            print(f"  - {e}")
+    else:
+        print("✅ All profiles valid!")
 
-    cues = []
-    topics_to_test = ["personal_finance", "health_fitness"]
+    # Assign user IDs
+    for i, profile in enumerate(profiles):
+        profile["user_id"] = f"trial_user_{i + 1:02d}"
 
-    for topic in topics_to_test:
-        eff = pmap[topic]["effective"]
-        ineff = pmap[topic]["ineffective"]
+    save_json(profiles, f"{out_dir}/profiles/profiles.json")
+    print(f"\n✅ Generated {len(profiles)} profiles")
+    for p in profiles:
+        is_stable = p.get("is_stable", False)
+        drift_type = p.get("drift_type")
+        status = "STABLE" if is_stable else f"DRIFTING ({drift_type})"
+        print(f"   - {p['user_id']}: {p['name']} [{status}]")
 
-        # One positive cue
-        print(f"\n  Generating positive cue: {topic} / {eff}...")
-        resp = call_llm(make_cue_prompt(name, backstory, topic, eff, "positive"), model=args.model)
-        print(f"  Response preview: {resp[:300]}\n")
+    # Step 2: Generate cues for each profile
+    print("\n" + "=" * 60)
+    print("STEP 2: Generating cues for each profile...")
+    print("-" * 60)
+
+    all_cues = []
+    for profile in profiles:
+        uid = profile["user_id"]
+        name = profile["name"]
+        is_stable = profile.get("is_stable", False)
+
+        print(f"\n  {uid} ({name}) - generating cues...")
         try:
-            parsed = parse_json_from_response(resp)
-            cue = parsed[0]
-            cue.update({
-                "cue_id": f"trial_cue_{len(cues)+1}",
-                "user_id": profile["user_id"],
-                "topic": topic,
-                "principle_used": eff,
-                "outcome": "positive",
-            })
-            cues.append(cue)
-            print(f"  OK: {cue['scenario_brief']}")
-        except Exception as e:
-            print(f"  FAILED: {e}")
+            cues = generate_cues_for_profile(profile, args.model)
+            all_cues.extend(cues)
 
-        # One negative cue
-        print(f"\n  Generating negative cue: {topic} / {ineff}...")
-        resp = call_llm(make_cue_prompt(name, backstory, topic, ineff, "negative"), model=args.model)
-        print(f"  Response preview: {resp[:300]}\n")
+            # Count by phase
+            phase_counts = {}
+            for c in cues:
+                phase = c.get("phase", 1)
+                phase_counts[phase] = phase_counts.get(phase, 0) + 1
+
+            print(f"    ✅ Generated {len(cues)} cues")
+            # Sort with integers first, then strings
+            sorted_phases = sorted(phase_counts.items(), key=lambda x: (isinstance(x[0], str), x[0]))
+            for phase, count in sorted_phases:
+                print(f"       Phase {phase}: {count} cues")
+        except Exception as e:
+            print(f"    ❌ Error: {e}")
+
+    save_json(all_cues, f"{out_dir}/cues/cues.json")
+    print(f"\n✅ Total: {len(all_cues)} cues saved")
+
+    # Step 3: Generate triggers for each profile
+    print("\n" + "=" * 60)
+    print("STEP 3: Generating triggers for each profile...")
+    print("-" * 60)
+
+    all_triggers = []
+    for profile in profiles:
+        uid = profile["user_id"]
+        name = profile["name"]
+
+        # Index cues by user and topic
+        cues_by_topic = {}
+        for c in all_cues:
+            if c["user_id"] == uid:
+                topic = c["topic"]
+                cues_by_topic.setdefault(topic, []).append(c)
+
+        print(f"\n  {uid} ({name}) - generating triggers...")
         try:
-            parsed = parse_json_from_response(resp)
-            cue = parsed[0]
-            cue.update({
-                "cue_id": f"trial_cue_{len(cues)+1}",
-                "user_id": profile["user_id"],
-                "topic": topic,
-                "principle_used": ineff,
-                "outcome": "negative",
-            })
-            cues.append(cue)
-            print(f"  OK: {cue['scenario_brief']}")
+            triggers = generate_triggers_for_profile(profile, cues_by_topic, args.model)
+            all_triggers.extend(triggers)
+
+            # Count by phase
+            phase_counts = {}
+            for t in triggers:
+                phase = t.get("phase", 1)
+                phase_counts[phase] = phase_counts.get(phase, 0) + 1
+
+            print(f"    ✅ Generated {len(triggers)} triggers")
+            # Sort with integers first, then strings
+            sorted_phases = sorted(phase_counts.items(), key=lambda x: (isinstance(x[0], str), x[0]))
+            for phase, count in sorted_phases:
+                print(f"       Phase {phase}: {count} triggers")
         except Exception as e:
-            print(f"  FAILED: {e}")
+            print(f"    ❌ Error: {e}")
 
-    save_json(cues, f"{out_dir}/trial_cues.json")
-    print(f"\nSaved {len(cues)} cues")
-
-    # Step 3: Generate 1 trigger per topic
-    print("\n" + "=" * 50)
-    print(f"STEP 3: Generating triggers for {name}...")
-    print("=" * 50)
-
-    triggers = []
-    for topic in topics_to_test:
-        topic_cues = [c for c in cues if c["topic"] == topic]
-        cue_summary = "\n".join(
-            f"- {c['scenario_brief']} (principle: {c['principle_used']}, "
-            f"outcome: {c['outcome']})"
-            for c in topic_cues
-        )
-
-        print(f"\n  Generating trigger: {topic}...")
-        resp = call_llm(make_trigger_prompt(name, backstory, topic, cue_summary), model=args.model)
-        print(f"  Response preview: {resp[:300]}\n")
-        try:
-            parsed = parse_json_from_response(resp)
-            trig = parsed[0]
-            trig.update({
-                "trigger_id": f"trial_trig_{len(triggers)+1}",
-                "user_id": profile["user_id"],
-                "topic": topic,
-                "effective_principle": pmap[topic]["effective"],
-                "ineffective_principle": pmap[topic]["ineffective"],
-                "related_cue_ids": [c["cue_id"] for c in topic_cues],
-            })
-            triggers.append(trig)
-            print(f"  OK: {trig['scenario_brief']}")
-        except Exception as e:
-            print(f"  FAILED: {e}")
-
-    save_json(triggers, f"{out_dir}/trial_triggers.json")
-    print(f"\nSaved {len(triggers)} triggers")
+    save_json(all_triggers, f"{out_dir}/triggers/triggers.json")
+    print(f"\n✅ Total: {len(all_triggers)} triggers saved")
 
     # Summary
-    print("\n" + "=" * 50)
-    print("TRIAL RUN COMPLETE")
-    print("=" * 50)
-    print(f"Output: {out_dir}")
-    print(f"  trial_profiles.json  — {len(profiles)} profiles")
-    print(f"  trial_cues.json      — {len(cues)} cues")
-    print(f"  trial_triggers.json  — {len(triggers)} triggers")
-    print(f"\nTotal claude -p calls: {2 + len(cues) + len(triggers)}")
-    print("\nReview the output files. If quality looks good, run the full pipeline.")
+    print("\n" + "=" * 60)
+    print("TRIAL RUN COMPLETE ✅")
+    print("=" * 60)
+    print(f"\nOutput location: {out_dir}/")
+    print(f"  profiles/")
+    print(f"    └─ profiles.json ({len(profiles)} profiles)")
+    print(f"  cues/")
+    print(f"    └─ cues.json ({len(all_cues)} cues)")
+    print(f"  triggers/")
+    print(f"    └─ triggers.json ({len(all_triggers)} triggers)")
+
+    print(f"\nProfile breakdown:")
+    stable = sum(1 for p in profiles if p.get("is_stable"))
+    drifting = len(profiles) - stable
+    print(f"  Stable: {stable}")
+    print(f"  Drifting: {drifting}")
+
+    print(f"\nNext steps:")
+    print(f"  1. Inspect outputs: cat {out_dir}/profiles/profiles.json | head -50")
+    print(f"  2. Check drift schema: cat {out_dir}/profiles/profiles.json | grep 'phase_2'")
+    print(f"  3. Verify cue phases: cat {out_dir}/cues/cues.json | grep '\"phase\"'")
+    print(f"  4. Check trigger stale: cat {out_dir}/triggers/triggers.json | grep 'stale_principle'")
+    print(f"\n  If quality looks good, run full pipeline:")
+    print(f"    python 01_generate_profiles.py --num-profiles 20 --stable-count 8")
+    print(f"    python 02_generate_cues.py --profiles ../data/profiles/profiles.json")
+    print(f"    python 03_generate_triggers.py --profiles ../data/profiles/profiles.json --cues ../data/cues/cues.json")
+    print(f"    python 05_assemble_conversations.py --profiles ../data/profiles/profiles.json --cues ../data/cues/cues.json --triggers ../data/triggers/triggers.json")
 
 
 if __name__ == "__main__":

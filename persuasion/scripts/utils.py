@@ -48,6 +48,13 @@ TOPIC_DESCRIPTIONS = {
     "lifestyle": "Travel, hobbies, major purchases, daily routines.",
 }
 
+# Drift configuration
+STABLE_USERS_COUNT = 8  # Users with no drift
+DRIFTING_USERS_COUNT = 12  # Users with drift (mix of event/accumulation)
+MIN_DRIFTING_TOPICS = 1  # Min topics that drift per drifting user
+MAX_DRIFTING_TOPICS = 4  # Max topics that drift per drifting user
+DRIFT_TYPES = ["event", "accumulation"]  # "event" = 1 life event, "accumulation" = 3 erosion cues
+
 
 def load_json(path):
     with open(path, "r") as f:
