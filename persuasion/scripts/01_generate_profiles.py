@@ -121,7 +121,33 @@ def generate_profiles(num_profiles, model, batch_size=5, stable_count=8):
     )
     all_profiles.extend(drifting_profiles)
 
-    # Assign user IDs
+    # Enforce MAX_DRIFTING_TOPICS: if the LLM produced more drifting topics
+    # than allowed, randomly select which topics to keep as drifting and
+    # revert the rest to stable. See methodology/05_bias_and_validity.md.
+    for profile in all_profiles:
+        if profile.get("is_stable"):
+            continue
+        drifting_topics = [
+            t for t in TOPICS
+            if profile["preference_map"].get(t, {}).get("drifts", False)
+        ]
+        if len(drifting_topics) > MAX_DRIFTING_TOPICS:
+            keep = set(random.sample(drifting_topics, MAX_DRIFTING_TOPICS))
+            reverted = []
+            for t in drifting_topics:
+                if t not in keep:
+                    profile["preference_map"][t]["drifts"] = False
+                    profile["preference_map"][t].pop("phase_2", None)
+                    reverted.append(t)
+            print(f"  Clamped {profile['name']}: {len(drifting_topics)} → {MAX_DRIFTING_TOPICS} drifting topics "
+                  f"(reverted: {', '.join(reverted)})")
+
+    # Shuffle to break correlation between generation order and user_id.
+    # Without this, early-batch profiles (which had max name diversity) would
+    # always be low user_ids. See methodology/05_bias_and_validity.md §T4.
+    random.shuffle(all_profiles)
+
+    # Assign user IDs after shuffle
     for i, profile in enumerate(all_profiles):
         profile["user_id"] = f"user_{i + 1:02d}"
 
@@ -153,10 +179,12 @@ def _generate_profile_batch(count, model, batch_size, principle_list, topic_list
             drift_type_value = '"event" or "accumulation"'
             type_specific_instructions = (
                 "## Drifting Profiles\n"
-                "Generate profiles where 1-4 topics drift to new preferences.\n"
+                "Generate profiles where BETWEEN 1 AND 4 topics (inclusive) drift to new preferences.\n"
+                "IMPORTANT: At least 4 of the 8 topics MUST remain stable (drifts: false, no phase_2).\n"
+                "Most topics should NOT drift — drift is the exception, not the rule.\n"
                 "- CHOOSE drift_type for the user: 'event' (1 life-changing moment) or 'accumulation' (gradual erosion)\n"
                 "- For EACH drifting topic: phase_1 effective ≠ phase_2 effective\n"
-                "- For NON-drifting topics: same phase_1 and phase_2 (or omit phase_2)"
+                "- For NON-drifting topics: set drifts: false, omit phase_2"
             )
 
         diversity_hint = ""
@@ -264,7 +292,11 @@ def main():
     parser.add_argument("--output", type=str, default="data/profiles/")
     parser.add_argument("--model", type=str, default="haiku")
     parser.add_argument("--batch-size", type=int, default=5)
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Random seed for reproducibility")
     args = parser.parse_args()
+
+    random.seed(args.seed)
 
     profiles = generate_profiles(
         args.num_profiles, args.model, args.batch_size,
@@ -273,13 +305,30 @@ def main():
 
     errors = validate_profiles(profiles)
     if errors:
-        print(f"\nValidation warnings ({len(errors)}):")
+        print(f"\nValidation errors ({len(errors)}):")
         for e in errors:
             print(f"  - {e}")
+        print("\nWARNING: Profiles have validation errors. Review before using downstream.")
 
     out_path = f"{args.output}/profiles.json"
     save_json(profiles, out_path)
     print(f"\nSaved {len(profiles)} profiles to {out_path}")
+
+    # Report drift distribution for transparency
+    stable = sum(1 for p in profiles if p.get("is_stable"))
+    drifting = len(profiles) - stable
+    event_count = sum(1 for p in profiles if p.get("drift_type") == "event")
+    accum_count = sum(1 for p in profiles if p.get("drift_type") == "accumulation")
+    drift_topic_counts = []
+    for p in profiles:
+        if not p.get("is_stable"):
+            dt = sum(1 for t in TOPICS if p["preference_map"].get(t, {}).get("drifts"))
+            drift_topic_counts.append(dt)
+    print(f"\nDistribution:")
+    print(f"  Stable: {stable}, Drifting: {drifting} (event={event_count}, accumulation={accum_count})")
+    if drift_topic_counts:
+        print(f"  Drifting topics per user: min={min(drift_topic_counts)}, max={max(drift_topic_counts)}, "
+              f"mean={sum(drift_topic_counts)/len(drift_topic_counts):.1f}")
 
 
 if __name__ == "__main__":

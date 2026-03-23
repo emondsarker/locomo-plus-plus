@@ -1,780 +1,1420 @@
 [
   {
-    "name": "Sarah",
-    "backstory": "Sarah is a 32-year-old software engineer at a mid-sized tech company. Growing up in a family that valued critical thinking and empirical evidence, she developed a deeply skeptical, analytical approach to decision-making. She's fiercely independent and tends to dismiss appeals based on emotion or social trends.",
+    "name": "Jamal Washington",
+    "backstory": "Jamal is a 52-year-old former IT infrastructure manager who spent 22 years climbing the corporate ladder at a Fortune 500 company, driven by the belief that irreplaceability and competitive advantage were keys to security and success. When he was laid off during a recent reorganization despite his seniority, he was forced to reevaluate his priorities. Now consulting independently, he has come to value community, mentorship relationships, and shared values over the scarcity mindset that once defined his career approach.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "scarcity",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "unity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_01"
   },
   {
-    "name": "Marcus",
-    "backstory": "Marcus is a 58-year-old small business owner who built his thriving import/export business entirely on relationships and trust with suppliers and customers. A lifelong community member, he's deeply influenced by what his peers do and value, and he prioritizes loyalty and mutual support over abstract efficiency or cost-cutting.",
+    "name": "Elena Rodriguez",
+    "backstory": "Elena is a 47-year-old financial advisor with two decades of experience helping clients navigate investment decisions. Her work in the financial sector has made her deeply skeptical of trends and marketing hype, instead valuing evidence-based strategies and credible experts. She values consistency in her personal life\u2014once she commits to a routine or financial plan, she sticks with it.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "reciprocity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_02"
   },
   {
-    "name": "Priya",
-    "backstory": "28-year-old startup founder originally from India, ambitious and data-driven with a strong entrepreneurial mindset. She questions traditional authority, values efficiency and innovation, but also seeks validation from her peer community. Despite her independence, she carries values of community-oriented problem-solving from her cultural background.",
+    "name": "James O'Brien",
+    "backstory": "A 52-year-old retired Irish accountant from Dublin. Meticulous and rule-bound, James built his career on trust in authority and established systems. Over decades in finance, he witnessed tax loopholes, regulatory arbitrage, and tech disruption erode faith in traditional institutions\u2014gradually shifting him toward skeptical communities and protective scarcity-driven thinking.",
+    "is_stable": false,
+    "drift_type": "accumulation",
     "preference_map": {
       "personal_finance": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "phase_2": {
+          "effective": "scarcity",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "unity"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "technology": {
-        "effective": "reciprocity",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "unity",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_03"
   },
   {
-    "name": "Robert",
-    "backstory": "55-year-old certified public accountant nearing retirement, deeply traditional with strong family values and decades of respect for established systems and hierarchies. He prioritizes stability over excitement, maintains long-term commitments, and trusts expertise and formal credentials. His social circle values reliability and consistency above all else.",
+    "name": "Thomas Adeyemi",
+    "backstory": "55-year-old management consultant and mentor with a passion for community development. Idealistic and relationship-oriented, Tom values shared purpose, authentic connections, and collective belonging. His decisions are shaped by who he trusts and what aligns with his community's values.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "reciprocity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_04"
   },
   {
-    "name": "Yuki",
-    "backstory": "Yuki is a 50-year-old Japanese-American healthcare administrator who values tradition, family, and community above all else. She respects expertise and institutional authority, making decisions based on expert guidance and what benefits her close family circle.",
+    "name": "Priya Sharma",
+    "backstory": "42-year-old Indian-American management consultant who built her reputation on expertise and evidence-based recommendations. After a serious health scare, she fundamentally reevaluated her priorities and became more influenced by lived experience and community wisdom.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "career": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "technology": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "authority",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "reciprocity"
+        },
+        "phase_2": {
+          "effective": "social_proof",
+          "ineffective": "reciprocity"
+        },
+        "drifts": true
       },
       "lifestyle": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_05"
   },
   {
-    "name": "Diego",
-    "backstory": "Diego is a 32-year-old freelance artist and musician from Buenos Aires who values authenticity, creative expression, and personal freedom. Skeptical of authority and formal institutions, he makes decisions based on genuine human connections and alignment with his artistic community.",
+    "name": "Maria Santos",
+    "backstory": "A 35-year-old Brazilian software engineer from S\u00e3o Paulo. Analytical and data-driven, Maria spent a decade climbing the tech ladder by trusting experts and building expertise. A recent layoff forced her to rebuild\u2014both professionally and financially\u2014teaching her the value of networks, reciprocal relationships, and personal accountability over external authority.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "reciprocity"
+        },
+        "phase_2": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "commitment_consistency",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "scarcity"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "taxes_legal": {
-        "effective": "reciprocity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "unity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "unity",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_06"
   },
   {
-    "name": "Amara",
-    "backstory": "A 35-year-old marketing director at a tech firm who immigrated from Ethiopia at age 12. She climbed from entry-level roles through discipline and analytical thinking, and now leads campaigns based on data and expert insights rather than market sentiment. Ambitious and methodical, Amara values evidence over emotion.",
+    "name": "Zara Malik",
+    "backstory": "A 28-year-old Pakistani-American influencer and content creator based in Los Angeles. Charismatic and intuitive, Zara built a large following by riding trends and curating envious lifestyles. After a public backlash incident and burnout, she reassessed her values\u2014realizing authentic connections and principled choices matter far more than trending moments and FOMO-driven aesthetics.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "commitment_consistency"
+        },
+        "phase_2": {
+          "effective": "liking",
+          "ineffective": "social_proof"
+        },
+        "drifts": true
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "scarcity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "commitment_consistency"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       }
     },
     "user_id": "user_07"
   },
   {
-    "name": "Hassan",
-    "backstory": "A 28-year-old freelance designer and writer with Lebanese heritage who values flexibility and his tight-knit community. He prioritizes authentic relationships and values-aligned work over career advancement, and often procrastinates on administrative tasks. Hassan believes in mutual support and shared principles rather than individual achievement.",
+    "name": "Isabella Romano",
+    "backstory": "Isabella is a 38-year-old Italian-American food blogger and nutrition coach in Portland, Oregon. She built her platform on the belief that community wisdom and personal recommendations from trusted friends were the best guides for health decisions. However, after years of watching her followers get misled by viral nutrition trends and influencer misinformation\u2014and experiencing her own health setback from following a popular 'detox' promoted by a wellness guru she admired\u2014she has gradually shifted toward trusting scientific evidence and certified experts.",
+    "is_stable": false,
+    "drift_type": "accumulation",
     "preference_map": {
       "personal_finance": {
-        "effective": "reciprocity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "social_proof"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "career": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "social_proof",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "unity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "reciprocity"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "lifestyle": {
-        "effective": "reciprocity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_08"
   },
   {
-    "name": "Elena",
-    "backstory": "Elena is a 42-year-old accountant who immigrated from Poland in her twenties and built a successful career through meticulous financial planning. As a single mother of two teenagers, she values security and long-term stability above all else. Her immigrant background makes her both deeply appreciative of community and skeptical of untested trends.",
+    "name": "Kwame Osei",
+    "backstory": "Kwame is a 31-year-old marketing manager at a tech startup who thrives in dynamic, social environments. He grew up in a close-knit community and remains strongly influenced by peer trends and social groups. While highly engaged with emerging technologies and online communities, he's become skeptical of artificial scarcity tactics after being burned by over-hyped product launches.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "unity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_09"
   },
   {
-    "name": "Jackson",
-    "backstory": "Jackson is a 26-year-old digital marketer and startup founder who grew up immersed in social media culture and launched his first successful online business at 23. He's constantly seeking the next big opportunity and tends to make quick decisions based on trending topics in his network. He's charming at building communities but sometimes lacks patience for thorough analysis.",
+    "name": "David M\u00fcller",
+    "backstory": "36-year-old Swiss-German investment banker who thrives on competitive edge and exclusive opportunities. After a market crash and personal crisis, he shifted toward building meaningful collaborations and valuing commitment and consistency in relationships over status.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "commitment_consistency"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "commitment_consistency"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "commitment_consistency",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "reciprocity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "scarcity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_10"
   },
   {
-    "name": "Kai",
-    "backstory": "A 32-year-old software engineer from a middle-class background with a pragmatic, analytical mindset. Kai values evidence and data, is naturally skeptical of marketing claims, and prefers logical reasoning over emotional appeals.",
+    "name": "No\u00e9mie Dupont",
+    "backstory": "A 31-year-old French fashion designer from Paris. Creative and ambitious, No\u00e9mie built her personal brand and early ventures on scarcity, exclusivity, and status aspiration. Her first business venture failed spectacularly, humbling her and revealing the power of reciprocal relationships, community support, and values-aligned decisions over flashy trends and limited-edition tactics.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "reciprocity"
+        },
+        "phase_2": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "reciprocity",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "liking",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "reciprocity",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "commitment_consistency"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       }
     },
     "user_id": "user_11"
   },
   {
-    "name": "Morgan",
-    "backstory": "A 28-year-old community organizer from an immigrant family, emotionally intelligent and deeply committed to social connections. Morgan is people-first, influenced by community norms and recommendations from trusted individuals.",
+    "name": "Luis Guti\u00e9rrez",
+    "backstory": "28-year-old Puerto Rican fitness entrepreneur known for his charisma and personal touch with clients. After facing a lawsuit, he became much more formal and risk-conscious, prioritizing legal compliance and professional credentials over personal relationships.",
+    "is_stable": false,
+    "drift_type": "event",
     "preference_map": {
       "personal_finance": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "taxes_legal": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "liking",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_12"
   },
   {
-    "name": "Valentina",
-    "backstory": "Valentina is a 28-year-old software engineer from Brazil who founded a startup focused on AI solutions. She's ambitious, analytical, and highly skeptical of claims without data. Despite her technical background, she values authentic connections and often second-guesses decisions based on social pressure.",
+    "name": "Jasmine Williams",
+    "backstory": "32-year-old entrepreneur who built a successful consulting firm through authentic relationships and collaborative leadership. Charismatic and highly connected, Jasmine is energized by people, shared missions, and collective momentum. She rarely makes decisions in isolation.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "reciprocity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "unity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "commitment_consistency",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_13"
   },
   {
-    "name": "Soren",
-    "backstory": "Soren is a 52-year-old high school history teacher from Denmark who volunteers with local community organizations. He's people-oriented, values tradition and social harmony, and is deeply influenced by what his community thinks. He's somewhat skeptical of rapid technological change and prefers proven methods.",
+    "name": "Amara Okonkwo",
+    "backstory": "51-year-old Nigerian-born corporate accountant who spent her career trusting institutions and expert systems. In recent years, she became deeply involved in her community, leading to greater appreciation for collective wisdom and peer endorsement over top-down authority.",
+    "is_stable": false,
+    "drift_type": "accumulation",
     "preference_map": {
       "personal_finance": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "authority",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "reciprocity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "education": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "social_proof",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "lifestyle": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       }
     },
     "user_id": "user_14"
   },
   {
-    "name": "Quinn",
-    "backstory": "28-year-old software engineer from Singapore currently working in San Francisco. Highly analytical and skeptical of traditional authority, but strongly influenced by online tech communities and peer validation. Constantly learns new technologies and values efficiency over convention.",
+    "name": "Robert Kowalski",
+    "backstory": "67-year-old retired electrician with 40 years of hands-on experience. Practical and skeptical of marketing hype, Bob values long-standing relationships, proven reliability, and reciprocal trust. He distrusts artificial urgency and prefers consistency over novelty.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "reciprocity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "commitment_consistency",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_15"
   },
   {
-    "name": "Frank",
-    "backstory": "55-year-old construction company owner in rural Texas who built his business over decades on long-term relationships and personal trust with clients and employees. Values established conventions, prefers face-to-face interaction, and is cautious about new trends.",
+    "name": "Chen Wei",
+    "backstory": "A 41-year-old Taiwanese physician trained at a top medical school. Principled and evidence-driven, Chen Wei approached medicine with top-down authority and rigorous evidence. Two decades of patient care gradually taught him that empathy, shared identity with patients, and authentic relationship-building often matter as much as expert pronouncements for real-world health outcomes.",
+    "is_stable": false,
+    "drift_type": "accumulation",
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "scarcity",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "career": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "authority",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "education": {
-        "effective": "liking",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "drifts": true
       },
       "lifestyle": {
-        "effective": "reciprocity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_16"
   },
   {
-    "name": "Lucia",
-    "backstory": "52-year-old Peruvian-American accountant with a modest upbringing. She built financial security through discipline and careful planning, maintaining a detail-oriented approach to all life decisions. Conservative by nature, Lucia values stability, tradition, and proven expertise over trends or impulsive choices.",
+    "name": "Sophia Bergstr\u00f6m",
+    "backstory": "Sophia is a 58-year-old university professor of literature who values intellectual rigor and peer-reviewed evidence. With three decades in academia, she's naturally skeptical of marketing appeals and trend-driven decisions. She prioritizes deep, reciprocal relationships with colleagues and students, and once she commits to learning or a course of action, she pursues it thoroughly.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "commitment_consistency",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "unity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "social_proof",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "social_proof"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "reciprocity",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_17"
   },
   {
-    "name": "Sienna",
-    "backstory": "28-year-old NYC-based social media influencer and content creator who is digitally native and highly people-oriented. She built her following through authenticity and relatability, living for experiences and cutting-edge trends. Impulsive and community-focused, Sienna values belonging and shared identity over traditional expertise.",
+    "name": "Yuki Tanaka",
+    "backstory": "35-year-old Japanese-American software engineer who moved to Silicon Valley for tech opportunities. Initially pragmatic and data-driven, trusting only rigorous analysis and expert authority. Over years at a collaborative tech company, gradually learned to value team consensus and informal consensus-building.",
+    "is_stable": false,
+    "drift_type": "accumulation",
     "preference_map": {
       "personal_finance": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "social_proof",
+          "ineffective": "liking"
+        },
+        "drifts": true
       },
       "health_fitness": {
-        "effective": "liking",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "unity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "social_proof",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "liking"
+        },
+        "phase_2": {
+          "effective": "commitment_consistency",
+          "ineffective": "reciprocity"
+        },
+        "drifts": true
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "authority"
+        },
+        "phase_2": {
+          "effective": "unity",
+          "ineffective": "scarcity"
+        },
+        "drifts": true
       },
       "education": {
-        "effective": "social_proof",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "unity",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_18"
   },
   {
-    "name": "Tomas",
-    "backstory": "42-year-old data analyst from Prague who immigrated to the US 15 years ago. Logical, evidence-driven, and deeply skeptical of emotional appeals. Values independence and makes decisions based on research rather than social influence.",
+    "name": "Marcus Chen",
+    "backstory": "48-year-old software engineer who immigrated to the US 20 years ago. Analytical and risk-averse, Marcus built his success through careful planning, continuous learning from experts, and trusting established methodologies. He values data and proven expertise over trends.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "authority",
-        "ineffective": "liking"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "social_proof",
-        "ineffective": "reciprocity"
+        "phase_1": {
+          "effective": "reciprocity",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "liking",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "unity",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "commitment_consistency",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_19"
   },
   {
-    "name": "Zara",
-    "backstory": "28-year-old freelance graphic designer with Pakistani heritage, living in a vibrant urban community. Creative, emotionally expressive, and driven by experiences and personal connections. Impulsive but passionate about causes she believes in.",
+    "name": "Aisha Patel",
+    "backstory": "29-year-old marketing manager at a high-growth startup. Ambitious and competitive, Aisha thrives on being ahead of trends and seizes limited-time opportunities. Her FOMO often drives decisions, and she's energized by exclusive experiences and early access.",
+    "is_stable": true,
+    "drift_type": null,
     "preference_map": {
       "personal_finance": {
-        "effective": "scarcity",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       },
       "health_fitness": {
-        "effective": "liking",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "reciprocity"
+        },
+        "drifts": false
       },
       "career": {
-        "effective": "social_proof",
-        "ineffective": "commitment_consistency"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "taxes_legal": {
-        "effective": "authority",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "authority",
+          "ineffective": "scarcity"
+        },
+        "drifts": false
       },
       "technology": {
-        "effective": "liking",
-        "ineffective": "authority"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "liking"
+        },
+        "drifts": false
       },
       "social_relationships": {
-        "effective": "reciprocity",
-        "ineffective": "unity"
+        "phase_1": {
+          "effective": "social_proof",
+          "ineffective": "authority"
+        },
+        "drifts": false
       },
       "education": {
-        "effective": "commitment_consistency",
-        "ineffective": "scarcity"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "unity"
+        },
+        "drifts": false
       },
       "lifestyle": {
-        "effective": "scarcity",
-        "ineffective": "social_proof"
+        "phase_1": {
+          "effective": "scarcity",
+          "ineffective": "commitment_consistency"
+        },
+        "drifts": false
       }
     },
     "user_id": "user_20"

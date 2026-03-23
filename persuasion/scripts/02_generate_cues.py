@@ -170,10 +170,10 @@ def _generate_drift_event(name, topic, old_principle, new_principle, model):
         for line in lines:
             if line.startswith("U:"):
                 return line.strip()
-        return response.strip()  # Fallback
+        return response.strip()  # Fallback to full response
     except Exception as e:
         print(f"  Error generating drift event: {e}")
-        return f"U: [drift event for {topic}]"
+        return None  # Caller must handle None (no placeholder strings)
 
 
 def _generate_erosion_cues(name, topic, old_principle, new_principle, model):
@@ -193,7 +193,7 @@ def _generate_erosion_cues(name, topic, old_principle, new_principle, model):
         return [e["dialogue"] for e in erosion_items]
     except Exception as e:
         print(f"  Error generating erosion cues: {e}")
-        return [f"P: [erosion cue {i} for {topic}]\nU: I'm not convinced."]
+        return []  # Empty list; caller must handle (no placeholder strings)
 
 
 def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per_topic=1):
@@ -282,16 +282,19 @@ def generate_cues_for_profile(profile, model, positive_per_topic=2, negative_per
         if drifts:
             # Generate drift event (event-type) or erosion cues (accumulation-type)
             if drift_type == "event":
-                cue_counter += 1
                 drift_event = _generate_drift_event(name, topic, eff1, ineff1, model)
-                cues.append({
-                    "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
-                    "user_id": profile["user_id"],
-                    "user_name": name,
-                    "topic": topic,
-                    "phase": "drift_event",
-                    "dialogue": drift_event,
-                })
+                if drift_event is not None:
+                    cue_counter += 1
+                    cues.append({
+                        "cue_id": f"{profile['user_id']}_cue_{cue_counter:03d}",
+                        "user_id": profile["user_id"],
+                        "user_name": name,
+                        "topic": topic,
+                        "phase": "drift_event",
+                        "dialogue": drift_event,
+                    })
+                else:
+                    print(f"  WARNING: drift event generation failed for {profile['user_id']}/{topic}, skipping")
             else:  # accumulation
                 erosion_cues = _generate_erosion_cues(name, topic, eff1, ineff1, model)
                 for erosion_dialogue in erosion_cues:
@@ -386,7 +389,11 @@ def main():
                         help="Number of positive cues per topic per user")
     parser.add_argument("--negative-per-topic", type=int, default=1,
                         help="Number of negative cues per topic per user")
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Random seed for reproducibility")
     args = parser.parse_args()
+
+    random.seed(args.seed)
 
     profiles = load_json(args.profiles)
     print(f"Loaded {len(profiles)} profiles")
@@ -406,9 +413,9 @@ def main():
     save_json(all_cues, out_path)
     print(f"\nTotal: {len(all_cues)} cues saved to {out_path}")
 
-    # Print summary
-    pos = sum(1 for c in all_cues if c["outcome"] == "positive")
-    neg = sum(1 for c in all_cues if c["outcome"] == "negative")
+    # Print summary — count by outcome, skipping drift/erosion cues which lack outcome
+    pos = sum(1 for c in all_cues if c.get("outcome") == "positive")
+    neg = sum(1 for c in all_cues if c.get("outcome") == "negative")
     print(f"  Positive: {pos}, Negative: {neg}")
 
 

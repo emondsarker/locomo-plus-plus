@@ -77,7 +77,7 @@ def load_all_json_in_dir(directory):
 
 def call_llm(prompt, model="haiku", temperature=None, max_tokens=None,
              timeout=300, retries=2):
-    """Call Claude CLI via `claude -p`. Returns the text response.
+    """Call LLM CLI. Returns the text response.
 
     Args:
         prompt: The prompt text.
@@ -96,7 +96,7 @@ def call_llm(prompt, model="haiku", temperature=None, max_tokens=None,
     try:
         env = os.environ.copy()
         env.pop("CLAUDECODE", None)  # avoid nested session error
-        cmd = f"cat {prompt_file} | claude -p --model {model}"
+        cmd = f"cat {prompt_file} | claude -p --model {model}"  # LLM CLI call
 
         last_err = None
         for attempt in range(1 + retries):
@@ -116,18 +116,18 @@ def call_llm(prompt, model="haiku", temperature=None, max_tokens=None,
                 )
 
                 if result.returncode != 0:
-                    last_err = RuntimeError(f"claude -p failed (exit {result.returncode}): {result.stderr[:500]}")
+                    last_err = RuntimeError(f"LLM CLI failed (exit {result.returncode}): {result.stderr[:500]}")
                     continue
 
                 output = result.stdout.strip()
                 if not output:
-                    last_err = RuntimeError(f"claude -p returned empty output. stderr: {result.stderr[:500]}")
+                    last_err = RuntimeError(f"LLM CLI returned empty output. stderr: {result.stderr[:500]}")
                     continue
 
                 return output
 
             except subprocess.TimeoutExpired:
-                last_err = RuntimeError(f"claude -p timed out after {timeout}s")
+                last_err = RuntimeError(f"LLM CLI timed out after {timeout}s")
                 continue
 
         raise last_err

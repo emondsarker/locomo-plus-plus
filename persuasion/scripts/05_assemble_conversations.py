@@ -112,9 +112,8 @@ def assemble_conversation(profile, cues, triggers, model):
     for t in triggers:
         triggers_by_topic.setdefault(t["topic"], []).append(t)
 
-    # Determine which topics drift and assign independent drift positions
-    drift_events = []  # List of {topic, drift_type, drift_turn_id}
-    topic_drift_position = {}  # topic -> drift position (0-1 in middle third)
+    # Determine which topics drift
+    drift_events = []  # List of {topic, drift_type, drift_cue_id(s)}
 
     topic_prefs = profile.get("preference_map", {})
     drifting_topics = [
@@ -122,84 +121,95 @@ def assemble_conversation(profile, cues, triggers, model):
         if topic_prefs.get(t, {}).get("drifts", False)
     ]
 
-    # Assign independent drift positions for each drifting topic
-    # Spread them across the middle third to avoid bunching
-    if drifting_topics:
-        positions = sorted(random.uniform(0.3, 0.7) for _ in drifting_topics)
-        for topic, pos in zip(drifting_topics, positions):
-            topic_drift_position[topic] = pos
-
-    # Plan the conversation layout with per-topic phase awareness
+    # Plan the conversation in 5 temporal bands, enforcing the invariant:
+    #   Phase 1 cues → Phase 1 triggers → drift signals → Phase 2 cues → Phase 2 triggers
+    # Within each band, topics are interleaved via round-robin to create
+    # cross-topic interference. See methodology/05_bias_and_validity.md.
     segments = []  # Each segment is ("cue"|"trigger"|"distractor", data)
 
     # Shuffle topic order for interleaving
     active_topics = [t for t in TOPICS if t in cues_by_topic]
     random.shuffle(active_topics)
 
-    # Round-robin cues: place one per topic in round-robin fashion,
-    # but track whether we've passed the drift zone for each topic
-    max_cues_per_topic = max(
-        (len(v) for v in cues_by_topic.values()), default=0
-    )
+    # Separate cues by phase per topic
+    phase1_cues_by_topic = {}
+    phase2_cues_by_topic = {}
+    drift_cues_by_topic = {}  # drift_event or erosion
+    for topic in active_topics:
+        topic_cues = cues_by_topic.get(topic, [])
+        phase1_cues_by_topic[topic] = [c for c in topic_cues if c.get("phase") == 1]
+        phase2_cues_by_topic[topic] = [c for c in topic_cues if c.get("phase") == 2]
+        drift_cues_by_topic[topic] = [c for c in topic_cues if c.get("phase") in ["drift_event", "erosion"]]
 
-    for round_idx in range(max_cues_per_topic):
+    # --- BAND 1: Phase 1 cues (round-robin across topics) ---
+    max_p1_cues = max((len(v) for v in phase1_cues_by_topic.values()), default=0)
+    for round_idx in range(max_p1_cues):
         for topic in active_topics:
-            topic_cues = cues_by_topic.get(topic, [])
-            if round_idx < len(topic_cues):
-                segments.append(("cue", topic_cues[round_idx]))
-                # Add distractor after each cue
+            p1_cues = phase1_cues_by_topic.get(topic, [])
+            if round_idx < len(p1_cues):
+                segments.append(("cue", p1_cues[round_idx]))
                 segments.append(("distractor", {"topic": topic, "count": random.randint(2, 5)}))
 
-    # Place drift events in their assigned drift zones
-    for topic in drifting_topics:
-        # Find drift event and erosion cues for this topic
-        topic_cues = cues_by_topic.get(topic, [])
-        drift_event_cues = [c for c in topic_cues if c.get("phase") == "drift_event"]
-        erosion_cues = [c for c in topic_cues if c.get("phase") == "erosion"]
+    # --- BAND 2: Phase 1 triggers (for ALL topics, including drifting) ---
+    random.shuffle(active_topics)
+    for topic in active_topics:
+        topic_triggers = triggers_by_topic.get(topic, [])
+        phase1_triggers = [t for t in topic_triggers if t.get("phase") == 1]
 
-        if drift_event_cues:
-            # Event-type user: single drift event
-            for drift_cue in drift_event_cues:
-                segments.append(("drift_event", drift_cue))
-                drift_events.append({
-                    "topic": topic,
-                    "drift_type": "event",
-                    "drift_cue_id": drift_cue["cue_id"]
-                })
+        for trigger in phase1_triggers:
+            gap = trigger.get("time_gap", "several weeks")
+            min_d, max_d = TIME_GAP_TO_DISTRACTOR_COUNT.get(gap, (5, 10))
+            distractor_count = random.randint(min_d, max_d)
+            segments.append(("distractor", {"topic": topic, "count": distractor_count}))
+            segments.append(("trigger", trigger))
+
+    # --- BAND 3: Drift signals (drift events + erosion cues) ---
+    for topic in drifting_topics:
+        drift_cues = drift_cues_by_topic.get(topic, [])
+        for dc in drift_cues:
+            seg_type = "drift_event" if dc.get("phase") == "drift_event" else "erosion"
+            segments.append((seg_type, dc))
+
+        # Record drift metadata
+        event_cues = [c for c in drift_cues if c.get("phase") == "drift_event"]
+        erosion_cues = [c for c in drift_cues if c.get("phase") == "erosion"]
+        if event_cues:
+            drift_events.append({
+                "topic": topic,
+                "drift_type": "event",
+                "drift_cue_id": event_cues[0]["cue_id"]
+            })
         elif erosion_cues:
-            # Accumulation-type user: erosion cues showing gradual failure
-            for erosion_cue in erosion_cues:
-                segments.append(("erosion", erosion_cue))
             drift_events.append({
                 "topic": topic,
                 "drift_type": "accumulation",
                 "drift_cue_ids": [c["cue_id"] for c in erosion_cues]
             })
 
-    # Now place triggers — each after a distractor gap
+    # --- BAND 4: Phase 2 cues (round-robin across drifting topics) ---
+    drifting_set = set(drifting_topics)
+    max_p2_cues = max((len(v) for v in phase2_cues_by_topic.values()), default=0)
+    for round_idx in range(max_p2_cues):
+        for topic in active_topics:
+            if topic not in drifting_set:
+                continue
+            p2_cues = phase2_cues_by_topic.get(topic, [])
+            if round_idx < len(p2_cues):
+                segments.append(("cue", p2_cues[round_idx]))
+                segments.append(("distractor", {"topic": topic, "count": random.randint(2, 5)}))
+
+    # --- BAND 5: Phase 2 triggers (only drifting topics) ---
     random.shuffle(active_topics)
     for topic in active_topics:
+        if topic not in drifting_set:
+            continue
         topic_triggers = triggers_by_topic.get(topic, [])
-
-        # Separate phase 1 and phase 2 triggers
-        phase1_triggers = [t for t in topic_triggers if t.get("phase") == 1]
         phase2_triggers = [t for t in topic_triggers if t.get("phase") == 2]
 
-        # Phase 1 triggers come before drift
-        for trigger in phase1_triggers:
-            gap = trigger.get("time_gap", "several weeks")
-            min_d, max_d = TIME_GAP_TO_DISTRACTOR_COUNT.get(gap, (5, 10))
-            distractor_count = random.randint(min_d, max_d)
-
-            segments.append(("distractor", {"topic": topic, "count": distractor_count}))
-            segments.append(("trigger", trigger))
-
-        # Phase 2 triggers come after drift
         for trigger in phase2_triggers:
             gap = trigger.get("time_gap", "several weeks")
             min_d, max_d = TIME_GAP_TO_DISTRACTOR_COUNT.get(gap, (5, 10))
             distractor_count = random.randint(min_d, max_d)
-
             segments.append(("distractor", {"topic": topic, "count": distractor_count}))
             segments.append(("trigger", trigger))
 

@@ -1,0 +1,1907 @@
+[
+  {
+    "trigger_id": "trial_user_01_trig_001",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: My daughter just told me she's planning to take out more loans instead of asking for help - part of me thinks that's good, but I'm also wondering if I'm being responsible by not stepping in when I have the means to.",
+    "scenario_brief": "Marcus wrestles with whether to financially support his daughter or let her build independence",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_001",
+      "trial_user_01_cue_002",
+      "trial_user_01_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_002",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: With all this time thinking about what I actually want, I'm realizing I might not need to work as hard or accumulate as much - but I don't have a good sense of what I actually need to retire comfortably. Should I talk to a financial advisor, or is that kind of thing I should figure out on my own first?",
+    "scenario_brief": "Marcus questions how much wealth he really needs and whether to seek professional financial guidance",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_001",
+      "trial_user_01_cue_002",
+      "trial_user_01_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_003",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: I just got a significant bonus and I'm not sure what the smart move is\u2014reinvest it in the market, use it to reduce debt, or maybe take an actual sabbatical for a few months. What would you do?",
+    "scenario_brief": "Marcus must decide how to allocate a windfall among competing financial and personal priorities",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_001",
+      "trial_user_01_cue_002",
+      "trial_user_01_cue_003",
+      "trial_user_01_cue_004",
+      "trial_user_01_cue_005",
+      "trial_user_01_cue_006",
+      "trial_user_01_cue_007"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_004",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: My parents mentioned they're worried about their medical expenses as they age, and I know I'll probably need to help support them eventually. How do you think about integrating family obligations into your financial planning?",
+    "scenario_brief": "Marcus considers how to plan for potential support of aging parents while maintaining his own financial security",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_001",
+      "trial_user_01_cue_002",
+      "trial_user_01_cue_003",
+      "trial_user_01_cue_004",
+      "trial_user_01_cue_005",
+      "trial_user_01_cue_006",
+      "trial_user_01_cue_007"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_005",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: I've realized I'm still spending like I was climbing the ladder\u2014fancy dinners, clubs, keeping up with tech gadgets. But I don't actually want that life anymore. How do I restructure my spending to match what I actually value?",
+    "scenario_brief": "Marcus recognizes misalignment between his ingrained spending habits and his updated priorities, seeking practical realignment",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_001",
+      "trial_user_01_cue_002",
+      "trial_user_01_cue_003",
+      "trial_user_01_cue_004",
+      "trial_user_01_cue_005",
+      "trial_user_01_cue_006",
+      "trial_user_01_cue_007"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_006",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "I've been working late to get through my backlog, and I'm exhausted all the time now. I'm wondering if I should just accept this is part of the job, or if there's actually a way to do something about it.",
+    "scenario_brief": "Marcus struggling with work-induced exhaustion and questioning whether to accept it as inevitable or take action.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_008",
+      "trial_user_01_cue_009",
+      "trial_user_01_cue_010"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_007",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "My coworker keeps inviting me to his gym. I'm torn\u2014part of me thinks it could be good for me, but I also wonder if I'm just saying yes because I don't want to let him down.",
+    "scenario_brief": "Marcus being persistently invited to join a colleague's gym and conflicted between genuine interest and obligation.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_008",
+      "trial_user_01_cue_009",
+      "trial_user_01_cue_010"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_008",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "My back's been really bothering me from sitting at my desk. I know I should probably do something about it, but with everything else going on, I'm not sure I actually have the bandwidth for it.",
+    "scenario_brief": "Marcus experiencing chronic back pain from work posture and struggling to prioritize addressing it.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_008",
+      "trial_user_01_cue_009",
+      "trial_user_01_cue_010"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_009",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: I'm considering going back to school for a formal credential in systems design. Part of me thinks it's unnecessary at this point in my career, but another part feels like there's foundational knowledge I've been skipping over. What do you think\u2014is it worth the time investment?",
+    "scenario_brief": "Marcus contemplates investing time in formal education to fill knowledge gaps despite decades of practical experience.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_011",
+      "trial_user_01_cue_012",
+      "trial_user_01_cue_013"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_010",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: You know, after my daughter moved away for grad school, I've been rethinking things. I wonder if I should explore something more entrepreneurial or maybe work on projects that feel more personally meaningful. I've been pretty risk-averse throughout my career.",
+    "scenario_brief": "Marcus reflects on pursuing more personally meaningful work or entrepreneurial ventures, questioning his long-standing conservative approach.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_011",
+      "trial_user_01_cue_012",
+      "trial_user_01_cue_013"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_011",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "liking",
+    "stale_principle": "scarcity",
+    "trigger_text": "You know, everyone's picking up this new pattern at work, and I feel like I should too. But I'm realizing I'm not even sure if I actually want to learn it, or if I'm just doing what the team seems to expect.",
+    "scenario_brief": "Marcus unsure whether to adopt a trending technical skill or pursue his own learning interests",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_011",
+      "trial_user_01_cue_012",
+      "trial_user_01_cue_013",
+      "trial_user_01_cue_014",
+      "trial_user_01_cue_015",
+      "trial_user_01_cue_016",
+      "trial_user_01_cue_017"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_012",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "liking",
+    "stale_principle": "scarcity",
+    "trigger_text": "My manager approached me about taking on some mentoring responsibilities with the junior developers. It sounds like it could be meaningful, but I'm wondering if that's really where my focus should be right now.",
+    "scenario_brief": "Marcus offered a mentoring role and questioning whether it aligns with what he actually wants to prioritize",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_011",
+      "trial_user_01_cue_012",
+      "trial_user_01_cue_013",
+      "trial_user_01_cue_014",
+      "trial_user_01_cue_015",
+      "trial_user_01_cue_016",
+      "trial_user_01_cue_017"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_013",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "liking",
+    "stale_principle": "scarcity",
+    "trigger_text": "There's been talk of another reorganization at the company, and frankly, everyone seems nervous. Part of me is thinking I should be looking around, but I'm not sure if I'm just caught up in the panic or if it's actually time to move on.",
+    "scenario_brief": "Organizational instability prompts Marcus to reconsider whether to stay or explore external opportunities",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_011",
+      "trial_user_01_cue_012",
+      "trial_user_01_cue_013",
+      "trial_user_01_cue_014",
+      "trial_user_01_cue_015",
+      "trial_user_01_cue_016",
+      "trial_user_01_cue_017"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_014",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: I'm wondering if I should set up a donor-advised fund for some of my stock gains before year-end\u2014is that actually a smart move or just something wealthy people do?",
+    "scenario_brief": "Marcus considers charitable giving and capital gains tax strategies",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_018",
+      "trial_user_01_cue_019",
+      "trial_user_01_cue_020"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_015",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: With my parents aging, I'm thinking about helping them financially. What's the best tax approach for that kind of ongoing support?",
+    "scenario_brief": "Marcus navigates family financial support and potential tax deductions",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_018",
+      "trial_user_01_cue_019",
+      "trial_user_01_cue_020"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_016",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: The company's offering an early retirement package and I'm seriously considering it. But the severance and equity stuff is making my head spin\u2014what's the tax situation going to look like?",
+    "scenario_brief": "Marcus evaluates early retirement decision and its tax implications",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_018",
+      "trial_user_01_cue_019",
+      "trial_user_01_cue_020"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_017",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I'm seeing everyone jump on these AI coding assistants, but I keep wondering if leaning on them might atrophy my own problem-solving skills. Do you think it's worth diving into?",
+    "scenario_brief": "Marcus questions whether adopting AI coding assistants aligns with maintaining his technical abilities.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_021",
+      "trial_user_01_cue_022",
+      "trial_user_01_cue_023"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_018",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: The team's been suggesting I pick up Rust for our systems work. I'm honestly torn\u2014seems like every language claims to be the next evolution. What's your take on whether it's worth my time?",
+    "scenario_brief": "Marcus seeks guidance on investing effort to learn Rust despite skepticism about industry hype cycles.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_021",
+      "trial_user_01_cue_022",
+      "trial_user_01_cue_023"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_019",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: I've been thinking about learning Rust for a personal project. Part of me is curious, but I also wonder if I'm just chasing the latest hype instead of building something meaningful with what I already know.",
+    "scenario_brief": "Marcus considers learning a new programming language but questions if it's driven by industry trends or genuine interest.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_021",
+      "trial_user_01_cue_022",
+      "trial_user_01_cue_023",
+      "trial_user_01_cue_024",
+      "trial_user_01_cue_025",
+      "trial_user_01_cue_026",
+      "trial_user_01_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_020",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: Our infrastructure team keeps pushing this serverless migration. I understand the operational benefits, but I'm not convinced it's the right fit for our current workloads. Or am I being too resistant to change?",
+    "scenario_brief": "Marcus questions a proposed infrastructure modernization initiative while doubting his own hesitation.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_021",
+      "trial_user_01_cue_022",
+      "trial_user_01_cue_023",
+      "trial_user_01_cue_024",
+      "trial_user_01_cue_025",
+      "trial_user_01_cue_026",
+      "trial_user_01_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_021",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: We're evaluating databases for an internal project. There's this trendy startup option everyone's excited about, but I keep thinking about whether we should go with something more established that our team already understands.",
+    "scenario_brief": "Marcus debates between an innovative database solution and a conventional one, concerned about team familiarity.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_01_cue_021",
+      "trial_user_01_cue_022",
+      "trial_user_01_cue_023",
+      "trial_user_01_cue_024",
+      "trial_user_01_cue_025",
+      "trial_user_01_cue_026",
+      "trial_user_01_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_022",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: I've been thinking about reaching out to some people I was very close to in my twenties\u2014we just drifted apart over the years. Part of me worries it's weird after so long, but another part thinks maybe now I'd actually have time to be a real friend again.",
+    "scenario_brief": "Marcus considers reconnecting with old college friends after years of lost contact",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_028",
+      "trial_user_01_cue_029",
+      "trial_user_01_cue_030"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_023",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: Some of the younger engineers on my team keep asking me for guidance on career advancement. I want to help them, but I'm also wondering if I should be steering them toward the same path I took\u2014I mean, would I even want them following that trajectory now?",
+    "scenario_brief": "Marcus grapples with whether to mentor junior colleagues using his own career strategy or something different",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_028",
+      "trial_user_01_cue_029",
+      "trial_user_01_cue_030"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_024",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": "unity",
+    "trigger_text": "U: My college best friend is upset I won't join his startup venture. He keeps reminding me he got me my first big break, like I owe him my career. I've finally figured out what matters to me, but I hate feeling like I'm betraying him.",
+    "scenario_brief": "Old friend expects Marcus to commit to his business and feels rejected when Marcus declines",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_028",
+      "trial_user_01_cue_029",
+      "trial_user_01_cue_030",
+      "trial_user_01_cue_031",
+      "trial_user_01_cue_032",
+      "trial_user_01_cue_033",
+      "trial_user_01_cue_034"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_025",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": "unity",
+    "trigger_text": "U: My parents are getting older and my siblings think I should shoulder more responsibility since I'm the most financially stable. But I spent decades putting their expectations before my own needs. I don't know how to be present for them without losing myself again.",
+    "scenario_brief": "Family expects Marcus to take on primary elder care duties based on his financial position",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_01_cue_028",
+      "trial_user_01_cue_029",
+      "trial_user_01_cue_030",
+      "trial_user_01_cue_031",
+      "trial_user_01_cue_032",
+      "trial_user_01_cue_033",
+      "trial_user_01_cue_034"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_026",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "liking",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": "unity",
+    "trigger_text": "U: I've noticed that a lot of people treat me like a resource\u2014someone to solve their problems or give them career advice. I used to love that role, but now it feels suffocating. How do I figure out which relationships are worth investing in?",
+    "scenario_brief": "Marcus realizes his instrumental relationships are emotionally draining and must decide which bonds to prioritize",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_028",
+      "trial_user_01_cue_029",
+      "trial_user_01_cue_030",
+      "trial_user_01_cue_031",
+      "trial_user_01_cue_032",
+      "trial_user_01_cue_033",
+      "trial_user_01_cue_034"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_027",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: I've been thinking about maybe getting into technical writing or mentoring others. My daughter's in grad school now, and it made me realize I could still contribute without always adopting the latest trends. But I'm honestly not sure where to begin building those skills.",
+    "scenario_brief": "Marcus considers transitioning toward teaching or writing while questioning how to develop those new skills meaningfully.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_01_cue_035",
+      "trial_user_01_cue_036",
+      "trial_user_01_cue_037"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_028",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: I've got this knowledge gap around modern front-end work that's been nagging at me\u2014the landscape has really changed since my systems engineering days. I could follow a structured path, but I'm wondering whether I'd learn faster just building something real and picking it up from actual problems I hit.",
+    "scenario_brief": "Marcus identifies a skill gap and debates between formal structured learning versus learning-by-doing with real projects.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_035",
+      "trial_user_01_cue_036",
+      "trial_user_01_cue_037"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_029",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: I've been thinking about learning woodworking - it's something I've genuinely wanted to try for a while now. But given everything else on my plate, I keep second-guessing whether it's actually worth the time investment.",
+    "scenario_brief": "Marcus considers pursuing a non-technical hobby he's genuinely interested in, but questions whether it's a justified use of his learning time.",
+    "time_gap": "a couple of weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_035",
+      "trial_user_01_cue_036",
+      "trial_user_01_cue_037",
+      "trial_user_01_cue_038",
+      "trial_user_01_cue_039",
+      "trial_user_01_cue_040",
+      "trial_user_01_cue_041"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_030",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: I've been reading about philosophy and cognitive science lately - totally disconnected from my work. Part of me finds it genuinely fascinating, but I also feel like I should be more intentional and disciplined about how I spend my learning hours.",
+    "scenario_brief": "Marcus explores broad intellectual interests but doubts whether pursuing unfocused learning is the responsible path.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_035",
+      "trial_user_01_cue_036",
+      "trial_user_01_cue_037",
+      "trial_user_01_cue_038",
+      "trial_user_01_cue_039",
+      "trial_user_01_cue_040",
+      "trial_user_01_cue_041"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_031",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: My daughter invited me to audit one of her courses next semester - it would be a way to stay connected to what she's studying. But I'm wondering if that's really a legitimate reason to commit time to learning something.",
+    "scenario_brief": "Marcus considers learning alongside his daughter for relational connection, but questions whether personal or relational motivations should drive his educational decisions.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_035",
+      "trial_user_01_cue_036",
+      "trial_user_01_cue_037",
+      "trial_user_01_cue_038",
+      "trial_user_01_cue_039",
+      "trial_user_01_cue_040",
+      "trial_user_01_cue_041"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_032",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been thinking about taking a month-long solo backpacking trip through Portugal\u2014just wandering, no itinerary. It feels right to me, but I keep wondering if I'm being irresponsible or self-indulgent instead of focusing on what I should be doing.",
+    "scenario_brief": "Marcus considers extended solo travel as personal exploration and self-discovery",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_01_cue_042",
+      "trial_user_01_cue_043",
+      "trial_user_01_cue_044"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_033",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: I found this beautiful old film camera at an antique market, and I'm drawn to learning photography\u2014something about it appeals to me on a different level than my usual interests. My friends seem to think it's impractical, that I should stick with hobbies that are more productive or social. I'm genuinely torn.",
+    "scenario_brief": "Marcus discovers a passion for photography and questions whether unconventional interests are worthwhile",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_042",
+      "trial_user_01_cue_043",
+      "trial_user_01_cue_044"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_034",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: I've been thinking about getting a small place near the beach for long weekends. It's a big financial commitment, but part of me is wondering if it's worth it. Does that seem impulsive for someone my age?",
+    "scenario_brief": "Marcus considers a significant lifestyle investment in a second property that would prioritize leisure and personal enjoyment.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_01_cue_042",
+      "trial_user_01_cue_043",
+      "trial_user_01_cue_044",
+      "trial_user_01_cue_045",
+      "trial_user_01_cue_046",
+      "trial_user_01_cue_047",
+      "trial_user_01_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_035",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: My team needs someone to lead our new internal training program. It's meaningful work, but it means staying late twice a week. I'm torn between helping them and actually protecting the personal time I've been trying to preserve.",
+    "scenario_brief": "Marcus faces a work opportunity that conflicts with his newfound commitment to maintaining personal boundaries.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_01_cue_042",
+      "trial_user_01_cue_043",
+      "trial_user_01_cue_044",
+      "trial_user_01_cue_045",
+      "trial_user_01_cue_046",
+      "trial_user_01_cue_047",
+      "trial_user_01_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_01_trig_036",
+    "user_id": "trial_user_01",
+    "user_name": "Marcus",
+    "topic": "lifestyle",
+    "phase": 2,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": "social_proof",
+    "trigger_text": "U: I'm thinking about whether I should try to see my daughter every month instead of just holidays. She seems happier when I visit, and I enjoy the time, but it feels like a big shift from how I've lived for the past two decades.",
+    "scenario_brief": "Marcus contemplates dramatically increasing his investment of time in family relationships, a reflection of his evolved priorities.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_01_cue_042",
+      "trial_user_01_cue_043",
+      "trial_user_01_cue_044",
+      "trial_user_01_cue_045",
+      "trial_user_01_cue_046",
+      "trial_user_01_cue_047",
+      "trial_user_01_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_001",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I've run the numbers on refinancing my mortgage, and the math checks out. But I can't shake the feeling I might be oversimplifying the decision somehow.",
+    "scenario_brief": "Evaluating mortgage refinancing based on break-even analysis calculations and quantitative metrics.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_001",
+      "trial_user_02_cue_002",
+      "trial_user_02_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_002",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: With our oldest heading off to university in a couple years, we're trying to figure out the best vehicles for education savings. There seem to be so many options.",
+    "scenario_brief": "Selecting among different college savings account types and strategies for medium-term education funding.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_02_cue_001",
+      "trial_user_02_cue_002",
+      "trial_user_02_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_003",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: One of my colleagues just went through a rough patch of disability and couldn't work for months. Made me rethink whether I have adequate income protection in place.",
+    "scenario_brief": "Assessing disability insurance coverage adequacy after observing colleague's financial impact from extended work loss.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_001",
+      "trial_user_02_cue_002",
+      "trial_user_02_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_004",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: I've been sleeping poorly lately because of the tax season workload, and I'm concerned it might be affecting my mental clarity.",
+    "scenario_brief": "Work-induced sleep deprivation affecting cognitive performance",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_004",
+      "trial_user_02_cue_005",
+      "trial_user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_005",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: My wife keeps mentioning we should prepare meals at home more often, but with my schedule, I'm skeptical it's realistic or worth the disruption.",
+    "scenario_brief": "Spouse-initiated dietary shift with time management concerns",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_004",
+      "trial_user_02_cue_005",
+      "trial_user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_006",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: I've been dealing with some lower back stiffness from my desk setup, and I'm wondering if it's worth seeing a specialist or if I can manage it myself.",
+    "scenario_brief": "Occupational strain and professional intervention decision",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_004",
+      "trial_user_02_cue_005",
+      "trial_user_02_cue_006"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_007",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: My family's been asking me to cut back on traveling for client audits since the kids are getting older. I love the work, but I'm starting to wonder if staying on the high-travel client-facing track is still right for me.",
+    "scenario_brief": "Balancing family responsibilities with a demanding, travel-heavy role",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_02_cue_007",
+      "trial_user_02_cue_008",
+      "trial_user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_008",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: A recruiter contacted me about a role at a private equity firm\u2014better compensation, more dynamic deal work. But it's a totally different environment and I'd be starting from scratch. I'm not sure if the change makes sense at this stage of my career.",
+    "scenario_brief": "Evaluating a sector move from corporate accounting to private equity",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_007",
+      "trial_user_02_cue_008",
+      "trial_user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_009",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "liking",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: My manager wants me to take on a team lead role mentoring junior staff. I've always done my best work deep in the details myself. I'm wondering whether shifting toward people management would actually be a good move for someone like me.",
+    "scenario_brief": "Considering a shift from individual contributor to leadership and mentorship duties",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_02_cue_007",
+      "trial_user_02_cue_008",
+      "trial_user_02_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_010",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: We're planning to buy some new equipment next quarter, and I'm trying to decide whether to front-load depreciation under Section 179 or go with standard depreciation\u2014what's the best strategy here?",
+    "scenario_brief": "James seeks guidance on optimal depreciation strategy for planned capital equipment purchases",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_010",
+      "trial_user_02_cue_011",
+      "trial_user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_011",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: A client of mine just formed an LLC last month, and we need to lock in the entity classification for tax purposes\u2014I want to make sure we're making the right choice given the recent regulatory updates.",
+    "scenario_brief": "James needs to determine optimal entity election for a newly formed LLC amid recent tax law changes",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_010",
+      "trial_user_02_cue_011",
+      "trial_user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_012",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: I've got several clients who are making substantial charitable donations, and I want to be extra careful about substantiation\u2014are there any common pitfalls I should be watching out for?",
+    "scenario_brief": "James seeks to verify proper documentation standards for clients' charitable contribution deductions",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_02_cue_010",
+      "trial_user_02_cue_011",
+      "trial_user_02_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_013",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: Month-end closes are such a pain with all these manual matching steps. I heard about these workflow automation tools that claim to handle repetitive tasks. Seems too good to be true, but what's your take?",
+    "scenario_brief": "James questions whether robotic process automation would help with repetitive reconciliation workflows.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_02_cue_013",
+      "trial_user_02_cue_014",
+      "trial_user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_014",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: The team's been trying to get me on this new collaboration platform for shared documents and discussions. Our email system works fine, so I'm skeptical about disrupting that. Do you think it's worth learning something new?",
+    "scenario_brief": "James is hesitant about switching the team to a shared collaboration workspace platform.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_013",
+      "trial_user_02_cue_014",
+      "trial_user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_015",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: There's this new data visualization tool that's supposed to make financial reporting easier. Half the team likes it, but I'm comfortable with spreadsheets. Do I really need to learn yet another piece of software?",
+    "scenario_brief": "James is reluctant to adopt a new reporting visualization tool when his current method works.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_02_cue_013",
+      "trial_user_02_cue_014",
+      "trial_user_02_cue_015"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_016",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: My wife's family is pressuring us to spend Thanksgiving at her parents' place this year instead of our usual home tradition. I think disrupting what works for the family right now isn't prudent, but I'm worried about the relationship fallout.",
+    "scenario_brief": "Extended family pressures change to holiday plans; James balances family traditions with spousal relationships",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_016",
+      "trial_user_02_cue_017",
+      "trial_user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_017",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: One of my junior staff members came asking about applying for a promotion before our company's reorganization wraps up. I see the risks in the timing, but she's determined. How do I handle this without just shutting down her ambitions?",
+    "scenario_brief": "Mentoring junior colleague on career timing during organizational uncertainty",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_02_cue_016",
+      "trial_user_02_cue_017",
+      "trial_user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_018",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: There's been some tension with our neighbors because their teenagers and mine have very different curfews and expectations. I don't want conflict, but I'm not sure we're on the same page about discipline.",
+    "scenario_brief": "Tension with neighbors over differing parenting standards and household rules",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_016",
+      "trial_user_02_cue_017",
+      "trial_user_02_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_019",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: I need to get compliant with our new anti-money-laundering requirements, and I'm trying to decide between the quick online module and a more intensive bootcamp-style program. Which option would actually be the better investment of my time?",
+    "scenario_brief": "James must choose between quick compliance training and comprehensive program for new regulatory requirements.",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_02_cue_019",
+      "trial_user_02_cue_020",
+      "trial_user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_020",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: I've been noticing that Python's becoming important for financial modeling in the industry, and I'm trying to figure out if I should spend the next few months getting up to speed with it. I'm not sure if it's really necessary for my work, or if I'm just being paranoid about becoming obsolete.",
+    "scenario_brief": "James wrestles with whether to invest time in learning Python as financial modeling shifts toward computational methods.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_02_cue_019",
+      "trial_user_02_cue_020",
+      "trial_user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_021",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": null,
+    "trigger_text": "U: I've been asked to lead a workshop for the entire finance department on our firm's accounting standards. It's a one-time thing, but I'm debating whether I should get formal training in presentation skills first, or if I should just rely on my domain expertise.",
+    "scenario_brief": "James must decide whether to formalize his presentation approach for a department-wide workshop or rely on subject matter expertise.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_019",
+      "trial_user_02_cue_020",
+      "trial_user_02_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_022",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been thinking about getting into woodworking \u2014 making furniture and home pieces. It appeals to me as something productive I could do on weekends, but I'm not sure I have the patience or the time to really learn it properly.",
+    "scenario_brief": "James considers woodworking as a weekend hobby and questions his commitment capacity",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_022",
+      "trial_user_02_cue_023"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_023",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been researching wine collecting \u2014 learning about varietals and building a collection, maybe joining a wine club. It's intellectually appealing, but I'm worried about making expensive mistakes or treating it like homework instead of pleasure.",
+    "scenario_brief": "James explores wine as a hobby and knowledge pursuit, unsure about the best approach",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_022",
+      "trial_user_02_cue_023"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_02_trig_024",
+    "user_id": "trial_user_02",
+    "user_name": "James",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "unity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: There's a sailing club nearby that I've been reading about. Part of me is really drawn to it \u2014 the idea of learning something new and having a structured activity. But I'm questioning if it's realistic with everything else I have going on.",
+    "scenario_brief": "James is interested in joining a sailing club and weighs whether it fits his lifestyle",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_02_cue_022",
+      "trial_user_02_cue_023"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_001",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: Honestly, I'm struggling with how to split my income right now. Part of me thinks I should lock money away in case something unexpected happens, but another part wonders if I'm being too cautious by not letting my funds compound.",
+    "scenario_brief": "Amara seeks guidance on balancing emergency savings reserves against growth-oriented investing",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_001",
+      "trial_user_03_cue_002",
+      "trial_user_03_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_002",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "reciprocity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been offered a sabbatical that would be incredibly fulfilling professionally, but it comes with a substantial salary reduction. I need to think through whether it's financially feasible.",
+    "scenario_brief": "Amara contemplates taking a career break with significant financial implications",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_001",
+      "trial_user_03_cue_002",
+      "trial_user_03_cue_003"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_003",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "authority",
+    "trigger_text": "U: I'm wondering if I should keep blindly maxing out my 401k contributions when I'm not even sure the whole 'retire at 65' timeline makes sense for me anymore.",
+    "scenario_brief": "Questions whether standard retirement planning framework fits her life",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_001",
+      "trial_user_03_cue_002",
+      "trial_user_03_cue_003",
+      "trial_user_03_cue_004",
+      "trial_user_03_cue_005",
+      "trial_user_03_cue_006",
+      "trial_user_03_cue_007",
+      "trial_user_03_cue_008",
+      "trial_user_03_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_004",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "authority",
+    "trigger_text": "U: I keep flip-flopping on this\u2014should I be throwing everything at my mortgage or actually investing while rates are still relatively low? People I respect completely disagree.",
+    "scenario_brief": "Torn between debt payoff and growth investing with available capital",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_03_cue_001",
+      "trial_user_03_cue_002",
+      "trial_user_03_cue_003",
+      "trial_user_03_cue_004",
+      "trial_user_03_cue_005",
+      "trial_user_03_cue_006",
+      "trial_user_03_cue_007",
+      "trial_user_03_cue_008",
+      "trial_user_03_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_005",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "personal_finance",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "authority",
+    "trigger_text": "U: Now that I've actually built up real savings, I'm not sure what I'm supposed to do with it. I feel like I've been missing something about how to make money work for you.",
+    "scenario_brief": "Uncertain how to deploy accumulated savings productively",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_001",
+      "trial_user_03_cue_002",
+      "trial_user_03_cue_003",
+      "trial_user_03_cue_004",
+      "trial_user_03_cue_005",
+      "trial_user_03_cue_006",
+      "trial_user_03_cue_007",
+      "trial_user_03_cue_008",
+      "trial_user_03_cue_009"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_006",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I've developed persistent lower back pain from years of being on my feet during medical procedures. My physical therapist mentioned strengthening exercises, but I'm overwhelmed by all the different protocols out there. How do I know what actually works versus what's just going to waste my time?",
+    "scenario_brief": "Amara seeks guidance on managing chronic back pain with physical therapy exercises amid conflicting information.",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_03_cue_010",
+      "trial_user_03_cue_011",
+      "trial_user_03_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_007",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "phase": 1,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I want to get more consistent with exercise, but I keep starting programs and dropping them after a few weeks. I'm wondering if there's something I'm fundamentally doing wrong, or if I just need to find an approach that actually fits my personality and schedule.",
+    "scenario_brief": "Amara expresses frustration with exercise habit formation and seeks advice on finding a sustainable routine.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_010",
+      "trial_user_03_cue_011",
+      "trial_user_03_cue_012"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_008",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "phase": 2,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: I've been struggling with sleep quality lately between patient rounds and being a parent. I'm torn between trying the standard sleep hygiene recommendations versus something more tailored to my actual schedule and body.",
+    "scenario_brief": "Amara seeks guidance on optimizing sleep within her demanding routine",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_010",
+      "trial_user_03_cue_011",
+      "trial_user_03_cue_012",
+      "trial_user_03_cue_013",
+      "trial_user_03_cue_014",
+      "trial_user_03_cue_015",
+      "trial_user_03_cue_016",
+      "trial_user_03_cue_017",
+      "trial_user_03_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_009",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "phase": 2,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: I keep hearing about different supplements for immune support, and I'm honestly not sure if they're worth my time or money. Some colleagues have strong views on what actually works, but then there's also all the general health information out there.",
+    "scenario_brief": "Amara considers whether to incorporate supplements into her wellness routine",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_010",
+      "trial_user_03_cue_011",
+      "trial_user_03_cue_012",
+      "trial_user_03_cue_013",
+      "trial_user_03_cue_014",
+      "trial_user_03_cue_015",
+      "trial_user_03_cue_016",
+      "trial_user_03_cue_017",
+      "trial_user_03_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_010",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "health_fitness",
+    "phase": 2,
+    "effective_principle": "social_proof",
+    "ineffective_principle": "authority",
+    "stale_principle": "reciprocity",
+    "trigger_text": "U: I tweaked my back recently from bending over patients during rounds, and I'm trying to figure out the best recovery approach. I keep seeing different physical therapy methods online, and I'm not sure which one would actually work for me.",
+    "scenario_brief": "Amara looks for guidance on treating a back injury sustained at work",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_03_cue_010",
+      "trial_user_03_cue_011",
+      "trial_user_03_cue_012",
+      "trial_user_03_cue_013",
+      "trial_user_03_cue_014",
+      "trial_user_03_cue_015",
+      "trial_user_03_cue_016",
+      "trial_user_03_cue_017",
+      "trial_user_03_cue_018"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_011",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been approached about a partnership opportunity at another practice that offers significantly better compensation, but I'm torn. I've invested so much in building my standing here\u2014is it worth leaving?",
+    "scenario_brief": "Amara must decide whether to accept a lucrative partnership offer elsewhere or remain at her established institution.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_019",
+      "trial_user_03_cue_020",
+      "trial_user_03_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_012",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "career",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "unity",
+    "stale_principle": null,
+    "trigger_text": "U: I keep thinking about whether to pursue additional certification in pediatric subspecialty. The training and exams would be demanding, and I'm not sure it would change much about my career trajectory.",
+    "scenario_brief": "Amara is deliberating whether investing in an advanced credential would meaningfully advance her career prospects.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_019",
+      "trial_user_03_cue_020",
+      "trial_user_03_cue_021"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_013",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "commitment_consistency",
+    "trigger_text": "U: I've been in pediatrics for over a decade now, and honestly, I'm burnt out. I keep hearing about people making better money and having more flexible schedules in different specialties. Is it naive to think about switching at this point, or should I stick with what I've built?",
+    "scenario_brief": "Amara considers switching specialties due to burnout and better opportunities elsewhere",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_019",
+      "trial_user_03_cue_020",
+      "trial_user_03_cue_021",
+      "trial_user_03_cue_022",
+      "trial_user_03_cue_023",
+      "trial_user_03_cue_024",
+      "trial_user_03_cue_025",
+      "trial_user_03_cue_026",
+      "trial_user_03_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_014",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "commitment_consistency",
+    "trigger_text": "U: I've noticed that the junior doctors actually listen to me more than they listen to the senior physicians. Some are asking me to guide them through cases. I'm wondering if I should lean into this more or if it's overstepping.",
+    "scenario_brief": "Amara gains informal influence with junior colleagues and questions whether to expand her mentoring role",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_03_cue_019",
+      "trial_user_03_cue_020",
+      "trial_user_03_cue_021",
+      "trial_user_03_cue_022",
+      "trial_user_03_cue_023",
+      "trial_user_03_cue_024",
+      "trial_user_03_cue_025",
+      "trial_user_03_cue_026",
+      "trial_user_03_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_015",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "career",
+    "phase": 2,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": "commitment_consistency",
+    "trigger_text": "U: The hospital is asking if I want to commit to staying for another five years in exchange for some research funding for immigrant health outcomes. But I'm worried about being locked in. Do you think it's worth it, or should I keep my options open?",
+    "scenario_brief": "Amara faces an institutional commitment decision with research resources for her community",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_019",
+      "trial_user_03_cue_020",
+      "trial_user_03_cue_021",
+      "trial_user_03_cue_022",
+      "trial_user_03_cue_023",
+      "trial_user_03_cue_024",
+      "trial_user_03_cue_025",
+      "trial_user_03_cue_026",
+      "trial_user_03_cue_027"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_016",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": null,
+    "trigger_text": "U: I'm considering setting up a separate business entity for some consulting work I'm doing, but I'm not sure if it's really worth the administrative burden.",
+    "scenario_brief": "Evaluating business structure options for side consulting income",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_028",
+      "trial_user_03_cue_029",
+      "trial_user_03_cue_030"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_017",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": null,
+    "trigger_text": "U: My colleagues in the physician network keep suggesting I should be more strategic about my retirement accounts and investment allocation, but I'm worried about making the wrong move and losing what I've built.",
+    "scenario_brief": "Navigating peer recommendations on long-term retirement planning and investment strategy",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_028",
+      "trial_user_03_cue_029",
+      "trial_user_03_cue_030"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_018",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "taxes_legal",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "commitment_consistency",
+    "stale_principle": null,
+    "trigger_text": "U: I just got a notice about some unreported income from that overseas conference speaking gig last year, and I'm trying to decide whether I should file an amended return now or see if it becomes a real problem.",
+    "scenario_brief": "Deciding whether to proactively correct foreign income reporting",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_028",
+      "trial_user_03_cue_029",
+      "trial_user_03_cue_030"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_019",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: The hospital administration is pushing us to adopt their new electronic prescribing system across all departments\u2014it's supposed to improve efficiency, but I'm not sure if it actually serves my patients better than what we're using now.",
+    "scenario_brief": "Institutional pressure to implement hospital-wide electronic prescribing platform",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_031",
+      "trial_user_03_cue_032",
+      "trial_user_03_cue_033"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_020",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "technology",
+    "phase": 1,
+    "effective_principle": "liking",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: My professional association just released a toolkit for implementing remote patient monitoring through wearable devices, and they're encouraging members to integrate it into practice. I'm curious whether it's worth the effort.",
+    "scenario_brief": "Professional association promoting wearable-based remote monitoring implementation",
+    "time_gap": "a few months",
+    "related_cue_ids": [
+      "trial_user_03_cue_031",
+      "trial_user_03_cue_032",
+      "trial_user_03_cue_033"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_021",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "stale_principle": "liking",
+    "trigger_text": "U: I'm supposed to start using our hospital's new EHR system next month, and honestly I'm a bit overwhelmed by all the training requirements they're pushing. I'm wondering if there's a better way to get up to speed that doesn't just involve sitting through their generic sessions.",
+    "scenario_brief": "Managing mandatory EHR system implementation and mandatory training rollout",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_031",
+      "trial_user_03_cue_032",
+      "trial_user_03_cue_033",
+      "trial_user_03_cue_034",
+      "trial_user_03_cue_035",
+      "trial_user_03_cue_036",
+      "trial_user_03_cue_037",
+      "trial_user_03_cue_038",
+      "trial_user_03_cue_039"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_022",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "stale_principle": "liking",
+    "trigger_text": "U: I've been thinking about adding virtual appointments to my practice, but the administration keeps recommending this specific telehealth platform they've been using. I'm hesitant about just jumping in with their choice though\u2014I'd like to know if there's a better fit for how I actually work with families.",
+    "scenario_brief": "Selecting a telehealth platform for expanding practice offerings",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_031",
+      "trial_user_03_cue_032",
+      "trial_user_03_cue_033",
+      "trial_user_03_cue_034",
+      "trial_user_03_cue_035",
+      "trial_user_03_cue_036",
+      "trial_user_03_cue_037",
+      "trial_user_03_cue_038",
+      "trial_user_03_cue_039"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_023",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "technology",
+    "phase": 2,
+    "effective_principle": "reciprocity",
+    "ineffective_principle": "authority",
+    "stale_principle": "liking",
+    "trigger_text": "U: I've had several families ask me about using a patient health app to track appointments and results. It seems like a lot of them are already using one, but since our hospital doesn't officially support any, I'm not sure if I should recommend something or tell them to wait for official guidance.",
+    "scenario_brief": "Deciding whether to recommend patient-facing health tracking technology without institutional endorsement",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_031",
+      "trial_user_03_cue_032",
+      "trial_user_03_cue_033",
+      "trial_user_03_cue_034",
+      "trial_user_03_cue_035",
+      "trial_user_03_cue_036",
+      "trial_user_03_cue_037",
+      "trial_user_03_cue_038",
+      "trial_user_03_cue_039"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_024",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: I got asked to join the parents' advisory board at my kids' school, and I want to help, but I'm worried about pushing too hard on changes I think need to happen\u2014I don't want to be seen as someone who doesn't respect how things have always been done.",
+    "scenario_brief": "Offered a role on school advisory board but hesitant about voicing perspective for fear of challenging established structure.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_040",
+      "trial_user_03_cue_041",
+      "trial_user_03_cue_042"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_025",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "phase": 1,
+    "effective_principle": "scarcity",
+    "ineffective_principle": "social_proof",
+    "stale_principle": null,
+    "trigger_text": "U: My ex is insisting we follow pediatric guidelines exactly for parenting decisions, and I feel like he's not listening to what actually works for our kids. I'm stuck on how to bridge that gap when we see things so differently.",
+    "scenario_brief": "Co-parenting disagreement where one parent prioritizes standard medical guidelines while Amara values experiential judgment.",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_040",
+      "trial_user_03_cue_041",
+      "trial_user_03_cue_042"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_026",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: I've been encouraging my kids to be involved in their school community, but some of the traditional leadership roles feel so structured and hierarchical \u2014 I'm wondering if there are better ways to help them develop as thoughtful people without that pressure.",
+    "scenario_brief": "Amara seeks guidance on fostering her children's community engagement while avoiding rigid institutional structures",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_040",
+      "trial_user_03_cue_041",
+      "trial_user_03_cue_042",
+      "trial_user_03_cue_043",
+      "trial_user_03_cue_044",
+      "trial_user_03_cue_045",
+      "trial_user_03_cue_046",
+      "trial_user_03_cue_047",
+      "trial_user_03_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_027",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: One of my colleagues has been isolated since she spoke up about her concerns in a department meeting, and I want to help her feel supported, but I'm not sure if reaching out directly will make things better or worse for her.",
+    "scenario_brief": "Amara considers how to provide direct peer support to a colleague facing workplace isolation",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_040",
+      "trial_user_03_cue_041",
+      "trial_user_03_cue_042",
+      "trial_user_03_cue_043",
+      "trial_user_03_cue_044",
+      "trial_user_03_cue_045",
+      "trial_user_03_cue_046",
+      "trial_user_03_cue_047",
+      "trial_user_03_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_028",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "social_relationships",
+    "phase": 2,
+    "effective_principle": "unity",
+    "ineffective_principle": "authority",
+    "stale_principle": "scarcity",
+    "trigger_text": "U: My mother keeps offering me advice about how I should handle disagreements with my partner, and while I value her perspective, I'm struggling with how much to listen to her versus trust my own judgment on what works for us.",
+    "scenario_brief": "Amara navigates balancing family wisdom with personal autonomy in intimate relationships",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_03_cue_040",
+      "trial_user_03_cue_041",
+      "trial_user_03_cue_042",
+      "trial_user_03_cue_043",
+      "trial_user_03_cue_044",
+      "trial_user_03_cue_045",
+      "trial_user_03_cue_046",
+      "trial_user_03_cue_047",
+      "trial_user_03_cue_048"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_029",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I've been asked to contribute to redesigning the pediatric curriculum at the hospital, focusing on health disparities. It's meaningful work, but I'm already stretched thin\u2014I'm not sure I can realistically take it on right now.",
+    "scenario_brief": "Amara is invited to participate in curriculum redesign addressing health disparities, but questions whether she has bandwidth for the commitment.",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_049",
+      "trial_user_03_cue_050",
+      "trial_user_03_cue_051"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_030",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "education",
+    "phase": 1,
+    "effective_principle": "authority",
+    "ineffective_principle": "scarcity",
+    "stale_principle": null,
+    "trigger_text": "U: I want to deepen my skills in trauma-informed pediatric care, but I'm overwhelmed by choices\u2014should I pursue programs from major medical centers, or look at some of the independent specialist training that's been emerging? I honestly don't know what to trust anymore.",
+    "scenario_brief": "Amara seeks professional development in trauma-informed care and is uncertain whether to prioritize established institutional programs or newer independent practitioner-led training.",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_049",
+      "trial_user_03_cue_050",
+      "trial_user_03_cue_051"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_031",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": "authority",
+    "trigger_text": "U: I was asked to design a continuing education curriculum for our department on health disparities. It's flattering\u2014they want my expertise\u2014but I'm unsure whether I can actually drive real change working through the department's existing structures.",
+    "scenario_brief": "Offered opportunity to develop educational content on health disparities within institutional framework",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_049",
+      "trial_user_03_cue_050",
+      "trial_user_03_cue_051",
+      "trial_user_03_cue_052",
+      "trial_user_03_cue_053",
+      "trial_user_03_cue_054",
+      "trial_user_03_cue_055",
+      "trial_user_03_cue_056",
+      "trial_user_03_cue_057"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_032",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": "authority",
+    "trigger_text": "U: Some of my residents want to start a facilitated discussion group around implicit bias in pediatric care. They've asked me to help develop the content and maybe lead sessions. I'd like to, but I don't want it turning into another checkbox exercise.",
+    "scenario_brief": "Residents invite her to co-create and co-facilitate a peer-led learning discussion group",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_049",
+      "trial_user_03_cue_050",
+      "trial_user_03_cue_051",
+      "trial_user_03_cue_052",
+      "trial_user_03_cue_053",
+      "trial_user_03_cue_054",
+      "trial_user_03_cue_055",
+      "trial_user_03_cue_056",
+      "trial_user_03_cue_057"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_033",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "education",
+    "phase": 2,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "liking",
+    "stale_principle": "authority",
+    "trigger_text": "U: I've been considering whether to pursue formal training in health services research. A few senior colleagues think it would strengthen my position for academic opportunities, but I'm not certain that's the direction I want to go.",
+    "scenario_brief": "Considering specialized training in health services research for academic career advancement",
+    "time_gap": "several months",
+    "related_cue_ids": [
+      "trial_user_03_cue_049",
+      "trial_user_03_cue_050",
+      "trial_user_03_cue_051",
+      "trial_user_03_cue_052",
+      "trial_user_03_cue_053",
+      "trial_user_03_cue_054",
+      "trial_user_03_cue_055",
+      "trial_user_03_cue_056",
+      "trial_user_03_cue_057"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_034",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: I've been wanting to get back into photography\u2014my parents used to love seeing my work\u2014but I can't seem to find the motivation to dust off my camera, even though I know how much it would mean to them.",
+    "scenario_brief": "Amara considers reviving a creative hobby tied to family but struggles with follow-through",
+    "time_gap": "a few weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_058",
+      "trial_user_03_cue_059",
+      "trial_user_03_cue_060"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_035",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: I want to finally redesign my home office, but I'm drowning in options from design websites and I can't decide what's actually worth the time and money\u2014everything feels overwhelming.",
+    "scenario_brief": "Amara faces decision paralysis about a home improvement project despite genuine interest",
+    "time_gap": "several weeks",
+    "related_cue_ids": [
+      "trial_user_03_cue_058",
+      "trial_user_03_cue_059",
+      "trial_user_03_cue_060"
+    ]
+  },
+  {
+    "trigger_id": "trial_user_03_trig_036",
+    "user_id": "trial_user_03",
+    "user_name": "Amara",
+    "topic": "lifestyle",
+    "phase": 1,
+    "effective_principle": "commitment_consistency",
+    "ineffective_principle": "authority",
+    "stale_principle": null,
+    "trigger_text": "U: The wellness committee at my hospital keeps pushing their stress-reduction membership, but honestly after everything I've seen in management there, I'm skeptical about their recommendations. I'd rather figure out what actually works for me.",
+    "scenario_brief": "Amara resists an institutional wellness recommendation and prefers to rely on her own judgment",
+    "time_gap": "one week",
+    "related_cue_ids": [
+      "trial_user_03_cue_058",
+      "trial_user_03_cue_059",
+      "trial_user_03_cue_060"
+    ]
+  }
+]

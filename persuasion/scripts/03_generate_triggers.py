@@ -13,6 +13,7 @@ Usage:
 """
 
 import argparse
+import random
 from utils import (
     PRINCIPLES,
     PRINCIPLE_DESCRIPTIONS,
@@ -69,9 +70,14 @@ Output ONLY a valid JSON array:
 
 
 def summarize_cues(cues_for_topic, phase=None):
-    """Create a summary of prior cues for the prompt (without revealing principles)."""
+    """Create a summary of prior cues for the prompt.
+
+    Summaries use neutral labels (Approach A/B) instead of principle names
+    to prevent leaking the correct answer into trigger generation.
+    See methodology/05_bias_and_validity.md §T1.
+    """
     summaries = []
-    for c in cues_for_topic:
+    for i, c in enumerate(cues_for_topic):
         # Filter by phase if specified
         if phase is not None and c.get("phase") != phase:
             continue
@@ -81,10 +87,10 @@ def summarize_cues(cues_for_topic, phase=None):
             continue
 
         outcome_word = "receptive" if c.get("outcome") == "positive" else "resistant"
+        approach_label = f"Approach {chr(65 + i)}"  # A, B, C, ...
         summaries.append(
             f"- Scenario: {c.get('scenario_brief', 'N/A')}. "
-            f"Persuader's approach: {PRINCIPLE_DESCRIPTIONS[c['principle_used']]} "
-            f"→ {c['user_name']} was {outcome_word}."
+            f"{approach_label} was used → {c['user_name']} was {outcome_word}."
         )
     return "\n".join(summaries) if summaries else "[No cues for this phase]"
 
@@ -152,7 +158,10 @@ def generate_triggers_for_profile(profile, cues_by_topic, model, triggers_per_to
                 })
 
             # Generate Phase 2 triggers (3 triggers)
-            phase2_cue_ids = [c["cue_id"] for c in topic_cues if c.get("phase") == 2]
+            # Phase 2 related_cue_ids include ALL cues (Phase 1 + drift + Phase 2)
+            # because the model sees the full conversation timeline before Phase 2
+            # triggers. See methodology/05_bias_and_validity.md §T3.
+            phase2_cue_ids = [c["cue_id"] for c in topic_cues]
             phase2_cues_summary = summarize_cues(topic_cues, phase=2)
 
             phase2 = prefs["phase_2"]
@@ -241,7 +250,11 @@ def main():
     parser.add_argument("--output", type=str, default="data/triggers/")
     parser.add_argument("--model", type=str, default="haiku")
     parser.add_argument("--triggers-per-topic", type=int, default=3)
+    parser.add_argument("--seed", type=int, default=42,
+                        help="Random seed for reproducibility")
     args = parser.parse_args()
+
+    random.seed(args.seed)
 
     profiles = load_json(args.profiles)
     all_cues = load_json(args.cues)
